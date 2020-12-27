@@ -36,91 +36,107 @@
     "UnitConfig": [],
     "TerrainConfig": [
         {
-            "type": 1,
-            "position": {
-                "x": 2,
-                "y": 3
-            }
-        },
-        {
-            "type": 1,
-            "position": {
-                "x": 5,
-                "y": 5
-            }
-        },
-        {
-            "type": 1,
-            "position": {
-                "x": 4,
-                "y": 6
-            }
-        },
-        {
-            "type": 1,
-            "position": {
-                "x": 7,
-                "y": 2
-            }
-        },
-        {
+            "id": 0,
             "type": 1,
             "position": {
                 "x": 1,
-                "y": 1
+                "y": 1,
+                "isWithinMap": true
             }
         },
         {
+            "id": 0,
             "type": 1,
             "position": {
-                "x": 6,
-                "y": 6
+                "x": 3,
+                "y": 3,
+                "isWithinMap": true
+            }
+        },
+        {
+            "id": 0,
+            "type": 1,
+            "position": {
+                "x": 4,
+                "y": 3,
+                "isWithinMap": true
+            }
+        },
+        {
+            "id": 0,
+            "type": 1,
+            "position": {
+                "x": 5,
+                "y": 4,
+                "isWithinMap": true
+            }
+        },
+        {
+            "id": 0,
+            "type": 1,
+            "position": {
+                "x": 8,
+                "y": 5,
+                "isWithinMap": true
+            }
+        },
+        {
+            "id": 0,
+            "type": 1,
+            "position": {
+                "x": 5,
+                "y": 1,
+                "isWithinMap": true
             }
         }
     ],
     "BuildingConfig": [
         {
-            "id": 1,
+            "id": 0,
             "type": 0,
+            "position": {
+                "x": 0,
+                "y": 0,
+                "isWithinMap": true
+            },
             "teamId": 0,
             "turnEnded": false,
-            "position": {
-                "x": 1,
-                "y": 1
-            },
             "destroyed": false
         },
         {
-            "id": 2,
+            "id": 0,
             "type": 0,
+            "position": {
+                "x": 10,
+                "y": 0,
+                "isWithinMap": true
+            },
             "teamId": 1,
             "turnEnded": false,
-            "position": {
-                "x": 5,
-                "y": 5
-            },
             "destroyed": false
         },
         {
-            "id": 3,
+            "id": 0,
             "type": 0,
+            "position": {
+                "x": 0,
+                "y": 10,
+                "isWithinMap": true
+            },
             "teamId": 2,
             "turnEnded": false,
-            "position": {
-                "x": 6,
-                "y": 6
-            },
             "destroyed": false
         },
         {
-            "id": 4,
+            "id": 0,
             "type": 0,
+            "position": {
+                "x": 10,
+                "y": 10,
+                "isWithinMap": true
+            },
             "teamId": 3,
             "turnEnded": false,
-            "position": {
-                "x": 4,
-                "y": 3
-            },
             "destroyed": false
         }
     ]
