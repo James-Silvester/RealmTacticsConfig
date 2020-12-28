@@ -33,7 +33,60 @@
             }
         ]
     },
-    "UnitConfig": [],
+    "UnitConfig": [
+        {
+            "id": 0,
+            "type": 0,
+            "teamId": 0,
+            "health": 1.0,
+            "position": {
+                "x": 0,
+                "y": 1,
+                "isWithinMap": true
+            },
+            "turnEnded": false,
+            "destroyed": false
+        },
+        {
+            "id": 0,
+            "type": 0,
+            "teamId": 0,
+            "health": 1.0,
+            "position": {
+                "x": 0,
+                "y": 2,
+                "isWithinMap": true
+            },
+            "turnEnded": false,
+            "destroyed": false
+        },
+        {
+            "id": 0,
+            "type": 0,
+            "teamId": 1,
+            "health": 1.0,
+            "position": {
+                "x": 8,
+                "y": 1,
+                "isWithinMap": true
+            },
+            "turnEnded": false,
+            "destroyed": false
+        },
+        {
+            "id": 0,
+            "type": 0,
+            "teamId": 1,
+            "health": 1.0,
+            "position": {
+                "x": 8,
+                "y": 2,
+                "isWithinMap": true
+            },
+            "turnEnded": false,
+            "destroyed": false
+        }
+    ],
     "TerrainConfig": [
         {
             "id": 0,
