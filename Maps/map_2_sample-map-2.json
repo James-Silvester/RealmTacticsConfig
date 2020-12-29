@@ -42,8 +42,8 @@
             "id": 0,
             "type": 0,
             "position": {
-                "x": 10,
-                "y": 10,
+                "x": 9,
+                "y": 9,
                 "isWithinMap": true
             },
             "teamId": 1,
