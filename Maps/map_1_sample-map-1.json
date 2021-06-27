@@ -33,162 +33,124 @@
             }
         ]
     },
-    "UnitConfig": [
+    "EntityConfig": [
         {
             "id": 0,
-            "type": 0,
-            "teamId": 0,
-            "health": 1.0,
-            "position": {
-                "x": 0,
-                "y": 1,
-                "isWithinMap": true
-            },
-            "turnEnded": false,
-            "destroyed": false
-        },
-        {
-            "id": 0,
-            "type": 0,
-            "teamId": 0,
-            "health": 1.0,
-            "position": {
-                "x": 0,
-                "y": 2,
-                "isWithinMap": true
-            },
-            "turnEnded": false,
-            "destroyed": false
-        },
-        {
-            "id": 0,
-            "type": 0,
-            "teamId": 1,
-            "health": 1.0,
-            "position": {
-                "x": 8,
-                "y": 1,
-                "isWithinMap": true
-            },
-            "turnEnded": false,
-            "destroyed": false
-        },
-        {
-            "id": 0,
-            "type": 0,
-            "teamId": 1,
-            "health": 1.0,
-            "position": {
-                "x": 8,
-                "y": 2,
-                "isWithinMap": true
-            },
-            "turnEnded": false,
-            "destroyed": false
-        }
-    ],
-    "TerrainConfig": [
-        {
-            "id": 0,
-            "type": 1,
             "position": {
                 "x": 1,
                 "y": 1,
                 "isWithinMap": true
-            }
+            },
+            "type": "Infantry",
+            "additionalTags": [],
+            "modifications": [],
+            "teamId": 0,
+            "health": 1.0,
+            "turnEnded": false,
+            "destroyed": false
         },
         {
             "id": 0,
-            "type": 1,
+            "position": {
+                "x": 2,
+                "y": 2,
+                "isWithinMap": true
+            },
+            "type": "Infantry",
+            "additionalTags": [],
+            "modifications": [],
+            "teamId": 0,
+            "health": 1.0,
+            "turnEnded": false,
+            "destroyed": false
+        },
+        {
+            "id": 0,
+            "position": {
+                "x": 1,
+                "y": 2,
+                "isWithinMap": true
+            },
+            "type": "Infantry",
+            "additionalTags": [],
+            "modifications": [],
+            "teamId": 0,
+            "health": 1.0,
+            "turnEnded": false,
+            "destroyed": false
+        },
+        {
+            "id": 0,
+            "position": {
+                "x": 2,
+                "y": 2,
+                "isWithinMap": true
+            },
+            "type": "Builder",
+            "additionalTags": [],
+            "modifications": [],
+            "teamId": 0,
+            "health": 1.0,
+            "turnEnded": false,
+            "destroyed": false
+        },
+        {
+            "id": 0,
+            "position": {
+                "x": 2,
+                "y": 3,
+                "isWithinMap": true
+            },
+            "type": "Infantry",
+            "additionalTags": [],
+            "modifications": [],
+            "teamId": 1,
+            "health": 1.0,
+            "turnEnded": false,
+            "destroyed": false
+        },
+        {
+            "id": 0,
+            "position": {
+                "x": 1,
+                "y": 3,
+                "isWithinMap": true
+            },
+            "type": "Infantry",
+            "additionalTags": [],
+            "modifications": [],
+            "teamId": 1,
+            "health": 1.0,
+            "turnEnded": false,
+            "destroyed": false
+        },
+        {
+            "id": 0,
             "position": {
                 "x": 3,
                 "y": 3,
                 "isWithinMap": true
-            }
+            },
+            "type": "CpuHub",
+            "additionalTags": [],
+            "modifications": [],
+            "teamId": 0,
+            "health": 1.0,
+            "turnEnded": false,
+            "destroyed": false
         },
         {
             "id": 0,
-            "type": 1,
             "position": {
                 "x": 4,
-                "y": 3,
-                "isWithinMap": true
-            }
-        },
-        {
-            "id": 0,
-            "type": 1,
-            "position": {
-                "x": 5,
                 "y": 4,
                 "isWithinMap": true
-            }
-        },
-        {
-            "id": 0,
-            "type": 1,
-            "position": {
-                "x": 8,
-                "y": 5,
-                "isWithinMap": true
-            }
-        },
-        {
-            "id": 0,
-            "type": 1,
-            "position": {
-                "x": 5,
-                "y": 1,
-                "isWithinMap": true
-            }
-        }
-    ],
-    "BuildingConfig": [
-        {
-            "id": 0,
-            "type": 0,
-            "position": {
-                "x": 0,
-                "y": 0,
-                "isWithinMap": true
             },
+            "type": "Motherboard",
+            "additionalTags": [],
+            "modifications": [],
             "teamId": 0,
-            "turnEnded": false,
-            "destroyed": false
-        },
-        {
-            "id": 0,
-            "type": 0,
-            "position": {
-                "x": 10,
-                "y": 0,
-                "isWithinMap": true
-            },
-            "teamId": 1,
-            "turnEnded": false,
-            "destroyed": false
-        },
-        {
-            "id": 0,
-            "type": 0,
-            "position": {
-                "x": 0,
-                "y": 10,
-                "isWithinMap": true
-            },
-            "teamId": 2,
-            "turnEnded": false,
-            "destroyed": false
-        },
-        {
-            "id": 0,
-            "type": 0,
-            "position": {
-                "x": 10,
-                "y": 10,
-                "isWithinMap": true
-            },
-            "teamId": 3,
+            "health": 1.0,
             "turnEnded": false,
             "destroyed": false
         }
