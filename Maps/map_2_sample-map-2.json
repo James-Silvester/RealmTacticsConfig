@@ -19,7 +19,8 @@
             },
             {
                 "teamId": 1,
-                "teamEntity": 0
+                "teamEntity": 2,
+                "aiProfile": "Aggressive"
             }
         ]
     },
@@ -35,8 +36,8 @@
         },
         {
             "position": {
-                "x": 10,
-                "y": 10,
+                "x": 9,
+                "y": 9,
                 "isWithinMap": true
             },
             "type": "Motherboard",
