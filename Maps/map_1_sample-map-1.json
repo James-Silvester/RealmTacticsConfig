@@ -157,6 +157,21 @@
         {
             "id": 0,
             "position": {
+                "x": 5,
+                "y": 5,
+                "isWithinMap": true
+            },
+            "type": "Motherboard",
+            "additionalTags": [],
+            "modifications": [],
+            "teamId": 1,
+            "health": 1.0,
+            "turnEnded": false,
+            "destroyed": false
+        },
+        {
+            "id": 0,
+            "position": {
                 "x": 8,
                 "y": 8,
                 "isWithinMap": true
