@@ -183,6 +183,36 @@
             "health": 1.0,
             "turnEnded": false,
             "destroyed": false
+        },
+        {
+            "id": 0,
+            "position": {
+                "x": 3,
+                "y": 4,
+                "isWithinMap": true
+            },
+            "type": "Artillery",
+            "additionalTags": [],
+            "modifications": [],
+            "teamId": 0,
+            "health": 1.0,
+            "turnEnded": false,
+            "destroyed": false
+        },
+        {
+            "id": 0,
+            "position": {
+                "x": 6,
+                "y": 7,
+                "isWithinMap": true
+            },
+            "type": "Mech",
+            "additionalTags": [],
+            "modifications": [],
+            "teamId": 0,
+            "health": 1.0,
+            "turnEnded": false,
+            "destroyed": false
         }
     ]
 }
