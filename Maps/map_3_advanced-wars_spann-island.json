@@ -8,13 +8,13 @@
     "TeamsConfig": {
         "NumberOfTeams": 2,
         "ActiveTeams": [
-            0,
-            1
+            1,
+            2
         ],
-        "StartingTeam": 0,
+        "StartingTeam": 1,
         "TeamConfig": [
             {
-                "teamId": 0,
+                "teamId": 1,
                 "teamEntity": 0
             },
             {
@@ -45,6 +45,105 @@
                 "y": 0
             },
             "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 3,
+                "y": 0
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 0
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 0
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 0
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 0
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 0
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 0
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 0
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 0
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 0
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 13,
+                "y": 0
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 0
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 0
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 1,
+                "y": 4
+            },
+            "type": "Factory",
+            "teamId": 0
         }
     ]
 }
