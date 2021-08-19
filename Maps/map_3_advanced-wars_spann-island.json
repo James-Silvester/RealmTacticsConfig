@@ -148,7 +148,101 @@
         {
             "position": {
                 "x": 1,
+                "y": 5
+            },
+            "type": "Factory",
+            "teamId": 1
+        },
+        {
+            "position": {
+                "x": 2,
+                "y": 3
+            },
+            "type": "Factory",
+            "teamId": 1
+        },
+        {
+            "position": {
+                "x": 3,
+                "y": 3
+            },
+            "type": "Factory",
+            "teamId": 1
+        },
+        {
+            "position": {
+                "x": 1,
                 "y": 7
+            },
+            "type": "City"
+        },
+        {
+            "position": {
+                "x": 2,
+                "y": 7
+            },
+            "type": "City"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 2
+            },
+            "type": "City"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 2
+            },
+            "type": "City"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 2
+            },
+            "type": "City"
+        }
+        {
+            "position": {
+                "x": 12,
+                "y": 2
+            },
+            "type": "City"
+        },
+        {
+            "position": {
+                "x": 13,
+                "y": 2
+            },
+            "type": "City"
+        },
+        {
+            "position": {
+                "x": 13,
+                "y": 5
+            },
+            "type": "City"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 6
+            },
+            "type": "City"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 8
+            },
+            "type": "City"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 6
             },
             "type": "City"
         }
