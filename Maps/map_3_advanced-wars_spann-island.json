@@ -1,6 +1,6 @@
 {
-    "Width": 16,
-    "Height": 11,
+    "Width": 15,
+    "Height": 10,
     "CursorStartingX": 5,
     "CursorStartingY": 5,
     "CameraStartingX": 5,
@@ -140,6 +140,14 @@
         {
             "position": {
                 "x": 1,
+                "y": 3
+            },
+            "type": "Factory",
+            "teamId": 1
+        },
+        {
+            "position": {
+                "x": 1,
                 "y": 4
             },
             "type": "Factory",
@@ -147,16 +155,8 @@
         },
         {
             "position": {
-                "x": 1,
-                "y": 5
-            },
-            "type": "Factory",
-            "teamId": 1
-        },
-        {
-            "position": {
                 "x": 2,
-                "y": 3
+                "y": 2
             },
             "type": "Factory",
             "teamId": 1
@@ -164,7 +164,7 @@
         {
             "position": {
                 "x": 3,
-                "y": 3
+                "y": 2
             },
             "type": "Factory",
             "teamId": 1
@@ -172,48 +172,55 @@
         {
             "position": {
                 "x": 1,
-                "y": 7
+                "y": 6
             },
             "type": "City"
         },
         {
             "position": {
                 "x": 2,
-                "y": 7
+                "y": 6
             },
             "type": "City"
         },
         {
             "position": {
                 "x": 5,
-                "y": 2
+                "y": 1
             },
             "type": "City"
         },
         {
             "position": {
                 "x": 8,
-                "y": 2
+                "y": 1
             },
             "type": "City"
         },
         {
             "position": {
                 "x": 12,
-                "y": 2
+                "y": 1
             },
             "type": "City"
         },
         {
             "position": {
                 "x": 13,
-                "y": 2
+                "y": 1
             },
             "type": "City"
         },
         {
             "position": {
                 "x": 13,
+                "y": 4
+            },
+            "type": "City"
+        },
+        {
+            "position": {
+                "x": 9,
                 "y": 5
             },
             "type": "City"
@@ -221,21 +228,14 @@
         {
             "position": {
                 "x": 9,
-                "y": 6
-            },
-            "type": "City"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 8
+                "y": 7
             },
             "type": "City"
         },
         {
             "position": {
                 "x": 11,
-                "y": 6
+                "y": 5
             },
             "type": "City"
         }
