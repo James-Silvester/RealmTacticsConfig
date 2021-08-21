@@ -26,210 +26,768 @@
     },
     "EntityConfig": [
         {
+            "positions": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "x": 6,
+                    "y": 0
+                },
+                {
+                    "x": 7,
+                    "y": 0
+                },
+                {
+                    "x": 8,
+                    "y": 0
+                },
+                {
+                    "x": 9,
+                    "y": 0
+                },
+                {
+                    "x": 10,
+                    "y": 0
+                },
+                {
+                    "x": 11,
+                    "y": 0
+                },
+                {
+                    "x": 12,
+                    "y": 0
+                },
+                {
+                    "x": 13,
+                    "y": 0
+                },
+                {
+                    "x": 14,
+                    "y": 0
+                }
+            ],
+            "type": "Sea"
+        },
+        {
             "position": {
                 "x": 0,
-                "y": 0
+                "y": 1
             },
             "type": "Sea"
         },
         {
             "position": {
                 "x": 1,
-                "y": 0
+                "y": 1
             },
             "type": "Sea"
         },
         {
             "position": {
                 "x": 2,
-                "y": 0
+                "y": 1
             },
             "type": "Sea"
         },
         {
             "position": {
                 "x": 3,
-                "y": 0
+                "y": 1
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 0,
+                "y": 2
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 1,
+                "y": 2
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 0,
+                "y": 3
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 0,
+                "y": 4
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 0,
+                "y": 5
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 0,
+                "y": 6
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 0,
+                "y": 7
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 0,
+                "y": 8
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 0,
+                "y": 9
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 1,
+                "y": 8
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 1,
+                "y": 9
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 2,
+                "y": 9
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 3,
+                "y": 9
             },
             "type": "Sea"
         },
         {
             "position": {
                 "x": 4,
-                "y": 0
+                "y": 9
             },
             "type": "Sea"
         },
         {
             "position": {
                 "x": 5,
-                "y": 0
+                "y": 9
             },
             "type": "Sea"
         },
         {
             "position": {
                 "x": 6,
-                "y": 0
+                "y": 9
             },
             "type": "Sea"
         },
         {
             "position": {
                 "x": 7,
-                "y": 0
+                "y": 9
             },
             "type": "Sea"
         },
         {
             "position": {
                 "x": 8,
-                "y": 0
+                "y": 9
             },
             "type": "Sea"
         },
         {
             "position": {
                 "x": 9,
-                "y": 0
+                "y": 9
             },
             "type": "Sea"
         },
         {
             "position": {
                 "x": 10,
-                "y": 0
+                "y": 9
             },
             "type": "Sea"
         },
         {
             "position": {
                 "x": 11,
-                "y": 0
+                "y": 9
             },
             "type": "Sea"
         },
         {
             "position": {
                 "x": 12,
-                "y": 0
+                "y": 9
             },
             "type": "Sea"
         },
         {
             "position": {
                 "x": 13,
-                "y": 0
+                "y": 9
             },
             "type": "Sea"
         },
         {
             "position": {
                 "x": 14,
-                "y": 0
+                "y": 9
             },
             "type": "Sea"
         },
         {
             "position": {
-                "x": 15,
-                "y": 0
+                "x": 14,
+                "y": 1
             },
             "type": "Sea"
         },
         {
             "position": {
-                "x": 1,
+                "x": 14,
+                "y": 2
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 14,
                 "y": 3
             },
-            "type": "Factory",
-            "teamId": 1
+            "type": "Sea"
         },
         {
             "position": {
-                "x": 1,
+                "x": 14,
                 "y": 4
             },
-            "type": "Factory",
-            "teamId": 1
+            "type": "Sea"
         },
         {
             "position": {
-                "x": 2,
-                "y": 2
+                "x": 14,
+                "y": 5
             },
-            "type": "Factory",
-            "teamId": 1
+            "type": "Sea"
         },
         {
             "position": {
-                "x": 3,
-                "y": 2
-            },
-            "type": "Factory",
-            "teamId": 1
-        },
-        {
-            "position": {
-                "x": 1,
+                "x": 14,
                 "y": 6
             },
-            "type": "City"
+            "type": "Sea"
         },
         {
             "position": {
-                "x": 2,
-                "y": 6
+                "x": 14,
+                "y": 7
             },
-            "type": "City"
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 8
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 13,
+                "y": 3
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 3
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 3
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 2
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 2
+            },
+            "type": "Sea"
         },
         {
             "position": {
                 "x": 5,
+                "y": 4
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 4
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 5
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 5
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 5
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 6
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 6
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 6
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 7
+            },
+            "type": "Sea"
+        },
+        {
+            "position": {
+                "x": 4,
                 "y": 1
             },
-            "type": "City"
+            "type": "Mountain"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 1
+            },
+            "type": "Mountain"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 5
+            },
+            "type": "Mountain"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 5
+            },
+            "type": "Mountain"
+        },
+        {
+            "position": {
+                "x": 3,
+                "y": 7
+            },
+            "type": "Forest"
+        },
+        {
+            "position": {
+                "x": 3,
+                "y": 8
+            },
+            "type": "Forest"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 7
+            },
+            "type": "Forest"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 1
+            },
+            "type": "Forest"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 3
+            },
+            "type": "Forest"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 4
+            },
+            "type": "Forest"
         },
         {
             "position": {
                 "x": 8,
-                "y": 1
+                "y": 3
             },
-            "type": "City"
+            "type": "Forest"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 8
+            },
+            "type": "Forest"
+        },
+        {
+            "position": {
+                "x": 2,
+                "y": 4
+            },
+            "type": "Road"
+        },
+        {
+            "position": {
+                "x": 3,
+                "y": 4
+            },
+            "type": "Road"
+        },
+        {
+            "position": {
+                "x": 3,
+                "y": 5
+            },
+            "type": "Road"
+        },
+        {
+            "position": {
+                "x": 3,
+                "y": 6
+            },
+            "type": "Road"
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 6
+            },
+            "type": "Road"
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 7
+            },
+            "type": "Road"
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 8
+            },
+            "type": "Road"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 8
+            },
+            "type": "Road"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 8
+            },
+            "type": "Road"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 8
+            },
+            "type": "Road"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 8
+            },
+            "type": "Road"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 7
+            },
+            "type": "Road"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 6
+            },
+            "type": "Road"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 5
+            },
+            "type": "Road"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 4
+            },
+            "type": "Road"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 4
+            },
+            "type": "Road"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 4
+            },
+            "type": "Road"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 4
+            },
+            "type": "Road"
         },
         {
             "position": {
                 "x": 12,
-                "y": 1
-            },
-            "type": "City"
-        },
-        {
-            "position": {
-                "x": 13,
-                "y": 1
-            },
-            "type": "City"
-        },
-        {
-            "position": {
-                "x": 13,
                 "y": 4
             },
-            "type": "City"
+            "type": "Road"
         },
         {
             "position": {
-                "x": 9,
+                "x": 12,
+                "y": 3
+            },
+            "type": "Road"
+        },
+        {
+            "position": {
+                "x": 12,
                 "y": 5
             },
-            "type": "City"
+            "type": "Road"
         },
         {
             "position": {
-                "x": 9,
+                "x": 12,
+                "y": 6
+            },
+            "type": "Road"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 1
+            },
+            "type": "Road"
+        },
+        {
+            "positions": [
+                {
+                    "x": 1,
+                    "y": 3
+                },
+                {
+                    "x": 1,
+                    "y": 4
+                },
+                {
+                    "x": 2,
+                    "y": 2
+                },
+                {
+                    "x": 3,
+                    "y": 2
+                }
+            ],
+            "type": "Factory",
+            "teamId": 1
+        },
+        {
+            "position": {
+                "x": 2,
+                "y": 3
+            },
+            "type": "HQ",
+            "teamId": 1
+        },
+        {
+            "positions": [
+                {
+                    "x": 11,
+                    "y": 8
+                },
+                {
+                    "x": 13,
+                    "y": 8
+                },
+                {
+                    "x": 13,
+                    "y": 7
+                },
+                {
+                    "x": 13,
+                    "y": 6
+                }
+            ],
+            "type": "Factory",
+            "teamId": 2
+        },
+        {
+            "position": {
+                "x": 12,
                 "y": 7
             },
+            "type": "HQ",
+            "teamId": 2
+        },
+        {
+            "positions": [
+                {
+                    "x": 1,
+                    "y": 6
+                },
+                {
+                    "x": 2,
+                    "y": 6
+                },
+                {
+                    "x": 5,
+                    "y": 1
+                },
+                {
+                    "x": 8,
+                    "y": 1
+                },
+                {
+                    "x": 12,
+                    "y": 1
+                },
+                {
+                    "x": 13,
+                    "y": 1
+                },
+                {
+                    "x": 13,
+                    "y": 4
+                },
+                {
+                    "x": 9,
+                    "y": 5
+                },
+                {
+                    "x": 9,
+                    "y": 7
+                },
+                {
+                    "x": 11,
+                    "y": 5
+                }
+            ],
             "type": "City"
         },
         {
@@ -237,7 +795,8 @@
                 "x": 11,
                 "y": 5
             },
-            "type": "City"
+            "type": "Infantry",
+            "teamId": 2
         }
     ]
 }
