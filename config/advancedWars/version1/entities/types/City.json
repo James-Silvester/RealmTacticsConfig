@@ -1,0 +1,35 @@
+{
+    "Name": "City",
+    "Description": "Building that Contributes Funds",
+    "Sprite": "City",
+    "Tags": [
+        "Building"
+    ],
+    "Network": {
+        "CanNetwork": false,
+        "RequireNetwork": false
+    },
+    "Defence": {
+        "DefenceIndicator": "MEDIUM",
+        "SpecificDefence": [
+            {
+                "Selector": {
+                    "AllowTags": [
+                        "Unit"
+                    ]
+                },
+                "Defence": 0.3,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Money": {
+        "UsesNetwork": false,
+        "PrimaryIncome": 1000,
+        "SecondaryIncome": 0,
+        "TertiaryIncome": 0
+    },
+    "Capture": {
+        "PointsToCapture": 100
+    }
+}

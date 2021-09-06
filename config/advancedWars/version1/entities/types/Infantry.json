@@ -1,0 +1,57 @@
+{
+    "Name": "Infantry",
+    "Description": "Basic Infantry",
+    "Sprite": "Infantry",
+    "EntityAbility": {
+        "AbilityPoints": 2
+    },
+    "Movement": {
+        "Movement": 3,
+        "EntityCost": {},
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Capture": {
+        "CapturePoints": 50,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "EndsTurn": true
+        }
+    },
+    "Attack": {
+        "DirectAttacks": [
+            {
+                "Name": "Machine Gun",
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 0.5,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "EndsTurn": true
+                    }
+                }
+            }
+        ]
+    },
+    "Purchase": {
+        "PrimaryCost": 1000,
+        "SecondaryCost": 0,
+        "TertiaryCost": 0,
+        "CanBePurchased": true
+    },
+    "Defence": {
+        "CanUseDefence": true
+    },
+    "Tags": [
+        "Unit",
+        "Infantry"
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "Name": "Tank",
+    "Description": "Basic Tank",
+    "Sprite": "Tank",
+    "EntityAbility": {
+        "AbilityPoints": 2
+    },
+    "Movement": {
+        "Movement": 7,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Attack": {
+        "DirectAttacks": [
+            {
+                "Name": "Cannon",
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 0.4,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1
+                    }
+                }
+            }
+        ]
+    },
+    "Purchase": {
+        "PrimaryCost": 7000,
+        "SecondaryCost": 0,
+        "TertiaryCost": 0,
+        "CanBePurchased": true
+    },
+    "Defence": {
+        "CanUseDefence": true,
+        "SelfDefenceIndicator": "MEDIUM",
+        "SelfSpecificDefence": [
+            {
+                "Selector": {
+                    "AllowTags": [
+                        "Infantry"
+                    ]
+                },
+                "Defence": 0.7
+            }
+        ]
+    },
+    "Tags": [
+        "Unit"
+    ]
+}

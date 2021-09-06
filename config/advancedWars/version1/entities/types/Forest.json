@@ -1,0 +1,27 @@
+{
+    "Name": "Forest",
+    "Description": "Forest Terrain",
+    "Sprite": "Forest",
+    "Tags": [
+        "Terrain"
+    ],
+    "Defence": {
+        "DefenceIndicator": "MEDIUM",
+        "SpecificDefence": [
+            {
+                "Selector": {
+                    "AllowTags": [
+                        "Unit"
+                    ]
+                },
+                "Defence": 0.4,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Movement": {
+        "OthersTagCost": {
+            "Unit": 2
+        }
+    }
+}

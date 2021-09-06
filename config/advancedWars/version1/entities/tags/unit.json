@@ -1,0 +1,11 @@
+{
+    "Name": "Unit",
+    "Description": "A controllable unit",
+    "Defaults": {
+        "Layer": 5,
+        "Selectable": true,
+        "Attack": {
+            "CanBeAttacked": true
+        }
+    }
+}

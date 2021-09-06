@@ -1,0 +1,51 @@
+{
+    "Name": "Artillery",
+    "Description": "Basic Artillery",
+    "Sprite": "Artillery",
+    "Tags": [
+        "Unit"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 2
+    },
+    "Movement": {
+        "Movement": 4,
+        "EntityCost": {},
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Attack": {
+        "RangeAttacks": [
+            {
+                "Name": "Cannon",
+                "MinRange": 2,
+                "MaxRange": 3,
+                "Detail": {
+                    "CanMoveAndAttack": false,
+                    "BasePower": 0.6,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "EndsTurn": true
+                    }
+                }
+            }
+        ]
+    },
+    "Defence": {
+        "CanUseDefence": true
+    },
+    "Purchase": {
+        "PrimaryCost": 7000,
+        "SecondaryCost": 0,
+        "TertiaryCost": 0,
+        "CanBePurchased": true
+    }
+}
