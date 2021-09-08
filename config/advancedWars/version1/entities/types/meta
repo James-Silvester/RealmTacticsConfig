@@ -1,0 +1,13 @@
+buildings/type_1_city.json ###
+buildings/type_2_factory.json ###
+buildings/type_3_hq.json ###
+
+terrain/type_1_forest.json ###
+terrain/type_2_mountain.json
+terrain/type_3_road.json
+terrain/type_4_sea.json
+
+units/type_1_artillery.json ###
+units/type_2_infantry.json
+units/type_3_mech.json
+units/type_4_tank.json
