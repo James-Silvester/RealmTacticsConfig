@@ -1,7 +1,7 @@
 {
     "Name": "Sea",
     "Description": "Sea Terrain",
-    "Sprite": "Sea",
+    "Sprite": "sea",
     "Tags": [
         "Terrain"
     ],

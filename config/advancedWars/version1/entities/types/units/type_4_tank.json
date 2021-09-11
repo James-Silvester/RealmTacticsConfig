@@ -1,7 +1,7 @@
 {
     "Name": "Tank",
     "Description": "Basic Tank",
-    "Sprite": "Tank",
+    "Sprite": "tank",
     "EntityAbility": {
         "AbilityPoints": 2
     },

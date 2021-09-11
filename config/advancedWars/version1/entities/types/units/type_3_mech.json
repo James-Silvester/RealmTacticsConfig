@@ -1,7 +1,7 @@
 {
     "Name": "Mech",
     "Description": "Anti-Vehicle Infantry",
-    "Sprite": "Mech",
+    "Sprite": "mech",
     "Tags": [
         "Unit"
     ],
