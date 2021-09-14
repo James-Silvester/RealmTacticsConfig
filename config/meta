@@ -1,3 +1,3 @@
-version name    filename    isFile    path  onUi    uiPath    subMeta   notes
-1   Advanced Wars   -   0   /   1   /   0   Advanced Wars Style Game Mode
-1   Hackticks   -   0   /   1   /   0   Base Hackticks Game Mode
+version name    filename    isFile    path  onUi    uiPath    uiAction    subMeta   notes
+1   Advanced Wars   advancedWars   0   /   1   /   folder   0   Advanced Wars Style Game Mode
+1   Hackticks   hackticks   0   /   1   /   folder  0  Base Hackticks Game Mode
