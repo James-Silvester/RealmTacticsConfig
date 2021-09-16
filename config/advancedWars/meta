@@ -1,2 +1,2 @@
-version_1_version1 ### Original Config of Advanced Wars style
-
+version |   name            |   filename        |   isFile  |   path    |   onUi    |   uiPath  |   uiAction    |   subMeta |   notes
+1       |   Version 1       |   version1        |   0       |   /       |   1       |   /       |   folder      |   0       |   Original version of Advanced Wars config

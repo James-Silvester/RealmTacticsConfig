@@ -1,3 +1,4 @@
-option_1_maps ### Advanced Wars Style Maps
-option_2_entities ### Advanced Wars Style Entities
-option_3_ai ### AI which powers the Advanced Wars Maps
+version |   name            |   filename        |   isFile  |   path    |   onUi    |   uiPath  |   uiAction    |   subMeta |   notes
+1       |   Maps            |   maps            |   0       |   /       |   1       |   /       |   folder      |   0       |   Advanced Wars Style Maps
+1       |   Entities        |   entities        |   0       |   /       |   1       |   /       |   folder      |   0       |   Advanced Wars Style Entities
+1       |   AI              |   ai              |   0       |   /       |   1       |   /       |   folder      |   0       |   AI which powers the Advanced Wars Maps
