@@ -1,2 +1,2 @@
-version |   name    |   filename    |   isFile  |   path    |   onUi    |   uiPath  |   uiAction    |   subMeta |   notes
-1       |New Game   |   config      |   0       |   /       |   1       |   /       |   folder      |   0       |   Start a new game
+version |   name        |   filename    |   isFile  |   path    |   onUi    |   uiPath  |   uiAction    |   subMeta |   notes
+1       |   New Game    |   config      |   0       |   /       |   1       |   /       |   folder      |   0       |   Start a new game
