@@ -1,3 +1,3 @@
-version |   name            |   filename            |   isFile  |   path        |   onUi    |   uiPath  |   uiAction    |   subMeta |   notes
-1       |   City Config     |   city.json           |   1       |   /buildings  |   1       |   /       |   -           |   0       |   Config for city
-1       |   City ImageFile  |   city.png            |   1       |   /buildings  |   1       |   /       |   -           |   0       |   Image for city
+version |   name            |   filename            |   isFile  |   path        |   onUi    |   uiPath          |   uiAction    |   subMeta |   notes
+1       |   City Config     |   city.json           |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   Config for city
+1       |   City ImageFile  |   city.png            |   1       |   /buildings  |   0       |   /buildings      |   -           |   0       |   Image for city
