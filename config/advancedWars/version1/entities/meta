@@ -1,3 +1,3 @@
-option_1_tags ### Entity Tags
-option_2_types ### Entity Types
-
+version |   name            |   filename        |   isFile  |   path    |   onUi    |   uiPath  |   uiAction    |   subMeta |   notes
+1       |   Tags            |   tags            |   0       |   /       |   1       |   /       |   folder      |   0       |   Advanced Wars Entity Tags
+1       |   Types           |   types           |   0       |   /       |   1       |   /       |   folder      |   0       |   Advanced Wars Entity Types
