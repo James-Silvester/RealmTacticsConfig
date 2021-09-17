@@ -1,0 +1,24 @@
+buildings/type_1_city.json ###
+buildings/city.png
+buildings/type_2_factory.json ###
+buildings/factory.png
+buildings/type_3_hq.json ###
+buildings/hq.png
+
+terrain/type_1_forest.json ###
+terrain/forest.png
+terrain/type_2_mountain.json
+terrain/mountain.png
+terrain/type_3_road.json
+terrain/road.png
+terrain/type_4_sea.json
+terrain/sea.png
+
+units/type_1_artillery.json ###
+units/artillery.png
+units/type_2_infantry.json
+units/infantry.png
+units/type_3_mech.json
+units/mech.png
+units/type_4_tank.json
+units/tank.png
