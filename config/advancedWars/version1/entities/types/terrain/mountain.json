@@ -1,7 +1,7 @@
 {
     "Name": "Mountain",
     "Description": "Mountain Terrain",
-    "Sprite": "mountain",
+    "Sprite": "terrain/mountain",
     "Tags": [
         "Terrain"
     ],

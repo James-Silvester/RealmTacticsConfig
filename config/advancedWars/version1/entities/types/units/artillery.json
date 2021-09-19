@@ -1,7 +1,7 @@
 {
     "Name": "Artillery",
     "Description": "Basic Artillery",
-    "Sprite": "artillery",
+    "Sprite": "units/artillery",
     "Tags": [
         "Unit"
     ],

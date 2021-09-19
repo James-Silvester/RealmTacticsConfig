@@ -1,7 +1,7 @@
 {
     "Name": "HQ",
     "Description": "Main Teams Building",
-    "Sprite": "hq",
+    "Sprite": "buildings/hq",
     "Tags": [
         "Building"
     ],
