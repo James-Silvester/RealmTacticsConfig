@@ -1,7 +1,7 @@
 {
     "Name": "Tank",
     "Description": "Basic Tank",
-    "Sprite": "units/tank",
+    "Sprite": "units/tank.png",
     "EntityAbility": {
         "AbilityPoints": 2
     },

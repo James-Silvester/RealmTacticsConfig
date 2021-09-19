@@ -1,7 +1,7 @@
 {
     "Name": "City",
     "Description": "Building that Contributes Funds",
-    "Sprite": "buildings/city",
+    "Sprite": "buildings/city.png",
     "Tags": [
         "Building"
     ],

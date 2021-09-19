@@ -1,7 +1,7 @@
 {
     "Name": "Mech",
     "Description": "Anti-Vehicle Infantry",
-    "Sprite": "units/mech",
+    "Sprite": "units/mech.png",
     "Tags": [
         "Unit"
     ],

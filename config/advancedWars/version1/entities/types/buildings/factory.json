@@ -1,7 +1,7 @@
 {
     "Name": "Factory",
     "Description": "Ground Unit Production Building",
-    "Sprite": "buildings/factory",
+    "Sprite": "buildings/factory.png",
     "Tags": [
         "Building"
     ],

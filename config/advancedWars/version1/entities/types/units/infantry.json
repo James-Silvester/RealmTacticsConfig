@@ -1,7 +1,7 @@
 {
     "Name": "Infantry",
     "Description": "Basic Infantry",
-    "Sprite": "units/infantry",
+    "Sprite": "units/infantry.png",
     "EntityAbility": {
         "AbilityPoints": 2
     },

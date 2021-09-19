@@ -1,7 +1,7 @@
 {
     "Name": "Sea",
     "Description": "Sea Terrain",
-    "Sprite": "terrain/sea",
+    "Sprite": "terrain/sea.png",
     "Tags": [
         "Terrain"
     ],
