@@ -21,14 +21,14 @@ version |   name                |   filename            |   isFile  |   path    
 1       |   Sea ImageFile       |   sea.png            |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   Image for sea
 
 
-1       |   Artillery Config    |   artillery.json           |   1       |   /unit  |   1       |   /unit      |   -           |   0       |   Config for artillery
-1       |   Artillery ImageFile |   artillery.png            |   1       |   /unit  |   0       |   /unit      |   -           |   0       |   Image for artillery
+1       |   Artillery Config    |   artillery.json           |   1       |   /units  |   1       |   /units      |   -           |   0       |   Config for artillery
+1       |   Artillery ImageFile |   artillery.png            |   1       |   /units  |   0       |   /units      |   -           |   0       |   Image for artillery
 
-1       |   Infantry Config     |   infantry.json           |   1       |   /unit  |   1       |   /unit      |   -           |   0       |   Config for infantry
-1       |   Infantry ImageFile  |   infantry.png            |   1       |   /unit  |   0       |   /unit      |   -           |   0       |   Image for infantry
+1       |   Infantry Config     |   infantry.json           |   1       |   /units  |   1       |   /units      |   -           |   0       |   Config for infantry
+1       |   Infantry ImageFile  |   infantry.png            |   1       |   /units  |   0       |   /units      |   -           |   0       |   Image for infantry
 
-1       |   Mech Config         |   mech.json           |   1       |   /unit  |   1       |   /unit      |   -           |   0       |   Config for mech
-1       |   Mech ImageFile      |   mech.png            |   1       |   /unit  |   0       |   /unit      |   -           |   0       |   Image for mech
+1       |   Mech Config         |   mech.json           |   1       |   /units  |   1       |   /units      |   -           |   0       |   Config for mech
+1       |   Mech ImageFile      |   mech.png            |   1       |   /units  |   0       |   /units      |   -           |   0       |   Image for mech
 
-1       |   Tank Config         |   tank.json           |   1       |   /unit  |   1       |   /unit      |   -           |   0       |   Config for tank
-1       |   tank ImageFile      |   tank.png            |   1       |   /unit  |   0       |   /unit      |   -           |   0       |   Image for tank
+1       |   Tank Config         |   tank.json           |   1       |   /units  |   1       |   /units      |   -           |   0       |   Config for tank
+1       |   tank ImageFile      |   tank.png            |   1       |   /units  |   0       |   /units      |   -           |   0       |   Image for tank
