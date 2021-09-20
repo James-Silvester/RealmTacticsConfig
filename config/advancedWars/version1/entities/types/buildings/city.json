@@ -3,7 +3,7 @@
     "Description": "Building that Contributes Funds",
     "Sprite": {
         "FilePath": "buildings/city.png",
-        "PixelsPerUnit": 200
+        "PixelsPerUnit": 375
     },
     "Tags": [
         "Building"
