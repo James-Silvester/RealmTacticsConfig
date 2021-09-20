@@ -3,7 +3,7 @@
     "Description": "Basic Infantry",
     "Sprite": {
         "FilePath": "units/infantry.png",
-        "PixelsPerUnit": 148
+        "PixelsPerUnit": 66
     },
     "EntityAbility": {
         "AbilityPoints": 2
