@@ -3,7 +3,7 @@
     "Description": "Sea Terrain",
     "Sprite": {
         "FilePath": "terrain/sea.png",
-        "PixelsPerUnit": 128
+        "PixelsPerUnit": 118
     },
     "Tags": [
         "Terrain"

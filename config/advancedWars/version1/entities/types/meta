@@ -11,13 +11,13 @@ version |   name                |   filename            |   isFile  |   path    
 3       |   Forest Config       |   forest.json           |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   Config for forest
 1       |   Forest ImageFile    |   forest.png            |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   Image for forest
 
-3       |   Mountain Config     |   mountain.json           |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   Config for mountain
+4       |   Mountain Config     |   mountain.json           |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   Config for mountain
 1       |   Mountain ImageFile  |   mountain.png            |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   Image for mountain
 
-3       |   Road Config         |   road.json           |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   Config for road
+4       |   Road Config         |   road.json           |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   Config for road
 1       |   Road ImageFile      |   road.png            |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   Image for road
 
-3       |   Sea Config          |   sea.json           |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   Config for sea
+4       |   Sea Config          |   sea.json           |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   Config for sea
 1       |   Sea ImageFile       |   sea.png            |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   Image for sea
 
 
