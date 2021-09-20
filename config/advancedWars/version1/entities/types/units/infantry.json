@@ -1,7 +1,10 @@
 {
     "Name": "Infantry",
     "Description": "Basic Infantry",
-    "Sprite": "units/infantry.png",
+    "Sprite": {
+        "FilePath": "units/infantry.png",
+        "PixelsPerUnit": 200
+    },
     "EntityAbility": {
         "AbilityPoints": 2
     },

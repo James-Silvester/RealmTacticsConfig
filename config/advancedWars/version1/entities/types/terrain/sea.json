@@ -1,7 +1,10 @@
 {
     "Name": "Sea",
     "Description": "Sea Terrain",
-    "Sprite": "terrain/sea.png",
+    "Sprite": {
+        "FilePath": "terrain/sea.png",
+        "PixelsPerUnit": 200
+    },
     "Tags": [
         "Terrain"
     ],

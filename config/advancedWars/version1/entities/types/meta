@@ -1,34 +1,34 @@
 version |   name                |   filename            |   isFile  |   path        |   onUi    |   uiPath          |   uiAction    |   subMeta |   notes
-1       |   City Config         |   city.json           |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   Config for city
+2       |   City Config         |   city.json           |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   Config for city
 1       |   City ImageFile      |   city.png            |   1       |   /buildings  |   0       |   /buildings      |   -           |   0       |   Image for city
 
-1       |   Factory Config      |   factory.json           |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   Config for factory
+2       |   Factory Config      |   factory.json           |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   Config for factory
 1       |   Factory ImageFile   |   factory.png            |   1       |   /buildings  |   0       |   /buildings      |   -           |   0       |   Image for factory
 
-1       |   HQ Config           |   hq.json           |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   Config for hq
+2       |   HQ Config           |   hq.json           |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   Config for hq
 1       |   HQ ImageFile        |   hq.png            |   1       |   /buildings  |   0       |   /buildings      |   -           |   0       |   Image for hq
 
-1       |   Forest Config       |   forest.json           |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   Config for forest
+2       |   Forest Config       |   forest.json           |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   Config for forest
 1       |   Forest ImageFile    |   forest.png            |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   Image for forest
 
-1       |   Mountain Config     |   mountain.json           |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   Config for mountain
+2       |   Mountain Config     |   mountain.json           |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   Config for mountain
 1       |   Mountain ImageFile  |   mountain.png            |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   Image for mountain
 
-1       |   Road Config         |   road.json           |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   Config for road
+2       |   Road Config         |   road.json           |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   Config for road
 1       |   Road ImageFile      |   road.png            |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   Image for road
 
-1       |   Sea Config          |   sea.json           |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   Config for sea
+2       |   Sea Config          |   sea.json           |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   Config for sea
 1       |   Sea ImageFile       |   sea.png            |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   Image for sea
 
 
-1       |   Artillery Config    |   artillery.json           |   1       |   /units  |   1       |   /units      |   -           |   0       |   Config for artillery
+2       |   Artillery Config    |   artillery.json           |   1       |   /units  |   1       |   /units      |   -           |   0       |   Config for artillery
 1       |   Artillery ImageFile |   artillery.png            |   1       |   /units  |   0       |   /units      |   -           |   0       |   Image for artillery
 
-1       |   Infantry Config     |   infantry.json           |   1       |   /units  |   1       |   /units      |   -           |   0       |   Config for infantry
+2       |   Infantry Config     |   infantry.json           |   1       |   /units  |   1       |   /units      |   -           |   0       |   Config for infantry
 1       |   Infantry ImageFile  |   infantry.png            |   1       |   /units  |   0       |   /units      |   -           |   0       |   Image for infantry
 
-1       |   Mech Config         |   mech.json           |   1       |   /units  |   1       |   /units      |   -           |   0       |   Config for mech
+2       |   Mech Config         |   mech.json           |   1       |   /units  |   1       |   /units      |   -           |   0       |   Config for mech
 1       |   Mech ImageFile      |   mech.png            |   1       |   /units  |   0       |   /units      |   -           |   0       |   Image for mech
 
-1       |   Tank Config         |   tank.json           |   1       |   /units  |   1       |   /units      |   -           |   0       |   Config for tank
+2       |   Tank Config         |   tank.json           |   1       |   /units  |   1       |   /units      |   -           |   0       |   Config for tank
 1       |   tank ImageFile      |   tank.png            |   1       |   /units  |   0       |   /units      |   -           |   0       |   Image for tank

@@ -1,7 +1,10 @@
 {
     "Name": "Tank",
     "Description": "Basic Tank",
-    "Sprite": "units/tank.png",
+    "Sprite": {
+        "FilePath": "units/tank.png",
+        "PixelsPerUnit": 200
+    },
     "EntityAbility": {
         "AbilityPoints": 2
     },

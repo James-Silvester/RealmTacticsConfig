@@ -1,7 +1,10 @@
 {
     "Name": "Mountain",
     "Description": "Mountain Terrain",
-    "Sprite": "terrain/mountain.png",
+    "Sprite": {
+        "FilePath": "terrain/mountain.png",
+        "PixelsPerUnit": 200
+    },
     "Tags": [
         "Terrain"
     ],

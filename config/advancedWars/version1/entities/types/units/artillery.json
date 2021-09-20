@@ -1,7 +1,10 @@
 {
     "Name": "Artillery",
     "Description": "Basic Artillery",
-    "Sprite": "units/artillery.png",
+    "Sprite": {
+        "FilePath": "units/artillery.png",
+        "PixelsPerUnit": 200
+    },
     "Tags": [
         "Unit"
     ],

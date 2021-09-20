@@ -1,7 +1,10 @@
 {
     "Name": "Road",
     "Description": "Road Terrain",
-    "Sprite": "terrain/road.png",
+    "Sprite": {
+        "FilePath": "terrain/road.png",
+        "PixelsPerUnit": 200
+    },
     "Tags": [
         "Terrain"
     ],

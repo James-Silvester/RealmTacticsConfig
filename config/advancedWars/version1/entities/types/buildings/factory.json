@@ -1,7 +1,10 @@
 {
     "Name": "Factory",
     "Description": "Ground Unit Production Building",
-    "Sprite": "buildings/factory.png",
+    "Sprite": {
+        "FilePath": "buildings/factory.png",
+        "PixelsPerUnit": 200
+    },
     "Tags": [
         "Building"
     ],

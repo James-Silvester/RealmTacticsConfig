@@ -1,7 +1,10 @@
 {
     "Name": "City",
     "Description": "Building that Contributes Funds",
-    "Sprite": "buildings/city.png",
+    "Sprite": {
+        "FilePath": "buildings/city.png",
+        "PixelsPerUnit": 200
+    },
     "Tags": [
         "Building"
     ],

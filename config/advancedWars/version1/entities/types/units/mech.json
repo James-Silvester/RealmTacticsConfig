@@ -1,7 +1,10 @@
 {
     "Name": "Mech",
     "Description": "Anti-Vehicle Infantry",
-    "Sprite": "units/mech.png",
+    "Sprite": {
+        "FilePath": "units/mech.png",
+        "PixelsPerUnit": 200
+    },
     "Tags": [
         "Unit"
     ],
