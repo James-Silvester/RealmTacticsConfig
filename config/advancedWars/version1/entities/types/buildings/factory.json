@@ -3,7 +3,7 @@
     "Description": "Ground Unit Production Building",
     "Sprite": {
         "FilePath": "buildings/factory.png",
-        "PixelsPerUnit": 200
+        "PixelsPerUnit": 62
     },
     "Tags": [
         "Building"

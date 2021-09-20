@@ -3,7 +3,7 @@
     "Description": "Mountain Terrain",
     "Sprite": {
         "FilePath": "terrain/mountain.png",
-        "PixelsPerUnit": 200
+        "PixelsPerUnit": 99
     },
     "Tags": [
         "Terrain"

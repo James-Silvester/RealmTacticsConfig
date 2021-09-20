@@ -3,7 +3,7 @@
     "Description": "Basic Tank",
     "Sprite": {
         "FilePath": "units/tank.png",
-        "PixelsPerUnit": 200
+        "PixelsPerUnit": 50
     },
     "EntityAbility": {
         "AbilityPoints": 2

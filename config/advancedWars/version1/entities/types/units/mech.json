@@ -3,7 +3,7 @@
     "Description": "Anti-Vehicle Infantry",
     "Sprite": {
         "FilePath": "units/mech.png",
-        "PixelsPerUnit": 200
+        "PixelsPerUnit": 320
     },
     "Tags": [
         "Unit"

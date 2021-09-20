@@ -3,7 +3,7 @@
     "Description": "Forest Terrain",
     "Sprite": {
         "FilePath": "terrain/forest.png",
-        "PixelsPerUnit": 200
+        "PixelsPerUnit": 85
     },
     "Tags": [
         "Terrain"

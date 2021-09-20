@@ -3,7 +3,7 @@
     "Description": "Main Teams Building",
     "Sprite": {
         "FilePath": "buildings/hq.png",
-        "PixelsPerUnit": 200
+        "PixelsPerUnit": 150
     },
     "Tags": [
         "Building"

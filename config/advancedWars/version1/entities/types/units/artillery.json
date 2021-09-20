@@ -3,7 +3,7 @@
     "Description": "Basic Artillery",
     "Sprite": {
         "FilePath": "units/artillery.png",
-        "PixelsPerUnit": 200
+        "PixelsPerUnit": 53
     },
     "Tags": [
         "Unit"
