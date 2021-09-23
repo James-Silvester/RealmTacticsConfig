@@ -1,5 +1,0 @@
-version |   key             		|   value
-1       |   ENTITY_TYPE_CONFIG_FOLDER	|   /config/advancedWars/version1/entities/types
-1	|   ENTITY_TAG_CONFIG_FOLDER	|   /config/advancedWars/version1/entities/tags
-1	|   ENTITY_DEFAULTS_FILE	|   /config/advancedWars/version1/entities/entityDefaults.json
-
