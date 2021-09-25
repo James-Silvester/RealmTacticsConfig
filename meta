@@ -3,4 +3,4 @@ version |   name        |   filename    |   isFile  |   path        |   onUi    
 
 1       |   meta        |   meta        |   1       |   /globals    |   0       |   /       |   -           |   1       |   0       |   Global config meta file
 
-1       |   env         |   env         |   1       |   /globals    |   0       |   /       |   -           |   0       |   1       |   Enviroment setup for the main game config file
+1       |   env         |   env         |   1       |   /           |   0       |   /       |   -           |   0       |   1       |   Enviroment setup for the main game config file
