@@ -7,4 +7,4 @@ version |   name            |   filename        |   isFile  |   path        |   
 1       |   meta            |   meta            |   1       |   /entities   |   0       |   /       |   -           |   1       |   0       |   Entities meta file
 1       |   meta            |   meta            |   1       |   /ai         |   0       |   /       |   -           |   1       |   0       |   AI meta file
 
-1       |   env             |   env             |   1       |   /           |   0       |   /       |   -           |   0       |   0       |   Enviroment setup for this version of Advanced Wars
+1       |   env             |   env             |   1       |   /           |   0       |   /       |   -           |   0       |   1       |   Enviroment setup for this version of Advanced Wars
