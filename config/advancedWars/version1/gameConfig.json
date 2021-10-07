@@ -110,7 +110,7 @@
         "EntityAttack": true,
         "UI": false,
         "Team": false,
-        "AIMain": false,
+        "AIMain": true,
         "AIFeature": false,
         "AIModule": false
     },
