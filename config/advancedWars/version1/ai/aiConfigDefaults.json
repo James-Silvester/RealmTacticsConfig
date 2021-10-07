@@ -13,7 +13,7 @@
             "SimpleClosestProximityFeature_EntityTag:Building_Relationship:Neutral": 0.0
         },
         "Purchase": {
-            "CanAffordToPurchaseFeature": 1.0
+            "CanPurchaseFeature": 1.0
         }
     }
 }

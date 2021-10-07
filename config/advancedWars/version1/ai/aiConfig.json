@@ -18,7 +18,7 @@
                     },
                     "Defence": {},
                     "Purchase": {
-                        "CanAffordToPurchaseFeature": 1.0
+                        "CanPurchaseFeature": 1.0
                     }
                 }
             },
