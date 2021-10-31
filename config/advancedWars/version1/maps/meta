@@ -1,2 +1,2 @@
 version |   name            |   filename            |   isFile  |   path    |   onUi    |   uiPath  |   uiAction    |   subMeta |   env     |   notes
-1       |   Spann island    |   spann-island.json   |   1       |   /       |   1       |   /       |   loadMap     |   0       |   0       |   Basic Advanced Wars Testing Map
+2       |   Spann island    |   spann-island.json   |   1       |   /       |   1       |   /       |   loadMap     |   0       |   0       |   Basic Advanced Wars Testing Map

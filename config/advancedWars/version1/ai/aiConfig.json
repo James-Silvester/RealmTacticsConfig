@@ -18,7 +18,9 @@
                     },
                     "Defence": {},
                     "Purchase": {
-                        "CanPurchaseFeature": 1.0
+                        "CanPurchaseFeature": 1.0,
+                        "WantToPurchaseFeature": 1.0,
+                        "OwnedEntityTypeBalanceFeature": 5.0
                     }
                 }
             },
