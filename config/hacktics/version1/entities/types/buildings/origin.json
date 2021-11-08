@@ -1,0 +1,53 @@
+{
+    "Name": "Origin",
+    "Description": "Main Teams Building",
+    "Sprite": {
+        "FilePath": "buildings/origin.jpeg",
+        "PixelsPerUnit": 512
+    },
+    "Tags": [
+        "Building"
+    ],
+    "Network": {
+        "CanNetwork": false,
+        "RequireNetwork": false
+    },
+    "Defence": {
+        "DefenceIndicator": "HIGH",
+        "SpecificDefence": [
+            {
+                "Selector": {
+                    "AllowTags": [
+                        "Unit"
+                    ]
+                },
+                "Defence": 0.8,
+                "ApplyToEnemies": false
+            }
+        ]
+    },
+    "Purchase": {
+        "Selector": {
+            "AllowTags": [
+                "Unit"
+            ],
+            "DisallowTags": [],
+            "AllowEntities": [],
+            "DisallowEntities": []
+        },
+        "AbilityConfig": {
+            "PointCost": 1,
+            "EndsTurn": true
+        },
+        "EntitiesProducedHaveActions": false
+    },
+    "Money": {
+        "UsesNetwork": false,
+        "PrimaryIncome": 1000,
+        "SecondaryIncome": 1000,
+        "TertiaryIncome": 50
+    },
+    "Capture": {
+        "PointsToCapture": 200
+    }
+}

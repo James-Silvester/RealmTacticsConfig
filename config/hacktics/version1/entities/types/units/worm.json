@@ -1,0 +1,50 @@
+{
+    "Name": "Worm",
+    "Description": "Quickly spreads through the network",
+    "Sprite": {
+        "FilePath": "units/worm.jpeg",
+        "PixelsPerUnit": 512
+    },
+    "Tags": [
+        "Unit"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 4
+    },
+    "Movement": {
+        "Movement": 2,
+        "EntityCost": {},
+        "AbilityConfig": {
+            "PointCost": 1
+        }
+    },
+    "Attack": {
+        "DirectAttacks": [
+            {
+                "Name": "Infect",
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 0.2,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 3
+                    }
+                }
+            }
+        ]
+    },
+    "Defence": {
+        "CanUseDefence": true
+    },
+    "Purchase": {
+        "PrimaryCost": 500,
+        "SecondaryCost": 500,
+        "TertiaryCost": 0,
+        "CanBePurchased": true
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "Name": "Encryption",
+    "Description": "Secures all data",
+    "Sprite": {
+        "FilePath": "buildings/encryption.json",
+        "PixelsPerUnit": 512
+    },
+    "Tags": [
+        "Building"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 0
+    },
+    "Network": {
+        "CanNetwork": false,
+        "RequireNetwork": false
+    },
+    "Defence": {
+        "DefenceIndicator": "MEDIUM",
+        "SpecificDefence": [
+            {
+                "Selector": {
+                    "AllowTags": [
+                        "Unit"
+                    ]
+                },
+                "Defence": 0.4,
+                "ApplyToEnemies": false
+            }
+        ]
+    },
+    "Money": {
+        "UsesNetwork": false,
+        "PrimaryIncome": 0,
+        "SecondaryIncome": 0,
+        "TertiaryIncome": 0
+    },
+    "Capture": {
+        "PointsToCapture": 100
+    },
+    "Movement": {
+        "OthersTagCost": {
+            "Unit": 1
+        }
+    }
+}

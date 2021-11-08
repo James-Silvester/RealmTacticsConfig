@@ -1,0 +1,51 @@
+{
+    "Name": "Virus",
+    "Description": "Modifies other programs to take them down",
+    "Sprite": {
+        "FilePath": "units/virus.jpeg",
+        "PixelsPerUnit": 512
+    },
+    "Tags": [
+        "Unit"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 2
+    },
+    "Movement": {
+        "Movement": 3,
+        "EntityCost": {},
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Attack": {
+        "DirectAttacks": [
+            {
+                "Name": "Modify",
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 0.3,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1
+                    }
+                }
+            }
+        ]
+    },
+    "Defence": {
+        "CanUseDefence": true
+    },
+    "Purchase": {
+        "PrimaryCost": 500,
+        "SecondaryCost": 500,
+        "TertiaryCost": 10,
+        "CanBePurchased": true
+    }
+}

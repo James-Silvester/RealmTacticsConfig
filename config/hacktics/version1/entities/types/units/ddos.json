@@ -1,0 +1,54 @@
+{
+    "Name": "DDOS",
+    "Description": "Remote disruption of the network",
+    "Sprite": {
+        "FilePath": "units/ddos.png",
+        "PixelsPerUnit": 512
+    },
+    "Tags": [
+        "Unit"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 1
+    },
+    "Movement": {
+        "Movement": 3,
+        "EntityCost": {},
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Attack": {
+        "RangeAttacks": [
+            {
+                "Name": "Flood",
+                "MinRange": 3,
+                "MaxRange": 5,
+                "Detail": {
+                    "CanMoveAndAttack": false,
+                    "BasePower": 0.5,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "EndsTurn": true
+                    }
+                }
+            }
+        ]
+    },
+    "Defence": {
+        "CanUseDefence": true
+    },
+    "Purchase": {
+        "PrimaryCost": 7000,
+        "SecondaryCost": 0,
+        "TertiaryCost": 0,
+        "CanBePurchased": true
+    }
+}

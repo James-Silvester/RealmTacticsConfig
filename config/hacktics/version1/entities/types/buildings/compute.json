@@ -1,0 +1,38 @@
+{
+    "Name": "Compute",
+    "Description": "High resource availability",
+    "Sprite": {
+        "FilePath": "buildings/compute.png",
+        "PixelsPerUnit": 512
+    },
+    "Tags": [
+        "Building"
+    ],
+    "Network": {
+        "CanNetwork": false,
+        "RequireNetwork": false
+    },
+    "Defence": {
+        "DefenceIndicator": "LOW",
+        "SpecificDefence": [
+            {
+                "Selector": {
+                    "AllowTags": [
+                        "Unit"
+                    ]
+                },
+                "Defence": 0.1,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Money": {
+        "UsesNetwork": false,
+        "PrimaryIncome": 100,
+        "SecondaryIncome": 100,
+        "TertiaryIncome": 100
+    },
+    "Capture": {
+        "PointsToCapture": 100
+    }
+}

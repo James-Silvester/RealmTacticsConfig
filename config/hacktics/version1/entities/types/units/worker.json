@@ -1,0 +1,31 @@
+{
+    "Name": "Worker",
+    "Description": "Creates connections",
+    "Sprite": {
+        "FilePath": "units/worker.jpeg",
+        "PixelsPerUnit": 512
+    },
+    "Tags": [
+        "Unit"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 2
+    },
+    "Movement": {
+        "Movement": 2,
+        "EntityCost": {},
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 2
+        }
+    },
+    "Defence": {
+        "CanUseDefence": true
+    },
+    "Purchase": {
+        "PrimaryCost": 500,
+        "SecondaryCost": 500,
+        "TertiaryCost": 0,
+        "CanBePurchased": true
+    }
+}
