@@ -1,10 +1,10 @@
 version |   name            |   filename        |   isFile  |   path        |   onUi    |   uiPath  |   uiAction    |   subMeta |   env     |   notes
-1       |   Maps            |   maps            |   0       |   /           |   1       |   /       |   folder      |   0       |   0       |   Advanced Wars Style Maps
-1       |   Entities        |   entities        |   0       |   /           |   0       |   /       |   folder      |   0       |   0       |   Advanced Wars Style Entities
-1       |   AI              |   ai              |   0       |   /           |   0       |   /       |   folder      |   0       |   0       |   AI which powers the Advanced Wars Maps
+1       |   Maps            |   maps            |   0       |   /           |   1       |   /       |   folder      |   0       |   0       |   Hacktics Style Maps
+1       |   Entities        |   entities        |   0       |   /           |   0       |   /       |   folder      |   0       |   0       |   Hacktics Style Entities
+1       |   AI              |   ai              |   0       |   /           |   0       |   /       |   folder      |   0       |   0       |   AI which powers the Hacktics Maps
 
 1       |   meta            |   meta            |   1       |   /maps       |   0       |   /       |   -           |   1       |   0       |   Maps meta file
 1       |   meta            |   meta            |   1       |   /entities   |   0       |   /       |   -           |   1       |   0       |   Entities meta file
 1       |   meta            |   meta            |   1       |   /ai         |   0       |   /       |   -           |   1       |   0       |   AI meta file
 
-1       |   env             |   env             |   1       |   /           |   0       |   /       |   -           |   0       |   1       |   Enviroment setup for this version of Advanced Wars
+1       |   env             |   env             |   1       |   /           |   0       |   /       |   -           |   0       |   1       |   Enviroment setup for this version of Hacktics
