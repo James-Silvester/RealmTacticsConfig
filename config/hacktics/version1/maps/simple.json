@@ -45,6 +45,24 @@
             ],
             "Type": "Origin",
             "TeamId": "TEAM_2"
+        },
+        {
+            "Positions": [
+                {
+                    "X": 1,
+                    "Y": 0
+                },
+                {
+                    "X": 2,
+                    "Y": 0
+                },
+                {
+                    "X": 3,
+                    "Y": 0
+                }
+            ],
+            "Type": "Ground",
+            "TeamId": "TEAM_UNDEFINED"
         }
     ],
     "WinConditions": [

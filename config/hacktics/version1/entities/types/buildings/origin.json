@@ -9,8 +9,8 @@
         "Building"
     ],
     "Network": {
-        "CanNetwork": false,
-        "RequireNetwork": false
+        "CanNetwork": true,
+        "RequireNetwork": true
     },
     "Defence": {
         "DefenceIndicator": "HIGH",

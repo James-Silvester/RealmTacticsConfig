@@ -2,7 +2,7 @@
     "Name": "Ground",
     "Description": "Base network",
     "Sprite": {
-        "FilePath": "terrain/ground.png",
+        "FilePath": "terrain/ground.jpeg",
         "PixelsPerUnit": 256
     },
     "Tags": [
@@ -22,9 +22,16 @@
             }
         ]
     },
+    "Network": {
+        "CanNetwork": true,
+        "RequireNetwork": true
+    },
     "Movement": {
         "OthersTagCost": {
             "Unit": 0
         }
+    },
+    "Capture": {
+        "PointsToCapture": 100
     }
 }

@@ -12,8 +12,8 @@
         "AbilityPoints": 1
     },
     "Network": {
-        "CanNetwork": false,
-        "RequireNetwork": false
+        "CanNetwork": true,
+        "RequireNetwork": true
     },
     "Purchase": {
         "Selector": {
