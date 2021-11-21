@@ -15,8 +15,7 @@
         "TeamConfig": [
             {
                 "TeamId": "TEAM_1",
-                "TeamEntity": "AI_DEFAULT",
-                "AiProfile": "Standard"
+                "TeamEntity": "Player"
             },
             {
                 "TeamId": "TEAM_2",
