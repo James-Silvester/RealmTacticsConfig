@@ -29,12 +29,12 @@
         {
             "Positions": [
                 {
-                    "X": 2,
-                    "Y": 1
+                    "X": 1,
+                    "Y": 0
                 },
                 {
-                    "X": 1,
-                    "Y": 2
+                    "X": 0,
+                    "Y": 1
                 }
             ],
             "Type": "Factory",
@@ -42,8 +42,8 @@
         },
         {
             "Position": {
-                "X": 1,
-                "Y": 1
+                "X": 0,
+                "Y": 0
             },
             "Type": "HQ",
             "TeamId": "TEAM_1"
@@ -51,12 +51,12 @@
         {
             "Positions": [
                 {
-                    "X": 9,
-                    "Y": 7
+                    "X": 8,
+                    "Y": 6
                 },
                 {
-                    "X": 10,
-                    "Y": 6
+                    "X": 9,
+                    "Y": 5
                 }
             ],
             "Type": "Factory",
@@ -64,8 +64,8 @@
         },
         {
             "Position": {
-                "X": 10,
-                "Y": 7
+                "X": 9,
+                "Y": 6
             },
             "Type": "HQ",
             "TeamId": "TEAM_2"
@@ -103,8 +103,8 @@
             "TeamId": "TEAM_1",
             "EntityCaptured": {
                 "Position": {
-                    "X": 10,
-                    "Y": 7
+                    "X": 9,
+                    "Y": 8
                 },
                 "EntityType": "HQ"
             }
@@ -113,8 +113,8 @@
             "TeamId": "TEAM_2",
             "EntityCaptured": {
                 "Position": {
-                    "X": 1,
-                    "Y": 1
+                    "X": 0,
+                    "Y": 0
                 },
                 "EntityType": "HQ"
             }

@@ -16,15 +16,22 @@
         "EntityCost": {},
         "AbilityConfig": {
             "PointCost": 1,
-            "UsesPerTurn": 2
+            "UsesPerTurn": 1
         }
     },
     "Defence": {
         "CanUseDefence": true
     },
+    "Capture": {
+        "CapturePoints": 50,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "EndsTurn": false
+        }
+    },
     "Purchase": {
-        "PrimaryCost": 500,
-        "SecondaryCost": 500,
+        "PrimaryCost": 10,
+        "SecondaryCost": 10,
         "TertiaryCost": 0,
         "CanBePurchased": true
     }

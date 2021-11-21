@@ -10,7 +10,11 @@
         },
         "Capture": {
             "SimpleClosestProximityFeature_EntityTag:Building_Relationship:Enemy": 0.0,
-            "SimpleClosestProximityFeature_EntityTag:Building_Relationship:Neutral": 0.0
+            "SimpleClosestProximityFeature_EntityTag:Building_Relationship:Neutral": 0.0,
+            "SimpleClosestProximityFeature_EntityTag:Terrain_Relationship:Neutral": 0.0,
+            "NextToOwnNetworkFeature": 1.0,
+            "RandomFeature": 0.5,
+            "CanUseAbilityFeature_AbilityType:Capture": 0.0
         },
         "Purchase": {
             "CanPurchaseFeature": 1.0,

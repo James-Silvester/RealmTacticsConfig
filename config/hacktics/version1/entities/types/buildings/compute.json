@@ -2,7 +2,7 @@
     "Name": "Compute",
     "Description": "High resource availability",
     "Sprite": {
-        "FilePath": "buildings/compute.png",
+        "FilePath": "buildings/compute.jpeg",
         "PixelsPerUnit": 512
     },
     "Tags": [
@@ -27,10 +27,10 @@
         ]
     },
     "Money": {
-        "UsesNetwork": false,
-        "PrimaryIncome": 100,
-        "SecondaryIncome": 100,
-        "TertiaryIncome": 100
+        "UsesNetwork": true,
+        "PrimaryIncome": 1,
+        "SecondaryIncome": 1,
+        "TertiaryIncome": 4
     },
     "Capture": {
         "PointsToCapture": 100

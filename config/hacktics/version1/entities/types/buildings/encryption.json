@@ -30,7 +30,7 @@
         ]
     },
     "Money": {
-        "UsesNetwork": false,
+        "UsesNetwork": true,
         "PrimaryIncome": 0,
         "SecondaryIncome": 0,
         "TertiaryIncome": 0

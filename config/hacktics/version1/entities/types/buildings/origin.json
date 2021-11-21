@@ -33,7 +33,9 @@
             ],
             "DisallowTags": [],
             "AllowEntities": [],
-            "DisallowEntities": []
+            "DisallowEntities": [
+                "Worm"
+            ]
         },
         "AbilityConfig": {
             "PointCost": 1,
@@ -42,10 +44,10 @@
         "EntitiesProducedHaveActions": false
     },
     "Money": {
-        "UsesNetwork": false,
-        "PrimaryIncome": 1000,
-        "SecondaryIncome": 1000,
-        "TertiaryIncome": 50
+        "UsesNetwork": true,
+        "PrimaryIncome": 10,
+        "SecondaryIncome": 5,
+        "TertiaryIncome": 1
     },
     "Capture": {
         "PointsToCapture": 200

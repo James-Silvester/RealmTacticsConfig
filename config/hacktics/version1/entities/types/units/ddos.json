@@ -2,7 +2,7 @@
     "Name": "DDOS",
     "Description": "Remote disruption of the network",
     "Sprite": {
-        "FilePath": "units/ddos.png",
+        "FilePath": "units/ddos.jpeg",
         "PixelsPerUnit": 512
     },
     "Tags": [
@@ -46,9 +46,9 @@
         "CanUseDefence": true
     },
     "Purchase": {
-        "PrimaryCost": 7000,
-        "SecondaryCost": 0,
-        "TertiaryCost": 0,
+        "PrimaryCost": 20,
+        "SecondaryCost": 10,
+        "TertiaryCost": 20,
         "CanBePurchased": true
     }
 }
