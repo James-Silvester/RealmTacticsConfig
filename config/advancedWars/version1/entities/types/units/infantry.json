@@ -6,15 +6,11 @@
         "PixelsPerUnit": 66
     },
     "EntityAbility": {
-        "AbilityPoints": 2
+        "AbilityPoints": 100
     },
     "Movement": {
         "Movement": 3,
-        "EntityCost": {},
-        "AbilityConfig": {
-            "PointCost": 1,
-            "UsesPerTurn": 1
-        }
+        "EntityCost": {}
     },
     "Capture": {
         "CapturePoints": 50,
@@ -35,11 +31,7 @@
                             "Unit"
                         ]
                     },
-                    "TagPowerModifier": {},
-                    "AbilityConfig": {
-                        "PointCost": 1,
-                        "EndsTurn": true
-                    }
+                    "TagPowerModifier": {}
                 }
             }
         ]

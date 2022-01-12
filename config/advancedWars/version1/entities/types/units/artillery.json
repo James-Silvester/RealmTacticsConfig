@@ -13,11 +13,7 @@
     },
     "Movement": {
         "Movement": 4,
-        "EntityCost": {},
-        "AbilityConfig": {
-            "PointCost": 1,
-            "UsesPerTurn": 1
-        }
+        "EntityCost": {}
     },
     "Attack": {
         "RangeAttacks": [

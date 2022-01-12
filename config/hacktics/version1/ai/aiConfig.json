@@ -9,7 +9,7 @@
                         "AttackEffectivenessFeature": 8.0,
                         "AttackPossibleFeature": 6.5,
                         "ValidEndMovementRangeFeature": 1.0,
-                        "PositionDefenceFeature": 0.1,
+                        "PositionDefenceFeature": 0.0,
                         "RandomFeature": 0.5
                     },
                     "Capture": {

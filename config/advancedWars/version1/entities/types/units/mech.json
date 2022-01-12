@@ -13,10 +13,7 @@
     },
     "Movement": {
         "Movement": 2,
-        "EntityCost": {},
-        "AbilityConfig": {
-            "PointCost": 1
-        }
+        "EntityCost": {}
     },
     "Attack": {
         "DirectAttacks": [

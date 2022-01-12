@@ -9,11 +9,7 @@
         "AbilityPoints": 2
     },
     "Movement": {
-        "Movement": 7,
-        "AbilityConfig": {
-            "PointCost": 1,
-            "UsesPerTurn": 1
-        }
+        "Movement": 7
     },
     "Attack": {
         "DirectAttacks": [

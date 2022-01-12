@@ -799,40 +799,42 @@
             "TeamId": "TEAM_2"
         }
     ],
-    "WinConditions": [
-        {
-            "TeamId": "TEAM_1",
-            "EnemyEntitiesRemaining": 0,
-            "EnemyEntitiesRemainingTagFilter": "Unit"
-        },
-        {
-            "TeamId": "TEAM_2",
-            "EnemyEntitiesRemaining": 0,
-            "EnemyEntitiesRemainingTagFilter": "Unit"
-        },
-        {
-            "TeamId": "TEAM_1",
-            "TurnNumber": 30
-        },
-        {
-            "TeamId": "TEAM_1",
-            "EntityCaptured": {
-                "Position": {
-                    "X": 12,
-                    "Y": 7
-                },
-                "EntityType": "HQ"
+    "Conditions": {
+        "WinConditions": [
+            {
+                "TeamId": "TEAM_1",
+                "EnemyEntitiesRemaining": 0,
+                "EnemyEntitiesRemainingTagFilter": "Unit"
+            },
+            {
+                "TeamId": "TEAM_2",
+                "EnemyEntitiesRemaining": 0,
+                "EnemyEntitiesRemainingTagFilter": "Unit"
+            },
+            {
+                "TeamId": "TEAM_1",
+                "TurnNumber": 30
+            },
+            {
+                "TeamId": "TEAM_1",
+                "EntityCaptured": {
+                    "Position": {
+                        "X": 12,
+                        "Y": 7
+                    },
+                    "EntityType": "HQ"
+                }
+            },
+            {
+                "TeamId": "TEAM_2",
+                "EntityCaptured": {
+                    "Position": {
+                        "X": 2,
+                        "Y": 3
+                    },
+                    "EntityType": "HQ"
+                }
             }
-        },
-        {
-            "TeamId": "TEAM_2",
-            "EntityCaptured": {
-                "Position": {
-                    "X": 2,
-                    "Y": 3
-                },
-                "EntityType": "HQ"
-            }
-        }
-    ]
+        ]
+    }
 }
