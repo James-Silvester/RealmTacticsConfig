@@ -101,7 +101,7 @@
     "Logging": {
         "Debug": true,
         "Performance": false,
-        "Config": false,
+        "Config": true,
         "State": true,
         "Networking": false,
         "Money": false,
