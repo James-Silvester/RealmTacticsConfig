@@ -99,7 +99,7 @@
         "PurchaseMenuFontSize": 32
     },
     "Logging": {
-        "Debug": false,
+        "Debug": true,
         "Performance": false,
         "Config": false,
         "State": true,
@@ -108,7 +108,7 @@
         "Purchase": false,
         "EntityMove": false,
         "EntityAttack": false,
-        "UI": false,
+        "UI": true,
         "Team": false,
         "AIMain": false,
         "AIFeature": false,

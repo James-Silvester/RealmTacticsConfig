@@ -3,8 +3,6 @@
     "Description": "Static terrain",
     "Defaults": {
         "Selectable": false,
-        "Movement": {
-            "Default": "Static"
-        }
+        "Movement": {}
     }
 }
