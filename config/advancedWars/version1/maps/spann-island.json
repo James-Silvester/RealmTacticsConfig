@@ -797,6 +797,14 @@
             },
             "Type": "Infantry",
             "TeamId": "TEAM_2"
+        },
+        {
+            "Position": {
+                "X": 12,
+                "Y": 5
+            },
+            "Type": "Infantry",
+            "TeamId": "TEAM_2"
         }
     ],
     "Conditions": {
