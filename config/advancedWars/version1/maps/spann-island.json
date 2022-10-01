@@ -15,11 +15,11 @@
         "TeamConfig": [
             {
                 "TeamId": "TEAM_1",
-                "TeamEntitY": "PLAYER"
+                "TeamEntity": "PLAYER"
             },
             {
                 "TeamId": "TEAM_2",
-                "TeamEntitY": "AI_DEFAULT",
+                "TeamEntity": "AI_DEFAULT",
                 "AiProfile": "Standard"
             }
         ]
