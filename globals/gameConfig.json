@@ -99,10 +99,10 @@
         "PurchaseMenuFontSize": 32
     },
     "Logging": {
-        "Debug": true,
+        "Debug": false,
         "Performance": false,
-        "Config": true,
-        "State": true,
+        "Config": false,
+        "State": false,
         "Networking": false,
         "Money": false,
         "Purchase": false,
