@@ -1,3 +1,0 @@
-version |   name                |   filename                |   isFile  |   path    |   onUi    |   uiPath  |   uiAction    |   subMeta |   env     |   notes
-2       |   AI Config           |   aiConfig.json           |   1       |   /       |   1       |   /       |   -	    |   0       |   0       |   Main AI Config File
-2       |   AI Config Defaults  |   aiConfigDefaults.json   |   1       |   /       |   1       |   /       |   -	    |   0       |   0       |   Base AI Config Defaults

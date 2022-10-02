@@ -1,8 +1,0 @@
-version |   name                |   filename            |   isFile  |   path        |   onUi    |   uiPath          |   uiAction    |   subMeta |   env     |   notes
-1       |   Unit Config         |   unit.json           |   1       |   /  |   1       |   /unit      |   -           |   0       |   0       |   Base unit class
-
-1       |   Infantry Config      |   infantry.json           |   1       |   /  |   1       |   /unit      |   -           |   0       |   0       |   Infantry unit class
-
-1       |   Building Config           |   building.json           |   1       |   /  |   1       |   /building      |   -           |   0       |   0       |   base building class
-
-1       |   Terrain Config       |   terrain.json           |   1       |   /  |   1       |   /terrain      |   -           |   0       |   0       |   Base terrain class
