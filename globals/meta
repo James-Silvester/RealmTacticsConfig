@@ -1,2 +1,2 @@
 version |   name            |   filename        |   isFile  |   path    |   onUi    |   uiPath  |   uiAction    |   subMeta |   env     |   notes
-6       |   Game Config     |   gameConfig.json |   1       |   /       |   1       |   /       |   -           |   0       |   0       |   Game Config from the game
+7       |   Game Config     |   gameConfig.json |   1       |   /       |   1       |   /       |   -           |   0       |   0       |   Game Config from the game
