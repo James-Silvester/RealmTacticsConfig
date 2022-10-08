@@ -98,7 +98,7 @@
         "SquareInfoFontSize": 12,
         "PurchaseMenuFontSize": 32,
         "WelcomeScreenMessage": "Hello World from the server!",
-        "ShowWelcomeScreenMessage": false
+        "ShowWelcomeScreenMessage": true
     },
     "Logging": {
         "Debug": false,
