@@ -96,7 +96,9 @@
         "ActionMenuAlignmentChangeRatioWidth": 0.35,
         "SquareInfoAlignmentChangeRatioWidth": 0.4,
         "SquareInfoFontSize": 12,
-        "PurchaseMenuFontSize": 32
+        "PurchaseMenuFontSize": 32,
+        "WelcomeScreenMessage": "Hello World from the server!",
+        "ShowWelcomeScreenMessage": false
     },
     "Logging": {
         "Debug": false,

@@ -1,2 +1,2 @@
 version |   name            |   filename        |   isFile  |   path    |   onUi    |   uiPath  |   uiAction    |   subMeta |   env     |   notes
-4       |   Game Config     |   gameConfig.json |   1       |   /       |   1       |   /       |   -           |   0       |   0       |   Advanced Wars Style Game Mode
+5       |   Game Config     |   gameConfig.json |   1       |   /       |   1       |   /       |   -           |   0       |   0       |   Game Config from the game
