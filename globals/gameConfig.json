@@ -97,7 +97,7 @@
         "SquareInfoAlignmentChangeRatioWidth": 0.4,
         "SquareInfoFontSize": 12,
         "PurchaseMenuFontSize": 32,
-        "WelcomeScreenMessage": "Hello World from the server!",
+        "WelcomeScreenMessage": "Hello World from the server! Give this a second go",
         "ShowWelcomeScreenMessage": true
     },
     "Logging": {
