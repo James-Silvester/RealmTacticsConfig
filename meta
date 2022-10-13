@@ -6,4 +6,4 @@ version |   name        |   filename    |   isFile  |   path        |   onUi    
 
 1       |   env         |   env         |   1       |   /           |   0       |   /       |   -           |   0       |   1       |   Enviroment setup for the main game config file
 
-3       |   Welcome     |   welcome.msg |   1       |   /           |   0       |   /       |   message     |   0       |   0       |   Overall welcome screen for TBS
+4       |   Welcome     |   welcome.msg |   1       |   /           |   0       |   /       |   message     |   0       |   0       |   Overall welcome screen for TBS
