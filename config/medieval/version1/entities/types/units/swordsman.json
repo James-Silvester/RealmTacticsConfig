@@ -2,8 +2,8 @@
     "Name": "Swordsman",
     "Description": "Remote disruption of the network",
     "Sprite": {
-        "FilePath": "units/ddos.jpeg",
-        "PixelsPerUnit": 512
+        "FilePath": "units/swordsman.png",
+        "PixelsPerUnit": 1635
     },
     "Tags": [
         "Unit"

@@ -2,8 +2,8 @@
     "Name": "Cavalry",
     "Description": "Quick hard hitting unit",
     "Sprite": {
-        "FilePath": "units/cavalry.jpeg",
-        "PixelsPerUnit": 512
+        "FilePath": "units/cavalry.png",
+        "PixelsPerUnit": 513
     },
     "Tags": [
         "Unit"

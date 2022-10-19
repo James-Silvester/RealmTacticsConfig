@@ -2,8 +2,8 @@
     "Name": "Palisade",
     "Description": "Base network",
     "Sprite": {
-        "FilePath": "terrain/ground.jpeg",
-        "PixelsPerUnit": 256
+        "FilePath": "terrain/hill.png",
+        "PixelsPerUnit": 700
     },
     "Tags": [
         "Terrain"
