@@ -1,6 +1,7 @@
 {
     "Name": "Ground",
     "Description": "Ground",
+    "Layer": 1,
     "Sprite": {
         "FilePath": "terrain/ground.png",
         "PixelsPerUnit": 24

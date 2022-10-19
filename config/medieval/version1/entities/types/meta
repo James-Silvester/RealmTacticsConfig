@@ -2,7 +2,7 @@ version |   name                |   filename            |   isFile  |   path    
 2       |   Castle Config       |   castle.json         |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for castle terrain
 2       |   Castle ImageFile    |   castle.png          |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for castle terrain
 
-3       |   Ground Config       |   ground.json         |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for ground terrain
+4       |   Ground Config       |   ground.json         |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for ground terrain
 3       |   Ground ImageFile    |   ground.png          |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for ground terrain
 
 2       |   Hill Config         |   hill.json           |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for hill terrain
