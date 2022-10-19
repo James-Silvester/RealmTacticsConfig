@@ -1,2 +1,3 @@
 version |   name            |   filename            |   isFile  |   path    |   onUi    |   uiPath  |   uiAction    |   subMeta |   env     |   notes
 2       |   Simple          |   simple.json         |   1       |   /       |   1       |   /       |   loadMap     |   0       |   0       |   Basic Medieval Testing Map
+1       |   AI Demo         |   simple_watch.json   |   1       |   /       |   1       |   /       |   loadMap     |   0       |   0       |   Basic Medieval AI Testing Map
