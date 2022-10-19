@@ -1,0 +1,31 @@
+version |   name                |   filename            |   isFile  |   path        |   onUi    |   uiPath          |   uiAction    |   subMeta |   env     |   notes
+1       |   Compute Config      |   compute.json        |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       |   Config for compute building
+1       |   Compute ImageFile   |   compute.jpeg        |   1       |   /buildings  |   0       |   /buildings      |   -           |   0       |   0       |   Image for compute building
+
+1       |   Encryption Config       |   encryption.json     |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       |   Config for encryption building
+1       |   Encryption ImageFile    |   encryption.jpeg     |   1       |   /buildings  |   0       |   /buildings      |   -           |   0       |   0       |   Image for encryption building
+
+1       |   Generator Config    |   generator.json      |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       |   Config for generator building
+1       |   Generator ImageFile |   generator.jpeg      |   1       |   /buildings  |   0       |   /buildings      |   -           |   0       |   0       |   Image for generator building
+
+1       |   Origin Config       |   origin.json         |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       |   Config for origin building
+1       |   Origin ImageFile    |   origin.jpeg         |   1       |   /buildings  |   0       |   /buildings      |   -           |   0       |   0       |   Image for origin building
+
+
+
+1       |   Ground Config       |   ground.json         |   1       |   /terrain    |   1       |   /terrain        |   -           |   0       |   0       |   Config for ground terrain
+1       |   Ground ImageFile    |   ground.jpeg         |   1       |   /terrain    |   0       |   /terrain        |   -           |   0       |   0       |   Image for ground terrain
+
+
+
+1       |   DDOS Config         |   ddos.json           |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for ddos unit
+1       |   ddos ImageFile      |   ddos.jpeg           |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for ddos unit
+
+1       |   Virus Config        |   virus.json          |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for virus unit
+1       |   Virus ImageFile     |   virus.jpeg          |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for virus unit
+
+1       |   Worker Config       |   worker.json         |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for worker unit
+1       |   Worker ImageFile    |   worker.jpeg         |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for worker unit
+
+1       |   Worm Config         |   worm.json           |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for worm unit
+1       |   Worm ImageFile      |   worm.png            |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for worm unit

@@ -1,0 +1,25 @@
+{
+    "Name": "Ground",
+    "Description": "Base network",
+    "Sprite": {
+        "FilePath": "terrain/ground.jpeg",
+        "PixelsPerUnit": 256
+    },
+    "Tags": [
+        "Terrain"
+    ],
+    "Defence": {
+        "DefenceIndicator": "NONE",
+        "SpecificDefence": [
+            {
+                "Defence": 0.0,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Movement": {
+        "OthersTagCost": {
+            "Unit": 0
+        }
+    }
+}

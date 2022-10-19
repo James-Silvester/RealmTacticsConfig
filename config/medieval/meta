@@ -1,0 +1,4 @@
+version |   name            |   filename        |   isFile  |   path    |   onUi    |   uiPath  |   uiAction    |   subMeta |   env     |   notes
+1       |   Version 1       |   version1        |   0       |   /       |   1       |   /       |   folder      |   0       |   0       |   Original version of Medieval config
+
+1       |   Medieval intro  | medievalIntro.msg |   1       |   /       |   0       |   /       |   message     |   0       |   0       |   Welcome screen for Medieval

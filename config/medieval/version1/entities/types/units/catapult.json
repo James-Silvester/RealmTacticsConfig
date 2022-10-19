@@ -1,0 +1,44 @@
+{
+    "Name": "DDOS",
+    "Description": "Remote disruption of the network",
+    "Sprite": {
+        "FilePath": "units/ddos.jpeg",
+        "PixelsPerUnit": 512
+    },
+    "Tags": [
+        "Unit"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 1
+    },
+    "Movement": {
+        "Movement": 1,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Attack": {
+        "RangeAttacks": [
+            {
+                "Name": "Fire",
+                "MinRange": 5,
+                "MaxRange": 5,
+                "Detail": {
+                    "CanMoveAndAttack": false,
+                    "BasePower": 0.5,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "EndsTurn": true
+                    }
+                }
+            }
+        ]
+    }
+}

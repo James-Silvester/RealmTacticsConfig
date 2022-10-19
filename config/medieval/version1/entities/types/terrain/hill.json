@@ -1,0 +1,30 @@
+{
+    "Name": "Palisade",
+    "Description": "Base network",
+    "Sprite": {
+        "FilePath": "terrain/ground.jpeg",
+        "PixelsPerUnit": 256
+    },
+    "Tags": [
+        "Terrain"
+    ],
+    "Defence": {
+        "DefenceIndicator": "LOW",
+        "SpecificDefence": [
+            {
+                "Selector": {
+                    "AllowTags": [
+                        "Unit"
+                    ]
+                },
+                "Defence": 0.1,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Movement": {
+        "OthersTagCost": {
+            "Unit": 1
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "Name": "Castle",
+    "Description": "Base network",
+    "Sprite": {
+        "FilePath": "terrain/ground.jpeg",
+        "PixelsPerUnit": 256
+    },
+    "Tags": [
+        "Terrain"
+    ],
+    "Defence": {
+        "DefenceIndicator": "HIGH",
+        "SpecificDefence": [
+            {
+                "Defence": 0.5,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Capture": {
+        "PointsToCapture": 1
+    }
+}
