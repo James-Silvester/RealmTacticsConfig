@@ -1,36 +1,36 @@
 version |   name                |   filename            |   isFile  |   path          |   onUi    |   uiPath            |   uiAction    |   subMeta |   env     |   notes
 2       |   Castle Config       |   castle.json         |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for castle terrain
-1       |   Castle ImageFile    |   castle.png          |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for castle terrain
+2       |   Castle ImageFile    |   castle.png          |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for castle terrain
 
 2       |   Ground Config       |   ground.json         |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for ground terrain
-1       |   Ground ImageFile    |   ground.png          |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for ground terrain
+2       |   Ground ImageFile    |   ground.png          |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for ground terrain
 
 2       |   Hill Config         |   hill.json           |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for hill terrain
-1       |   Hill ImageFile      |   hill.png            |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for hill terrain
+2       |   Hill ImageFile      |   hill.png            |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for hill terrain
 
 2       |   Palisade Config     |   palisade.json       |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for palisade terrain
-1       |   Palisade ImageFile  |   palisade.png        |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for palisade terrain
+2       |   Palisade ImageFile  |   palisade.png        |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for palisade terrain
 
 2       |   River Config        |   river.json          |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for river terrain
-1       |   River ImageFile     |   river.png           |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for river terrain
+2       |   River ImageFile     |   river.png           |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for river terrain
 
 2       |   Wall Config         |   wall.json           |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for wall terrain
-1       |   Wall ImageFile      |   wall.png            |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for wall terrain
+2       |   Wall ImageFile      |   wall.png            |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for wall terrain
 
 
 
 2       |   Archer Config       |   archer.json         |   1       |   /units        |   1       |   /units            |   -           |   0       |   0       |   Config for archer unit
-1       |   Archer ImageFile    |   archer.png          |   1       |   /units        |   0       |   /units            |   -           |   0       |   0       |   Image for archer unit
+2       |   Archer ImageFile    |   archer.png          |   1       |   /units        |   0       |   /units            |   -           |   0       |   0       |   Image for archer unit
 
 2       |   Catapult Config     |   catapult.json       |   1       |   /units        |   1       |   /units            |   -           |   0       |   0       |   Config for catapult unit
-1       |   Catapult ImageFile  |   catapult.png        |   1       |   /units        |   0       |   /units            |   -           |   0       |   0       |   Image for catapult unit
+2       |   Catapult ImageFile  |   catapult.png        |   1       |   /units        |   0       |   /units            |   -           |   0       |   0       |   Image for catapult unit
 
 2       |   Cavalry Config      |   cavalry.json        |   1       |   /units        |   1       |   /units            |   -           |   0       |   0       |   Config for cavalry unit
-1       |   Cavalry ImageFile   |   cavalry.png         |   1       |   /units        |   0       |   /units            |   -           |   0       |   0       |   Image for cavalry unit
+2       |   Cavalry ImageFile   |   cavalry.png         |   1       |   /units        |   0       |   /units            |   -           |   0       |   0       |   Image for cavalry unit
 
 2       |   Spearman Config     |   spearman.json       |   1       |   /units        |   1       |   /units            |   -           |   0       |   0       |   Config for spearman unit
-1       |   Spearman ImageFile  |   spearman.png        |   1       |   /units        |   0       |   /units            |   -           |   0       |   0       |   Image for spearman unit
+2       |   Spearman ImageFile  |   spearman.png        |   1       |   /units        |   0       |   /units            |   -           |   0       |   0       |   Image for spearman unit
 
 2       |   Swordsman Config    |   swordsman.json      |   1       |   /units        |   1       |   /units            |   -           |   0       |   0       |   Config for swordsman unit
-1       |   Swordsman ImageFile |   swordsman.png       |   1       |   /units        |   0       |   /units            |   -           |   0       |   0       |   Image for swordsman unit
+2       |   Swordsman ImageFile |   swordsman.png       |   1       |   /units        |   0       |   /units            |   -           |   0       |   0       |   Image for swordsman unit
 
