@@ -1,6 +1,6 @@
 {
     "Name": "Palisade",
-    "Description": "Base network",
+    "Description": "Wooden wall",
     "Sprite": {
         "FilePath": "terrain/palisade.png",
         "PixelsPerUnit": 900

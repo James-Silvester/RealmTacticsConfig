@@ -1,6 +1,6 @@
 {
-    "Name": "Ground",
-    "Description": "Base network",
+    "Name": "River",
+    "Description": "River",
     "Sprite": {
         "FilePath": "terrain/river.png",
         "PixelsPerUnit": 200

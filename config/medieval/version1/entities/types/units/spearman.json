@@ -1,6 +1,6 @@
 {
     "Name": "Spearman",
-    "Description": "Remote disruption of the network",
+    "Description": "Quick units good against cavalry",
     "Sprite": {
         "FilePath": "units/spearman.png",
         "PixelsPerUnit": 460

@@ -1,6 +1,6 @@
 {
-    "Name": "DDOS",
-    "Description": "Remote disruption of the network",
+    "Name": "Archer",
+    "Description": "Mobile range unit",
     "Sprite": {
         "FilePath": "units/archer.png",
         "PixelsPerUnit": 210

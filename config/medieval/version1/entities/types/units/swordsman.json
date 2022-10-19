@@ -1,6 +1,6 @@
 {
     "Name": "Swordsman",
-    "Description": "Remote disruption of the network",
+    "Description": "Slow strong infantry",
     "Sprite": {
         "FilePath": "units/swordsman.png",
         "PixelsPerUnit": 1635

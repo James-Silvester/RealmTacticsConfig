@@ -1,6 +1,6 @@
 {
     "Name": "Castle",
-    "Description": "Base network",
+    "Description": "Main Castle",
     "Sprite": {
         "FilePath": "terrain/castle.png",
         "PixelsPerUnit": 500

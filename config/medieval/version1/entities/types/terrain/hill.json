@@ -1,6 +1,6 @@
 {
-    "Name": "Palisade",
-    "Description": "Base network",
+    "Name": "Hill",
+    "Description": "Hill",
     "Sprite": {
         "FilePath": "terrain/hill.png",
         "PixelsPerUnit": 700

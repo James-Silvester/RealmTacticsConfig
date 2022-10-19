@@ -1,6 +1,6 @@
 {
-    "Name": "DDOS",
-    "Description": "Remote disruption of the network",
+    "Name": "Catapult",
+    "Description": "Slow long range unit",
     "Sprite": {
         "FilePath": "units/catapult.png",
         "PixelsPerUnit": 513
