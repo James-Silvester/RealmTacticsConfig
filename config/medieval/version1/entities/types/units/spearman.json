@@ -1,5 +1,5 @@
 {
-    "Name": "DDOS",
+    "Name": "Spearman",
     "Description": "Remote disruption of the network",
     "Sprite": {
         "FilePath": "units/ddos.jpeg",
