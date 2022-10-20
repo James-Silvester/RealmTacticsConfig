@@ -77,6 +77,86 @@
             ],
             "Type": "Swordsman",
             "TeamId": "TEAM_2"
+        },
+        {
+            "Positions": [
+                {
+                    "X": 1,
+                    "Y": 0
+                }
+            ],
+            "Type": "Archer",
+            "TeamId": "TEAM_1"
+        },
+        {
+            "Positions": [
+                {
+                    "X": 8,
+                    "Y": 6
+                }
+            ],
+            "Type": "Archer",
+            "TeamId": "TEAM_2"
+        },
+        {
+            "Positions": [
+                {
+                    "X": 2,
+                    "Y": 0
+                }
+            ],
+            "Type": "Catapult",
+            "TeamId": "TEAM_1"
+        },
+        {
+            "Positions": [
+                {
+                    "X": 7,
+                    "Y": 6
+                }
+            ],
+            "Type": "Catapult",
+            "TeamId": "TEAM_2"
+        },
+        {
+            "Positions": [
+                {
+                    "X": 0,
+                    "Y": 1
+                }
+            ],
+            "Type": "Cavalry",
+            "TeamId": "TEAM_1"
+        },
+        {
+            "Positions": [
+                {
+                    "X": 9,
+                    "Y": 5
+                }
+            ],
+            "Type": "Cavalry",
+            "TeamId": "TEAM_2"
+        },
+        {
+            "Positions": [
+                {
+                    "X": 0,
+                    "Y": 2
+                }
+            ],
+            "Type": "Spearman",
+            "TeamId": "TEAM_1"
+        },
+        {
+            "Positions": [
+                {
+                    "X": 9,
+                    "Y": 4
+                }
+            ],
+            "Type": "Spearman",
+            "TeamId": "TEAM_2"
         }
     ],
     "WinConditions": [
