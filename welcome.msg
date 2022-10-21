@@ -10,4 +10,4 @@ This is still very much an <b>ALPHA</b> so please be kind! Much much more conten
 
 Enjoy and feedback/bugs/ideas welcome!
 
-<b>turn.based.strategy.game@gmail.com</b>
+<a href='https://www.turn-based-strategy.co.uk/feedback/'>Feedback</a>
