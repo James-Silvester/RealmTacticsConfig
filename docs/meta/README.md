@@ -9,15 +9,25 @@ version |   name            |   filename        |   isFile  |   path    |   onUi
 ```
 
 version     -   Defines if the target file has changed. If the versions match then no change. If the new meta has a higher version than the local one for a file, the updated file is re-downloaded. This means that only files that have changed are updated.
+
 name        -   Name of the file/action. This is the name that is shown on the UI
+
 filename    -   Name of the actial filename which is being downloaded
+
 isFile      -   If 1, it is associated with an actual file that needs to be downloaded. If 0 then it is just a UI action.
+
 path        -   Allow subfolders to be included in a single meta file. If the file is at the same level as the meta file then the path is simply /. If its in a sub folder called 'units' then path would be '/units'
+
 onUI        -   Determines if this option is shown on the UI. 1 is shown, 0 is not shown
+
 uiPath      -   (not implemented yet) Determines the UI page structure with nested tabs
+
 uiAction    -   Determines what happens when the option is clicked. See below for options
+
 subMeta     -   The target file is consumed as another meta file. Allows a tree strucutre of meta files
+
 env         -   The target file is consumed as environment variables
+
 notes       -   Notes about the line. Currently no action in game
 
 uiActions - possible options:
