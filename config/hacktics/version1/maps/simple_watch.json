@@ -1,0 +1,162 @@
+{
+    "Width": 10,
+    "Height": 7,
+    "CursorStartingX": 5,
+    "CursorStartingY": 5,
+    "CameraStartingX": 5,
+    "CameraStartingY": 5,
+    "TeamsConfig": {
+        "NumberOfTeams": 2,
+        "ActiveTeams": [
+            "TEAM_1",
+            "TEAM_2"
+        ],
+        "StartingTeam": "TEAM_1",
+        "TeamConfig": [
+            {
+                "TeamId": "TEAM_1",
+                "TeamEntity": "AI_DEFAULT",
+                "AiProfile": "Standard"
+            },
+            {
+                "TeamId": "TEAM_2",
+                "TeamEntity": "AI_DEFAULT",
+                "AiProfile": "Standard"
+            }
+        ]
+    },
+    "EntityConfig": [
+        {
+            "Positions": [
+                {
+                    "X": 0,
+                    "Y": 0
+                }
+            ],
+            "Type": "Origin",
+            "TeamId": "TEAM_1"
+        },
+        {
+            "Positions": [
+                {
+                    "X": 9,
+                    "Y": 6
+                }
+            ],
+            "Type": "Origin",
+            "TeamId": "TEAM_2"
+        },
+        {
+            "Positions": [
+                {
+                    "X": 6,
+                    "Y": 4
+                },
+                {
+                    "X": 3,
+                    "Y": 2
+                }
+            ],
+            "Type": "Compute",
+            "TeamId": "TEAM_UNDEFINED"
+        },
+        {
+            "Positions": [
+                {
+                    "X": 2,
+                    "Y": 2
+                },
+                {
+                    "X": 7,
+                    "Y": 4
+                }
+            ],
+            "Type": "Origin",
+            "TeamId": "TEAM_UNDEFINED"
+        },
+        {
+            "PositionRanges": [
+                {
+                    "Xmin": 1,
+                    "Xmax": 7,
+                    "Ymin": 0,
+                    "Ymax": 0
+                },
+                {
+                    "Xmin": 2,
+                    "Xmax": 2,
+                    "Ymin": 4,
+                    "Ymax": 5
+                },
+                {
+                    "Xmin": 2,
+                    "Xmax": 8,
+                    "Ymin": 6,
+                    "Ymax": 6
+                },
+                {
+                    "Xmin": 7,
+                    "Xmax": 7,
+                    "Ymin": 1,
+                    "Ymax": 2
+                },
+                {
+                    "Xmin": 2,
+                    "Xmax": 7,
+                    "Ymin": 3,
+                    "Ymax": 3
+                }
+            ],
+            "Positions": [
+                {
+                    "X": 6,
+                    "Y": 5
+                },
+                {
+                    "X": 3,
+                    "Y": 1
+                }
+            ],
+            "Type": "Ground",
+            "TeamId": "TEAM_UNDEFINED"
+        }
+    ],
+    "WinConditions": [
+        {
+            "TeamId": "TEAM_1",
+            "EnemyEntitiesRemaining": 0,
+            "EnemyEntitiesRemainingTagFilter": "Unit",
+            "TurnNumber": 4
+        },
+        {
+            "TeamId": "TEAM_2",
+            "EnemyEntitiesRemaining": 0,
+            "EnemyEntitiesRemainingTagFilter": "Unit",
+            "TurnNumber": 4
+        },
+        {
+            "TeamId": "TEAM_1",
+            "TurnNumber": 99
+        },
+        {
+            "TeamId": "TEAM_1",
+            "EntityCaptured": {
+                "Position": {
+                    "X": 9,
+                    "Y": 6
+                },
+                "EntityType": "Origin"
+            }
+        },
+        {
+            "TeamId": "TEAM_2",
+            "EntityCaptured": {
+                "Position": {
+                    "X": 0,
+                    "Y": 0
+                },
+                "EntityType": "Origin"
+            }
+        }
+    ]
+}
