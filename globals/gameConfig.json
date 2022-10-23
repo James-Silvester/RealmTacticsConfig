@@ -103,7 +103,7 @@
         "Performance": false,
         "Config": false,
         "State": false,
-        "Touch": true,
+        "Touch": false,
         "Networking": false,
         "Money": false,
         "Purchase": false,
