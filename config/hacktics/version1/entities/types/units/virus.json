@@ -24,6 +24,22 @@
             {
                 "Name": "Modify",
                 "Detail": {
+                    "CanMoveAndAttack": false,
+                    "BasePower": 0.5,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1
+                    }
+                }
+            },
+            {
+                "Name": "Ping",
+                "Detail": {
                     "CanMoveAndAttack": true,
                     "BasePower": 0.3,
                     "Selector": {
