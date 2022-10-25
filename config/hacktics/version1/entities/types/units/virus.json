@@ -53,6 +53,27 @@
                     }
                 }
             }
+        ],
+        "RangeAttacks": [
+            {
+                "Name": "Corrrupt",
+                "MinRange": 1,
+                "MaxRange": 2,
+                "Detail": {
+                    "CanMoveAndAttack": false,
+                    "BasePower": 0.5,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "EndsTurn": true
+                    }
+                }
+            }
         ]
     },
     "Defence": {
