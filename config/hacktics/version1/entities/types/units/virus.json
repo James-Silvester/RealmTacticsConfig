@@ -73,6 +73,37 @@
                         "EndsTurn": true
                     }
                 }
+            },
+            {
+                "Name": "Splash",
+                "MinRange": 2,
+                "MaxRange": 3,
+                "Detail": {
+                    "CanMoveAndAttack": false,
+                    "BasePower": 0.5,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "EndsTurn": true
+                    },
+                    "HasSplash": true,
+                    "SplashConfig": {
+                        "RangeAttacks": [
+                            {
+                                "MinRange": 1,
+                                "MaxRange": 2,
+                                "Detail": {
+                                    "BasePower": 0.5
+                                }
+                            }
+                        ]
+                    }
+                }
             }
         ]
     },

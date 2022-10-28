@@ -1,0 +1,25 @@
+{
+    "Name": "Unit",
+    "Description": "A controllable unit",
+    "Defaults": {
+        "Layer": 5,
+        "Selectable": true,
+        "Attack": {
+            "CanBeAttacked": true
+        },
+        "Defence": {
+            "CanUseDefence": true
+        },
+        "EntityAbility": {
+            "AbilityPoints": 1
+        },
+        "Movement": {
+            "Movement": 3,
+            "AbilityConfig": {
+                "PointCost": 1,
+                "UsesPerTurn": 1,
+                "EndsTurn": false
+            }
+        }
+    }
+}

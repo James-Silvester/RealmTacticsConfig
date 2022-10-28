@@ -1,0 +1,11 @@
+{
+    "Name": "Palisade",
+    "Description": "Wooden wall",
+    "Sprite": {
+        "FilePath": "terrain/palisade.png",
+        "PixelsPerUnit": 900
+    },
+    "Tags": [
+        "Terrain"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Building",
+    "Description": "Static building",
+    "Defaults": {
+        "Layer": 4,
+        "Selectable": false,
+        "Movement": {
+            "Default": "Static",
+            "OthersTagCost": {
+                "Unit": 99
+            }
+        }
+    }
+}

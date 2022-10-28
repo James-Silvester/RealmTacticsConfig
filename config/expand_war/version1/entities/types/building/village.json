@@ -1,0 +1,24 @@
+{
+    "Name": "Wall",
+    "Description": "Stone wall",
+    "Sprite": {
+        "FilePath": "terrain/wall.png",
+        "PixelsPerUnit": 532
+    },
+    "Tags": [
+        "Terrain"
+    ],
+    "Movement": {
+        "OthersTagCost": {
+            "Unit": 0
+        }
+    },
+    "Money": {
+        "UsesNetwork": true,
+        "PrimaryIncome": 2
+    },
+    "Purchase": {
+        "PrimaryCost": 10,
+        "CanBePurchased": true
+    }
+}
