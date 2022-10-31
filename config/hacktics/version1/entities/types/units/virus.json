@@ -91,6 +91,7 @@
                         "PointCost": 1,
                         "EndsTurn": true
                     },
+                    "NeedsToTargetEntity": false,
                     "HasSplash": true,
                     "SplashConfig": {
                         "RangeAttacks": [

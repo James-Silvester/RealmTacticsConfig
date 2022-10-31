@@ -21,7 +21,7 @@ version |   name                |   filename            |   isFile  |   path    
 1       |   DDOS Config         |   ddos.json           |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for ddos unit
 1       |   ddos ImageFile      |   ddos.jpeg           |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for ddos unit
 
-4       |   Virus Config        |   virus.json          |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for virus unit
+5       |   Virus Config        |   virus.json          |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for virus unit
 1       |   Virus ImageFile     |   virus.jpeg          |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for virus unit
 
 1       |   Worker Config       |   worker.json         |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for worker unit
