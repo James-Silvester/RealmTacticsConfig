@@ -1,5 +1,5 @@
 {
-    "Name": "Peasants",
+    "Name": "Peasant",
     "Description": "Standard, cheap but weak unit",
     "Sprite": {
         "FilePath": "units/peasant.png",

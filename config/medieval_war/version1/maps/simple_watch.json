@@ -45,7 +45,7 @@
                     "Y": 0
                 }
             ],
-            "Type": "Castle",
+            "Type": "Peasant",
             "TeamId": "TEAM_1"
         },
         {
@@ -55,27 +55,7 @@
                     "Y": 6
                 }
             ],
-            "Type": "Castle",
-            "TeamId": "TEAM_2"
-        },
-        {
-            "Positions": [
-                {
-                    "X": 0,
-                    "Y": 0
-                }
-            ],
-            "Type": "Swordsman",
-            "TeamId": "TEAM_1"
-        },
-        {
-            "Positions": [
-                {
-                    "X": 9,
-                    "Y": 6
-                }
-            ],
-            "Type": "Swordsman",
+            "Type": "Peasant",
             "TeamId": "TEAM_2"
         },
         {
@@ -85,7 +65,7 @@
                     "Y": 0
                 }
             ],
-            "Type": "Archer",
+            "Type": "Peasant",
             "TeamId": "TEAM_1"
         },
         {
@@ -95,7 +75,7 @@
                     "Y": 6
                 }
             ],
-            "Type": "Archer",
+            "Type": "Peasant",
             "TeamId": "TEAM_2"
         },
         {
@@ -105,7 +85,7 @@
                     "Y": 0
                 }
             ],
-            "Type": "Catapult",
+            "Type": "Peasant",
             "TeamId": "TEAM_1"
         },
         {
@@ -115,7 +95,7 @@
                     "Y": 6
                 }
             ],
-            "Type": "Catapult",
+            "Type": "Peasant",
             "TeamId": "TEAM_2"
         },
         {
@@ -125,7 +105,7 @@
                     "Y": 1
                 }
             ],
-            "Type": "Cavalry",
+            "Type": "Peasant",
             "TeamId": "TEAM_1"
         },
         {
@@ -135,7 +115,7 @@
                     "Y": 5
                 }
             ],
-            "Type": "Cavalry",
+            "Type": "Peasant",
             "TeamId": "TEAM_2"
         },
         {
@@ -145,7 +125,7 @@
                     "Y": 2
                 }
             ],
-            "Type": "Spearman",
+            "Type": "Peasant",
             "TeamId": "TEAM_1"
         },
         {
@@ -155,7 +135,7 @@
                     "Y": 4
                 }
             ],
-            "Type": "Spearman",
+            "Type": "Peasant",
             "TeamId": "TEAM_2"
         }
     ],
