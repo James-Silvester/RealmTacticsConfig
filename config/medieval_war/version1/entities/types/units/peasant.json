@@ -10,6 +10,9 @@
     ],
     "Movement": {
         "Movement": 2,
+        "OthersTagCost": {
+            "Unit": 99
+        },
         "AbilityConfig": {
             "PointCost": 1,
             "UsesPerTurn": 1
