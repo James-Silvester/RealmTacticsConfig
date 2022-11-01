@@ -1,3 +1,4 @@
 version |   name            |   filename        |   isFile  |   path    |   onUi    |   uiPath  |   uiAction    |   subMeta |   env     |   notes
 1       |   Hacktics        |   hacktics        |   0       |   /       |   1       |   /       |   folder      |   0       |   0       |   Base Hacktics Game Mode
 1       |   Medieval        |   medieval        |   0       |   /       |   1       |   /       |   folder      |   0       |   0       |   Simple Medieval Game Mode
+1       |   Medieval War    |   medieval_war    |   0       |   /       |   1       |   /       |   folder      |   0       |   0       |   Simple Medieval Game Mode

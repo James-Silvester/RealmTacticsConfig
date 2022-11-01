@@ -1,0 +1,38 @@
+{
+    "Name": "Peasants",
+    "Description": "Standard, cheap but weak unit",
+    "Sprite": {
+        "FilePath": "units/peasant.png",
+        "PixelsPerUnit": 2025
+    },
+    "Tags": [
+        "Unit"
+    ],
+    "Movement": {
+        "Movement": 2,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Attack": {
+        "DirectAttacks": [
+            {
+                "Name": "Attack",
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 0.4,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1
+                    }
+                }
+            }
+        ]
+    }
+}

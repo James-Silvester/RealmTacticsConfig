@@ -1,0 +1,4 @@
+version |   name                |   filename            |   isFile  |   path          |   onUi    |   uiPath            |   uiAction    |   subMeta |   env     |   notes
+
+1       |   Peasants Config     |   peasant.json       |   1       |   /units        |   1       |   /units            |   -           |   0       |   0       |   Config for peasants unit
+1       |   Peasants ImageFile  |   peasant.png        |   1       |   /units        |   0       |   /units            |   -           |   0       |   0       |   Image for peasants unit
