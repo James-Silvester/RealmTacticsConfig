@@ -3,16 +3,14 @@
     "Description": "Standard, cheap but weak unit",
     "Sprite": {
         "FilePath": "units/peasant.png",
-        "PixelsPerUnit": 2025
+        "PixelsPerUnit": 675
     },
     "Tags": [
         "Unit"
     ],
     "Movement": {
         "Movement": 2,
-        "OthersTagCost": {
-            "Unit": 99
-        },
+        "BlocksEnemies": true,
         "AbilityConfig": {
             "PointCost": 1,
             "UsesPerTurn": 1

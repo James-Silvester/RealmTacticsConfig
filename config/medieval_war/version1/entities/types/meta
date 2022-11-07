@@ -4,5 +4,5 @@ version |   name                |   filename            |   isFile  |   path    
 1       |   Ground ImageFile    |   ground.png          |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for ground terrain
 
 
-2       |   Peasants Config     |   peasant.json       |   1       |   /units        |   1       |   /units            |   -           |   0       |   0       |   Config for peasants unit
+4       |   Peasants Config     |   peasant.json       |   1       |   /units        |   1       |   /units            |   -           |   0       |   0       |   Config for peasants unit
 2       |   Peasants ImageFile  |   peasant.png        |   1       |   /units        |   0       |   /units            |   -           |   0       |   0       |   Image for peasants unit
