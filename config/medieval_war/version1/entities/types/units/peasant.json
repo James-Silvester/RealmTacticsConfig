@@ -3,7 +3,10 @@
     "Description": "Standard, cheap but weak unit",
     "Sprite": {
         "FilePath": "units/peasant.png",
-        "PixelsPerUnit": 675
+        "PixelsPerUnitX": 625,
+        "PixelsPerUnitY": 675,
+        "CycleTimeSeconds": 10,
+        "Repeats": true
     },
     "Tags": [
         "Unit"
@@ -30,10 +33,26 @@
                     },
                     "TagPowerModifier": {},
                     "AbilityConfig": {
-                        "PointCost": 1
+                        "PointCost": 1,
+                        "Sprite": {
+                            "FilePath": "units/peasant.png",
+                            "PixelsPerUnitX": 625,
+                            "PixelsPerUnitY": 675,
+                            "CycleTimeSeconds": 0.25,
+                            "NumberOfLoops": 2
+                        }
                     }
                 }
             }
-        ]
+        ],
+        "AbilityConfig": {
+            "Sprite": {
+                "FilePath": "units/peasant.png",
+                "PixelsPerUnitX": 625,
+                "PixelsPerUnitY": 675,
+                "CycleTimeSeconds": 0.25,
+                "NumberOfLoops": 4
+            }
+        }
     }
 }
