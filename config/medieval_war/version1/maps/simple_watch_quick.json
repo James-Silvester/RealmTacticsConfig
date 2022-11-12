@@ -47,7 +47,7 @@
             ],
             "Type": "Peasant",
             "TeamId": "TEAM_1",
-            "Health": 0.1
+            "Health": 1
         },
         {
             "Positions": [
@@ -66,13 +66,13 @@
             "TeamId": "TEAM_1",
             "EnemyEntitiesRemaining": 0,
             "EnemyEntitiesRemainingTagFilter": "Unit",
-            "TurnNumber": 4
+            "TurnNumber": 1
         },
         {
             "TeamId": "TEAM_2",
             "EnemyEntitiesRemaining": 0,
             "EnemyEntitiesRemainingTagFilter": "Unit",
-            "TurnNumber": 4
+            "TurnNumber": 1
         },
         {
             "TeamId": "TEAM_1",
