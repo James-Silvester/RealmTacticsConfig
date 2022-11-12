@@ -61,22 +61,24 @@
             "Health": 0.1
         }
     ],
-    "WinConditions": [
-        {
-            "TeamId": "TEAM_1",
-            "EnemyEntitiesRemaining": 0,
-            "EnemyEntitiesRemainingTagFilter": "Unit",
-            "TurnNumber": 1
-        },
-        {
-            "TeamId": "TEAM_2",
-            "EnemyEntitiesRemaining": 0,
-            "EnemyEntitiesRemainingTagFilter": "Unit",
-            "TurnNumber": 1
-        },
-        {
-            "TeamId": "TEAM_1",
-            "TurnNumber": 99
-        }
-    ]
+    "Conditions": {
+        "WinConditions": [
+            {
+                "TeamId": "TEAM_1",
+                "EnemyEntitiesRemaining": 0,
+                "EnemyEntitiesRemainingTagFilter": "Unit",
+                "TurnNumber": 1
+            },
+            {
+                "TeamId": "TEAM_2",
+                "EnemyEntitiesRemaining": 0,
+                "EnemyEntitiesRemainingTagFilter": "Unit",
+                "TurnNumber": 1
+            },
+            {
+                "TeamId": "TEAM_1",
+                "TurnNumber": 99
+            }
+        ]
+    }
 }
