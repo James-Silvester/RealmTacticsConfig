@@ -138,42 +138,44 @@
             "TeamId": "TEAM_2"
         }
     ],
-    "WinConditions": [
-        {
-            "TeamId": "TEAM_1",
-            "EnemyEntitiesRemaining": 0,
-            "EnemyEntitiesRemainingTagFilter": "Unit",
-            "TurnNumber": 4
-        },
-        {
-            "TeamId": "TEAM_2",
-            "EnemyEntitiesRemaining": 0,
-            "EnemyEntitiesRemainingTagFilter": "Unit",
-            "TurnNumber": 4
-        },
-        {
-            "TeamId": "TEAM_1",
-            "TurnNumber": 99
-        },
-        {
-            "TeamId": "TEAM_1",
-            "EntityCaptured": {
-                "Position": {
-                    "X": 9,
-                    "Y": 6
-                },
-                "EntityType": "Origin"
+    "Conditions": {
+        "WinConditions": [
+            {
+                "TeamId": "TEAM_1",
+                "EnemyEntitiesRemaining": 0,
+                "EnemyEntitiesRemainingTagFilter": "Unit",
+                "TurnNumber": 4
+            },
+            {
+                "TeamId": "TEAM_2",
+                "EnemyEntitiesRemaining": 0,
+                "EnemyEntitiesRemainingTagFilter": "Unit",
+                "TurnNumber": 4
+            },
+            {
+                "TeamId": "TEAM_1",
+                "TurnNumber": 99
+            },
+            {
+                "TeamId": "TEAM_1",
+                "EntityCaptured": {
+                    "Position": {
+                        "X": 9,
+                        "Y": 6
+                    },
+                    "EntityType": "Origin"
+                }
+            },
+            {
+                "TeamId": "TEAM_2",
+                "EntityCaptured": {
+                    "Position": {
+                        "X": 0,
+                        "Y": 0
+                    },
+                    "EntityType": "Origin"
+                }
             }
-        },
-        {
-            "TeamId": "TEAM_2",
-            "EntityCaptured": {
-                "Position": {
-                    "X": 0,
-                    "Y": 0
-                },
-                "EntityType": "Origin"
-            }
-        }
-    ]
+        ]
+    }
 }

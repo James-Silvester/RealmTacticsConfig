@@ -5,3 +5,4 @@ version |   key             		        |   value
 1       |   AI_CONFIG_FILE	                |   config/medieval/version1/ai/aiConfig.json
 1	    |   AI_CONFIG_DEFAULTS_FILE 	    |   config/medieval/version1/ai/aiConfigDefaults.json
 1       |   MAP_SET_KEY                     |   medieval/version1
+1       |   MAP_CONFIG_DEFAULTS_FILE        |   config/medieval/version1/maps/map_defaults.json
