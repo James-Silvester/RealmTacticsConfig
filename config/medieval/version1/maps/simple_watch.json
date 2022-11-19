@@ -1,126 +1,37 @@
 {
     "Width": 10,
     "Height": 7,
+    "TeamsConfig": {
+        "NumberOfTeams": 2,
+        "ActiveTeams": [
+            "TEAM_1",
+            "TEAM_2"
+        ],
+        "StartingTeam": "TEAM_1",
+        "TeamConfig": [
+            {
+                "TeamId": "TEAM_1",
+                "TeamEntity": "Player"
+            },
+            {
+                "TeamId": "TEAM_2",
+                "TeamEntity": "AI_DEFAULT",
+                "AiProfile": "Standard"
+            }
+        ]
+    },
     "EntityConfig": [
-        {
-            "Positions": [
-                {
-                    "X": 0,
-                    "Y": 0
-                }
-            ],
-            "Type": "Castle",
-            "TeamId": "TEAM_1"
-        },
-        {
-            "Positions": [
-                {
-                    "X": 9,
-                    "Y": 6
-                }
-            ],
-            "Type": "Castle",
-            "TeamId": "TEAM_2"
-        },
-        {
-            "Positions": [
-                {
-                    "X": 0,
-                    "Y": 0
-                }
-            ],
-            "Type": "Swordsman",
-            "TeamId": "TEAM_1"
-        },
-        {
-            "Positions": [
-                {
-                    "X": 9,
-                    "Y": 6
-                }
-            ],
-            "Type": "Swordsman",
-            "TeamId": "TEAM_2"
-        },
-        {
-            "Positions": [
-                {
-                    "X": 1,
-                    "Y": 0
-                }
-            ],
-            "Type": "Archer",
-            "TeamId": "TEAM_1"
-        },
-        {
-            "Positions": [
-                {
-                    "X": 8,
-                    "Y": 6
-                }
-            ],
-            "Type": "Archer",
-            "TeamId": "TEAM_2"
-        },
-        {
-            "Positions": [
-                {
-                    "X": 2,
-                    "Y": 0
-                }
-            ],
-            "Type": "Catapult",
-            "TeamId": "TEAM_1"
-        },
-        {
-            "Positions": [
-                {
-                    "X": 7,
-                    "Y": 6
-                }
-            ],
-            "Type": "Catapult",
-            "TeamId": "TEAM_2"
-        },
-        {
-            "Positions": [
-                {
-                    "X": 0,
-                    "Y": 1
-                }
-            ],
-            "Type": "Cavalry",
-            "TeamId": "TEAM_1"
-        },
-        {
-            "Positions": [
-                {
-                    "X": 9,
-                    "Y": 5
-                }
-            ],
-            "Type": "Cavalry",
-            "TeamId": "TEAM_2"
-        },
-        {
-            "Positions": [
-                {
-                    "X": 0,
-                    "Y": 2
-                }
-            ],
-            "Type": "Spearman",
-            "TeamId": "TEAM_1"
-        },
-        {
-            "Positions": [
-                {
-                    "X": 9,
-                    "Y": 4
-                }
-            ],
-            "Type": "Spearman",
-            "TeamId": "TEAM_2"
-        }
+        {   "EntityString": "TEAM_1|Castle|0,0"     },
+        {   "EntityString": "TEAM_2|Castle|9,6"     },
+        {   "EntityString": "TEAM_1|Swordsman|0,0"  },
+        {   "EntityString": "TEAM_2|Swordsman|9,6"  },
+        {   "EntityString": "TEAM_1|Archer|1,0"     },
+        {   "EntityString": "TEAM_2|Archer|8,6"     },
+        {   "EntityString": "TEAM_1|Catapult|2,0"   },
+        {   "EntityString": "TEAM_2|Catapult|7,6"   },
+        {   "EntityString": "TEAM_1|Cavalry|0,1"    },
+        {   "EntityString": "TEAM_2|Cavalry|9,5"    },
+        {   "EntityString": "TEAM_1|Spearman|0,2"   },
+        {   "EntityString": "TEAM_2|Spearman|9,4"   }
     ]
 }
