@@ -1,11 +1,11 @@
-version |   name            |   filename            |   isFile  |   path    |   onUi    |   uiPath  |   uiAction    |   subMeta    |   env     |   notes
-2       |   Defaults        |   map_defaults.json   |   1       |   /       |   0       |   /       |   -           |   0          |   0       |   Medieval Testing Map Defaults
+version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   uiAction    |   subMeta     |   env     |   notes
+2       |   Defaults        |   map_defaults.json               |   1       |   /       |   0       |   /           |   -           |   0           |   0       |   Medieval Testing Map Defaults
 
-5       |   Simple          |   simple.json         |   1       |   /       |   1       |   /       |   loadMap     |   0          |   0       |   Basic Medieval Testing Map
+5       |   Simple          |   simple.json                     |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Basic Medieval Testing Map
 
-1       |   Campaign        |   campaign            |   0       |   /       |   1       |   /       |   folder      |   0          |   0       |   Samples of the AI at work
-1       |   0 - Intro       |   campaign/level_0.json           |   1       |   /       |   1       |   /           |   loadMap    |   0       |   0       |   Level 0
-1       |   1 - Shell       |   campaign/level_1.json           |   1       |   /       |   1       |   /           |   loadMap    |   0       |   0       |   Level 1
+1       |   Campaign        |   campaign                        |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Samples of the AI at work
+1       |   0 - Intro       |   campaign/level_0.json           |   1       |   /       |   1       |   /campaign   |   loadMap     |   0           |   0       |   Level 0
+1       |   1 - Shell       |   campaign/level_1.json           |   1       |   /       |   1       |   /campaign   |   loadMap     |   0           |   0       |   Level 1
 
-1       |   AI Samples      |   ai_samples          |   0       |   /       |   1       |   /       |   folder      |   0          |   0       |   Samples of the AI at work
-6       |   AI Demo         |   ai_samples/simple_watch.json    |   1       |   /       |   1       |   /           |   loadMap    |   0       |   0       |   Basic Medieval AI Testing Map
+1       |   AI Samples      |   ai_samples                      |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Samples of the AI at work
+6       |   AI Demo         |   ai_samples/simple_watch.json    |   1       |   /       |   1       |   /ai_samples |   loadMap     |   0           |   0       |   Basic Medieval AI Testing Map
