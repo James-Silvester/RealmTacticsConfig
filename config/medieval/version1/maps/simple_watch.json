@@ -2,6 +2,12 @@
     "Width": 10,
     "Height": 7,
     "TeamsConfig": {
+        "NumberOfTeams": 2,
+        "ActiveTeams": [
+            "TEAM_1",
+            "TEAM_2"
+        ],
+        "StartingTeam": "TEAM_1",
         "TeamConfig": [
             {
                 "TeamId": "TEAM_1",
