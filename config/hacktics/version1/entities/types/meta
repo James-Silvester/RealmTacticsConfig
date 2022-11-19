@@ -27,5 +27,5 @@ version |   name                |   filename            |   isFile  |   path    
 1       |   Worker Config       |   worker.json         |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for worker unit
 1       |   Worker ImageFile    |   worker.jpeg         |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for worker unit
 
-1       |   Worm Config         |   worm.json           |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for worm unit
-2       |   Worm ImageFile      |   worm.png            |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for worm unit
+2       |   Worm Config         |   worm.json           |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for worm unit
+3       |   Worm ImageFile      |   worm.jpeg            |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for worm unit
