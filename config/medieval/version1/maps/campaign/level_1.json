@@ -1,0 +1,10 @@
+{
+    "Width": 10,
+    "Height": 7,
+    "EntityConfig": [
+        {   "EntityString": "TEAM_1|Cavalry|0,1"    },
+        {   "EntityString": "TEAM_2|Cavalry|9,5"    },
+        {   "EntityString": "TEAM_1|Spearman|0,2"   },
+        {   "EntityString": "TEAM_2|Spearman|9,4"   }
+    ]
+}
