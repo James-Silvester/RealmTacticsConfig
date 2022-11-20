@@ -101,7 +101,7 @@
     "Logging": {
         "Debug": false,
         "Performance": false,
-        "Config": false,
+        "Config": true,
         "State": false,
         "Touch": true,
         "Sprite": false,
