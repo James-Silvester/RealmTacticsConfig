@@ -5,7 +5,7 @@ version |   name                |   filename            |   isFile  |   path    
 4       |   Ground Config       |   ground.json         |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for ground terrain
 3       |   Ground ImageFile    |   ground.png          |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for ground terrain
 
-2       |   Hill Config         |   hill.json           |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for hill terrain
+3       |   Hill Config         |   hill.json           |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for hill terrain
 2       |   Hill ImageFile      |   hill.png            |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for hill terrain
 
 2       |   Palisade Config     |   palisade.json       |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for palisade terrain
