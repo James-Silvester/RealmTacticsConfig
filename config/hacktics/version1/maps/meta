@@ -1,3 +1,7 @@
 version |   name            |   filename            |   isFile  |   path    |   onUi    |   uiPath  |   uiAction    |   subMeta |   env     |   notes
-1       |   Simple          |   simple.json         |   1       |   /       |   1       |   /       |   loadMap     |   0       |   0       |   Basic Hacktics Testing Map
-1       |   AI Demo         |   simple_watch.json   |   1       |   /       |   1       |   /       |   loadMap     |   0       |   0       |   Basic Hacktics AI Testing Map
+2       |   Defaults        |   map_defaults.json               |   1       |   /       |   0       |   /           |   -           |   0           |   0       |   Hacktics Map Defaults
+
+5       |   Simple          |   simple.json                     |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Basic Hacktics Testing Map
+
+1       |   Campaign        |   campaign                        |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Campaign
+1       |   AI Samples      |   ai_samples                      |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Samples of the AI at work

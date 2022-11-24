@@ -27,9 +27,9 @@
     },
     "Team": {
         "Money": {
-            "MoneyType_Name_Primary": "CPU",
-            "MoneyType_Name_Secondary": "GPU",
-            "MoneyType_Name_Tertiary": "Magic"
+            "MoneyType_Name_Primary": "Primary",
+            "MoneyType_Name_Secondary": "Secondary",
+            "MoneyType_Name_Tertiary": "Tertiary"
         },
         "TeamColor1": {
             "r": 1.0,
@@ -101,9 +101,9 @@
     "Logging": {
         "Debug": false,
         "Performance": false,
-        "Config": true,
+        "Config": false,
         "State": false,
-        "Touch": true,
+        "Touch": false,
         "Sprite": false,
         "Networking": false,
         "Money": false,
