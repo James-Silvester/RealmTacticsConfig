@@ -114,7 +114,8 @@
         "Team": false,
         "AIMain": false,
         "AIFeature": false,
-        "AIModule": false
+        "AIModule": false,
+        "Edit": false
     },
     "AI": {
         "TrainingMode": false
