@@ -1,9 +1,9 @@
 version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   uiAction    |   subMeta     |   env     |   notes
 2       |   Defaults        |   map_defaults.json               |   1       |   /       |   0       |   /           |   -           |   0           |   0       |   Hacktics Map Defaults
 
-1       |   Create New Map  |   createMap                       |   0       |   /       |   1       |   /           |   createMap   |   0           |   0       |   Hacktics Create Map
-
 5       |   Simple          |   simple.json                     |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Basic Hacktics Testing Map
 
 1       |   Campaign        |   campaign                        |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Campaign
 1       |   AI Samples      |   ai_samples                      |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Samples of the AI at work
+
+1       |   Custom Maps     |   custom_maps                     |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Custom Maps
