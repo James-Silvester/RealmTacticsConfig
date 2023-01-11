@@ -1,7 +1,7 @@
 version |   name        |   filename    |   isFile  |   path        |   onUi    |   uiPath  |   uiAction    |   subMeta |   env     |   notes
-1       |   New Game    |   config      |   0       |   /           |   1       |   /       |   folder      |   0       |   0       |   Start a new game
-1       |   Load Game   |   saves       |   0       |   /           |   1       |   /       |   folder      |   0       |   0       |   Load a save game
-1       |   Custom Maps |   customMaps  |   0       |   /           |   1       |   /       |   folder      |   0       |   0       |   Load a custom map
+2       |   Game Modes  |   config      |   0       |   /           |   1       |   /       |   folder      |   0       |   0       |   Selection of game modes
+2       |   Load Game   |   saves       |   0       |   /           |   0       |   /       |   folder      |   0       |   0       |   Load a save game
+2       |   Custom Maps |   customMaps  |   0       |   /           |   0       |   /       |   folder      |   0       |   0       |   Load a custom map
 
 1       |   meta        |   meta        |   1       |   /globals    |   0       |   /       |   -           |   1       |   0       |   Global config meta file
 

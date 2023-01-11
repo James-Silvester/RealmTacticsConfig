@@ -115,7 +115,8 @@
         "AIMain": false,
         "AIFeature": false,
         "AIModule": false,
-        "Edit": false
+        "Edit": false,
+        "Save": true
     },
     "AI": {
         "TrainingMode": false

@@ -5,3 +5,6 @@ version |   name            |   filename                        |   isFile  |   
 
 1       |   Campaign        |   campaign                        |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Campaign
 1       |   AI Samples      |   ai_samples                      |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Samples of the AI at work
+
+1       |   Custom Maps     |   custom_maps                     |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Custom Maps
+1       |   Saves           |   saves                           |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Saves
