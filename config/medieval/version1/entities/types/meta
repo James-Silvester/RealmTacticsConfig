@@ -12,7 +12,7 @@ version |   name                |   filename            |   isFile  |   path    
 3       |   Village Config      |   village.json        |   1       |   /building     |   1       |   /building         |   -           |   0       |   0       |   Config for village building
 3       |   Village ImageFile   |   village.png         |   1       |   /building     |   0       |   /building         |   -           |   0       |   0       |   Image for village building
 
-3       |   Wall Config         |   wall.json           |   1       |   /building     |   1       |   /building         |   -           |   0       |   0       |   Config for wall building
+4       |   Wall Config         |   wall.json           |   1       |   /building     |   1       |   /building         |   -           |   0       |   0       |   Config for wall building
 3       |   Wall ImageFile      |   wall.png            |   1       |   /building     |   0       |   /building         |   -           |   0       |   0       |   Image for wall building
 
 

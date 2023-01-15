@@ -2,7 +2,7 @@
     "Name": "Wall",
     "Description": "Stone wall",
     "Sprite": {
-        "FilePath": "terrain/wall.png",
+        "FilePath": "building/wall.png",
         "PixelsPerUnit": 532
     },
     "Tags": [
