@@ -1,21 +1,26 @@
 {
-    "Name": "Castle",
-    "Description": "Main Castle",
+    "Name": "Village",
+    "Description": "Village",
     "Sprite": {
-        "FilePath": "terrain/castle.png",
+        "FilePath": "building/village.png",
         "PixelsPerUnit": 500
     },
     "Tags": [
-        "Terrain"
+        "Building"
     ],
     "Defence": {
-        "DefenceIndicator": "HIGH",
+        "DefenceIndicator": "MEDIUM",
         "SpecificDefence": [
             {
                 "Defence": 0.5,
                 "ApplyToEnemies": true
             }
         ]
+    },
+    "Money": {
+        "PrimaryIncome": 5,
+        "SecondaryIncome": 0,
+        "TertiaryIncome": 0
     },
     "Capture": {
         "PointsToCapture": 1

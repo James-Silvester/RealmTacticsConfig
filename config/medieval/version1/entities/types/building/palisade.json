@@ -1,0 +1,31 @@
+{
+    "Name": "Palisade",
+    "Description": "Wooden wall",
+    "Sprite": {
+        "FilePath": "building/palisade.png",
+        "PixelsPerUnit": 900
+    },
+    "Tags": [
+        "Building"
+    ],
+    "Movement": {
+        "OthersTagCost": {
+            "Unit": 1
+        }
+    },
+    "Attack": {
+        "CanBeAttacked": true
+    },
+    "Defence": {
+        "DefenceIndicator": "HIGH",
+        "SpecificDefence": [
+            {
+                "Defence": 0.5,
+                "ApplyToEnemies": false
+            }
+        ]
+    },
+    "Purchase": {
+        "PrimaryCost": 8
+    }
+}

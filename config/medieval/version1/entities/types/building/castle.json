@@ -1,0 +1,28 @@
+{
+    "Name": "Castle",
+    "Description": "Main Castle",
+    "Sprite": {
+        "FilePath": "building/castle.png",
+        "PixelsPerUnit": 500
+    },
+    "Tags": [
+        "Building"
+    ],
+    "Defence": {
+        "DefenceIndicator": "HIGH",
+        "SpecificDefence": [
+            {
+                "Defence": 0.8,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Money": {
+        "PrimaryIncome": 10,
+        "SecondaryIncome": 0,
+        "TertiaryIncome": 0
+    },
+    "Capture": {
+        "PointsToCapture": 1
+    }
+}

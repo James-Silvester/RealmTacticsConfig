@@ -1,0 +1,9 @@
+{
+    "Name": "Mounted",
+    "Description": "A fast mounted unit",
+    "Defaults": {
+        "EntityAbility": {
+            "AbilityPoints": 2
+        }
+    }
+}

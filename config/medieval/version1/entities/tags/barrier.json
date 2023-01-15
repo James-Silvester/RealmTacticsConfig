@@ -1,0 +1,14 @@
+{
+    "Name": "Barrier",
+    "Description": "Barrier that prevents others movement",
+    "Defaults": {
+        "Layer": 4,
+        "Selectable": true,
+        "Movement": {
+            "Default": "Static",
+            "OthersTagCost": {
+                "Unit": 999
+            }
+        }
+    }
+}

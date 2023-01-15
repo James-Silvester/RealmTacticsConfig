@@ -1,0 +1,9 @@
+{
+    "Name": "Siege",
+    "Description": "A slow hard hitting unit",
+    "Defaults": {
+        "EntityAbility": {
+            "AbilityPoints": 1
+        }
+    }
+}

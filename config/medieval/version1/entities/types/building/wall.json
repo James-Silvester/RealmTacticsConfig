@@ -6,11 +6,18 @@
         "PixelsPerUnit": 532
     },
     "Tags": [
-        "Terrain"
+        "Building",
+        "Barrier"
     ],
+    "Attack": {
+        "CanBeAttacked": true
+    },
     "Movement": {
         "OthersTagCost": {
             "Unit": 99
         }
+    },
+    "Purchase": {
+        "PrimaryCost": 15
     }
 }

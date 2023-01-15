@@ -6,17 +6,21 @@
         "PixelsPerUnit": 513
     },
     "Tags": [
-        "Unit"
+        "Unit",
+        "Siege"
     ],
     "EntityAbility": {
         "AbilityPoints": 1
     },
     "Movement": {
-        "Movement": 1,
+        "Movement": 2,
         "AbilityConfig": {
             "PointCost": 1,
             "UsesPerTurn": 1
         }
+    },
+    "Purchase": {
+        "PrimaryCost": 10
     },
     "Attack": {
         "RangeAttacks": [

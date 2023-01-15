@@ -6,7 +6,8 @@
         "PixelsPerUnit": 513
     },
     "Tags": [
-        "Unit"
+        "Unit",
+        "Mounted"
     ],
     "Movement": {
         "Movement": 4,
@@ -15,6 +16,9 @@
             "PointCost": 1,
             "UsesPerTurn": 1
         }
+    },
+    "Purchase": {
+        "PrimaryCost": 5
     },
     "Attack": {
         "DirectAttacks": [

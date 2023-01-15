@@ -16,6 +16,9 @@
             "UsesPerTurn": 1
         }
     },
+    "Purchase": {
+        "PrimaryCost": 4
+    },
     "Attack": {
         "DirectAttacks": [
             {

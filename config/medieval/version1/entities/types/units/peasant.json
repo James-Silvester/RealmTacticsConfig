@@ -1,0 +1,31 @@
+{
+    "Name": "Peasant",
+    "Description": "Builder",
+    "Sprite": {
+        "FilePath": "units/peasant.png",
+        "PixelsPerUnit": 300
+    },
+    "Tags": [
+        "Unit"
+    ],
+    "Movement": {
+        "Movement": 2,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Purchase": {
+        "PrimaryCost": 1,
+        "Selector": {
+            "AllowTags": [
+                "Barrier"
+            ]
+        },
+        "AbilityConfig": {
+            "PointCost": 1,
+            "EndsTurn": true
+        },
+        "EntitiesProducedHaveActions": false
+    }
+}

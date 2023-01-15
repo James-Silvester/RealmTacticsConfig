@@ -12,6 +12,10 @@
         },
         "EntityAbility": {
             "AbilityPoints": 2
+        },
+        "Purchase": {
+            "CanBePurchased": true,
+            "PrimaryCost": 1
         }
     }
 }
