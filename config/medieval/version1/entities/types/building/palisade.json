@@ -10,7 +10,7 @@
     ],
     "Movement": {
         "OthersTagCost": {
-            "Unit": 1
+            "Unit": 2
         }
     },
     "Attack": {

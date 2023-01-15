@@ -19,7 +19,7 @@
         "PrimaryCost": 1,
         "Selector": {
             "AllowTags": [
-                "Barrier"
+                "Unit"
             ]
         },
         "AbilityConfig": {

@@ -6,7 +6,7 @@ version |   name                |   filename            |   isFile  |   path    
 3       |   Castle Config       |   castle.json         |   1       |   /building     |   1       |   /building         |   -           |   0       |   0       |   Config for castle building
 3       |   Castle ImageFile    |   castle.png          |   1       |   /building     |   0       |   /building         |   -           |   0       |   0       |   Image for castle building
 
-3       |   Palisade Config     |   palisade.json       |   1       |   /building     |   1       |   /building         |   -           |   0       |   0       |   Config for palisade building
+4       |   Palisade Config     |   palisade.json       |   1       |   /building     |   1       |   /building         |   -           |   0       |   0       |   Config for palisade building
 3       |   Palisade ImageFile  |   palisade.png        |   1       |   /building     |   0       |   /building         |   -           |   0       |   0       |   Image for palisade building
 
 3       |   Village Config      |   village.json        |   1       |   /building     |   1       |   /building         |   -           |   0       |   0       |   Config for village building
@@ -26,7 +26,7 @@ version |   name                |   filename            |   isFile  |   path    
 5       |   River Config        |   river.json          |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for river terrain
 5       |   River ImageFile     |   river.png           |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for river terrain
 
-5       |   Woods Config        |   woods.json          |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for woods terrain
+6       |   Woods Config        |   woods.json          |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for woods terrain
 5       |   Woods ImageFile     |   woods.jpeg          |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for woods terrain
 
 
@@ -35,13 +35,13 @@ version |   name                |   filename            |   isFile  |   path    
 3       |   Archer Config       |   archer.json         |   1       |   /units        |   1       |   /units            |   -           |   0       |   0       |   Config for archer unit
 3       |   Archer ImageFile    |   archer.png          |   1       |   /units        |   0       |   /units            |   -           |   0       |   0       |   Image for archer unit
 
-3       |   Catapult Config     |   catapult.json       |   1       |   /units        |   1       |   /units            |   -           |   0       |   0       |   Config for catapult unit
+4       |   Catapult Config     |   catapult.json       |   1       |   /units        |   1       |   /units            |   -           |   0       |   0       |   Config for catapult unit
 3       |   Catapult ImageFile  |   catapult.png        |   1       |   /units        |   0       |   /units            |   -           |   0       |   0       |   Image for catapult unit
 
 3       |   Cavalry Config      |   cavalry.json        |   1       |   /units        |   1       |   /units            |   -           |   0       |   0       |   Config for cavalry unit
 3       |   Cavalry ImageFile   |   cavalry.png         |   1       |   /units        |   0       |   /units            |   -           |   0       |   0       |   Image for cavalry unit
 
-3       |   Peasant Config      |   peasant.json        |   1       |   /units        |   1       |   /units            |   -           |   0       |   0       |   Config for peasant unit
+4       |   Peasant Config      |   peasant.json        |   1       |   /units        |   1       |   /units            |   -           |   0       |   0       |   Config for peasant unit
 3       |   Peasant ImageFile   |   peasant.png         |   1       |   /units        |   0       |   /units            |   -           |   0       |   0       |   Image for peasant unit
 
 3       |   Spearman Config     |   spearman.json       |   1       |   /units        |   1       |   /units            |   -           |   0       |   0       |   Config for spearman unit

@@ -10,7 +10,7 @@
         "Mounted"
     ],
     "Movement": {
-        "Movement": 4,
+        "Movement": 6,
         "EntityCost": {},
         "AbilityConfig": {
             "PointCost": 1,

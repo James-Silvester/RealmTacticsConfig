@@ -20,7 +20,8 @@
     },
     "Movement": {
         "OthersTagCost": {
-            "Unit": 0
+            "Unit": 2,
+            "Mounted": 4
         }
     }
 }
