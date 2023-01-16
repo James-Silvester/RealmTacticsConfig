@@ -21,6 +21,7 @@
             }
         }
     },
+    "Construction": {},
     "Capture": {
         "CapturePoints": 0,
         "AbilityConfig": {
