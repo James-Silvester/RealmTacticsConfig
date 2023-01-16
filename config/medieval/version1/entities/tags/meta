@@ -1,5 +1,5 @@
 version |   name                |   filename            |   isFile  |   path    |   onUi    |   uiPath              |   uiAction    |   subMeta |   env     |   notes
-3       |   Barrier Config      |   barrier.json        |   1       |   /       |   1       |   /building/barrier   |   -           |   0       |   0       |   Barrier class
+4       |   Barrier Config      |   barrier.json        |   1       |   /       |   1       |   /building/barrier   |   -           |   0       |   0       |   Barrier class
 3       |   Building Config     |   building.json       |   1       |   /       |   1       |   /building           |   -           |   0       |   0       |   Base Building class
 3       |   Mounted Unit Config |   mounted.json        |   1       |   /       |   1       |   /unit/mounted       |   -           |   0       |   0       |   Mounted unit class
 3       |   Siege Unit Config   |   siege.json          |   1       |   /       |   1       |   /unit/siege         |   -           |   0       |   0       |   Siege unit class

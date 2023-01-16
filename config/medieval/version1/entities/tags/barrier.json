@@ -9,6 +9,9 @@
             "OthersTagCost": {
                 "Unit": 999
             }
+        },
+        "Purchase": {
+            "CanBePurchased": true
         }
     }
 }
