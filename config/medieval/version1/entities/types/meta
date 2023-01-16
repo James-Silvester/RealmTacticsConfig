@@ -41,7 +41,7 @@ version |   name                |   filename            |   isFile  |   path    
 3       |   Cavalry Config      |   cavalry.json        |   1       |   /units        |   1       |   /units            |   -           |   0       |   0       |   Config for cavalry unit
 3       |   Cavalry ImageFile   |   cavalry.png         |   1       |   /units        |   0       |   /units            |   -           |   0       |   0       |   Image for cavalry unit
 
-4       |   Peasant Config      |   peasant.json        |   1       |   /units        |   1       |   /units            |   -           |   0       |   0       |   Config for peasant unit
+5       |   Peasant Config      |   peasant.json        |   1       |   /units        |   1       |   /units            |   -           |   0       |   0       |   Config for peasant unit
 3       |   Peasant ImageFile   |   peasant.png         |   1       |   /units        |   0       |   /units            |   -           |   0       |   0       |   Image for peasant unit
 
 3       |   Spearman Config     |   spearman.json       |   1       |   /units        |   1       |   /units            |   -           |   0       |   0       |   Config for spearman unit

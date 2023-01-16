@@ -19,8 +19,11 @@
         "PrimaryCost": 1,
         "Selector": {
             "AllowTags": [
-                "Unit"
-            ]
+                "Barrier"
+            ],
+            "DisallowTags": [],
+            "AllowEntities": [],
+            "DisallowEntities": []
         },
         "AbilityConfig": {
             "PointCost": 1,
