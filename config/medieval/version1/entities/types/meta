@@ -6,7 +6,7 @@ version |   name                |   filename            |   isFile  |   path    
 3       |   Castle Config       |   castle.json         |   1       |   /building     |   1       |   /building         |   -           |   0       |   0       |   Config for castle building
 3       |   Castle ImageFile    |   castle.png          |   1       |   /building     |   0       |   /building         |   -           |   0       |   0       |   Image for castle building
 
-4       |   Palisade Config     |   palisade.json       |   1       |   /building     |   1       |   /building         |   -           |   0       |   0       |   Config for palisade building
+5       |   Palisade Config     |   palisade.json       |   1       |   /building     |   1       |   /building         |   -           |   0       |   0       |   Config for palisade building
 3       |   Palisade ImageFile  |   palisade.png        |   1       |   /building     |   0       |   /building         |   -           |   0       |   0       |   Image for palisade building
 
 3       |   Village Config      |   village.json        |   1       |   /building     |   1       |   /building         |   -           |   0       |   0       |   Config for village building

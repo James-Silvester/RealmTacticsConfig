@@ -6,7 +6,8 @@
         "PixelsPerUnit": 900
     },
     "Tags": [
-        "Building"
+        "Building",
+        "Barrier"
     ],
     "Movement": {
         "OthersTagCost": {

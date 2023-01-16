@@ -21,15 +21,6 @@
             }
         }
     },
-    "Construction": {
-        "Selector": {
-            "AllowTags": []
-        },
-        "AbilityConfig": {
-            "PointCost": 1
-        },
-        "Subtype": {}
-    },
     "Capture": {
         "CapturePoints": 0,
         "AbilityConfig": {
