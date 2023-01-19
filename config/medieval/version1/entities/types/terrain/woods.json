@@ -1,7 +1,6 @@
 {
     "Name": "Woods",
     "Description": "A deep dark woods",
-    "Layer": 1,
     "Sprite": {
         "FilePath": "terrain/woods.jpeg",
         "PixelsPerUnit": 225

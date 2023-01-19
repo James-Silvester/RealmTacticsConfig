@@ -26,7 +26,7 @@ version |   name                |   filename            |   isFile  |   path    
 5       |   River Config        |   river.json          |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for river terrain
 5       |   River ImageFile     |   river.png           |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for river terrain
 
-6       |   Woods Config        |   woods.json          |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for woods terrain
+7       |   Woods Config        |   woods.json          |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for woods terrain
 5       |   Woods ImageFile     |   woods.jpeg          |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for woods terrain
 
 
