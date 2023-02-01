@@ -1,0 +1,10 @@
+version |   name            |   filename        |   isFile  |   path        |   onUi    |   uiPath  |   uiAction    |   subMeta |   env     |   notes
+1       |   Maps            |   maps            |   0       |   /           |   1       |   /       |   folder      |   0       |   0       |   Testing Maps
+1       |   Entities        |   entities        |   0       |   /           |   0       |   /       |   folder      |   0       |   0       |   Testing Entities
+2       |   AI              |   ai              |   0       |   /           |   0       |   /       |   folder      |   0       |   0       |   Testing AI
+
+1       |   meta            |   meta            |   1       |   /maps       |   0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
+1       |   meta            |   meta            |   1       |   /entities   |   0       |   /       |   -           |   1       |   0       |   Testing Entities meta file
+1       |   meta            |   meta            |   1       |   /ai         |   0       |   /       |   -           |   1       |   0       |   Testing AI meta file
+
+2       |   env             |   env             |   1       |   /           |   0       |   /       |   -           |   0       |   1       |   Testing Enviroment

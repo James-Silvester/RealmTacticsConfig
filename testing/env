@@ -1,0 +1,10 @@
+version |   key             		        |   value
+1       |   ENTITY_TYPE_CONFIG_FOLDER	    |   testing/entities/types
+1	    |   ENTITY_TAG_CONFIG_FOLDER	    |   testing/entities/tags
+1	    |   ENTITY_DEFAULTS_FILE	        |   testing/entities/entityDefaults.json
+1       |   AI_CONFIG_FILE	                |   testing/ai/aiConfig.json
+1	    |   AI_CONFIG_DEFAULTS_FILE 	    |   testing/ai/aiConfigDefaults.json
+1       |   MAP_SET_KEY                     |   testing
+1       |   MAP_CONFIG_DEFAULTS_FILE        |   testing/maps/map_defaults.json
+1       |   SAVES_DIRECTORY                 |   testing/maps/saves
+1       |   CUSTOM_MAPS_DIRECTORY           |   testing/maps/custom_maps

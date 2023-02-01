@@ -1,0 +1,25 @@
+{
+    "Name": "5Movement",
+    "Description": "5 Movement",
+    "Sprite": {
+        "FilePath": "units/5Movement.jpeg",
+        "PixelsPerUnit": 512
+    },
+    "Tags": [
+        "Unit"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 1
+    },
+    "Movement": {
+        "Movement": 5,
+        "EntityCost": {},
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Defence": {
+        "CanUseDefence": true
+    }
+}

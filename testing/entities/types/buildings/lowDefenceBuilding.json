@@ -1,0 +1,25 @@
+{
+    "Name": "LowDefenceBuilding",
+    "Description": "Low defence building",
+    "Sprite": {
+        "FilePath": "buildings/lowDefenceBuilding.jpeg",
+        "PixelsPerUnit": 512
+    },
+    "Tags": [
+        "Building"
+    ],
+    "Defence": {
+        "DefenceIndicator": "LOW",
+        "SpecificDefence": [
+            {
+                "Selector": {
+                    "AllowTags": [
+                        "Unit"
+                    ]
+                },
+                "Defence": 0.2,
+                "ApplyToEnemies": true
+            }
+        ]
+    }
+}

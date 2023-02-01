@@ -1,0 +1,4 @@
+version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   uiAction    |   subMeta     |   env     |   notes
+2       |   Defaults        |   map_defaults.json               |   1       |   /       |   0       |   /           |   -           |   0           |   0       |   Hacktics Map Defaults
+
+1       |   Basic           |   basic                           |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Basic tests
