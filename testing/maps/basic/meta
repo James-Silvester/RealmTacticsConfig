@@ -1,2 +1,3 @@
 version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   uiAction    |   subMeta     |   env     |   notes
-6       |   Testing         |   test.json                       |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Basic Test
+1       |   Basic Movement  |   basic-movement.json             |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Basic Test
+1       |   Basic Attack    |   basic-attack.json               |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Basic Test
