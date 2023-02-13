@@ -12,3 +12,6 @@ version |   name                |   filename            |   isFile  |   path    
 
 1       |   5Movement Config         |   5Movement.json           |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   5Movement
 1       |   5Movement ImageFile      |   5Movement.jpeg           |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   5Movement
+
+1       |   DirectAttackMove Config    |   directAttackMove.json  |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   DirectAttackMove
+1       |   DirectAttackMove ImageFile |   directAttackMove.jpeg  |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   DirectAttackMove

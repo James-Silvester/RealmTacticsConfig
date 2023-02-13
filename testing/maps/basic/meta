@@ -1,3 +1,4 @@
 version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   uiAction    |   subMeta     |   env     |   notes
+1       |   Basic Menu      |   basic-menu.json                 |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Basic Test
 1       |   Basic Movement  |   basic-movement.json             |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Basic Test
 1       |   Basic Attack    |   basic-attack.json               |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Basic Test

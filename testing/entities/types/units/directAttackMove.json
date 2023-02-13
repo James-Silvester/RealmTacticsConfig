@@ -1,0 +1,45 @@
+{
+    "Name": "DirectAttackMove",
+    "Description": "Direct Attack Move",
+    "Sprite": {
+        "FilePath": "units/directAttackMove.jpeg",
+        "PixelsPerUnit": 512
+    },
+    "Tags": [
+        "Unit"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 1
+    },
+    "Movement": {
+        "Movement": 5,
+        "EntityCost": {},
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Defence": {
+        "CanUseDefence": true
+    },
+    "Attack": {
+        "DirectAttacks": [
+            {
+                "Name": "Attack",
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 0.2,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1
+                    }
+                }
+            }
+        ]
+    }
+}
