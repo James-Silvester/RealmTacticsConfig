@@ -1,60 +1,21 @@
 {
-    "Width": 10,
+    "Width": 7,
     "Height": 7,
-    "TeamsConfig": {
-        "NumberOfTeams": 2,
-        "ActiveTeams": [
-            "TEAM_1",
-            "TEAM_2"
-        ],
-        "StartingTeam": "TEAM_1",
-        "TeamConfig": [
-            {
-                "TeamId": "TEAM_1",
-                "TeamEntity": "AI_DEFAULT",
-                "AiProfile": "Standard"
-            },
-            {
-                "TeamId": "TEAM_2",
-                "TeamEntity": "AI_DEFAULT",
-                "AiProfile": "Standard"
-            }
-        ]
-    },
     "EntityConfig": [
         {
-            "Positions": [
-                {
-                    "X": 0,
-                    "Y": 0
-                }
-            ],
-            "Type": "LowDefenceBuilding",
-            "TeamId": "TEAM_1"
-        }
-    ],
-    "WinConditions": [
-        {
-            "TeamId": "TEAM_1",
-            "EnemyEntitiesRemaining": 0,
-            "EnemyEntitiesRemainingTagFilter": "Unit",
-            "TurnNumber": 4
+            "EntityString": "TEAM_1|5Movement|0,0"
         },
         {
-            "TeamId": "TEAM_2",
-            "EnemyEntitiesRemaining": 0,
-            "EnemyEntitiesRemainingTagFilter": "Unit",
-            "TurnNumber": 4
+            "EntityString": "TEAM_1|5Movement|0,1"
         },
         {
-            "TeamId": "TEAM_1",
-            "TurnNumber": 99
+            "EntityString": "TEAM_1|ImpassibleTerrain|1,1"
         }
     ],
     "Test": {
         "TestSteps": {
-            "1": {
-                "Description": "Select unit",
+            "0": {
+                "Description": "Range test - Select unit",
                 "Type": "SELECT_POSITION",
                 "Config": {
                     "X": 0,
@@ -62,14 +23,63 @@
                     "Select": true
                 }
             },
-            "99": {
-                "Description": "Test Complete",
-                "Type": "TEST_COMPLETE",
+            "1": {
+                "Description": "Range test - Check movement valid",
+                "Type": "CHECK_HIGHLIGHT",
+                "Config": {
+                    "X": 5,
+                    "Y": 0,
+                    "Type": "MOVEMENT"
+                }
+            },
+            "2": {
+                "Description": "Range test - Check movement invalid",
+                "Type": "CHECK_HIGHLIGHT",
+                "Config": {
+                    "X": 6,
+                    "Y": 0,
+                    "Type": "NONE"
+                }
+            },
+            "10": {
+                "Description": "Impassible test - Select unit",
+                "Type": "SELECT_POSITION",
                 "Config": {
                     "X": 0,
-                    "Y": 0,
+                    "Y": 1,
                     "Select": true
                 }
+            },
+            "11": {
+                "Description": "Impassible test - Check movement invalid on impassible terrain",
+                "Type": "CHECK_HIGHLIGHT",
+                "Config": {
+                    "X": 1,
+                    "Y": 1,
+                    "Type": "NONE"
+                }
+            },
+            "12": {
+                "Description": "Impassible test - Check movement cant pass through impassible terrain",
+                "Type": "CHECK_HIGHLIGHT",
+                "Config": {
+                    "X": 4,
+                    "Y": 1,
+                    "Type": "NONE"
+                }
+            },
+            "13": {
+                "Description": "Impassible test - Check movement valid going round the impassible terrain",
+                "Type": "CHECK_HIGHLIGHT",
+                "Config": {
+                    "X": 3,
+                    "Y": 1,
+                    "Type": "MOVEMENT"
+                }
+            },
+            "999": {
+                "Description": "Test Complete",
+                "Type": "TEST_COMPLETE"
             }
         }
     }

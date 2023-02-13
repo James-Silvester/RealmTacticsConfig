@@ -6,6 +6,9 @@ version |   name                |   filename            |   isFile  |   path    
 1       |   BaseTerrain Config       |   baseTerrain.json         |   1       |   /terrain    |   1       |   /terrain        |   -           |   0       |   0       |   BaseTerrain
 1       |   BaseTerrain ImageFile    |   baseTerrain.jpeg         |   1       |   /terrain    |   0       |   /terrain        |   -           |   0       |   0       |   BaseTerrain
 
+1       |   ImpassibleTerrain Config     | impassibleTerrain.json  |   1       |   /terrain    |   1       |   /terrain        |   -           |   0       |   0       |   ImpassibleTerrain
+1       |   ImpassibleTerrain ImageFile  | impassibleTerrain.jpeg  |   1       |   /terrain    |   0       |   /terrain        |   -           |   0       |   0       |   ImpassibleTerrain
+
 
 1       |   5Movement Config         |   5Movement.json           |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   5Movement
 1       |   5Movement ImageFile      |   5Movement.jpeg           |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   5Movement

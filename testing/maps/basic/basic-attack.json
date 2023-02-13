@@ -1,26 +1,6 @@
 {
     "Width": 10,
     "Height": 7,
-    "TeamsConfig": {
-        "NumberOfTeams": 2,
-        "ActiveTeams": [
-            "TEAM_1",
-            "TEAM_2"
-        ],
-        "StartingTeam": "TEAM_1",
-        "TeamConfig": [
-            {
-                "TeamId": "TEAM_1",
-                "TeamEntity": "AI_DEFAULT",
-                "AiProfile": "Standard"
-            },
-            {
-                "TeamId": "TEAM_2",
-                "TeamEntity": "AI_DEFAULT",
-                "AiProfile": "Standard"
-            }
-        ]
-    },
     "EntityConfig": [
         {
             "Positions": [
@@ -31,24 +11,6 @@
             ],
             "Type": "LowDefenceBuilding",
             "TeamId": "TEAM_1"
-        }
-    ],
-    "WinConditions": [
-        {
-            "TeamId": "TEAM_1",
-            "EnemyEntitiesRemaining": 0,
-            "EnemyEntitiesRemainingTagFilter": "Unit",
-            "TurnNumber": 4
-        },
-        {
-            "TeamId": "TEAM_2",
-            "EnemyEntitiesRemaining": 0,
-            "EnemyEntitiesRemainingTagFilter": "Unit",
-            "TurnNumber": 4
-        },
-        {
-            "TeamId": "TEAM_1",
-            "TurnNumber": 99
         }
     ]
 }
