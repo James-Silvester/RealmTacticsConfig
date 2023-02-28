@@ -3,7 +3,7 @@
         "CameraMaxZoom": 2.0,
         "CameraMinZoom": 10.0,
         "FollowCameraSpacing": 1,
-        "FollowCameraSpeed": 40,
+        "FollowCameraSpeed": 500,
         "FollowCameraAcceleration": 20,
         "TouchFollowSpeed": 1,
         "CursorMoveSkips": 0,
