@@ -19,8 +19,7 @@
                 "Type": "SELECT_POSITION",
                 "Config": {
                     "X": 0,
-                    "Y": 0,
-                    "Select": true
+                    "Y": 0
                 }
             },
             "1": {
@@ -41,13 +40,20 @@
                     "Type": "NONE"
                 }
             },
+            "3": {
+                "Description": "Range test - Unselect unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 6,
+                    "Y": 0
+                }
+            },
             "10": {
                 "Description": "Impassible test - Select unit",
                 "Type": "SELECT_POSITION",
                 "Config": {
                     "X": 0,
-                    "Y": 1,
-                    "Select": true
+                    "Y": 1
                 }
             },
             "11": {
@@ -63,7 +69,7 @@
                 "Description": "Impassible test - Check movement cant pass through impassible terrain",
                 "Type": "CHECK_HIGHLIGHT",
                 "Config": {
-                    "X": 4,
+                    "X": 5,
                     "Y": 1,
                     "Type": "NONE"
                 }

@@ -3,78 +3,59 @@
     "Height": 7,
     "EntityConfig": [
         {
-            "EntityString": "TEAM_1|5Movement|0,0"
+            "EntityString": "TEAM_1|DirectAttackMove|1,0"
         },
         {
-            "EntityString": "TEAM_1|5Movement|0,1"
+            "EntityString": "TEAM_2|DirectAttackMove|1,1"
         },
         {
-            "EntityString": "TEAM_1|ImpassibleTerrain|1,1"
+            "EntityString": "TEAM_1|ImpassibleTerrain|2,0"
         }
     ],
     "Test": {
         "TestSteps": {
             "0": {
-                "Description": "Range test - Select unit",
+                "Description": "Main menu test - Select nothing",
                 "Type": "SELECT_POSITION",
                 "Config": {
                     "X": 0,
                     "Y": 0,
-                    "Select": true
+                    "DoubleTap": true
                 }
             },
             "1": {
-                "Description": "Range test - Check movement valid",
-                "Type": "CHECK_HIGHLIGHT",
+                "Description": "Main menu test - Check menu options",
+                "Type": "CHECK_ACTIONS",
                 "Config": {
-                    "X": 5,
-                    "Y": 0,
-                    "Type": "MOVEMENT"
-                }
-            },
-            "2": {
-                "Description": "Range test - Check movement invalid",
-                "Type": "CHECK_HIGHLIGHT",
-                "Config": {
-                    "X": 6,
-                    "Y": 0,
-                    "Type": "NONE"
+                    "OptionNames": [
+                        "End Turn",
+                        "Zoom In",
+                        "Zoom Out",
+                        "Toggle Gamepad",
+                        "Save",
+                        "New Save",
+                        "Edit Mode",
+                        "Exit Map"
+                    ]
                 }
             },
             "10": {
-                "Description": "Impassible test - Select unit",
+                "Description": "Unit select menu test - Select unit with attack and movement",
                 "Type": "SELECT_POSITION",
                 "Config": {
-                    "X": 0,
-                    "Y": 1,
-                    "Select": true
-                }
-            },
-            "11": {
-                "Description": "Impassible test - Check movement invalid on impassible terrain",
-                "Type": "CHECK_HIGHLIGHT",
-                "Config": {
                     "X": 1,
-                    "Y": 1,
-                    "Type": "NONE"
+                    "Y": 0
                 }
             },
             "12": {
-                "Description": "Impassible test - Check movement cant pass through impassible terrain",
-                "Type": "CHECK_HIGHLIGHT",
+                "Description": "Unit select test - Check menu options",
+                "Type": "CHECK_ACTIONS",
                 "Config": {
-                    "X": 5,
-                    "Y": 1,
-                    "Type": "NONE"
-                }
-            },
-            "13": {
-                "Description": "Impassible test - Check movement valid going round the impassible terrain",
-                "Type": "CHECK_HIGHLIGHT",
-                "Config": {
-                    "X": 3,
-                    "Y": 1,
-                    "Type": "MOVEMENT"
+                    "OptionNames": [
+                        "Attack",
+                        "Movement",
+                        "Wait"
+                    ]
                 }
             },
             "999": {
