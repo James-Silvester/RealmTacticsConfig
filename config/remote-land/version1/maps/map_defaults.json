@@ -1,0 +1,52 @@
+{
+    "CursorStartingX": 5,
+    "CursorStartingY": 5,
+    "CameraStartingX": 5,
+    "CameraStartingY": 5,
+    "TeamsConfig": {
+        "NumberOfTeams": 2,
+        "ActiveTeams": [
+            "TEAM_1",
+            "TEAM_2"
+        ],
+        "StartingTeam": "TEAM_1",
+        "TeamConfig": [
+            {
+                "TeamId": "TEAM_1",
+                "TeamEntity": "Player"
+            },
+            {
+                "TeamId": "TEAM_2",
+                "TeamEntity": "AI_DEFAULT",
+                "AiProfile": "Standard"
+            }
+        ]
+    },
+    "EntityConfig": [
+        {
+            "AllPositions": true,
+            "Type": "Grassland",
+            "TeamId": "TEAM_UNDEFINED"
+        }
+    ],
+    "Conditions": {
+        "WinConditions": [
+            {
+                "TeamId": "TEAM_1",
+                "EnemyEntitiesRemaining": 0,
+                "EnemyEntitiesRemainingTagFilter": "Unit",
+                "TurnNumber": 4
+            },
+            {
+                "TeamId": "TEAM_2",
+                "EnemyEntitiesRemaining": 0,
+                "EnemyEntitiesRemainingTagFilter": "Unit",
+                "TurnNumber": 4
+            },
+            {
+                "TeamId": "TEAM_1",
+                "TurnNumber": 99
+            }
+        ]
+    }
+}

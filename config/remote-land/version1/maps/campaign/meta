@@ -1,0 +1,3 @@
+version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   uiAction    |   subMeta     |   env     |   notes
+2       |   0 - Intro       |   level_0.json                    |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Level 0
+1       |   1 - Shell       |   level_1.json                    |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Level 1

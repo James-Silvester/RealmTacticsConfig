@@ -1,0 +1,21 @@
+{
+    "Name": "Unit",
+    "Description": "A controllable unit",
+    "Defaults": {
+        "Layer": 5,
+        "Selectable": true,
+        "Attack": {
+            "CanBeAttacked": true
+        },
+        "Defence": {
+            "CanUseDefence": true
+        },
+        "EntityAbility": {
+            "AbilityPoints": 2
+        },
+        "Purchase": {
+            "CanBePurchased": true,
+            "PrimaryCost": 1
+        }
+    }
+}

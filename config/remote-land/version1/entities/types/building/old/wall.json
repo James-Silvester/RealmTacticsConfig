@@ -1,0 +1,23 @@
+{
+    "Name": "Wall",
+    "Description": "Stone wall",
+    "Sprite": {
+        "FilePath": "building/wall.png",
+        "PixelsPerUnit": 532
+    },
+    "Tags": [
+        "Building",
+        "Barrier"
+    ],
+    "Attack": {
+        "CanBeAttacked": true
+    },
+    "Movement": {
+        "OthersTagCost": {
+            "Unit": 99
+        }
+    },
+    "Purchase": {
+        "PrimaryCost": 15
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "Name": "Woods",
+    "Description": "A deep dark woods",
+    "Sprite": {
+        "FilePath": "terrain/woods.jpeg",
+        "PixelsPerUnit": 225
+    },
+    "Tags": [
+        "Terrain"
+    ],
+    "Defence": {
+        "DefenceIndicator": "MEDIUM",
+        "SpecificDefence": [
+            {
+                "Defence": 0.3,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Movement": {
+        "OthersTagCost": {
+            "Unit": 2,
+            "Mounted": 4
+        }
+    }
+}

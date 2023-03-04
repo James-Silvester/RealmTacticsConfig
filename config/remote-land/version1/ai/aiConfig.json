@@ -1,0 +1,38 @@
+{
+    "Profiles": {
+        "Standard": {
+            "Description": "The standard profile",
+            "Values": {
+                "Modules": {
+                    "Attack": {
+                        "SimpleClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 5.0,
+                        "AttackEffectivenessFeature": 2.0,
+                        "AttackPossibleFeature": 6.5,
+                        "ValidEndMovementRangeFeature": 1.0,
+                        "PositionDefenceFeature": 1.0,
+                        "RandomFeature": 0.5
+                    },
+                    "Defence": {}
+                }
+            },
+            "EntityOverrides": {
+                "FunnyEntity": {
+                    "Modules": {
+                        "Attack": {}
+                    }
+                }
+            }
+        },
+        "Aggressive": {
+            "Description": "Agressive personality",
+            "Values": {
+                "Modules": {
+                    "Attack": {
+                        "Feature1": 0.3
+                    }
+                }
+            },
+            "EntityOverrides": {}
+        }
+    }
+}

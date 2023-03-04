@@ -1,0 +1,42 @@
+{
+    "Name": "Swordsman",
+    "Description": "Slow strong infantry",
+    "Sprite": {
+        "FilePath": "units/swordsman.png",
+        "PixelsPerUnit": 1635
+    },
+    "Tags": [
+        "Unit"
+    ],
+    "Movement": {
+        "Movement": 2,
+        "EntityCost": {},
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Purchase": {
+        "PrimaryCost": 4
+    },
+    "Attack": {
+        "DirectAttacks": [
+            {
+                "Name": "Attack",
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 0.2,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1
+                    }
+                }
+            }
+        ]
+    }
+}

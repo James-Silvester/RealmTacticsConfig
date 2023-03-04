@@ -1,0 +1,11 @@
+{
+    "Name": "Building",
+    "Description": "Controllable buildings",
+    "Defaults": {
+        "Layer": 4,
+        "Selectable": true,
+        "Movement": {
+            "Default": "Static"
+        }
+    }
+}

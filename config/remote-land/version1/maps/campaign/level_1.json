@@ -1,0 +1,40 @@
+{
+    "Width": 15,
+    "Height": 6,
+    "EntityConfig": [
+        {   "EntityString": "Castle|0,0"          },
+        {   "EntityString": "Hill|1,0"          },
+        {   "EntityString": "Palisade|2,0"          },
+        {   "EntityString": "River|3,0"             },
+        {   "EntityString": "Wall|4,0"             },
+        {   "EntityString": "Archer|5,0"             },
+        {   "EntityString": "Catapult|6,0"              },
+        {   "EntityString": "Cavalry|7,0"              },
+        {   "EntityString": "Spearman|8,0"              },
+        {   "EntityString": "Swordsman|9,0"              },
+
+
+        {   "EntityString": "TEAM_1|Castle|0,1"          },
+        {   "EntityString": "TEAM_1|Hill|1,1"          },
+        {   "EntityString": "TEAM_1|Palisade|2,1"          },
+        {   "EntityString": "TEAM_1|River|3,1"             },
+        {   "EntityString": "TEAM_1|Wall|4,1"             },
+        {   "EntityString": "TEAM_1|Archer|5,1"             },
+        {   "EntityString": "TEAM_1|Catapult|6,1"              },
+        {   "EntityString": "TEAM_1|Cavalry|7,1"              },
+        {   "EntityString": "TEAM_1|Spearman|8,1"              },
+        {   "EntityString": "TEAM_1|Swordsman|9,1"              },
+
+        {   "EntityString": "TEAM_2|Castle|0,2"          },
+        {   "EntityString": "TEAM_2|Hill|1,2"          },
+        {   "EntityString": "TEAM_2|Palisade|2,2"          },
+        {   "EntityString": "TEAM_2|River|3,2"             },
+        {   "EntityString": "TEAM_2|Wall|4,2"             },
+        {   "EntityString": "TEAM_2|Archer|5,2"             },
+        {   "EntityString": "TEAM_2|Catapult|6,2"              },
+        {   "EntityString": "TEAM_2|Cavalry|7,2"              },
+        {   "EntityString": "TEAM_2|Spearman|8,2"              },
+        {   "EntityString": "TEAM_2|Swordsman|9,2"              }
+
+    ]
+}

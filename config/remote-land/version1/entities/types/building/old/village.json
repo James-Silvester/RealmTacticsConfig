@@ -1,0 +1,28 @@
+{
+    "Name": "Village",
+    "Description": "Village",
+    "Sprite": {
+        "FilePath": "building/village.png",
+        "PixelsPerUnit": 500
+    },
+    "Tags": [
+        "Building"
+    ],
+    "Defence": {
+        "DefenceIndicator": "MEDIUM",
+        "SpecificDefence": [
+            {
+                "Defence": 0.5,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Money": {
+        "PrimaryIncome": 5,
+        "SecondaryIncome": 0,
+        "TertiaryIncome": 0
+    },
+    "Capture": {
+        "PointsToCapture": 1
+    }
+}

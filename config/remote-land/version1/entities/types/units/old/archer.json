@@ -1,0 +1,44 @@
+{
+    "Name": "Archer",
+    "Description": "Mobile range unit",
+    "Sprite": {
+        "FilePath": "units/archer.png",
+        "PixelsPerUnit": 210
+    },
+    "Tags": [
+        "Unit"
+    ],
+    "Movement": {
+        "Movement": 2,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Purchase": {
+        "PrimaryCost": 3
+    },
+    "Attack": {
+        "RangeAttacks": [
+            {
+                "Name": "Fire",
+                "MinRange": 2,
+                "MaxRange": 3,
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 0.2,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "UsesPerTurn": 1,
+                        "EndsTurn": false
+                    }
+                }
+            }
+        ]
+    }
+}

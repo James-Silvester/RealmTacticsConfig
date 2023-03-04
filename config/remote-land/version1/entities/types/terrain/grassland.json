@@ -1,0 +1,28 @@
+{
+    "Name": "Grassland",
+    "Description": "Base Grassland",
+    "Layer": 1,
+    "Sprite": {
+        "FilePath": "terrain/grassland.png",
+        "PixelsInBorder": 50,
+        "AddBorderPixels": 5,
+        "AddBorderColor": "black"
+    },
+    "Tags": [
+        "Terrain"
+    ],
+    "Defence": {
+        "DefenceIndicator": "NONE",
+        "SpecificDefence": [
+            {
+                "Defence": 0.0,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Movement": {
+        "OthersTagCost": {
+            "Nautical": 999
+        }
+    }
+}

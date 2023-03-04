@@ -1,0 +1,18 @@
+{
+    "Width": 8,
+    "Height": 6,
+    "EntityConfig": [
+        {   "EntityString": "Palisade|1,2"          },
+        {   "EntityString": "Palisade|1,3"          },
+        {   "EntityString": "Palisade|1,4"          },
+
+        {   "EntityString": "River|4,3"             },
+        {   "EntityString": "River|4,4"             },
+        {   "EntityString": "River|4,5"             },
+
+        {   "EntityString": "Hill|2,4"              },
+
+        {   "EntityString": "TEAM_1|Spearman|1,1"   },
+        {   "EntityString": "TEAM_2|Spearman|6,4"   }
+    ]
+}

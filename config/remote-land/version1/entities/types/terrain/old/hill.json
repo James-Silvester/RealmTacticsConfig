@@ -1,0 +1,30 @@
+{
+    "Name": "Hill",
+    "Description": "Hill",
+    "Sprite": {
+        "FilePath": "terrain/hill.png",
+        "PixelsPerUnit": 1490
+    },
+    "Tags": [
+        "Terrain"
+    ],
+    "Defence": {
+        "DefenceIndicator": "LOW",
+        "SpecificDefence": [
+            {
+                "Selector": {
+                    "AllowTags": [
+                        "Unit"
+                    ]
+                },
+                "Defence": 0.1,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Movement": {
+        "OthersTagCost": {
+            "Unit": 1
+        }
+    }
+}

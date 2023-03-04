@@ -1,0 +1,48 @@
+{
+    "Name": "Catapult",
+    "Description": "Slow long range unit",
+    "Sprite": {
+        "FilePath": "units/catapult.png",
+        "PixelsPerUnit": 513
+    },
+    "Tags": [
+        "Unit",
+        "Siege"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 1
+    },
+    "Movement": {
+        "Movement": 2,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Purchase": {
+        "PrimaryCost": 10
+    },
+    "Attack": {
+        "RangeAttacks": [
+            {
+                "Name": "Fire",
+                "MinRange": 5,
+                "MaxRange": 5,
+                "Detail": {
+                    "CanMoveAndAttack": false,
+                    "BasePower": 0.5,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "EndsTurn": true
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "Width": 10,
+    "Height": 7,
+    "TeamsConfig": {
+        "NumberOfTeams": 2,
+        "ActiveTeams": [
+            "TEAM_1",
+            "TEAM_2"
+        ],
+        "StartingTeam": "TEAM_1",
+        "TeamConfig": [
+            {
+                "TeamId": "TEAM_1",
+                "TeamEntity": "AI_DEFAULT",
+                "AiProfile": "Standard"
+            },
+            {
+                "TeamId": "TEAM_2",
+                "TeamEntity": "AI_DEFAULT",
+                "AiProfile": "Standard"
+            }
+        ]
+    },
+    "EntityConfig": [
+        {   "EntityString": "TEAM_1|Castle|0,0"     },
+        {   "EntityString": "TEAM_2|Castle|9,6"     },
+        {   "EntityString": "TEAM_1|Swordsman|0,0"  },
+        {   "EntityString": "TEAM_2|Swordsman|9,6"  },
+        {   "EntityString": "TEAM_1|Archer|1,0"     },
+        {   "EntityString": "TEAM_2|Archer|8,6"     },
+        {   "EntityString": "TEAM_1|Catapult|2,0"   },
+        {   "EntityString": "TEAM_2|Catapult|7,6"   },
+        {   "EntityString": "TEAM_1|Cavalry|0,1"    },
+        {   "EntityString": "TEAM_2|Cavalry|9,5"    },
+        {   "EntityString": "TEAM_1|Spearman|0,2"   },
+        {   "EntityString": "TEAM_2|Spearman|9,4"   }
+    ]
+}

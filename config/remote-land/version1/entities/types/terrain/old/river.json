@@ -1,0 +1,25 @@
+{
+    "Name": "River",
+    "Description": "River",
+    "Sprite": {
+        "FilePath": "terrain/river.png",
+        "PixelsPerUnit": 200
+    },
+    "Tags": [
+        "Terrain"
+    ],
+    "Defence": {
+        "DefenceIndicator": "NONE",
+        "SpecificDefence": [
+            {
+                "Defence": 0.0,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Movement": {
+        "OthersTagCost": {
+            "Unit": 0
+        }
+    }
+}
