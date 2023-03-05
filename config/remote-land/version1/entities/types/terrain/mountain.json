@@ -21,7 +21,7 @@
     },
     "Movement": {
         "OthersTagCost": {
-            "Unit": 3,
+            "Ground": 3,
             "Nautical": 999
         }
     }

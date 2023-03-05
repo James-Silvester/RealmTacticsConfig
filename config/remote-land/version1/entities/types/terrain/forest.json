@@ -1,5 +1,5 @@
 {
-    "Name": "Fprest",
+    "Name": "Forest",
     "Description": "Base Forest",
     "Layer": 1,
     "Sprite": {
@@ -21,7 +21,7 @@
     },
     "Movement": {
         "OthersTagCost": {
-            "Unit": 2,
+            "Ground": 2,
             "Nautical": 999
         }
     }

@@ -1,0 +1,33 @@
+{
+    "Name": "Camp",
+    "Description": "Camp",
+    "Sprite": {
+        "FilePath": "building/camp.png"
+    },
+    "Tags": [
+        "Building"
+    ],
+    "Defence": {
+        "DefenceIndicator": "NONE",
+        "SpecificDefence": [
+            {
+                "Defence": 0.0
+            }
+        ]
+    },
+    "Capture": {
+        "PointsToCapture": 4
+    },
+    "Purchase": {
+        "Selector": {
+            "AllowTags": [
+                "Ground"
+            ]
+        },
+        "AbilityConfig": {
+            "PointCost": 1,
+            "EndsTurn": true
+        },
+        "EntitiesProducedHaveActions": true
+    }
+}

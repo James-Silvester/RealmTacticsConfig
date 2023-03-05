@@ -1,0 +1,22 @@
+{
+    "Name": "Castle",
+    "Description": "Castle",
+    "Sprite": {
+        "FilePath": "building/castle.png"
+    },
+    "Tags": [
+        "Building"
+    ],
+    "Defence": {
+        "DefenceIndicator": "HIGH",
+        "SpecificDefence": [
+            {
+                "Defence": 0.7,
+                "ApplyToEnemies": false
+            }
+        ]
+    },
+    "Capture": {
+        "PointsToCapture": 4
+    }
+}

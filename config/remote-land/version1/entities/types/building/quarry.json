@@ -1,0 +1,27 @@
+{
+    "Name": "Quarry",
+    "Description": "Quarry",
+    "Sprite": {
+        "FilePath": "building/quarry.png"
+    },
+    "Tags": [
+        "Building"
+    ],
+    "Defence": {
+        "DefenceIndicator": "LOW",
+        "SpecificDefence": [
+            {
+                "Defence": 0.1,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Money": {
+        "PrimaryIncome": 0,
+        "SecondaryIncome": 0,
+        "TertiaryIncome": 20
+    },
+    "Capture": {
+        "PointsToCapture": 4
+    }
+}

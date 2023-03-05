@@ -1,0 +1,19 @@
+{
+    "Name": "Bridge",
+    "Description": "Bridge",
+    "Sprite": {
+        "FilePath": "building/bridge.png"
+    },
+    "Tags": [
+        "Building"
+    ],
+    "Defence": {
+        "DefenceIndicator": "NONE",
+        "SpecificDefence": [
+            {
+                "Defence": 0.0,
+                "ApplyToEnemies": true
+            }
+        ]
+    }
+}

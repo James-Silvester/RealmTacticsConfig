@@ -1,0 +1,43 @@
+{
+    "Name": "Witch",
+    "Description": "Powerful magic unit",
+    "Sprite": {
+        "FilePath": "units/witch.png",
+        "PixelsPerUnit": 513
+    },
+    "Tags": [
+        "Unit",
+        "Mounted"
+    ],
+    "Movement": {
+        "Movement": 6,
+        "EntityCost": {},
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Purchase": {
+        "PrimaryCost": 5
+    },
+    "Attack": {
+        "DirectAttacks": [
+            {
+                "Name": "Attack",
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 0.3,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1
+                    }
+                }
+            }
+        ]
+    }
+}

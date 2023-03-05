@@ -1,34 +1,28 @@
 {
-    "Name": "Barracks",
-    "Description": "Barracks",
+    "Name": "Sanctuary",
+    "Description": "Sanctuary",
     "Sprite": {
-        "FilePath": "building/barracks.png",
-        "PixelsPerUnit": 500
+        "FilePath": "building/sanctuary.png"
     },
     "Tags": [
         "Building"
     ],
     "Defence": {
-        "DefenceIndicator": "MEDIUM",
+        "DefenceIndicator": "HIGH",
         "SpecificDefence": [
             {
                 "Defence": 0.5,
-                "ApplyToEnemies": true
+                "ApplyToEnemies": false
             }
         ]
     },
-    "Money": {
-        "PrimaryIncome": 2,
-        "SecondaryIncome": 0,
-        "TertiaryIncome": 0
-    },
     "Capture": {
-        "PointsToCapture": 1
+        "PointsToCapture": 4
     },
     "Purchase": {
         "Selector": {
             "AllowTags": [
-                "Unit"
+                "Ground"
             ]
         },
         "AbilityConfig": {

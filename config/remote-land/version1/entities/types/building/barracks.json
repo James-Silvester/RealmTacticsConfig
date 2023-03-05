@@ -1,0 +1,22 @@
+{
+    "Name": "Barracks",
+    "Description": "Barracks",
+    "Sprite": {
+        "FilePath": "building/barracks.png"
+    },
+    "Tags": [
+        "Building"
+    ],
+    "Defence": {
+        "DefenceIndicator": "MEDIUM",
+        "SpecificDefence": [
+            {
+                "Defence": 0.3,
+                "ApplyToEnemies": false
+            }
+        ]
+    },
+    "Capture": {
+        "PointsToCapture": 4
+    }
+}

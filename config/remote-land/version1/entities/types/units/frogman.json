@@ -1,0 +1,38 @@
+{
+    "Name": "Frogman",
+    "Description": "Frogman",
+    "Sprite": {
+        "FilePath": "units/frogman.png"
+    },
+    "Tags": [
+        "Unit",
+        "Nautical"
+    ],
+    "Movement": {
+        "Movement": 2,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Attack": {
+        "DirectAttacks": [
+            {
+                "Name": "Attack",
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 0.2,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1
+                    }
+                }
+            }
+        ]
+    }
+}

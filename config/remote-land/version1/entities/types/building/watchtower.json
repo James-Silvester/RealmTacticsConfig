@@ -1,0 +1,34 @@
+{
+    "Name": "Watchtower",
+    "Description": "Watchtower",
+    "Sprite": {
+        "FilePath": "building/watchtower.png"
+    },
+    "Tags": [
+        "Building"
+    ],
+    "Defence": {
+        "DefenceIndicator": "HIGH",
+        "SpecificDefence": [
+            {
+                "Defence": 0.5,
+                "ApplyToEnemies": false
+            }
+        ]
+    },
+    "Capture": {
+        "PointsToCapture": 4
+    },
+    "Purchase": {
+        "Selector": {
+            "AllowTags": [
+                "Ground"
+            ]
+        },
+        "AbilityConfig": {
+            "PointCost": 1,
+            "EndsTurn": true
+        },
+        "EntitiesProducedHaveActions": false
+    }
+}

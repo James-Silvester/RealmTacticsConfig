@@ -1,5 +1,41 @@
 version |   name                |   filename            |   isFile  |   path          |   onUi    |   uiPath            |   uiAction    |   subMeta |   env     |   notes
 
+5       |   Barracks Config     |   barracks.json       |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for barracks terrain
+5       |   Barracks ImageFile  |   barracks.png        |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for barracks terrain
+
+5       |   Bridge Config       |   bridge.json         |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for bridge terrain
+5       |   Bridge ImageFile    |   bridge.png          |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for bridge terrain
+
+5       |   Camp Config         |   camp.json           |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for camp terrain
+5       |   Camp ImageFile      |   camp.png            |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for camp terrain
+
+5       |   Castle Config       |   castle.json         |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for castle terrain
+5       |   Castle ImageFile    |   castle.png          |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for castle terrain
+
+5       |   Farm Config         |   farm.json           |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for farm terrain
+5       |   Farm ImageFile      |   farm.png            |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for farm terrain
+
+5       |   House Config        |   house.json          |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for house terrain
+5       |   House ImageFile     |   house.png           |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for house terrain
+
+5       |   Outpost Config      |   outpost.json        |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for outpost terrain
+5       |   Outpost ImageFile   |   outpost.png         |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for outpost terrain
+
+5       |   Quarry Config       |   quarry.json         |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for quarry terrain
+5       |   Quarry ImageFile    |   quarry.png          |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for quarry terrain
+
+5       |   Sanctuary Config    |   sanctuary.json      |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for sanctuary terrain
+5       |   Sanctuary ImageFile |   sanctuary.png       |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for sanctuary terrain
+
+5       |   Village Config      |   village.json        |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for village terrain
+5       |   Village ImageFile   |   village.png         |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for village terrain
+
+5       |   Watchtower Config    |  watchtower.json     |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for watchtower terrain
+5       |   Watchtower ImageFile |  watchtower.png      |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for watchtower terrain
+
+
+
+
 5       |   Foreat Config       |   forest.json         |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for forest terrain
 5       |   Forest ImageFile    |   forest.png          |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for forest terrain
 
@@ -9,17 +45,55 @@ version |   name                |   filename            |   isFile  |   path    
 5       |   Hill Config         |   hill.json           |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for hill terrain
 5       |   Hill ImageFile      |   hill.png            |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for hill terrain
 
-5       |   Mountain Config     |   mountain.json      |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for mountain terrain
-5       |   Mountain ImageFile  |   mountain.png       |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for mountain terrain
+5       |   Mountain Config     |   mountain.json       |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for mountain terrain
+5       |   Mountain ImageFile  |   mountain.png        |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for mountain terrain
 
-5       |   Ocean Config        |   ocean.json      |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for ocean terrain
-5       |   Ocean ImageFile     |   ocean.png       |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for ocean terrain
+5       |   Ocean Config        |   ocean.json          |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for ocean terrain
+5       |   Ocean ImageFile     |   ocean.png           |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for ocean terrain
 
-5       |   Rocky Config        |   rocky.json      |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for rocky terrain
-5       |   Rocky ImageFile     |   rocky.png       |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for rocky terrain
+5       |   Rocky Config        |   rocky.json          |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for rocky terrain
+5       |   Rocky ImageFile     |   rocky.png           |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for rocky terrain
 
-5       |   Swamp Config        |   swamp.json      |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for swamp terrain
-5       |   Swamp ImageFile     |   swamp.png       |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for swamp terrain
+5       |   Swamp Config        |   swamp.json          |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for swamp terrain
+5       |   Swamp ImageFile     |   swamp.png           |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for swamp terrain
 
 
 
+5       |   Archer Config       |   archer.json         |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for archer unit
+5       |   Archer ImageFile    |   archer.png          |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for archer unit
+
+5       |   Barbarian Config    |   barbarian.json      |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for barbarian unit
+5       |   Barbarian ImageFile |   barbarian.png       |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for barbarian unit
+
+5       |   Cyclops Config      |   cyclops.json        |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for cyclops unit
+5       |   Cyclops ImageFile   |   cyclops.png         |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for cyclops unit
+
+5       |   Frogman Config      |   frogman.json        |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for frogman unit
+5       |   Frogman ImageFile   |   frogman.png         |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for frogman unit
+
+5       |   Healer Config       |   healer.json         |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for healer unit
+5       |   Healer ImageFile    |   healer.png          |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for healer unit
+
+5       |   Knight Config       |   knight.json         |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for knight unit
+5       |   Knight ImageFile    |   knight.png          |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for knight unit
+
+5       |   Mage Config         |   mage.json           |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for mage unit
+5       |   Mage ImageFile      |   mage.png            |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for mage unit
+
+5       |   Merfolk Config      |   merfolk.json        |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for merfolk unit
+5       |   Merfolk ImageFile   |   merfolk.png         |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for merfolk unit
+
+5       |   Paladin Config      |   paladin.json        |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for paladin unit
+5       |   Paladin ImageFile   |   paladin.png         |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for paladin unit
+
+5       |   Rouge Config        |   rouge.json          |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for rouge unit
+5       |   Rouge ImageFile     |   rouge.png           |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for rouge unit
+
+5       |   Spider Config       |   spider.json         |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for spider unit
+5       |   Spider ImageFile    |   spider.png          |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for spider unit
+
+5       |   Warrior Config      |   warrior.json        |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for warrior unit
+5       |   Warrior ImageFile   |   warrior.png         |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for warrior unit
+
+5       |   Witch Config        |   witch.json          |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for witch unit
+5       |   Witch ImageFile     |   witch.png           |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for witch unit

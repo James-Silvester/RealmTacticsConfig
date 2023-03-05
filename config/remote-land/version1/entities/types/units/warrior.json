@@ -1,0 +1,37 @@
+{
+    "Name": "Warrior",
+    "Description": "Warrior",
+    "Sprite": {
+        "FilePath": "units/warrior.png"
+    },
+    "Tags": [
+        "Unit"
+    ],
+    "Movement": {
+        "Movement": 2,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Attack": {
+        "DirectAttacks": [
+            {
+                "Name": "Attack",
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 0.2,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1
+                    }
+                }
+            }
+        ]
+    }
+}

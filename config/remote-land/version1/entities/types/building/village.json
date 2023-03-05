@@ -1,0 +1,39 @@
+{
+    "Name": "Village",
+    "Description": "Village",
+    "Sprite": {
+        "FilePath": "building/village.png"
+    },
+    "Tags": [
+        "Building"
+    ],
+    "Defence": {
+        "DefenceIndicator": "MEDIUM",
+        "SpecificDefence": [
+            {
+                "Defence": 0.5,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Money": {
+        "PrimaryIncome": 10,
+        "SecondaryIncome": 5,
+        "TertiaryIncome": 10
+    },
+    "Capture": {
+        "PointsToCapture": 2
+    },
+    "Purchase": {
+        "Selector": {
+            "AllowTags": [
+                "Ground"
+            ]
+        },
+        "AbilityConfig": {
+            "PointCost": 1,
+            "EndsTurn": true
+        },
+        "EntitiesProducedHaveActions": false
+    }
+}

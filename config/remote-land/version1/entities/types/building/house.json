@@ -1,9 +1,8 @@
 {
-    "Name": "Village",
-    "Description": "Village",
+    "Name": "House",
+    "Description": "House",
     "Sprite": {
-        "FilePath": "building/village.png",
-        "PixelsPerUnit": 500
+        "FilePath": "building/house.png"
     },
     "Tags": [
         "Building"
@@ -18,11 +17,11 @@
         ]
     },
     "Money": {
-        "PrimaryIncome": 5,
-        "SecondaryIncome": 0,
-        "TertiaryIncome": 0
+        "PrimaryIncome": 2,
+        "SecondaryIncome": 2,
+        "TertiaryIncome": 1
     },
     "Capture": {
-        "PointsToCapture": 1
+        "PointsToCapture": 2
     }
 }

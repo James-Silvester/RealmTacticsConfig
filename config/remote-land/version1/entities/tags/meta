@@ -1,6 +1,7 @@
 version |   name                |   filename            |   isFile  |   path    |   onUi    |   uiPath              |   uiAction    |   subMeta |   env     |   notes
 4       |   Barrier Config      |   barrier.json        |   1       |   /       |   1       |   /building/barrier   |   -           |   0       |   0       |   Barrier class
 3       |   Building Config     |   building.json       |   1       |   /       |   1       |   /building           |   -           |   0       |   0       |   Base Building class
-3       |   Nautical Config     |   nautical.json       |   1       |   /       |   1       |   /unit/nautical      |   -           |   0       |   0       |   Base nautical class
+3       |   Ground Config       |   ground.json         |   1       |   /       |   1       |   /unit/ground        |   -           |   0       |   0       |   Base ground unit class
+3       |   Nautical Config     |   nautical.json       |   1       |   /       |   1       |   /unit/nautical      |   -           |   0       |   0       |   Base nautical unit class
 3       |   Terrain Config      |   terrain.json        |   1       |   /       |   1       |   /terrain            |   -           |   0       |   0       |   Base terrain class
 3       |   Unit Config         |   unit.json           |   1       |   /       |   1       |   /unit               |   -           |   0       |   0       |   Base unit class

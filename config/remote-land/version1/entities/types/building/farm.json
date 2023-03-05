@@ -1,28 +1,27 @@
 {
-    "Name": "Castle",
-    "Description": "Main Castle",
+    "Name": "Farm",
+    "Description": "Farm",
     "Sprite": {
-        "FilePath": "building/castle.png",
-        "PixelsPerUnit": 500
+        "FilePath": "building/farm.png"
     },
     "Tags": [
         "Building"
     ],
     "Defence": {
-        "DefenceIndicator": "HIGH",
+        "DefenceIndicator": "NONE",
         "SpecificDefence": [
             {
-                "Defence": 0.8,
+                "Defence": 0.0,
                 "ApplyToEnemies": true
             }
         ]
     },
     "Money": {
-        "PrimaryIncome": 10,
+        "PrimaryIncome": 20,
         "SecondaryIncome": 0,
         "TertiaryIncome": 0
     },
     "Capture": {
-        "PointsToCapture": 1
+        "PointsToCapture": 2
     }
 }
