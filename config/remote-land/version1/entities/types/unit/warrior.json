@@ -2,7 +2,7 @@
     "Name": "Warrior",
     "Description": "Warrior",
     "Sprite": {
-        "FilePath": "units/warrior.png"
+        "FilePath": "unit/warrior.png"
     },
     "Tags": [
         "Unit"

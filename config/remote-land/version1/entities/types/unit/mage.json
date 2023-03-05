@@ -2,7 +2,7 @@
     "Name": "Mage",
     "Description": "Powerful magic unit",
     "Sprite": {
-        "FilePath": "units/mage.png",
+        "FilePath": "unit/mage.png",
         "PixelsPerUnit": 513
     },
     "Tags": [

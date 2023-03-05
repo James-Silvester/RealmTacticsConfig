@@ -2,7 +2,7 @@
     "Name": "Spider",
     "Description": "Spider",
     "Sprite": {
-        "FilePath": "units/spider.png"
+        "FilePath": "unit/spider.png"
     },
     "Tags": [
         "Unit"

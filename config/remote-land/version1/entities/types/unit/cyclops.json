@@ -2,7 +2,7 @@
     "Name": "Cyclops",
     "Description": "Cyclops",
     "Sprite": {
-        "FilePath": "units/cyclops.png"
+        "FilePath": "unit/cyclops.png"
     },
     "Tags": [
         "Unit"

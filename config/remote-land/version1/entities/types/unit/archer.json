@@ -2,7 +2,7 @@
     "Name": "Archer",
     "Description": "Mobile range unit",
     "Sprite": {
-        "FilePath": "units/archer.png"
+        "FilePath": "unit/archer.png"
     },
     "Tags": [
         "Unit"

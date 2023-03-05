@@ -2,7 +2,7 @@
     "Name": "Swordsman",
     "Description": "Slow strong infantry",
     "Sprite": {
-        "FilePath": "units/swordsman.png",
+        "FilePath": "unit/swordsman.png",
         "PixelsPerUnit": 1635
     },
     "Tags": [

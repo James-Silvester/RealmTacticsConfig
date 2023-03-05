@@ -2,7 +2,7 @@
     "Name": "Spearman",
     "Description": "Quick units good against cavalry",
     "Sprite": {
-        "FilePath": "units/spearman.png",
+        "FilePath": "unit/spearman.png",
         "PixelsPerUnit": 460
     },
     "Tags": [

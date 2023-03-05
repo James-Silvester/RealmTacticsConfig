@@ -2,7 +2,7 @@
     "Name": "Rouge",
     "Description": "Rouge",
     "Sprite": {
-        "FilePath": "units/rouge.png"
+        "FilePath": "unit/rouge.png"
     },
     "Tags": [
         "Unit"

@@ -2,7 +2,7 @@
     "Name": "Paladin",
     "Description": "Paladin",
     "Sprite": {
-        "FilePath": "units/paladin.png"
+        "FilePath": "unit/paladin.png"
     },
     "Tags": [
         "Unit"

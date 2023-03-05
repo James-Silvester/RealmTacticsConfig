@@ -2,7 +2,7 @@
     "Name": "Healer",
     "Description": "Healer",
     "Sprite": {
-        "FilePath": "units/healer.png"
+        "FilePath": "unit/healer.png"
     },
     "Tags": [
         "Unit"

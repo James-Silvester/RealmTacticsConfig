@@ -2,7 +2,7 @@
     "Name": "Barbarian",
     "Description": "Barbarian",
     "Sprite": {
-        "FilePath": "units/barbarian.png"
+        "FilePath": "unit/barbarian.png"
     },
     "Tags": [
         "Unit"

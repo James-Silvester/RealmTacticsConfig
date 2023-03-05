@@ -2,7 +2,7 @@
     "Name": "Witch",
     "Description": "Powerful magic unit",
     "Sprite": {
-        "FilePath": "units/witch.png",
+        "FilePath": "unit/witch.png",
         "PixelsPerUnit": 513
     },
     "Tags": [

@@ -2,7 +2,7 @@
     "Name": "Peasant",
     "Description": "Builder",
     "Sprite": {
-        "FilePath": "units/peasant.png",
+        "FilePath": "unit/peasant.png",
         "PixelsPerUnit": 300
     },
     "Tags": [

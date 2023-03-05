@@ -2,7 +2,7 @@
     "Name": "Frogman",
     "Description": "Frogman",
     "Sprite": {
-        "FilePath": "units/frogman.png"
+        "FilePath": "unit/frogman.png"
     },
     "Tags": [
         "Unit",

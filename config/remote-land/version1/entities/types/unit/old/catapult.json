@@ -2,7 +2,7 @@
     "Name": "Catapult",
     "Description": "Slow long range unit",
     "Sprite": {
-        "FilePath": "units/catapult.png",
+        "FilePath": "unit/catapult.png",
         "PixelsPerUnit": 513
     },
     "Tags": [

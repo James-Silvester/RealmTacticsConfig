@@ -2,7 +2,7 @@
     "Name": "Merfolk",
     "Description": "Merfolk",
     "Sprite": {
-        "FilePath": "units/merfolk.png"
+        "FilePath": "unit/merfolk.png"
     },
     "Tags": [
         "Unit",
