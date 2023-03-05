@@ -1,9 +1,9 @@
 {
-    "Name": "Grassland",
-    "Description": "Base Grassland",
+    "Name": "Ocean",
+    "Description": "Base Ocean",
     "Layer": 1,
     "Sprite": {
-        "FilePath": "terrain/grassland.png",
+        "FilePath": "terrain/ocean.png",
         "PixelsInBorder": 50,
         "AddBorderPixels": 5,
         "AddBorderColor": "black"
@@ -21,7 +21,8 @@
     },
     "Movement": {
         "OthersTagCost": {
-            "Nautical": 999
+            "Unit": 999,
+            "Nautical": 1
         }
     }
 }

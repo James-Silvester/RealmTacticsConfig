@@ -1,9 +1,9 @@
 {
-    "Name": "Grassland",
-    "Description": "Base Grassland",
+    "Name": "Rocky",
+    "Description": "Base Rocky",
     "Layer": 1,
     "Sprite": {
-        "FilePath": "terrain/grassland.png",
+        "FilePath": "terrain/rocky.png",
         "PixelsInBorder": 50,
         "AddBorderPixels": 5,
         "AddBorderColor": "black"
@@ -12,15 +12,16 @@
         "Terrain"
     ],
     "Defence": {
-        "DefenceIndicator": "NONE",
+        "DefenceIndicator": "HIGH",
         "SpecificDefence": [
             {
-                "Defence": 0.0
+                "Defence": 0.4
             }
         ]
     },
     "Movement": {
         "OthersTagCost": {
+            "Unit": 3,
             "Nautical": 999
         }
     }
