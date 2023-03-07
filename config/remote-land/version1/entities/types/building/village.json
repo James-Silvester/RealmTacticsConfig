@@ -2,7 +2,11 @@
     "Name": "Village",
     "Description": "Village",
     "Sprite": {
-        "FilePath": "building/village.png"
+        "FilePath": "building/village.png",
+        "PixelsInBorderYLower": 70,
+        "PixelsInBorderXLower": 50,
+        "PixelsInBorderYUpper": 30,
+        "PixelsInBorderXUpper": 50
     },
     "Tags": [
         "Building"

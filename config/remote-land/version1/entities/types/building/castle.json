@@ -2,7 +2,11 @@
     "Name": "Castle",
     "Description": "Castle",
     "Sprite": {
-        "FilePath": "building/castle.png"
+        "FilePath": "building/castle.png",
+        "PixelsInBorderYLower": 70,
+        "PixelsInBorderXLower": 50,
+        "PixelsInBorderYUpper": 30,
+        "PixelsInBorderXUpper": 50
     },
     "Tags": [
         "Building"

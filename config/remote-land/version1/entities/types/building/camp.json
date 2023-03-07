@@ -2,7 +2,11 @@
     "Name": "Camp",
     "Description": "Camp",
     "Sprite": {
-        "FilePath": "building/camp.png"
+        "FilePath": "building/camp.png",
+        "PixelsInBorderYLower": 70,
+        "PixelsInBorderXLower": 50,
+        "PixelsInBorderYUpper": 30,
+        "PixelsInBorderXUpper": 50
     },
     "Tags": [
         "Building"

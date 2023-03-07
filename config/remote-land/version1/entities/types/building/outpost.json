@@ -2,7 +2,11 @@
     "Name": "Outpost",
     "Description": "Outpost",
     "Sprite": {
-        "FilePath": "building/outpost.png"
+        "FilePath": "building/outpost.png",
+        "PixelsInBorderYLower": 70,
+        "PixelsInBorderXLower": 50,
+        "PixelsInBorderYUpper": 30,
+        "PixelsInBorderXUpper": 50
     },
     "Tags": [
         "Building"
