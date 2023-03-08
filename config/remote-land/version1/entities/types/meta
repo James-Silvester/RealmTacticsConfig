@@ -36,7 +36,7 @@ version |   name                |   filename            |   isFile  |   path    
 
 
 
-5       |   Foreat Config       |   forest.json         |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for forest terrain
+5       |   Forest Config       |   forest.json         |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for forest terrain
 5       |   Forest ImageFile    |   forest.png          |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for forest terrain
 
 5       |   Grassland Config    |   grassland.json      |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for grassland terrain
@@ -77,7 +77,7 @@ version |   name                |   filename            |   isFile  |   path    
 5       |   Knight Config       |   knight.json         |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for knight unit
 5       |   Knight ImageFile    |   knight.png          |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for knight unit
 
-5       |   Mage Config         |   mage.json           |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for mage unit
+6       |   Mage Config         |   mage.json           |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for mage unit
 5       |   Mage ImageFile      |   mage.png            |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for mage unit
 
 5       |   Merfolk Config      |   merfolk.json        |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for merfolk unit
@@ -95,5 +95,5 @@ version |   name                |   filename            |   isFile  |   path    
 5       |   Warrior Config      |   warrior.json        |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for warrior unit
 5       |   Warrior ImageFile   |   warrior.png         |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for warrior unit
 
-5       |   Witch Config        |   witch.json          |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for witch unit
+6       |   Witch Config        |   witch.json          |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for witch unit
 5       |   Witch ImageFile     |   witch.png           |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for witch unit

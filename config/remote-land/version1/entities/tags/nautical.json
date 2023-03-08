@@ -1,4 +1,5 @@
 {
     "Name": "Nautical",
-    "Description": "A unit that works in the water"
+    "Description": "A unit that works in the water",
+    "Defaults": {}
 }

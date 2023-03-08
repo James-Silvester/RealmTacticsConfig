@@ -6,8 +6,7 @@
         "PixelsPerUnit": 513
     },
     "Tags": [
-        "Unit",
-        "Mounted"
+        "Unit"
     ],
     "Movement": {
         "Movement": 6,
