@@ -1,36 +1,36 @@
 version |   name                |   filename            |   isFile  |   path          |   onUi    |   uiPath            |   uiAction    |   subMeta |   env     |   notes
 
-5       |   Barracks Config     |   barracks.json       |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for barracks terrain
+6       |   Barracks Config     |   barracks.json       |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for barracks terrain
 5       |   Barracks ImageFile  |   barracks.png        |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for barracks terrain
 
-5       |   Bridge Config       |   bridge.json         |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for bridge terrain
+6       |   Bridge Config       |   bridge.json         |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for bridge terrain
 5       |   Bridge ImageFile    |   bridge.png          |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for bridge terrain
 
-5       |   Camp Config         |   camp.json           |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for camp terrain
+6       |   Camp Config         |   camp.json           |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for camp terrain
 5       |   Camp ImageFile      |   camp.png            |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for camp terrain
 
-5       |   Castle Config       |   castle.json         |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for castle terrain
+6       |   Castle Config       |   castle.json         |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for castle terrain
 5       |   Castle ImageFile    |   castle.png          |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for castle terrain
 
-5       |   Farm Config         |   farm.json           |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for farm terrain
+6       |   Farm Config         |   farm.json           |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for farm terrain
 5       |   Farm ImageFile      |   farm.png            |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for farm terrain
 
-5       |   House Config        |   house.json          |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for house terrain
+6       |   House Config        |   house.json          |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for house terrain
 5       |   House ImageFile     |   house.png           |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for house terrain
 
-5       |   Outpost Config      |   outpost.json        |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for outpost terrain
+6       |   Outpost Config      |   outpost.json        |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for outpost terrain
 5       |   Outpost ImageFile   |   outpost.png         |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for outpost terrain
 
-5       |   Quarry Config       |   quarry.json         |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for quarry terrain
+6       |   Quarry Config       |   quarry.json         |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for quarry terrain
 5       |   Quarry ImageFile    |   quarry.png          |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for quarry terrain
 
-5       |   Sanctuary Config    |   sanctuary.json      |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for sanctuary terrain
+6       |   Sanctuary Config    |   sanctuary.json      |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for sanctuary terrain
 5       |   Sanctuary ImageFile |   sanctuary.png       |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for sanctuary terrain
 
-5       |   Village Config      |   village.json        |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for village terrain
+6       |   Village Config      |   village.json        |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for village terrain
 5       |   Village ImageFile   |   village.png         |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for village terrain
 
-5       |   Watchtower Config    |  watchtower.json     |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for watchtower terrain
+6       |   Watchtower Config    |  watchtower.json     |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for watchtower terrain
 5       |   Watchtower ImageFile |  watchtower.png      |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for watchtower terrain
 
 

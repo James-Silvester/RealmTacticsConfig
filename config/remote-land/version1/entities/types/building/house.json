@@ -2,11 +2,7 @@
     "Name": "House",
     "Description": "House",
     "Sprite": {
-        "FilePath": "building/house.png",
-        "PixelsInBorderYLower": 70,
-        "PixelsInBorderXLower": 50,
-        "PixelsInBorderYUpper": 30,
-        "PixelsInBorderXUpper": 50
+        "FilePath": "building/house.png"
     },
     "Tags": [
         "Building"

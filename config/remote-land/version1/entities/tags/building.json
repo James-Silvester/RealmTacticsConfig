@@ -6,6 +6,12 @@
         "Selectable": true,
         "Movement": {
             "Default": "Static"
+        },
+        "Sprite": {
+            "PixelsInBorderYLower": 90,
+            "PixelsInBorderXLower": 50,
+            "PixelsInBorderYUpper": 30,
+            "PixelsInBorderXUpper": 50
         }
     }
 }

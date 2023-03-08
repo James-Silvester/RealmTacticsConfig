@@ -2,11 +2,7 @@
     "Name": "Farm",
     "Description": "Farm",
     "Sprite": {
-        "FilePath": "building/farm.png",
-        "PixelsInBorderYLower": 70,
-        "PixelsInBorderXLower": 50,
-        "PixelsInBorderYUpper": 30,
-        "PixelsInBorderXUpper": 50
+        "FilePath": "building/farm.png"
     },
     "Tags": [
         "Building"

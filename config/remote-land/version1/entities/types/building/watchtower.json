@@ -2,11 +2,7 @@
     "Name": "Watchtower",
     "Description": "Watchtower",
     "Sprite": {
-        "FilePath": "building/watchtower.png",
-        "PixelsInBorderYLower": 70,
-        "PixelsInBorderXLower": 50,
-        "PixelsInBorderYUpper": 30,
-        "PixelsInBorderXUpper": 50
+        "FilePath": "building/watchtower.png"
     },
     "Tags": [
         "Building"

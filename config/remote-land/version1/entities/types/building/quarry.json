@@ -2,11 +2,7 @@
     "Name": "Quarry",
     "Description": "Quarry",
     "Sprite": {
-        "FilePath": "building/quarry.png",
-        "PixelsInBorderYLower": 70,
-        "PixelsInBorderXLower": 50,
-        "PixelsInBorderYUpper": 30,
-        "PixelsInBorderXUpper": 50
+        "FilePath": "building/quarry.png"
     },
     "Tags": [
         "Building"

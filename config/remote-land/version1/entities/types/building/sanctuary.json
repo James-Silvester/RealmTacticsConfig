@@ -2,11 +2,7 @@
     "Name": "Sanctuary",
     "Description": "Sanctuary",
     "Sprite": {
-        "FilePath": "building/sanctuary.png",
-        "PixelsInBorderYLower": 70,
-        "PixelsInBorderXLower": 50,
-        "PixelsInBorderYUpper": 30,
-        "PixelsInBorderXUpper": 50
+        "FilePath": "building/sanctuary.png"
     },
     "Tags": [
         "Building"

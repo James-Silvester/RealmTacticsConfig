@@ -2,11 +2,7 @@
     "Name": "Bridge",
     "Description": "Bridge",
     "Sprite": {
-        "FilePath": "building/bridge.png",
-        "PixelsInBorderYLower": 70,
-        "PixelsInBorderXLower": 50,
-        "PixelsInBorderYUpper": 30,
-        "PixelsInBorderXUpper": 50
+        "FilePath": "building/bridge.png"
     },
     "Tags": [
         "Building"

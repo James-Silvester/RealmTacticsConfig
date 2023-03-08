@@ -2,11 +2,7 @@
     "Name": "Barracks",
     "Description": "Barracks",
     "Sprite": {
-        "FilePath": "building/barracks.png",
-        "PixelsInBorderYLower": 70,
-        "PixelsInBorderXLower": 50,
-        "PixelsInBorderYUpper": 30,
-        "PixelsInBorderXUpper": 50
+        "FilePath": "building/barracks.png"
     },
     "Tags": [
         "Building"
