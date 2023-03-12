@@ -1,12 +1,12 @@
 {
-    "Name": "Hill",
-    "Description": "Base Hill",
-    "Layer": 1,
+    "Name": "Bridge",
+    "Description": "Bridge",
     "Sprite": {
-        "FilePath": "terrain/hill.png",
-        "PixelsInBorder": 50,
-        "AddBorderPixels": 5,
-        "AddBorderColor": "black"
+        "FilePath": "terrain/bridge.png",
+        "PixelsInBorderYLower": 0,
+        "PixelsInBorderXLower": 0,
+        "PixelsInBorderYUpper": 0,
+        "PixelsInBorderXUpper": 0
     },
     "Tags": [
         "Terrain"
@@ -22,8 +22,8 @@
     "Movement": {
         "OthersTagCost": {
             "Air": 0,
-            "Ground": 1,
-            "Nautical": 999
+            "Ground": 0,
+            "Nautical": 0
         }
     }
 }

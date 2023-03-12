@@ -20,9 +20,13 @@
         ]
     },
     "Movement": {
+        "OthersEntityCost": {
+            "Rouge": 5
+        },
         "OthersTagCost": {
-            "Ground": 999,
-            "Nautical": 1
+            "Air": 0,
+            "Nautical": 0,
+            "Ground": 999
         }
     }
 }

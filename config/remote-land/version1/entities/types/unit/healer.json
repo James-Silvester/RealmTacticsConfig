@@ -5,39 +5,28 @@
         "FilePath": "unit/healer.png"
     },
     "Tags": [
-        "Unit"
+        "Unit",
+        "Ground",
+        "Magic"
     ],
     "Movement": {
-        "Movement": 2,
+        "Movement": 4,
         "AbilityConfig": {
             "PointCost": 1,
             "UsesPerTurn": 1
         }
     },
-    "Purchase": {
-        "PrimaryCost": 3
-    },
-    "Attack": {
-        "RangeAttacks": [
+    "Defence": {
+        "SelfDefenceIndicator": "LOW",
+        "SelfSpecificDefence": [
             {
-                "Name": "Fire",
-                "MinRange": 2,
-                "MaxRange": 3,
-                "Detail": {
-                    "CanMoveAndAttack": true,
-                    "BasePower": 0.2,
-                    "Selector": {
-                        "AllowTags": [
-                            "Unit"
-                        ]
-                    },
-                    "AbilityConfig": {
-                        "PointCost": 1,
-                        "UsesPerTurn": 1,
-                        "EndsTurn": false
-                    }
-                }
+                "Defence": 0.2
             }
         ]
+    },
+    "Purchase": {
+        "PrimaryCost": 10,
+        "SecondaryCost": 0,
+        "TertiaryCost": 20
     }
 }

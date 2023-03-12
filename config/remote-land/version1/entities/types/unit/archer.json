@@ -5,27 +5,38 @@
         "FilePath": "unit/archer.png"
     },
     "Tags": [
-        "Unit"
+        "Unit",
+        "Ground"
     ],
     "Movement": {
-        "Movement": 2,
+        "Movement": 4,
         "AbilityConfig": {
             "PointCost": 1,
             "UsesPerTurn": 1
         }
     },
+    "Defence": {
+        "SelfDefenceIndicator": "LOW",
+        "SelfSpecificDefence": [
+            {
+                "Defence": 0.2
+            }
+        ]
+    },
     "Purchase": {
-        "PrimaryCost": 3
+        "PrimaryCost": 5,
+        "SecondaryCost": 5,
+        "TertiaryCost": 0
     },
     "Attack": {
         "RangeAttacks": [
             {
-                "Name": "Fire",
+                "Name": "Bow",
                 "MinRange": 2,
-                "MaxRange": 3,
+                "MaxRange": 4,
                 "Detail": {
-                    "CanMoveAndAttack": true,
-                    "BasePower": 0.2,
+                    "CanMoveAndAttack": false,
+                    "BasePower": 0.6,
                     "Selector": {
                         "AllowTags": [
                             "Unit"
@@ -34,7 +45,7 @@
                     "AbilityConfig": {
                         "PointCost": 1,
                         "UsesPerTurn": 1,
-                        "EndsTurn": false
+                        "EndsTurn": true
                     }
                 }
             }

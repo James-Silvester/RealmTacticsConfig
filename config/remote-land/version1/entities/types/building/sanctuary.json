@@ -11,18 +11,24 @@
         "DefenceIndicator": "HIGH",
         "SpecificDefence": [
             {
-                "Defence": 0.5,
+                "Defence": 0.4,
                 "ApplyToEnemies": false
             }
         ]
     },
     "Capture": {
-        "PointsToCapture": 4
+        "PointsToCapture": 1
+    },
+    "Money": {
+        "PrimaryIncome": 1,
+        "SecondaryIncome": 1,
+        "TertiaryIncome": 1
     },
     "Purchase": {
         "Selector": {
-            "AllowTags": [
-                "Ground"
+            "AllowEntities": [
+                "Healer",
+                "Paladin"
             ]
         },
         "AbilityConfig": {

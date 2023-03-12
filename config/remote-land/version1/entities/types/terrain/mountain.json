@@ -12,16 +12,20 @@
         "Terrain"
     ],
     "Defence": {
-        "DefenceIndicator": "HIGH",
+        "DefenceIndicator": "MEDIUM",
         "SpecificDefence": [
             {
-                "Defence": 0.4
+                "Defence": 0.2
             }
         ]
     },
     "Movement": {
+        "OthersEntityCost": {
+            "Cyclops": 0
+        },
         "OthersTagCost": {
-            "Ground": 3,
+            "Air": 0,
+            "Ground": 2,
             "Nautical": 999
         }
     }

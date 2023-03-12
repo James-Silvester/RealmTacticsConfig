@@ -8,27 +8,20 @@
         "Building"
     ],
     "Defence": {
-        "DefenceIndicator": "HIGH",
+        "DefenceIndicator": "MEDIUM",
         "SpecificDefence": [
             {
-                "Defence": 0.5,
+                "Defence": 0.2,
                 "ApplyToEnemies": false
             }
         ]
     },
     "Capture": {
-        "PointsToCapture": 4
+        "PointsToCapture": 1
     },
-    "Purchase": {
-        "Selector": {
-            "AllowTags": [
-                "Ground"
-            ]
-        },
-        "AbilityConfig": {
-            "PointCost": 1,
-            "EndsTurn": true
-        },
-        "EntitiesProducedHaveActions": false
+    "Money": {
+        "PrimaryIncome": 2,
+        "SecondaryIncome": 2,
+        "TertiaryIncome": 2
     }
 }

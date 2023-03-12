@@ -5,30 +5,56 @@
         "FilePath": "unit/cyclops.png"
     },
     "Tags": [
-        "Unit"
+        "Unit",
+        "Ground",
+        "Monster"
     ],
     "Movement": {
-        "Movement": 2,
+        "Movement": 3,
         "AbilityConfig": {
             "PointCost": 1,
             "UsesPerTurn": 1
         }
     },
+    "Defence": {
+        "SelfDefenceIndicator": "HIGH",
+        "SelfSpecificDefence": [
+            {
+                "Defence": 0.5,
+                "Selector": {
+                    "AllowTags": [
+                        "Magic"
+                    ]
+                }
+            },
+            {
+                "Defence": 0.9
+            }
+        ]
+    },
+    "Purchase": {
+        "PrimaryCost": 20,
+        "SecondaryCost": 5,
+        "TertiaryCost": 10
+    },
     "Attack": {
         "DirectAttacks": [
             {
-                "Name": "Attack",
+                "Name": "Club",
                 "Detail": {
                     "CanMoveAndAttack": true,
-                    "BasePower": 0.2,
+                    "BasePower": 2,
                     "Selector": {
                         "AllowTags": [
-                            "Unit"
+                            "Ground",
+                            "Nautical"
                         ]
                     },
                     "TagPowerModifier": {},
                     "AbilityConfig": {
-                        "PointCost": 1
+                        "PointCost": 1,
+                        "UsesPerTurn": 1,
+                        "EndsTurn": true
                     }
                 }
             }

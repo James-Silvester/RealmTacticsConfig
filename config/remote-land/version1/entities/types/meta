@@ -3,14 +3,14 @@ version |   name                |   filename            |   isFile  |   path    
 6       |   Barracks Config     |   barracks.json       |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for barracks terrain
 5       |   Barracks ImageFile  |   barracks.png        |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for barracks terrain
 
-6       |   Bridge Config       |   bridge.json         |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for bridge terrain
-5       |   Bridge ImageFile    |   bridge.png          |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for bridge terrain
-
 6       |   Camp Config         |   camp.json           |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for camp terrain
 5       |   Camp ImageFile      |   camp.png            |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for camp terrain
 
 6       |   Castle Config       |   castle.json         |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for castle terrain
 5       |   Castle ImageFile    |   castle.png          |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for castle terrain
+
+6       |   Dungeon Config      |   dungeon.json        |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for dungeon terrain
+5       |   Dungeon ImageFile   |   dungeon.png         |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for dungeon terrain
 
 6       |   Farm Config         |   farm.json           |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for farm terrain
 5       |   Farm ImageFile      |   farm.png            |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for farm terrain
@@ -33,8 +33,13 @@ version |   name                |   filename            |   isFile  |   path    
 6       |   Watchtower Config    |  watchtower.json     |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for watchtower terrain
 5       |   Watchtower ImageFile |  watchtower.png      |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for watchtower terrain
 
+5       |   Witch Hut Config     |   witch_hut.json     |   1       |   /building     |   1       |   /building          |   -           |   0       |   0       |   Config for witch_hut terrain
+5       |   Witch Hut ImageFile  |   witch_hut.png      |   1       |   /building     |   0       |   /building          |   -           |   0       |   0       |   Image for witch_hut terrain
 
 
+
+6       |   Bridge Config       |   bridge.json         |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for bridge terrain
+5       |   Bridge ImageFile    |   bridge.png          |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for bridge terrain
 
 5       |   Forest Config       |   forest.json         |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for forest terrain
 5       |   Forest ImageFile    |   forest.png          |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for forest terrain
@@ -68,8 +73,11 @@ version |   name                |   filename            |   isFile  |   path    
 5       |   Cyclops Config      |   cyclops.json        |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for cyclops unit
 5       |   Cyclops ImageFile   |   cyclops.png         |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for cyclops unit
 
-5       |   Frogman Config      |   frogman.json        |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for frogman unit
-5       |   Frogman ImageFile   |   frogman.png         |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for frogman unit
+6       |   DeepOne Config      |   deepOne.json        |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for DeepOne unit
+6       |   DeepOne ImageFile   |   deepOne.png         |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for DeepOne unit
+
+5       |   Dragon Config      |   dragon.json        |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for Dragon unit
+5       |   Dragon ImageFile   |   dragon.png         |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for Dragon unit
 
 5       |   Healer Config       |   healer.json         |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for healer unit
 5       |   Healer ImageFile    |   healer.png          |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for healer unit

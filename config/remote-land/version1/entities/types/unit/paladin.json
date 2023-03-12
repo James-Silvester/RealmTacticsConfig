@@ -5,30 +5,58 @@
         "FilePath": "unit/paladin.png"
     },
     "Tags": [
-        "Unit"
+        "Unit",
+        "Ground",
+        "Armored",
+        "Magic"
     ],
     "Movement": {
-        "Movement": 2,
+        "Movement": 5,
         "AbilityConfig": {
             "PointCost": 1,
             "UsesPerTurn": 1
         }
     },
+    "Defence": {
+        "SelfDefenceIndicator": "HIGH",
+        "SelfSpecificDefence": [
+            {
+                "Defence": 0.2,
+                "Selector": {
+                    "AllowEntities": [
+                        "Spider"
+                    ]
+                }
+            },
+            {
+                "Defence": 0.7
+            }
+        ]
+    },
+    "Purchase": {
+        "PrimaryCost": 10,
+        "SecondaryCost": 10,
+        "TertiaryCost": 30
+    },
     "Attack": {
         "DirectAttacks": [
             {
-                "Name": "Attack",
+                "Name": "Hammer",
                 "Detail": {
                     "CanMoveAndAttack": true,
-                    "BasePower": 0.2,
+                    "BasePower": 1.5,
                     "Selector": {
                         "AllowTags": [
                             "Unit"
                         ]
                     },
-                    "TagPowerModifier": {},
+                    "TagPowerModifier": {
+                        "Monster": 2.5
+                    },
                     "AbilityConfig": {
-                        "PointCost": 1
+                        "PointCost": 1,
+                        "UsesPerTurn": 1,
+                        "EndsTurn": true
                     }
                 }
             }

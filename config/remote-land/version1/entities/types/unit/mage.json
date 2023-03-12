@@ -6,26 +6,40 @@
         "PixelsPerUnit": 513
     },
     "Tags": [
-        "Unit"
+        "Unit",
+        "Ground",
+        "Magic"
     ],
     "Movement": {
-        "Movement": 6,
+        "Movement": 3,
         "EntityCost": {},
         "AbilityConfig": {
             "PointCost": 1,
             "UsesPerTurn": 1
         }
     },
+    "Defence": {
+        "SelfDefenceIndicator": "NONE",
+        "SelfSpecificDefence": [
+            {
+                "Defence": 0.0
+            }
+        ]
+    },
     "Purchase": {
-        "PrimaryCost": 5
+        "PrimaryCost": 10,
+        "SecondaryCost": 5,
+        "TertiaryCost": 15
     },
     "Attack": {
-        "DirectAttacks": [
+        "RangeAttacks": [
             {
-                "Name": "Attack",
+                "Name": "Magic Missile",
+                "MinRange": 1,
+                "MaxRange": 6,
                 "Detail": {
-                    "CanMoveAndAttack": true,
-                    "BasePower": 0.3,
+                    "CanMoveAndAttack": false,
+                    "BasePower": 1.0,
                     "Selector": {
                         "AllowTags": [
                             "Unit"
@@ -33,7 +47,27 @@
                     },
                     "TagPowerModifier": {},
                     "AbilityConfig": {
-                        "PointCost": 1
+                        "PointCost": 1,
+                        "UsesPerTurn": 1,
+                        "EndsTurn": true
+                    },
+                    "NeedsToTargetEntity": true,
+                    "HasSplash": true,
+                    "SplashConfig": {
+                        "RangeAttacks": [
+                            {
+                                "MinRange": 0,
+                                "MaxRange": 1,
+                                "Detail": {
+                                    "BasePower": 1.0,
+                                    "Selector": {
+                                        "AllowTags": [
+                                            "Unit"
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
                     }
                 }
             }

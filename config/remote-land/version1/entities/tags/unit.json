@@ -14,8 +14,10 @@
             "AbilityPoints": 2
         },
         "Purchase": {
-            "CanBePurchased": true,
-            "PrimaryCost": 1
+            "CanBePurchased": true
+        },
+        "Movement": {
+            "BlocksEnemies": true
         }
     }
 }

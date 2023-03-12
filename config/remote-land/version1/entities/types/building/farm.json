@@ -8,20 +8,20 @@
         "Building"
     ],
     "Defence": {
-        "DefenceIndicator": "NONE",
+        "DefenceIndicator": "LOW",
         "SpecificDefence": [
             {
-                "Defence": 0.0,
-                "ApplyToEnemies": true
+                "Defence": 0.1,
+                "ApplyToEnemies": false
             }
         ]
     },
-    "Money": {
-        "PrimaryIncome": 20,
-        "SecondaryIncome": 0,
-        "TertiaryIncome": 0
-    },
     "Capture": {
         "PointsToCapture": 2
+    },
+    "Money": {
+        "PrimaryIncome": 10,
+        "SecondaryIncome": 5,
+        "TertiaryIncome": 2
     }
 }

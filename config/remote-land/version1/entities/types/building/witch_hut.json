@@ -1,17 +1,17 @@
 {
-    "Name": "Village",
-    "Description": "Village",
+    "Name": "WitchHut",
+    "Description": "Watchtower",
     "Sprite": {
-        "FilePath": "building/village.png"
+        "FilePath": "building/witch_hut.png"
     },
     "Tags": [
         "Building"
     ],
     "Defence": {
-        "DefenceIndicator": "MEDIUM",
+        "DefenceIndicator": "LOW",
         "SpecificDefence": [
             {
-                "Defence": 0.2,
+                "Defence": 0.1,
                 "ApplyToEnemies": false
             }
         ]
@@ -20,18 +20,14 @@
         "PointsToCapture": 2
     },
     "Money": {
-        "PrimaryIncome": 5,
-        "SecondaryIncome": 10,
-        "TertiaryIncome": 7
+        "PrimaryIncome": 0,
+        "SecondaryIncome": 0,
+        "TertiaryIncome": 0
     },
     "Purchase": {
         "Selector": {
             "AllowEntities": [
-                "Archer",
-                "Barbarian",
-                "Knight",
-                "Rouge",
-                "Warrior"
+                "Witch"
             ]
         },
         "AbilityConfig": {

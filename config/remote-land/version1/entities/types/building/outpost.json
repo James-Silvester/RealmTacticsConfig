@@ -8,21 +8,27 @@
         "Building"
     ],
     "Defence": {
-        "DefenceIndicator": "HIGH",
+        "DefenceIndicator": "MEDIUM",
         "SpecificDefence": [
             {
-                "Defence": 0.5,
+                "Defence": 0.2,
                 "ApplyToEnemies": false
             }
         ]
     },
     "Capture": {
-        "PointsToCapture": 4
+        "PointsToCapture": 1
+    },
+    "Money": {
+        "PrimaryIncome": 2,
+        "SecondaryIncome": 2,
+        "TertiaryIncome": 2
     },
     "Purchase": {
         "Selector": {
-            "AllowTags": [
-                "Ground"
+            "AllowEntities": [
+                "DeepOne",
+                "Merfolk"
             ]
         },
         "AbilityConfig": {

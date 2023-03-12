@@ -15,13 +15,17 @@
         "DefenceIndicator": "HIGH",
         "SpecificDefence": [
             {
-                "Defence": 0.4
+                "Defence": 0.3
             }
         ]
     },
     "Movement": {
+        "OthersEntityCost": {
+            "Cyclops": 0
+        },
         "OthersTagCost": {
-            "Ground": 3,
+            "Air": 0,
+            "Ground": 1,
             "Nautical": 999
         }
     }

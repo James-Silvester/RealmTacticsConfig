@@ -6,34 +6,61 @@
         "PixelsPerUnit": 513
     },
     "Tags": [
-        "Unit"
+        "Unit",
+        "Air",
+        "Monster",
+        "Magic"
     ],
     "Movement": {
-        "Movement": 6,
+        "Movement": 10,
         "EntityCost": {},
         "AbilityConfig": {
             "PointCost": 1,
             "UsesPerTurn": 1
         }
     },
+    "Defence": {
+        "SelfDefenceIndicator": "LOW",
+        "SelfSpecificDefence": [
+            {
+                "Defence": 0.7,
+                "Selector": {
+                    "AllowEntities": [
+                        "Dragon"
+                    ]
+                }
+            },
+            {
+                "Defence": 0.1
+            }
+        ]
+    },
     "Purchase": {
-        "PrimaryCost": 5
+        "PrimaryCost": 10,
+        "SecondaryCost": 10,
+        "TertiaryCost": 5
     },
     "Attack": {
         "DirectAttacks": [
             {
-                "Name": "Attack",
+                "Name": "Hex",
                 "Detail": {
                     "CanMoveAndAttack": true,
-                    "BasePower": 0.3,
+                    "BasePower": 0.5,
                     "Selector": {
                         "AllowTags": [
                             "Unit"
                         ]
                     },
-                    "TagPowerModifier": {},
+                    "EntityPowerModifier": {
+                        "Barbarian": 1.0,
+                        "Cyclops": 1.0,
+                        "Merfolk": 1.0
+                    },
                     "AbilityConfig": {
-                        "PointCost": 1
+                        "PointCost": 1,
+                        "UsesPerTurn": 1,
+                        "EndsTurn": true
                     }
                 }
             }

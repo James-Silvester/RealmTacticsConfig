@@ -12,16 +12,16 @@
         "SpecificDefence": [
             {
                 "Defence": 0.1,
-                "ApplyToEnemies": true
+                "ApplyToEnemies": false
             }
         ]
+    },
+    "Capture": {
+        "PointsToCapture": 2
     },
     "Money": {
         "PrimaryIncome": 0,
         "SecondaryIncome": 0,
-        "TertiaryIncome": 20
-    },
-    "Capture": {
-        "PointsToCapture": 4
+        "TertiaryIncome": 10
     }
 }

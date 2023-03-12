@@ -12,16 +12,17 @@
         "Terrain"
     ],
     "Defence": {
-        "DefenceIndicator": "MEDIUM",
+        "DefenceIndicator": "LOW",
         "SpecificDefence": [
             {
-                "Defence": 0.2
+                "Defence": 0.1
             }
         ]
     },
     "Movement": {
         "OthersTagCost": {
-            "Ground": 2,
+            "Air": 0,
+            "Ground": 1,
             "Nautical": 999
         }
     }

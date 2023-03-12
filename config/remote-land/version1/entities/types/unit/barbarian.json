@@ -5,30 +5,47 @@
         "FilePath": "unit/barbarian.png"
     },
     "Tags": [
-        "Unit"
+        "Unit",
+        "Ground"
     ],
     "Movement": {
-        "Movement": 2,
+        "Movement": 6,
         "AbilityConfig": {
             "PointCost": 1,
             "UsesPerTurn": 1
         }
     },
+    "Defence": {
+        "SelfDefenceIndicator": "LOW",
+        "SelfSpecificDefence": [
+            {
+                "Defence": 0.1
+            }
+        ]
+    },
+    "Purchase": {
+        "PrimaryCost": 5,
+        "SecondaryCost": 5,
+        "TertiaryCost": 2
+    },
     "Attack": {
         "DirectAttacks": [
             {
-                "Name": "Attack",
+                "Name": "Axe",
                 "Detail": {
                     "CanMoveAndAttack": true,
-                    "BasePower": 0.2,
+                    "BasePower": 1.2,
                     "Selector": {
                         "AllowTags": [
-                            "Unit"
+                            "Ground",
+                            "Nautical"
                         ]
                     },
                     "TagPowerModifier": {},
                     "AbilityConfig": {
-                        "PointCost": 1
+                        "PointCost": 1,
+                        "UsesPerTurn": 1,
+                        "EndsTurn": true
                     }
                 }
             }

@@ -1,7 +1,10 @@
 version |   name                |   filename            |   isFile  |   path    |   onUi    |   uiPath              |   uiAction    |   subMeta |   env     |   notes
-4       |   Barrier Config      |   barrier.json        |   1       |   /       |   1       |   /building/barrier   |   -           |   0       |   0       |   Barrier class
-3       |   Building Config     |   building.json       |   1       |   /       |   1       |   /building           |   -           |   0       |   0       |   Base Building class
+3       |   Building Config     |   building.json       |   1       |   /       |   1       |   /building           |   -           |   0       |   0       |   Base building class
 4       |   Ground Config       |   ground.json         |   1       |   /       |   1       |   /unit/ground        |   -           |   0       |   0       |   Base ground unit class
 4       |   Nautical Config     |   nautical.json       |   1       |   /       |   1       |   /unit/nautical      |   -           |   0       |   0       |   Base nautical unit class
+4       |   Air Config          |   air.json            |   1       |   /       |   1       |   /unit/air           |   -           |   0       |   0       |   Base air unit class
+4       |   Monster Config      |   monster.json        |   1       |   /       |   1       |   /unit/monster       |   -           |   0       |   0       |   Base monster unit class
+3       |   Armored Config      |   armored.json        |   1       |   /       |   1       |   /unit/armored       |   -           |   0       |   0       |   Base armored unit class
+3       |   Magic Config        |   magic.json          |   1       |   /       |   1       |   /unit/magic         |   -           |   0       |   0       |   Base magic unit class
 3       |   Terrain Config      |   terrain.json        |   1       |   /       |   1       |   /terrain            |   -           |   0       |   0       |   Base terrain class
 3       |   Unit Config         |   unit.json           |   1       |   /       |   1       |   /unit               |   -           |   0       |   0       |   Base unit class

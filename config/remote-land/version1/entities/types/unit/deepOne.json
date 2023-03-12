@@ -1,16 +1,17 @@
 {
-    "Name": "Merfolk",
-    "Description": "Merfolk",
+    "Name": "DeepOne",
+    "Description": "Sea dwelling creature",
     "Sprite": {
-        "FilePath": "unit/merfolk.png"
+        "FilePath": "unit/deepOne.png"
     },
     "Tags": [
         "Unit",
+        "Ground",
         "Nautical",
         "Monster"
     ],
     "Movement": {
-        "Movement": 6,
+        "Movement": 5,
         "AbilityConfig": {
             "PointCost": 1,
             "UsesPerTurn": 1
@@ -25,22 +26,21 @@
         ]
     },
     "Purchase": {
-        "PrimaryCost": 5,
-        "SecondaryCost": 10,
-        "TertiaryCost": 1
+        "PrimaryCost": 10,
+        "SecondaryCost": 5,
+        "TertiaryCost": 0
     },
     "Attack": {
-        "RangeAttacks": [
+        "DirectAttacks": [
             {
-                "Name": "Attack",
-                "MinRange": 1,
-                "MaxRange": 2,
+                "Name": "Trident",
                 "Detail": {
                     "CanMoveAndAttack": true,
-                    "BasePower": 0.8,
+                    "BasePower": 0.6,
                     "Selector": {
                         "AllowTags": [
-                            "Unit"
+                            "Ground",
+                            "Nautical"
                         ]
                     },
                     "TagPowerModifier": {},

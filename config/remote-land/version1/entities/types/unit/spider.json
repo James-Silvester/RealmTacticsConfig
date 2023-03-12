@@ -5,30 +5,59 @@
         "FilePath": "unit/spider.png"
     },
     "Tags": [
-        "Unit"
+        "Unit",
+        "Ground",
+        "Monster"
     ],
     "Movement": {
-        "Movement": 2,
+        "Movement": 8,
+        "TagCost": {
+            "Terrain": 0
+        },
         "AbilityConfig": {
             "PointCost": 1,
             "UsesPerTurn": 1
         }
     },
+    "Defence": {
+        "SelfDefenceIndicator": "MEDIUM",
+        "SelfSpecificDefence": [
+            {
+                "Defence": 0.8,
+                "Selector": {
+                    "AllowTags": [
+                        "Magic"
+                    ]
+                }
+            },
+            {
+                "Defence": 0.4
+            }
+        ]
+    },
+    "Purchase": {
+        "PrimaryCost": 30,
+        "SecondaryCost": 0,
+        "TertiaryCost": 0
+    },
     "Attack": {
         "DirectAttacks": [
             {
-                "Name": "Attack",
+                "Name": "Venom",
                 "Detail": {
                     "CanMoveAndAttack": true,
-                    "BasePower": 0.2,
+                    "BasePower": 0.8,
                     "Selector": {
                         "AllowTags": [
-                            "Unit"
+                            "Ground",
+                            "Nautical"
                         ]
                     },
                     "TagPowerModifier": {},
                     "AbilityConfig": {
-                        "PointCost": 1
+                        "PointCost": 1,
+                        "UsesPerTurn": 1,
+                        "EndsTurn": true
                     }
                 }
             }

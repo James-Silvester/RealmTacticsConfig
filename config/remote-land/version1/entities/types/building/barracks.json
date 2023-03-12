@@ -8,15 +8,39 @@
         "Building"
     ],
     "Defence": {
-        "DefenceIndicator": "MEDIUM",
+        "DefenceIndicator": "LOW",
         "SpecificDefence": [
             {
-                "Defence": 0.3,
+                "Defence": 0.2,
                 "ApplyToEnemies": false
             }
         ]
     },
     "Capture": {
-        "PointsToCapture": 4
+        "PointsToCapture": 2
+    },
+    "Money": {
+        "PrimaryIncome": 2,
+        "SecondaryIncome": 2,
+        "TertiaryIncome": 2
+    },
+    "Purchase": {
+        "Selector": {
+            "AllowEntities": [
+                "Archer",
+                "Barbarian",
+                "Healer",
+                "Knight",
+                "Mage",
+                "Paladin",
+                "Rouge",
+                "Warrior"
+            ]
+        },
+        "AbilityConfig": {
+            "PointCost": 1,
+            "EndsTurn": true
+        },
+        "EntitiesProducedHaveActions": false
     }
 }

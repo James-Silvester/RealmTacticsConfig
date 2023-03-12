@@ -1,0 +1,88 @@
+{
+    "Name": "Dragon",
+    "Description": "Sky lord",
+    "Sprite": {
+        "FilePath": "unit/dragon.png"
+    },
+    "Tags": [
+        "Air",
+        "Monster"
+    ],
+    "Movement": {
+        "Movement": 6,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Defence": {
+        "SelfDefenceIndicator": "HIGH",
+        "SelfSpecificDefence": [
+            {
+                "Defence": 0.5,
+                "Selector": {
+                    "AllowEntities": [
+                        "Dragon"
+                    ]
+                }
+            },
+            {
+                "Defence": 0.95,
+                "Selector": {
+                    "AllowTags": [
+                        "Magic"
+                    ]
+                }
+            },
+            {
+                "Defence": 0.8
+            }
+        ]
+    },
+    "Purchase": {
+        "PrimaryCost": 50,
+        "SecondaryCost": 20,
+        "TertiaryCost": 50
+    },
+    "Attack": {
+        "RangeAttacks": [
+            {
+                "Name": "Fireball",
+                "MinRange": 2,
+                "MaxRange": 2,
+                "Detail": {
+                    "CanMoveAndAttack": false,
+                    "BasePower": 1.5,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "UsesPerTurn": 1,
+                        "EndsTurn": true
+                    }
+                },
+                "NeedsToTargetEntity": false,
+                "HasSplash": true,
+                "SplashConfig": {
+                    "RangeAttacks": [
+                        {
+                            "MinRange": 0,
+                            "MaxRange": 1,
+                            "Detail": {
+                                "BasePower": 1.5,
+                                "Selector": {
+                                    "AllowTags": [
+                                        "Unit"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

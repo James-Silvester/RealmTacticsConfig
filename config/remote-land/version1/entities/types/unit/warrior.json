@@ -5,30 +5,48 @@
         "FilePath": "unit/warrior.png"
     },
     "Tags": [
-        "Unit"
+        "Unit",
+        "Ground",
+        "Armored"
     ],
     "Movement": {
-        "Movement": 2,
+        "Movement": 6,
         "AbilityConfig": {
             "PointCost": 1,
             "UsesPerTurn": 1
         }
     },
+    "Defence": {
+        "SelfDefenceIndicator": "MEDIUM",
+        "SelfSpecificDefence": [
+            {
+                "Defence": 0.4
+            }
+        ]
+    },
+    "Purchase": {
+        "PrimaryCost": 10,
+        "SecondaryCost": 10,
+        "TertiaryCost": 5
+    },
     "Attack": {
         "DirectAttacks": [
             {
-                "Name": "Attack",
+                "Name": "Sword",
                 "Detail": {
                     "CanMoveAndAttack": true,
-                    "BasePower": 0.2,
+                    "BasePower": 1.0,
                     "Selector": {
                         "AllowTags": [
-                            "Unit"
+                            "Ground",
+                            "Nautical"
                         ]
                     },
                     "TagPowerModifier": {},
                     "AbilityConfig": {
-                        "PointCost": 1
+                        "PointCost": 1,
+                        "UsesPerTurn": 1,
+                        "EndsTurn": true
                     }
                 }
             }

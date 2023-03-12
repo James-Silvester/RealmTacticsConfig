@@ -8,20 +8,32 @@
         "Building"
     ],
     "Defence": {
-        "DefenceIndicator": "MEDIUM",
+        "DefenceIndicator": "LOW",
         "SpecificDefence": [
             {
-                "Defence": 0.5,
-                "ApplyToEnemies": true
+                "Defence": 0.1,
+                "ApplyToEnemies": false
             }
         ]
     },
-    "Money": {
-        "PrimaryIncome": 2,
-        "SecondaryIncome": 2,
-        "TertiaryIncome": 1
-    },
     "Capture": {
         "PointsToCapture": 2
+    },
+    "Money": {
+        "PrimaryIncome": 3,
+        "SecondaryIncome": 3,
+        "TertiaryIncome": 3
+    },
+    "Purchase": {
+        "Selector": {
+            "AllowEntities": [
+                "Rouge"
+            ]
+        },
+        "AbilityConfig": {
+            "PointCost": 1,
+            "EndsTurn": true
+        },
+        "EntitiesProducedHaveActions": false
     }
 }
