@@ -3,10 +3,9 @@
     "Description": "Bridge",
     "Sprite": {
         "FilePath": "terrain/bridge.png",
-        "PixelsInBorderYLower": 0,
-        "PixelsInBorderXLower": 0,
-        "PixelsInBorderYUpper": 0,
-        "PixelsInBorderXUpper": 0
+        "PixelsInBorder": 50,
+        "AddBorderPixels": 5,
+        "AddBorderColor": "black"
     },
     "Tags": [
         "Terrain"
