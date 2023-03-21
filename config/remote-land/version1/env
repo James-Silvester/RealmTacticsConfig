@@ -1,9 +1,7 @@
 version |   key             		        |   value
 1       |   ENTITY_TYPE_CONFIG_FOLDER	    |   config/remote-land/version1/entities/types
 1	    |   ENTITY_TAG_CONFIG_FOLDER	    |   config/remote-land/version1/entities/tags
-1	    |   ENTITY_DEFAULTS_FILE	        |   config/remote-land/version1/entities/entityDefaults.json
 1       |   AI_CONFIG_FILE	                |   config/remote-land/version1/ai/aiConfig.json
-1	    |   AI_CONFIG_DEFAULTS_FILE 	    |   config/remote-land/version1/ai/aiConfigDefaults.json
 1       |   MAP_SET_KEY                     |   remote-land/version1
 1       |   MAP_CONFIG_DEFAULTS_FILE        |   config/remote-land/version1/maps/map_defaults.json
 1       |   SAVES_DIRECTORY                 |   config/remote-land/version1/maps/saves

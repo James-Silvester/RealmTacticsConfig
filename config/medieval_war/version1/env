@@ -1,7 +1,5 @@
 version |   key             		        |   value
 1       |   ENTITY_TYPE_CONFIG_FOLDER	    |   config/medieval_war/version1/entities/types
 1	    |   ENTITY_TAG_CONFIG_FOLDER	    |   config/medieval_war/version1/entities/tags
-1	    |   ENTITY_DEFAULTS_FILE	        |   config/medieval_war/version1/entities/entityDefaults.json
 1       |   AI_CONFIG_FILE	                |   config/medieval_war/version1/ai/aiConfig.json
-1	    |   AI_CONFIG_DEFAULTS_FILE 	    |   config/medieval_war/version1/ai/aiConfigDefaults.json
 1       |   MAP_SET_KEY                     |   medieval_war/version1
