@@ -28,5 +28,52 @@
         "PrimaryCost": 10,
         "SecondaryCost": 0,
         "TertiaryCost": 20
+    },
+    "Attack": {
+        "RangeAttacks": [
+            {
+                "Name": "Heal",
+                "MinRange": 2,
+                "MaxRange": 5,
+                "Detail": {
+                    "CanMoveAndAttack": false,
+                    "BasePower": 0.0,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "UsesPerTurn": 1,
+                        "EndsTurn": true
+                    },
+                    "NeedsToTargetEntity": false,
+                    "HasSplash": true,
+                    "SplashConfig": {
+                        "RangeAttacks": [
+                            {
+                                "MinRange": 0,
+                                "MaxRange": 2,
+                                "Detail": {
+                                    "BasePower": 0.3,
+                                    "IsHeal": true,
+                                    "AffectsEnemies": false,
+                                    "AffectsSelf": true,
+                                    "AffectsNeutral": false,
+                                    "ReducedWithDamage": false,
+                                    "Selector": {
+                                        "AllowTags": [
+                                            "Unit"
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
     }
 }
