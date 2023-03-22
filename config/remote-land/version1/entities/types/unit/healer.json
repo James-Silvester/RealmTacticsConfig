@@ -37,7 +37,11 @@
                 "MaxRange": 5,
                 "Detail": {
                     "CanMoveAndAttack": false,
-                    "BasePower": 0.0,
+                    "BasePower": 0.1,
+                    "IsHeal": true,
+                    "ReducedWithDamage": false,
+                    "IgnoreAllDefence": true,
+                    "SlightlyRandom": false,
                     "Selector": {
                         "AllowTags": [
                             "Unit"
@@ -57,12 +61,9 @@
                                 "MinRange": 0,
                                 "MaxRange": 2,
                                 "Detail": {
-                                    "BasePower": 0.3,
-                                    "IsHeal": true,
                                     "AffectsEnemies": false,
                                     "AffectsSelf": true,
                                     "AffectsNeutral": false,
-                                    "ReducedWithDamage": false,
                                     "Selector": {
                                         "AllowTags": [
                                             "Unit"
