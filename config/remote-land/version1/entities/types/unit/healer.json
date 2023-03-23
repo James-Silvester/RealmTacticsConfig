@@ -33,15 +33,10 @@
         "RangeAttacks": [
             {
                 "Name": "Heal",
-                "MinRange": 2,
-                "MaxRange": 5,
+                "MinRange": 1,
+                "MaxRange": 4,
                 "Detail": {
                     "CanMoveAndAttack": false,
-                    "BasePower": 0.1,
-                    "IsHeal": true,
-                    "ReducedWithDamage": false,
-                    "IgnoreAllDefence": true,
-                    "SlightlyRandom": false,
                     "Selector": {
                         "AllowTags": [
                             "Unit"
@@ -64,6 +59,11 @@
                                     "AffectsEnemies": false,
                                     "AffectsSelf": true,
                                     "AffectsNeutral": false,
+                                    "BasePower": 0.2,
+                                    "IsHeal": true,
+                                    "ReducedWithDamage": false,
+                                    "IgnoreAllDefence": true,
+                                    "SlightlyRandom": false,
                                     "Selector": {
                                         "AllowTags": [
                                             "Unit"

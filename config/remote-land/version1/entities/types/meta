@@ -79,7 +79,7 @@ version |   name                |   filename            |   isFile  |   path    
 5       |   Dragon Config      |   dragon.json        |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for Dragon unit
 5       |   Dragon ImageFile   |   dragon.png         |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for Dragon unit
 
-7       |   Healer Config       |   healer.json         |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for healer unit
+8       |   Healer Config       |   healer.json         |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for healer unit
 5       |   Healer ImageFile    |   healer.png          |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for healer unit
 
 5       |   Knight Config       |   knight.json         |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for knight unit
