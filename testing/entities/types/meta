@@ -10,4 +10,4 @@ version |   name                        |   filename                            
 
 1       |   SplashAttackerTargetEntity Config   |   splashAttackerTargetEntity.json     |   1       |   /units/splashAttack      |   1       |   /units          |   -           |   0       |   0       |
 1       |   SplashAttackerTargetPosition Config |   splashAttackerTargetPosition.json   |   1       |   /units/splashAttack      |   1       |   /units          |   -           |   0       |   0       |
-1       |   SplashHealer Config                 |   splashAttack/splashHealer.json      |   1       |   /units/splashAttack      |   1       |   /units          |   -           |   0       |   0       |
+1       |   SplashHealer Config                 |   splashHealer.json                   |   1       |   /units/splashAttack      |   1       |   /units          |   -           |   0       |   0       |
