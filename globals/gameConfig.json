@@ -11,6 +11,7 @@
     },
     "Entity": {
         "MaxHealth": 100,
+        "MaxBoostedHealth": 100,
         "MoveSpeed": 15.0,
         "AttackBaseRandomness": 0.05
     },

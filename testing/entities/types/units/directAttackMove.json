@@ -1,10 +1,6 @@
 {
     "Name": "DirectAttackMove",
     "Description": "Direct Attack Move",
-    "Sprite": {
-        "FilePath": "units/directAttackMove.jpeg",
-        "PixelsPerUnit": 512
-    },
     "Tags": [
         "Unit"
     ],

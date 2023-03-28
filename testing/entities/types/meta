@@ -1,17 +1,12 @@
-version |   name                |   filename            |   isFile  |   path        |   onUi    |   uiPath          |   uiAction    |   subMeta |   env     |   notes
-1       |   LowDefenceBuilding Config    |   lowDefenceBuilding.json    |   1       |   /buildings  |   1       |   /buildings      |   -       |   0       |   0       |   LowDefenceBuilding
-1       |   LowDefenceBuilding ImageFile |   lowDefenceBuilding.jpeg    |   1       |   /buildings  |   0       |   /buildings      |   -       |   0       |   0       |   LowDefenceBuilding
+version |   name                        |   filename                            |   isFile  |   path        |   onUi    |   uiPath          |   uiAction    |   subMeta |   env     |   notes
+1       |   LowDefenceBuilding Config   |   lowDefenceBuilding.json             |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       | 
 
 
-1       |   BaseTerrain Config       |   baseTerrain.json         |   1       |   /terrain    |   1       |   /terrain        |   -           |   0       |   0       |   BaseTerrain
-1       |   BaseTerrain ImageFile    |   baseTerrain.jpeg         |   1       |   /terrain    |   0       |   /terrain        |   -           |   0       |   0       |   BaseTerrain
+1       |   BaseTerrain Config          |   baseTerrain.json                    |   1       |   /terrain    |   1       |   /terrain        |   -           |   0       |   0       |
+1       |   ImpassibleTerrain Config    | impassibleTerrain.json                |   1       |   /terrain    |   1       |   /terrain        |   -           |   0       |   0       |
 
-1       |   ImpassibleTerrain Config     | impassibleTerrain.json  |   1       |   /terrain    |   1       |   /terrain        |   -           |   0       |   0       |   ImpassibleTerrain
-1       |   ImpassibleTerrain ImageFile  | impassibleTerrain.jpeg  |   1       |   /terrain    |   0       |   /terrain        |   -           |   0       |   0       |   ImpassibleTerrain
+1       |   5Movement Config            |   5Movement.json                      |   1       |   /units      |   1       |   /units          |   -           |   0       |   0       |1       |   DirectAttackMove Config     |   directAttackMove.json               |   1       |   /units      |   1       |   /units          |   -           |   0       |   0       |
 
-
-1       |   5Movement Config         |   5Movement.json           |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   5Movement
-1       |   5Movement ImageFile      |   5Movement.jpeg           |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   5Movement
-
-1       |   DirectAttackMove Config    |   directAttackMove.json  |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   DirectAttackMove
-1       |   DirectAttackMove ImageFile |   directAttackMove.jpeg  |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   DirectAttackMove
+1       |   SplashAttackerTargetEntity Config       |   splashAttack/splashAttackerTargetEntity.json    |   1       |   /units      |   1       |   /units          |   -           |   0       |   0       |
+1       |   SplashAttackerTargetPosition Config       |   splashAttack/splashAttackerTargetPosition.json    |   1       |   /units      |   1       |   /units          |   -           |   0       |   0       |
+1       |   SplashHealer Config         |   splashAttack/splashHealer.json      |   1       |   /units      |   1       |   /units          |   -           |   0       |   0       |

@@ -1,0 +1,70 @@
+{
+    "Name": "SplashAttackerTargetEntity",
+    "Description": "Splash Attacker Target Entity",
+    "Tags": [
+        "Unit"
+    ],
+    "Movement": {
+        "Movement": 3,
+        "EntityCost": {},
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Defence": {
+        "SelfDefenceIndicator": "NONE",
+        "SelfSpecificDefence": [
+            {
+                "Defence": 0.0
+            }
+        ]
+    },
+    "Purchase": {
+        "PrimaryCost": 10,
+        "SecondaryCost": 5,
+        "TertiaryCost": 15
+    },
+    "Attack": {
+        "RangeAttacks": [
+            {
+                "Name": "Magic Missile",
+                "MinRange": 1,
+                "MaxRange": 6,
+                "Detail": {
+                    "CanMoveAndAttack": false,
+                    "BasePower": 1.0,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "UsesPerTurn": 1,
+                        "EndsTurn": true
+                    },
+                    "NeedsToTargetEntity": true,
+                    "HasSplash": true,
+                    "SplashConfig": {
+                        "RangeAttacks": [
+                            {
+                                "MinRange": 0,
+                                "MaxRange": 1,
+                                "Detail": {
+                                    "BasePower": 1.0,
+                                    "Selector": {
+                                        "AllowTags": [
+                                            "Unit"
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}
