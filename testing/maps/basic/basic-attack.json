@@ -12,5 +12,13 @@
             "Type": "LowDefenceBuilding",
             "TeamId": "TEAM_1"
         }
-    ]
+    ],
+    "Test": {
+        "TestSteps": {
+            "999": {
+                "Description": "Test Complete",
+                "Type": "TEST_COMPLETE"
+            }
+        }
+    }
 }
