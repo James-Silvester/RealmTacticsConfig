@@ -3,3 +3,6 @@ version |   name            |   filename                        |   isFile  |   
 
 1       |   Basic           |   basic                           |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Basic tests
 1       |   Attack tests    |   attack                          |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Attack tests
+
+1       |   meta            |   meta                            |   1       |   /basic  |   0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
+1       |   meta            |   meta                            |   1       |   /attack |   0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
