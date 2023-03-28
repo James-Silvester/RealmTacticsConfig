@@ -1,6 +1,6 @@
 {
     "Width": 10,
-    "Height": 7,
+    "Height": 10,
     "EntityConfig": [
         {
             "EntityString": "TEAM_1|SplashAttackerTargetEntity|1,0"
