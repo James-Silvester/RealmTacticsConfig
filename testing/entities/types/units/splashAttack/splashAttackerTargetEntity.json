@@ -53,7 +53,7 @@
                                 "MinRange": 0,
                                 "MaxRange": 1,
                                 "Detail": {
-                                    "BasePower": 1.0,
+                                    "BasePower": 0.5,
                                     "Selector": {
                                         "AllowTags": [
                                             "Unit"
