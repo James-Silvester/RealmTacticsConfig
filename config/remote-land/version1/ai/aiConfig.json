@@ -5,7 +5,8 @@
             "Values": {
                 "Modules": {
                     "Attack": {
-                        "SimpleClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 5.0,
+                        "PathedClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 10.0,
+                        "SimpleClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 1.0,
                         "AttackEffectivenessFeature": 2.0,
                         "AttackPossibleFeature": 6.5,
                         "ValidEndMovementRangeFeature": 1.0,
