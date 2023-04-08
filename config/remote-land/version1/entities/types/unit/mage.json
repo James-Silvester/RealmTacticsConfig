@@ -10,6 +10,13 @@
         "Ground",
         "Magic"
     ],
+    "Capture": {
+        "CapturePoints": 1,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "EndsTurn": false
+        }
+    },
     "Movement": {
         "Movement": 3,
         "EntityCost": {},

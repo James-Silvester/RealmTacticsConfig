@@ -15,6 +15,13 @@
             "UsesPerTurn": 1
         }
     },
+    "Capture": {
+        "CapturePoints": 1,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "EndsTurn": false
+        }
+    },
     "Defence": {
         "SelfDefenceIndicator": "LOW",
         "SelfSpecificDefence": [

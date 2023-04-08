@@ -31,6 +31,13 @@
             }
         ]
     },
+    "Capture": {
+        "CapturePoints": 1,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "EndsTurn": false
+        }
+    },
     "Purchase": {
         "PrimaryCost": 20,
         "SecondaryCost": 5,
