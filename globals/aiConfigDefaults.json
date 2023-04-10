@@ -10,9 +10,8 @@
             "RandomFeature": 5
         },
         "Capture": {
-            "PathedClosestProximityFeature_EntityTag:Building_Relationship:Neutral": 1.0,
-            "PathedClosestProximityFeature_EntityTag:Building_Relationship:Enemy": 10.0,
-            "PathedClosestProximityFeature_EntityTag:Terrain_Relationship:Neutral": 1.0,
+            "PathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:true": 1.0,
+            "PathedClosestProximityFeature_Relationship:Enemy_CanBeCaptured:true": 10.0,
             "NextToOwnNetworkFeature": 1.0,
             "RandomFeature": 0.5,
             "CanUseAbilityFeature_AbilityType:Capture": 1.0

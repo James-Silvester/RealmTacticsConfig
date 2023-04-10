@@ -1,4 +1,4 @@
 version |   name            |   filename                |   isFile  |   path    |   onUi    |   uiPath  |   uiAction    |   subMeta |   env     |   notes
 24      |   Game Config     |   gameConfig.json         |   1       |   /       |   1       |   /       |   -           |   0       |   0       |   Game Config from the game
-22      |   AI Config       |   aiConfigDefaults.json   |   1       |   /       |   1       |   /       |   -           |   0       |   0       |   Base AI Config from the game
+23      |   AI Config       |   aiConfigDefaults.json   |   1       |   /       |   1       |   /       |   -           |   0       |   0       |   Base AI Config from the game
 20      |   Entity Config   |   entityDefaults.json     |   1       |   /       |   1       |   /       |   -           |   0       |   0       |   Base Entity Config from the game
