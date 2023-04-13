@@ -20,8 +20,8 @@
         "PointsToCapture": 4
     },
     "Money": {
-        "PrimaryIncome": 5,
-        "SecondaryIncome": 5,
-        "TertiaryIncome": 5
+        "PrimaryIncome": 3,
+        "SecondaryIncome": 3,
+        "TertiaryIncome": 3
     }
 }

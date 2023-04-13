@@ -12,6 +12,11 @@
             "PixelsInBorderXLower": 50,
             "PixelsInBorderYUpper": 30,
             "PixelsInBorderXUpper": 50
+        },
+        "Money": {
+            "PrimaryIncome": 0,
+            "SecondaryIncome": 0,
+            "TertiaryIncome": 0
         }
     }
 }

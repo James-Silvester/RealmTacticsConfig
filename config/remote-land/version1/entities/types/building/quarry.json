@@ -22,6 +22,6 @@
     "Money": {
         "PrimaryIncome": 0,
         "SecondaryIncome": 0,
-        "TertiaryIncome": 10
+        "TertiaryIncome": 3
     }
 }
