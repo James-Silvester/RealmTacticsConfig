@@ -1,0 +1,92 @@
+{
+    "Width": 7,
+    "Height": 7,
+    "EntityConfig": [
+        {
+            "EntityString": "TEAM_1|5Movement|0,0"
+        },
+        {
+            "EntityString": "TEAM_1|5Movement|0,1"
+        },
+        {
+            "EntityString": "TEAM_1|ImpassibleTerrain|1,1"
+        }
+    ],
+    "Test": {
+        "TestSteps": {
+            "0": {
+                "Description": "Range test - Select unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 0,
+                    "Y": 0
+                }
+            },
+            "1": {
+                "Description": "Range test - Check movement valid",
+                "Type": "CHECK_HIGHLIGHT",
+                "Config": {
+                    "X": 5,
+                    "Y": 0,
+                    "Type": "MOVEMENT"
+                }
+            },
+            "2": {
+                "Description": "Range test - Check movement invalid",
+                "Type": "CHECK_HIGHLIGHT",
+                "Config": {
+                    "X": 6,
+                    "Y": 0,
+                    "Type": "NONE"
+                }
+            },
+            "3": {
+                "Description": "Range test - Unselect unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 6,
+                    "Y": 0
+                }
+            },
+            "10": {
+                "Description": "Impassible test - Select unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 0,
+                    "Y": 1
+                }
+            },
+            "11": {
+                "Description": "Impassible test - Check movement invalid on impassible terrain",
+                "Type": "CHECK_HIGHLIGHT",
+                "Config": {
+                    "X": 1,
+                    "Y": 1,
+                    "Type": "NONE"
+                }
+            },
+            "12": {
+                "Description": "Impassible test - Check movement cant pass through impassible terrain",
+                "Type": "CHECK_HIGHLIGHT",
+                "Config": {
+                    "X": 5,
+                    "Y": 1,
+                    "Type": "NONE"
+                }
+            },
+            "13": {
+                "Description": "Impassible test - Check movement valid going round the impassible terrain",
+                "Type": "CHECK_HIGHLIGHT",
+                "Config": {
+                    "X": 3,
+                    "Y": 1,
+                    "Type": "MOVEMENT"
+                }
+            },
+            "999": {
+                "Description": "Test Complete",
+                "Type": "TEST_COMPLETE"
+            }
+        }
+    }
+}

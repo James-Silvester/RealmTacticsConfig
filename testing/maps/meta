@@ -6,3 +6,4 @@ version |   name            |   filename                        |   isFile  |   
 
 1       |   meta            |   meta                            |   1       |   /basic  |   0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
 1       |   meta            |   meta                            |   1       |   /attack |   0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
+1       |   meta            |   meta                            |   1       |   /state  |   0       |   /       |   -           |   1       |   0       |   Testing Maps meta file

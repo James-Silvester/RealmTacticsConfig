@@ -119,11 +119,13 @@
         "AIMain": false,
         "AIFeature": false,
         "AIModule": false,
+        "AIAction": false,
         "Edit": false,
         "Save": true
     },
     "AI": {
-        "TrainingMode": false
+        "TrainingMode": false,
+        "WaitTimeBetweenAiMovesSeconds": 0.2
     },
     "UndefinedString": "UNDEFINED"
 }
