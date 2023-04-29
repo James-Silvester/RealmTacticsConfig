@@ -1,0 +1,30 @@
+{
+    "Name": "HighDefenceTerrain",
+    "Description": "High Defence Terrain",
+    "Sprite": {
+        "FilePath": "terrain/baseTerrain.jpeg",
+        "PixelsPerUnit": 256
+    },
+    "Tags": [
+        "Terrain"
+    ],
+    "Defence": {
+        "DefenceIndicator": "NONE",
+        "SpecificDefence": [
+            {
+                "Selector": {
+                    "AllowTags": [
+                        "Unit"
+                    ]
+                },
+                "Defence": 0.5,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Movement": {
+        "OthersTagCost": {
+            "Unit": 0
+        }
+    }
+}
