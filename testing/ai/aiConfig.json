@@ -5,26 +5,26 @@
             "Values": {
                 "Modules": {
                     "Attack": {
-                        "SimpleClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 5.0,
-                        "AttackEffectivenessFeature": 8.0,
-                        "AttackPossibleFeature": 6.5,
-                        "ValidEndMovementRangeFeature": 1.0,
+                        "SimpleClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 0.0,
+                        "AttackEffectivenessFeature": 0.0,
+                        "AttackPossibleFeature": 0.0,
+                        "ValidEndMovementRangeFeature": 0.0,
                         "PositionDefenceFeature": 0.0,
-                        "RandomFeature": 0.5
+                        "RandomFeature": 0.0
                     },
                     "Capture": {
-                        "SimpleClosestProximityFeature_EntityTag:Building_Relationship:Enemy": 2.0,
-                        "SimpleClosestProximityFeature_EntityTag:Building_Relationship:Neutral": 1.0,
-                        "SimpleClosestProximityFeature_EntityTag:Terrain_Relationship:Neutral": 1.0,
-                        "NextToOwnNetworkFeature": 1.0,
-                        "RandomFeature": 0.5,
-                        "CanUseAbilityFeature_AbilityType:Capture": 1.0
+                        "SimpleClosestProximityFeature_EntityTag:Building_Relationship:Enemy": 0.0,
+                        "SimpleClosestProximityFeature_EntityTag:Building_Relationship:Neutral": 0.0,
+                        "SimpleClosestProximityFeature_EntityTag:Terrain_Relationship:Neutral": 0.0,
+                        "NextToOwnNetworkFeature": 0.0,
+                        "RandomFeature": 0.0,
+                        "CanUseAbilityFeature_AbilityType:Capture": 0.0
                     },
                     "Defence": {},
                     "Purchase": {
-                        "CanPurchaseFeature": 1.0,
-                        "WantToPurchaseFeature": 1.0,
-                        "OwnedEntityTypeBalanceFeature": 5.0
+                        "CanPurchaseFeature": 0.0,
+                        "WantToPurchaseFeature": 0.0,
+                        "OwnedEntityTypeBalanceFeature": 0.0
                     }
                 }
             },
@@ -35,17 +35,6 @@
                     }
                 }
             }
-        },
-        "Aggressive": {
-            "Description": "Agressive personality",
-            "Values": {
-                "Modules": {
-                    "Attack": {
-                        "Feature1": 0.3
-                    }
-                }
-            },
-            "EntityOverrides": {}
         }
     }
 }

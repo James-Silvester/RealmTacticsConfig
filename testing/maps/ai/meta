@@ -1,0 +1,4 @@
+version |   name                                |   filename                            |   isFile  |   path    |   onUi    |   uiPath      |   uiAction    |   subMeta     |   env     |   notes
+1       |   SimpleClosestProximityFeature       |   SimpleClosestProximityFeature.json  |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   AI SimpleClosestProximityFeature test
+
+
