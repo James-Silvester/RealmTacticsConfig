@@ -1,0 +1,103 @@
+{
+    "Width": 10,
+    "Height": 7,
+    "EntityConfig": [
+        {
+            "EntityString": "TEAM_1|DirectAttackMove|0,0"
+        }
+    ],
+    "Test": {
+        "TestSteps": {
+            "0": {
+                "Description": "Undo movement test - Select unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 0,
+                    "Y": 0
+                }
+            },
+            "10": {
+                "Description": "Undo movement test - Check movement valid",
+                "Type": "CHECK_HIGHLIGHT",
+                "Config": {
+                    "X": 3,
+                    "Y": 0,
+                    "Type": "MOVEMENT"
+                }
+            },
+            "20": {
+                "Description": "Undo movement test - Select unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 3,
+                    "Y": 0
+                }
+            },
+            "30": {
+                "Description": "Undo movement test - Wait for movement complete",
+                "Type": "WAIT_FOR_STATE",
+                "Config": {
+                    "State": "POST_MOVE_ACTION_MENU_OPEN"
+                }
+            },
+            "40": {
+                "Description": "Undo movement test - Check that the unit has moved",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 3,
+                    "Y": 0,
+                    "EntityType": "DirectAttackMove"
+                }
+            },
+            "45": {
+                "Description": "Undo movement test - Check movement highlight has been reset",
+                "Type": "CHECK_HIGHLIGHT",
+                "Config": {
+                    "X": 3,
+                    "Y": 0,
+                    "Type": "NONE"
+                }
+            },
+            "50": {
+                "Description": "Undo movement test - Check menu options and click undo",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "OptionNames": [
+                        "Wait",
+                        "Undo"
+                    ],
+                    "SelectOptionName": "Undo"
+                }
+            },
+            "60": {
+                "Description": "Undo movement test - Wait for undo movement complete",
+                "Type": "WAIT_FOR_STATE",
+                "Config": {
+                    "State": "ENTITY_MOVE_INTENT"
+                }
+            },
+            "70": {
+                "Description": "Undo movement test - Check that the unit has undone the moved",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 0,
+                    "Y": 0,
+                    "EntityType": "DirectAttackMove"
+                }
+            },
+            "75": {
+                "Description": "Undo movement test - Check movement intent has reset highlights",
+                "Type": "CHECK_HIGHLIGHT",
+                "Config": {
+                    "X": 3,
+                    "Y": 0,
+                    "Type": "MOVEMENT"
+                }
+            },
+            "999": {
+                "Description": "Test Complete",
+                "Type": "TEST_COMPLETE"
+            }
+        }
+    }
+}

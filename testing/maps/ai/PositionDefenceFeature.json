@@ -7,28 +7,28 @@
         },
         {
             "EntityString": "TEAM_2|DirectAttackMove|6,4"
+        },
+        {
+            "EntityString": "TEAM_2|HighDefenceTerrain|3,3"
+        },
+        {
+            "EntityString": "TEAM_2|LowDefenceTerrain|3,4"
+        },
+        {
+            "EntityString": "TEAM_2|HighDefenceTerrain|1,3"
         }
     ],
     "Test": {
         "TestSteps": {
             "0": {
-                "Description": "SimpleClosestProximityFeature test - Set feature weight",
+                "Description": "PositionDefenceFeature test - Set feature weight",
                 "Type": "AI_ADD_WEIGHT",
                 "Config": {
-                    "Feature": "SimpleClosestProximityFeature_EntityTag:Unit_Relationship:Enemy"
-                }
-            },
-            "5": {
-                "Description": "SimpleClosestProximityFeature test - Check that the AI entity is in its starting position",
-                "Type": "CHECK_ENTITY",
-                "Config": {
-                    "X": 6,
-                    "Y": 4,
-                    "EntityType": "DirectAttackMove"
+                    "Feature": "PositionDefenceFeature"
                 }
             },
             "10": {
-                "Description": "SimpleClosestProximityFeature test - Open Menu",
+                "Description": "PositionDefenceFeature test - Open Menu",
                 "Type": "SELECT_POSITION",
                 "Config": {
                     "X": 2,
@@ -37,28 +37,28 @@
                 }
             },
             "20": {
-                "Description": "SimpleClosestProximityFeature test - Select Turn End",
+                "Description": "PositionDefenceFeature test - Select Turn End",
                 "Type": "CHECK_ACTIONS",
                 "Config": {
                     "SelectOptionName": "End Turn"
                 }
             },
             "30": {
-                "Description": "SimpleClosestProximityFeature test - Wait for the AI turn to start",
+                "Description": "PositionDefenceFeature test - Wait for the AI turn to start",
                 "Type": "WAIT_FOR_TEAM_TURN",
                 "Config": {
                     "Team": "TEAM_2"
                 }
             },
             "40": {
-                "Description": "SimpleClosestProximityFeature test - Wait for the AI turn to end and the player turn to start",
+                "Description": "PositionDefenceFeature test - Wait for the AI turn to end and the player turn to start",
                 "Type": "WAIT_FOR_TEAM_TURN",
                 "Config": {
                     "Team": "TEAM_1"
                 }
             },
             "50": {
-                "Description": "SimpleClosestProximityFeature test - Check that the entity moved from its original square",
+                "Description": "PositionDefenceFeature test - Check that the entity moved from its original square",
                 "Type": "CHECK_ENTITY",
                 "Config": {
                     "X": 6,
@@ -68,11 +68,11 @@
                 }
             },
             "60": {
-                "Description": "SimpleClosestProximityFeature test - And has moved next to the enemy",
+                "Description": "PositionDefenceFeature test - And has moved to the best defence terrain",
                 "Type": "CHECK_ENTITY",
                 "Config": {
-                    "X": 1,
-                    "Y": 4,
+                    "X": 3,
+                    "Y": 3,
                     "EntityType": "DirectAttackMove"
                 }
             },

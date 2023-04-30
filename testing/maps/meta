@@ -3,10 +3,12 @@ version |   name            |   filename                        |   isFile  |   
 
 1       |   Basic           |   basic                           |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Basic tests
 1       |   Attack tests    |   attack                          |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Attack tests
+1       |   Movement tests  |   movement                        |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Movement tests
 1       |   State tests     |   state                           |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   State tests
 1       |   AI tests        |   ai                              |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   AI tests
 
 1       |   meta            |   meta                            |   1       |   /basic  |   0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
 1       |   meta            |   meta                            |   1       |   /attack |   0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
+1       |   meta            |   meta                            |   1       |   /movement | 0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
 1       |   meta            |   meta                            |   1       |   /state  |   0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
 1       |   meta            |   meta                            |   1       |   /ai     |   0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
