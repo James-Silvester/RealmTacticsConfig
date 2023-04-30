@@ -73,7 +73,7 @@
                 "Description": "Undo movement test - Wait for undo movement complete",
                 "Type": "WAIT_FOR_STATE",
                 "Config": {
-                    "State": "ENTITY_MOVE_INTENT"
+                    "State": "ENTITY_MOVE_PROCESS"
                 }
             },
             "70": {
