@@ -121,7 +121,8 @@
         "AIModule": false,
         "AIAction": false,
         "Edit": false,
-        "Save": true
+        "Trigger": false,
+        "Save": false
     },
     "AI": {
         "TrainingMode": false,

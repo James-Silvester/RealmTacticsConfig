@@ -1,0 +1,2 @@
+version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   uiAction    |   subMeta     |   env     |   notes
+1       |   Turn Number     |   turn-number.json                |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Turn Number test
