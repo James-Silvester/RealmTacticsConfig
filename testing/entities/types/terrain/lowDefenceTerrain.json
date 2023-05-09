@@ -1,10 +1,6 @@
 {
     "Name": "LowDefenceTerrain",
     "Description": "Low Defence Terrain",
-    "Sprite": {
-        "FilePath": "terrain/baseTerrain.jpeg",
-        "PixelsPerUnit": 256
-    },
     "Tags": [
         "Terrain"
     ],

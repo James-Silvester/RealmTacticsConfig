@@ -2,6 +2,7 @@ version |   name                        |   filename                            
 1       |   LowDefenceBuilding Config   |   lowDefenceBuilding.json             |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       | 
 
 
+1       |   BaseTerrain ImageFile       |   baseTerrain.jpeg                |   1           |   /terrain    |   0       |   /terrain        |   -           |   0       |   0       |   Image for base terrain
 1       |   BaseTerrain Config          |   baseTerrain.json                    |   1       |   /terrain    |   1       |   /terrain        |   -           |   0       |   0       |
 1       |   ImpassibleTerrain Config    | impassibleTerrain.json                |   1       |   /terrain    |   1       |   /terrain        |   -           |   0       |   0       |
 1       |   LowDefenceTerrain Config    |   lowDefenceTerrain.json              |   1       |   /terrain    |   1       |   /terrain        |   -           |   0       |   0       |

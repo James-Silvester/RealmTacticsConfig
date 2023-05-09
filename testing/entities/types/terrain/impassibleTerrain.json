@@ -1,10 +1,6 @@
 {
     "Name": "ImpassibleTerrain",
     "Description": "Impassible Terrain",
-    "Sprite": {
-        "FilePath": "terrain/impassibleTerrain.jpeg",
-        "PixelsPerUnit": 256
-    },
     "Tags": [
         "Terrain"
     ],

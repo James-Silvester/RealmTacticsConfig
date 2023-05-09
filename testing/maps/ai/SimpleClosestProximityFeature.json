@@ -43,13 +43,6 @@
                     "SelectOptionName": "End Turn"
                 }
             },
-            "30": {
-                "Description": "SimpleClosestProximityFeature test - Wait for the AI turn to start",
-                "Type": "WAIT_FOR_TEAM_TURN",
-                "Config": {
-                    "Team": "TEAM_2"
-                }
-            },
             "40": {
                 "Description": "SimpleClosestProximityFeature test - Wait for the AI turn to end and the player turn to start",
                 "Type": "WAIT_FOR_TEAM_TURN",
