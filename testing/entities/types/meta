@@ -1,4 +1,5 @@
 version |   name                        |   filename                            |   isFile  |   path        |   onUi    |   uiPath          |   uiAction    |   subMeta |   env     |   notes
+1       |   LowDefenceBuilding ImageFile |  lowDefenceBuilding.jpeg             |   1           |   /buildings    |   0       |   /buildings        |   -           |   0       |   0       |   Image for standard building
 1       |   LowDefenceBuilding Config   |   lowDefenceBuilding.json             |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       | 
 
 
