@@ -29,50 +29,5 @@
             "TeamId": "TEAM_UNDEFINED"
         }
     ],
-    "Triggers": [
-        {
-            "Conditions": [
-                {
-                    "Type": "TEAM_REMAINING_ENTITIES",
-                    "TeamId": "TEAM_1",
-                    "EntityTagFilter": "Unit"
-                }
-            ],
-            "Actions": [
-                {
-                    "Type": "TEAM_VICTORY",
-                    "TeamId": "TEAM_2"
-                }
-            ]
-        },
-        {
-            "Conditions": [
-                {
-                    "Type": "TEAM_REMAINING_ENTITIES",
-                    "TeamId": "TEAM_2",
-                    "EntityTagFilter": "Unit"
-                }
-            ],
-            "Actions": [
-                {
-                    "Type": "TEAM_VICTORY",
-                    "TeamId": "TEAM_1"
-                }
-            ]
-        },
-        {
-            "Conditions": [
-                {
-                    "Type": "TURN_NUMBER",
-                    "TurnNumber": 10
-                }
-            ],
-            "Actions": [
-                {
-                    "Type": "TEAM_VICTORY",
-                    "TeamId": "TEAM_2"
-                }
-            ]
-        }
-    ]
+    "Triggers": []
 }

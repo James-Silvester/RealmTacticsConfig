@@ -23,7 +23,7 @@
             "Conditions": [
                 {
                     "Type": "TURN_NUMBER",
-                    "TurnNumber": 10
+                    "TurnNumber": 3
                 }
             ],
             "Actions": [
@@ -67,11 +67,20 @@
                 }
             },
             "50": {
-                "Description": "Trigger turn number - Wait for player turn 2 to start",
+                "Description": "Trigger turn number - Check that the game hasnt ended after the first turn",
                 "Type": "CHECK_TEXT_VISIBLE",
                 "Config": {
-                    "Text": "Test123",
+                    "Text": "Battle Complete!",
                     "Visible": false
+                }
+            },
+            "55": {
+                "Description": "Trigger turn number - Open Menu for second turn",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 3,
+                    "DoubleTap": true
                 }
             },
             "60": {
@@ -96,10 +105,71 @@
                 }
             },
             "90": {
-                "Description": "Trigger turn number - Wait for player turn 2 to start",
+                "Description": "Trigger turn number - Check that the game ending has ended on the third turn",
                 "Type": "CHECK_TEXT_VISIBLE",
                 "Config": {
-                    "Text": "Test123"
+                    "Text": "Battle Complete!"
+                }
+            },
+            "100": {
+                "Description": "Trigger turn number - Check that the correct team has won",
+                "Type": "CHECK_TEXT_VISIBLE",
+                "Config": {
+                    "Text": "Well Done Team 2!",
+                    "Contains": true
+                }
+            },
+            "110": {
+                "Description": "Trigger turn number - Click continue button",
+                "Type": "CHECK_BUTTON",
+                "Config": {
+                    "Text": "Continue Battle"
+                }
+            },
+            "120": {
+                "Description": "Trigger turn number - Check that the victory screen has closed",
+                "Type": "CHECK_TEXT_VISIBLE",
+                "Config": {
+                    "Text": "Well Done Team 2!",
+                    "Visible": false
+                }
+            },
+            "130": {
+                "Description": "Trigger turn number - Open Menu for third turn",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 4,
+                    "DoubleTap": true
+                }
+            },
+            "135": {
+                "Description": "Trigger turn number - Select Turn End for third turn",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "140": {
+                "Description": "Trigger turn number - Wait for the AI turn 3 to start",
+                "Type": "WAIT_FOR_TEAM_TURN",
+                "Config": {
+                    "Team": "TEAM_1"
+                }
+            },
+            "150": {
+                "Description": "Trigger turn number - Wait for player turn 4 to start",
+                "Type": "WAIT_FOR_STATE",
+                "Config": {
+                    "State": "INITIAL_STATE"
+                }
+            },
+            "160": {
+                "Description": "Trigger turn number - Check that the game ending screen doesnt re-appear",
+                "Type": "CHECK_TEXT_VISIBLE",
+                "Config": {
+                    "Text": "Battle Complete!",
+                    "Visible": false
                 }
             },
             "999": {
