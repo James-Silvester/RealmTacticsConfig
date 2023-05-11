@@ -1,0 +1,95 @@
+{
+    "Width": 7,
+    "Height": 7,
+    "EntityConfig": [
+        {
+            "EntityString": "TEAM_1|VeryPowerfulDirectAttackMove|0,0"
+        },
+        {
+            "EntityString": "TEAM_1|ImpassibleTerrain|1,1"
+        },
+        {
+            "EntityString": "TEAM_2|5Movement|1,1"
+        }
+    ],
+    "Triggers": [
+        {
+            "Conditions": [
+                {
+                    "Type": "TEAM_REMAINING_ENTITIES",
+                    "TeamId": "TEAM_1",
+                    "EntityTagFilter": "Unit"
+                }
+            ],
+            "Actions": [
+                {
+                    "Type": "TEAM_VICTORY",
+                    "TeamId": "TEAM_2"
+                }
+            ]
+        },
+        {
+            "Conditions": [
+                {
+                    "Type": "TEAM_REMAINING_ENTITIES",
+                    "TeamId": "TEAM_2",
+                    "EntityTagFilter": "Unit"
+                }
+            ],
+            "Actions": [
+                {
+                    "Type": "TEAM_VICTORY",
+                    "TeamId": "TEAM_1"
+                }
+            ]
+        }
+    ],
+    "Test": {
+        "TestSteps": {
+            "10": {
+                "Description": "Trigger destrot enemy units - Check that we start without the game ended",
+                "Type": "CHECK_TEXT_VISIBLE",
+                "Config": {
+                    "Text": "Battle Complete!",
+                    "Visible": false
+                }
+            },
+            "20": {
+                "Description": "Trigger destrot enemy units - Select unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 0,
+                    "Y": 0
+                }
+            },
+            "30": {
+                "Description": "Trigger destrot enemy units - Move unit to attack",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 1,
+                    "Y": 0
+                }
+            },
+            "40": {
+                "Description": "Trigger destrot enemy units - Perform attack",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 1,
+                    "Y": 1
+                }
+            },
+            "50": {
+                "Description": "Trigger destrot enemy units - The game should be ended",
+                "Type": "CHECK_TEXT_VISIBLE",
+                "Config": {
+                    "Text": "Battle Complete!",
+                    "Visible": true
+                }
+            },
+            "999": {
+                "Description": "Test Complete",
+                "Type": "TEST_COMPLETE"
+            }
+        }
+    }
+}

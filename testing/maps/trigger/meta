@@ -1,2 +1,3 @@
 version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   uiAction    |   subMeta     |   env     |   notes
-1       |   Turn Number     |   turn-number.json                |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Turn Number test
+1       |   Turn Number Victory | turn-number-victory.json      |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Turn Number Victory test
+1       |   Destroy Enemy Victory | destroy-enemy-victory.json  |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Destroy Enemy Victory test
