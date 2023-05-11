@@ -21,5 +21,8 @@
                 "ApplyToEnemies": true
             }
         ]
+    },
+    "Capture": {
+        "PointsToCapture": 2
     }
 }

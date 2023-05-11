@@ -47,7 +47,7 @@
     "Test": {
         "TestSteps": {
             "10": {
-                "Description": "Trigger destrot enemy units - Check that we start without the game ended",
+                "Description": "Trigger destroy enemy units - Check that we start without the game ended",
                 "Type": "CHECK_TEXT_VISIBLE",
                 "Config": {
                     "Text": "Battle Complete!",
@@ -55,7 +55,7 @@
                 }
             },
             "20": {
-                "Description": "Trigger destrot enemy units - Select unit",
+                "Description": "Trigger destroy enemy units - Select unit",
                 "Type": "SELECT_POSITION",
                 "Config": {
                     "X": 0,
@@ -63,7 +63,7 @@
                 }
             },
             "30": {
-                "Description": "Trigger destrot enemy units - Move unit to attack",
+                "Description": "Trigger destroy enemy units - Move unit to attack",
                 "Type": "SELECT_POSITION",
                 "Config": {
                     "X": 1,
@@ -71,14 +71,14 @@
                 }
             },
             "35": {
-                "Description": "Trigger destrot enemy units - Wait for movement complete",
+                "Description": "Trigger destroy enemy units - Wait for movement complete",
                 "Type": "WAIT_FOR_STATE",
                 "Config": {
                     "State": "POST_MOVE_ACTION_MENU_OPEN"
                 }
             },
             "40": {
-                "Description": "Trigger destrot enemy units - Select attack",
+                "Description": "Trigger destroy enemy units - Select attack",
                 "Type": "SELECT_POSITION",
                 "Config": {
                     "X": 1,
@@ -86,7 +86,7 @@
                 }
             },
             "50": {
-                "Description": "Trigger destrot enemy units - Perform attack",
+                "Description": "Trigger destroy enemy units - Perform attack",
                 "Type": "SELECT_POSITION",
                 "Config": {
                     "X": 1,
@@ -94,7 +94,7 @@
                 }
             },
             "60": {
-                "Description": "Trigger destrot enemy units - The game should be ended",
+                "Description": "Trigger destroy enemy units - The game should be ended",
                 "Type": "CHECK_TEXT_VISIBLE",
                 "Config": {
                     "Text": "Battle Complete!",
