@@ -51,6 +51,50 @@
                     "Y": 1
                 }
             },
+            "30": {
+                "Description": "Trigger capture HQ victory - Select capture",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Capture"
+                }
+            },
+            "40": {
+                "Description": "Trigger capture HQ victory - Open main menu",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 1,
+                    "Y": 1
+                }
+            },
+            "50": {
+                "Description": "Trigger capture HQ victory - End turn",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "60": {
+                "Description": "Trigger capture HQ victory - Wait for the AI turn to end and the player turn to start",
+                "Type": "WAIT_FOR_TEAM_TURN",
+                "Config": {
+                    "Team": "TEAM_1"
+                }
+            },
+            "70": {
+                "Description": "Trigger capture HQ victory - Select unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 1,
+                    "Y": 1
+                }
+            },
+            "80": {
+                "Description": "Trigger capture HQ victory - Select capture",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Capture"
+                }
+            },
             "100": {
                 "Description": "Trigger destrot enemy units - The game should be ended",
                 "Type": "CHECK_TEXT_VISIBLE",
