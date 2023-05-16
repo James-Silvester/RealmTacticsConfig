@@ -35,10 +35,10 @@
                             "SubmitActionText": "Boom"
                         },
                         {
-                            "Text": "This is a test notification with no SubmitActionText"
+                            "Text": "This is a test notification with no SubmitActionText shows Next"
                         },
                         {
-                            "Text": "This is the last test notification with no SubmitActionText"
+                            "Text": "This is the last test notification with no SubmitActionText shows Continue"
                         }
                     ]
                 }
@@ -55,10 +55,46 @@
                 }
             },
             "20": {
-                "Description": "Trigger turn number - Click continue button",
+                "Description": "Notification trigger action - Click continue button",
                 "Type": "CHECK_BUTTON",
                 "Config": {
                     "Text": "Boom"
+                }
+            },
+            "30": {
+                "Description": "Notification trigger action - Check that the second notification has shown",
+                "Type": "CHECK_TEXT_VISIBLE",
+                "Config": {
+                    "Text": "This is a test notification with no SubmitActionText shows Next"
+                }
+            },
+            "40": {
+                "Description": "Notification trigger action - Click next button",
+                "Type": "CHECK_BUTTON",
+                "Config": {
+                    "Text": "Next"
+                }
+            },
+            "50": {
+                "Description": "Notification trigger action - Check that the third notification has shown",
+                "Type": "CHECK_TEXT_VISIBLE",
+                "Config": {
+                    "Text": "This is the last test notification with no SubmitActionText shows Continue"
+                }
+            },
+            "60": {
+                "Description": "Notification trigger action - Click continue button",
+                "Type": "CHECK_BUTTON",
+                "Config": {
+                    "Text": "Continue"
+                }
+            },
+            "70": {
+                "Description": "Notification trigger action - Check that the notification has closed",
+                "Type": "CHECK_TEXT_VISIBLE",
+                "Config": {
+                    "Text": "This is the last test notification with no SubmitActionText shows Continue",
+                    "Visible": false
                 }
             },
             "999": {
