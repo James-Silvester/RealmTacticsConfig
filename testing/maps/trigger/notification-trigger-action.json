@@ -1,0 +1,70 @@
+{
+    "Width": 7,
+    "Height": 7,
+    "EntityConfig": [
+        {
+            "EntityString": "TEAM_1|5Movement|0,0"
+        },
+        {
+            "EntityString": "TEAM_1|5Movement|0,1"
+        },
+        {
+            "EntityString": "TEAM_1|ImpassibleTerrain|1,1"
+        },
+        {
+            "EntityString": "TEAM_2|5Movement|5,4"
+        },
+        {
+            "EntityString": "TEAM_2|5Movement|5,3"
+        }
+    ],
+    "Triggers": [
+        {
+            "Conditions": [
+                {
+                    "Type": "TURN_NUMBER",
+                    "TurnNumber": 1
+                }
+            ],
+            "Actions": [
+                {
+                    "Type": "SEND_NOTIFICATION",
+                    "Notifications": [
+                        {
+                            "Text": "This is a test notification with SubmitActionText",
+                            "SubmitActionText": "Boom"
+                        },
+                        {
+                            "Text": "This is a test notification with no SubmitActionText"
+                        },
+                        {
+                            "Text": "This is the last test notification with no SubmitActionText"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Test": {
+        "TestSteps": {
+            "10": {
+                "Description": "Notification trigger action - Check that the first notification has shown",
+                "Type": "CHECK_TEXT_VISIBLE",
+                "Config": {
+                    "Text": "This is a test notification with SubmitActionText"
+                }
+            },
+            "20": {
+                "Description": "Trigger turn number - Click continue button",
+                "Type": "CHECK_BUTTON",
+                "Config": {
+                    "Text": "Boom"
+                }
+            },
+            "999": {
+                "Description": "Test Complete",
+                "Type": "TEST_COMPLETE"
+            }
+        }
+    }
+}

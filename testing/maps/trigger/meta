@@ -2,3 +2,4 @@ version |   name            |   filename                        |   isFile  |   
 1       |   Capture HQ Victory  | capture-hq-victory.json       |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Capture HQ Victory test
 1       |   Turn Number Victory | turn-number-victory.json      |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Turn Number Victory test
 1       |   Destroy Enemy Victory | destroy-enemy-victory.json  |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Destroy Enemy Victory test
+1       |   Notification Trigger Action | notification-trigger-action.json | 1 | /      |   1       |   /           |   loadMap     |   0           |   0       |   Notification Trigger Action test
