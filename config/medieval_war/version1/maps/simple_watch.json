@@ -139,44 +139,36 @@
             "TeamId": "TEAM_2"
         }
     ],
-    "Conditions": {
-        "WinConditions": [
-            {
-                "TeamId": "TEAM_1",
-                "EnemyEntitiesRemaining": 0,
-                "EnemyEntitiesRemainingTagFilter": "Unit",
-                "TurnNumber": 4
-            },
-            {
-                "TeamId": "TEAM_2",
-                "EnemyEntitiesRemaining": 0,
-                "EnemyEntitiesRemainingTagFilter": "Unit",
-                "TurnNumber": 4
-            },
-            {
-                "TeamId": "TEAM_1",
-                "TurnNumber": 99
-            },
-            {
-                "TeamId": "TEAM_1",
-                "EntityCaptured": {
-                    "Position": {
-                        "X": 9,
-                        "Y": 6
-                    },
-                    "EntityType": "Origin"
+    "Triggers": [
+        {
+            "Conditions": [
+                {
+                    "Type": "TEAM_REMAINING_ENTITIES",
+                    "TeamId": "TEAM_1",
+                    "EntityTagFilter": "Unit"
                 }
-            },
-            {
-                "TeamId": "TEAM_2",
-                "EntityCaptured": {
-                    "Position": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "EntityType": "Origin"
+            ],
+            "Actions": [
+                {
+                    "Type": "TEAM_VICTORY",
+                    "TeamId": "TEAM_2"
                 }
-            }
-        ]
-    }
+            ]
+        },
+        {
+            "Conditions": [
+                {
+                    "Type": "TEAM_REMAINING_ENTITIES",
+                    "TeamId": "TEAM_2",
+                    "EntityTagFilter": "Unit"
+                }
+            ],
+            "Actions": [
+                {
+                    "Type": "TEAM_VICTORY",
+                    "TeamId": "TEAM_1"
+                }
+            ]
+        }
+    ]
 }

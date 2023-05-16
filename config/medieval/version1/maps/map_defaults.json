@@ -29,24 +29,36 @@
             "TeamId": "TEAM_UNDEFINED"
         }
     ],
-    "Conditions": {
-        "WinConditions": [
-            {
-                "TeamId": "TEAM_1",
-                "EnemyEntitiesRemaining": 0,
-                "EnemyEntitiesRemainingTagFilter": "Unit",
-                "TurnNumber": 4
-            },
-            {
-                "TeamId": "TEAM_2",
-                "EnemyEntitiesRemaining": 0,
-                "EnemyEntitiesRemainingTagFilter": "Unit",
-                "TurnNumber": 4
-            },
-            {
-                "TeamId": "TEAM_1",
-                "TurnNumber": 99
-            }
-        ]
-    }
+    "Triggers": [
+        {
+            "Conditions": [
+                {
+                    "Type": "TEAM_REMAINING_ENTITIES",
+                    "TeamId": "TEAM_1",
+                    "EntityTagFilter": "Unit"
+                }
+            ],
+            "Actions": [
+                {
+                    "Type": "TEAM_VICTORY",
+                    "TeamId": "TEAM_2"
+                }
+            ]
+        },
+        {
+            "Conditions": [
+                {
+                    "Type": "TEAM_REMAINING_ENTITIES",
+                    "TeamId": "TEAM_2",
+                    "EntityTagFilter": "Unit"
+                }
+            ],
+            "Actions": [
+                {
+                    "Type": "TEAM_VICTORY",
+                    "TeamId": "TEAM_1"
+                }
+            ]
+        }
+    ]
 }
