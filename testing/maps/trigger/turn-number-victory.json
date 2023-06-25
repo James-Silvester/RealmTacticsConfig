@@ -115,7 +115,7 @@
                 "Description": "Trigger turn number - Check that the correct team has won",
                 "Type": "CHECK_TEXT_VISIBLE",
                 "Config": {
-                    "Text": "Well Done Team 2!",
+                    "Text": "Well Done TEAM 2!",
                     "Contains": true
                 }
             },
@@ -130,7 +130,7 @@
                 "Description": "Trigger turn number - Check that the victory screen has closed",
                 "Type": "CHECK_TEXT_VISIBLE",
                 "Config": {
-                    "Text": "Well Done Team 2!",
+                    "Text": "Well Done TEAM 2!",
                     "Visible": false
                 }
             },
