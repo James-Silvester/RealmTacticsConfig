@@ -25,6 +25,6 @@
     },
     "Money": {
         "UsesNetwork": true,
-        "PrimaryIncome": 1
+        "Income": [1]
     }
 }

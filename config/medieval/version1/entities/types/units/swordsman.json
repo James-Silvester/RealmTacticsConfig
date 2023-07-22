@@ -17,7 +17,7 @@
         }
     },
     "Purchase": {
-        "PrimaryCost": 4
+        "Costs": [4]
     },
     "Attack": {
         "DirectAttacks": [

@@ -46,9 +46,7 @@
     },
     "Money": {
         "UsesNetwork": true,
-        "PrimaryIncome": 0,
-        "SecondaryIncome": 0,
-        "TertiaryIncome": 0
+        "Income": [0, 0, 0]
     },
     "Capture": {
         "PointsToCapture": 100

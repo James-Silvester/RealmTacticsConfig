@@ -27,6 +27,6 @@
         ]
     },
     "Purchase": {
-        "PrimaryCost": 8
+        "Costs": [8]
     }
 }

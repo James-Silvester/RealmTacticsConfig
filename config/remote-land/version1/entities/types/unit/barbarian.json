@@ -31,9 +31,7 @@
         ]
     },
     "Purchase": {
-        "PrimaryCost": 5,
-        "SecondaryCost": 5,
-        "TertiaryCost": 2
+        "Costs": [5, 5, 2]
     },
     "Attack": {
         "DirectAttacks": [

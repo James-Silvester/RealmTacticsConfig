@@ -117,9 +117,7 @@
         "CanUseDefence": true
     },
     "Purchase": {
-        "PrimaryCost": 15,
-        "SecondaryCost": 15,
-        "TertiaryCost": 1,
+        "Costs": [15, 15, 1],
         "CanBePurchased": true
     }
 }

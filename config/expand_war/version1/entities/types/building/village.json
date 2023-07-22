@@ -15,10 +15,10 @@
     },
     "Money": {
         "UsesNetwork": true,
-        "PrimaryIncome": 2
+        "Income": [2]
     },
     "Purchase": {
-        "PrimaryCost": 10,
+        "Costs": [10],
         "CanBePurchased": true
     }
 }

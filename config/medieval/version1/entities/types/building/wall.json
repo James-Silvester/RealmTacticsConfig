@@ -18,6 +18,6 @@
         }
     },
     "Purchase": {
-        "PrimaryCost": 15
+        "Costs": [15]
     }
 }

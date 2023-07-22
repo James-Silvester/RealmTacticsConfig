@@ -15,7 +15,7 @@
         },
         "Purchase": {
             "CanBePurchased": true,
-            "PrimaryCost": 1
+            "Costs": [1]
         }
     }
 }

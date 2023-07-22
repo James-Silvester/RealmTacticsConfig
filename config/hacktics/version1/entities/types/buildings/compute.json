@@ -28,9 +28,7 @@
     },
     "Money": {
         "UsesNetwork": true,
-        "PrimaryIncome": 1,
-        "SecondaryIncome": 1,
-        "TertiaryIncome": 4
+        "Income": [1, 1, 4]
     },
     "Capture": {
         "PointsToCapture": 100

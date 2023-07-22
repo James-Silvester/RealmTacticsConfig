@@ -20,8 +20,6 @@
         "PointsToCapture": 4
     },
     "Money": {
-        "PrimaryIncome": 3,
-        "SecondaryIncome": 3,
-        "TertiaryIncome": 3
+        "Income": [3, 3, 3]
     }
 }

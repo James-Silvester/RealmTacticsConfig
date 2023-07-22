@@ -20,7 +20,7 @@
         }
     },
     "Purchase": {
-        "PrimaryCost": 10
+        "Costs": [10]
     },
     "Attack": {
         "RangeAttacks": [
