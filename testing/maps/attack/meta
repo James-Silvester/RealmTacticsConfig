@@ -1,4 +1,4 @@
 version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   uiAction    |   subMeta     |   env     |   notes
-1       |   Splash Attack Entity Target   |   splash-attack-entity-target.json      |   1   |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Checks splash attacks with target entity
-1       |   Splash Attack Position Target |   splash-attack-position-target.json    |   1   |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Checks splash attacks with target position
+2       |   Splash Attack Entity Target   |   splash-attack-entity-target.json      |   1   |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Checks splash attacks with target entity
+2       |   Splash Attack Position Target |   splash-attack-position-target.json    |   1   |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Checks splash attacks with target position
 

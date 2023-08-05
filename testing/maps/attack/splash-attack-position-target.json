@@ -28,8 +28,14 @@
                 "Type": "SELECT_POSITION",
                 "Config": {
                     "X": 1,
-                    "Y": 1,
-                    "DoubleTap": true
+                    "Y": 1
+                }
+            },
+            "5": {
+                "Description": "Splash attack position - Select attack again",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Attack"
                 }
             },
             "10": {
@@ -95,11 +101,17 @@
                 "Type": "SELECT_POSITION",
                 "Config": {
                     "X": 1,
-                    "Y": 1,
-                    "DoubleTap": true
+                    "Y": 1
                 }
             },
             "31": {
+                "Description": "Splash attack position test - Select attack again",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Attack"
+                }
+            },
+            "32": {
                 "Description": "Splash attack position test - Check that state is to target an entity again",
                 "Type": "CHECK_STATE",
                 "Config": {
