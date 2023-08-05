@@ -5,7 +5,7 @@
         "FollowCameraSpacing": 1,
         "FollowCameraSpeed": 3,
         "FollowCameraAcceleration": 5,
-        "TouchFollowSpeed": 5,
+        "TouchFollowSpeed": 2,
         "CursorMoveSkips": 0,
         "CursorHoldSkips": 4
     },
