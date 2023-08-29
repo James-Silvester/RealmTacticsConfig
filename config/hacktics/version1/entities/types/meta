@@ -5,7 +5,7 @@ version |   name                |   filename            |   isFile  |   path    
 1       |   Encryption Config       |   encryption.json     |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       |   Config for encryption building
 1       |   Encryption ImageFile    |   encryption.jpeg     |   1       |   /buildings  |   0       |   /buildings      |   -           |   0       |   0       |   Image for encryption building
 
-1       |   Generator Config    |   generator.json      |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       |   Config for generator building
+2       |   Generator Config    |   generator.json      |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       |   Config for generator building
 2       |   Generator ImageFile |   generator.png      |   1       |   /buildings  |   0       |   /buildings      |   -           |   0       |   0       |   Image for generator building
 
 1       |   Origin Config       |   origin.json         |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       |   Config for origin building

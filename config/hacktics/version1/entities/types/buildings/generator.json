@@ -2,8 +2,10 @@
     "Name": "Generator",
     "Description": "Generates programs",
     "Sprite": {
-        "FilePath": "buildings/generator.json",
-        "PixelsPerUnit": 512
+        "FilePath": "buildings/generator.png",
+        "PixelsPerUnit": 32,
+        "Framerate": 3,
+        "Repeats": true
     },
     "Tags": [
         "Building"
