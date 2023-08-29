@@ -6,6 +6,7 @@
         "FollowCameraSpeed": 3,
         "FollowCameraAcceleration": 5,
         "TouchFollowSpeed": 2,
+        "TouchDeadMovementDistance": 0.1,
         "CursorMoveSkips": 0,
         "CursorHoldSkips": 4
     },
@@ -105,12 +106,12 @@
     "Logging": {
         "Debug": false,
         "Performance": false,
-        "Config": true,
+        "Config": false,
         "State": false,
         "Touch": false,
         "Sprite": false,
-        "Networking": true,
-        "Money": true,
+        "Networking": false,
+        "Money": false,
         "Purchase": false,
         "EntityMove": false,
         "EntityAttack": false,

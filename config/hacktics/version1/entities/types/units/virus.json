@@ -3,7 +3,9 @@
     "Description": "Modifies other programs to take them down",
     "Sprite": {
         "FilePath": "units/virus.jpeg",
-        "PixelsPerUnit": 512
+        "PixelsPerUnit": 32,
+        "framerate": 3,
+        "Repeats": true
     },
     "Tags": [
         "Unit"
@@ -36,22 +38,6 @@
                         "PointCost": 1
                     }
                 }
-            },
-            {
-                "Name": "Ping",
-                "Detail": {
-                    "CanMoveAndAttack": true,
-                    "BasePower": 0.3,
-                    "Selector": {
-                        "AllowTags": [
-                            "Unit"
-                        ]
-                    },
-                    "TagPowerModifier": {},
-                    "AbilityConfig": {
-                        "PointCost": 1
-                    }
-                }
             }
         ],
         "RangeAttacks": [
@@ -61,7 +47,7 @@
                 "MaxRange": 2,
                 "Detail": {
                     "CanMoveAndAttack": false,
-                    "BasePower": 0.5,
+                    "BasePower": 0.3,
                     "Selector": {
                         "AllowTags": [
                             "Unit"
@@ -71,43 +57,6 @@
                     "AbilityConfig": {
                         "PointCost": 1,
                         "EndsTurn": true
-                    }
-                }
-            },
-            {
-                "Name": "Splash",
-                "MinRange": 2,
-                "MaxRange": 3,
-                "Detail": {
-                    "CanMoveAndAttack": false,
-                    "BasePower": 0.5,
-                    "Selector": {
-                        "AllowTags": [
-                            "Unit"
-                        ]
-                    },
-                    "TagPowerModifier": {},
-                    "AbilityConfig": {
-                        "PointCost": 1,
-                        "EndsTurn": true
-                    },
-                    "NeedsToTargetEntity": false,
-                    "HasSplash": true,
-                    "SplashConfig": {
-                        "RangeAttacks": [
-                            {
-                                "MinRange": 1,
-                                "MaxRange": 2,
-                                "Detail": {
-                                    "BasePower": 0.5,
-                                    "Selector": {
-                                        "AllowTags": [
-                                            "Unit"
-                                        ]
-                                    }
-                                }
-                            }
-                        ]
                     }
                 }
             }

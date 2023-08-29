@@ -1,0 +1,41 @@
+{
+    "Name": "Void",
+    "Description": "Where electronics never go",
+    "Sprite": {
+        "FilePath": "terrain/void.jpeg",
+        "PixelsPerUnit": 256
+    },
+    "Tags": [
+        "Terrain"
+    ],
+    "Defence": {
+        "DefenceIndicator": "NONE",
+        "SpecificDefence": [
+            {
+                "Selector": {
+                    "AllowTags": [
+                        "Unit"
+                    ]
+                },
+                "Defence": 0.0,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Network": {
+        "CanNetwork": true,
+        "RequireNetwork": true
+    },
+    "Movement": {
+        "OthersTagCost": {
+            "Unit": 0
+        }
+    },
+    "Money": {
+        "UsesNetwork": true,
+        "Income": [1, 1, 0]
+    },
+    "Capture": {
+        "PointsToCapture": 100
+    }
+}
