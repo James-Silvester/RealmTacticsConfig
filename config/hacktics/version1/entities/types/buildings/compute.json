@@ -2,8 +2,10 @@
     "Name": "Compute",
     "Description": "High resource availability",
     "Sprite": {
-        "FilePath": "buildings/compute.jpeg",
-        "PixelsPerUnit": 512
+        "FilePath": "buildings/compute.png",
+        "PixelsPerUnit": 512,
+        "Framerate": 3,
+        "Repeats": true
     },
     "Tags": [
         "Building"

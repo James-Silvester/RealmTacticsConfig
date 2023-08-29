@@ -1,6 +1,6 @@
 version |   name                |   filename            |   isFile  |   path        |   onUi    |   uiPath          |   uiAction    |   subMeta |   env     |   notes
 1       |   Compute Config      |   compute.json        |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       |   Config for compute building
-1       |   Compute ImageFile   |   compute.jpeg        |   1       |   /buildings  |   0       |   /buildings      |   -           |   0       |   0       |   Image for compute building
+1       |   Compute ImageFile   |   compute.png        |   1       |   /buildings  |   0       |   /buildings      |   -           |   0       |   0       |   Image for compute building
 
 1       |   Encryption Config       |   encryption.json     |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       |   Config for encryption building
 1       |   Encryption ImageFile    |   encryption.jpeg     |   1       |   /buildings  |   0       |   /buildings      |   -           |   0       |   0       |   Image for encryption building
