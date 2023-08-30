@@ -2,8 +2,10 @@
     "Name": "DDOS",
     "Description": "Remote disruption of the network",
     "Sprite": {
-        "FilePath": "units/ddos.jpeg",
-        "PixelsPerUnit": 512
+        "FilePath": "units/ddos.png",
+        "PixelsPerUnit": 64,
+        "framerate": 3,
+        "Repeats": true
     },
     "Tags": [
         "Unit"

@@ -22,13 +22,13 @@ version |   name                |   filename            |   isFile  |   path    
 
 
 1       |   DDOS Config         |   ddos.json           |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for ddos unit
-1       |   ddos ImageFile      |   ddos.jpeg           |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for ddos unit
+1       |   ddos ImageFile      |   ddos.png           |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for ddos unit
 
 5       |   Virus Config        |   virus.json          |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for virus unit
-1       |   Virus ImageFile     |   virus.jpeg          |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for virus unit
+1       |   Virus ImageFile     |   virus.png          |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for virus unit
 
 1       |   Worker Config       |   worker.json         |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for worker unit
-1       |   Worker ImageFile    |   worker.jpeg         |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for worker unit
+1       |   Worker ImageFile    |   worker.png         |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for worker unit
 
 2       |   Worm Config         |   worm.json           |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for worm unit
-3       |   Worm ImageFile      |   worm.jpeg           |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for worm unit
+3       |   Worm ImageFile      |   worm.png           |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for worm unit

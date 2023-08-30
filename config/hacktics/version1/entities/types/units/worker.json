@@ -2,8 +2,10 @@
     "Name": "Worker",
     "Description": "Creates connections",
     "Sprite": {
-        "FilePath": "units/worker.jpeg",
-        "PixelsPerUnit": 512
+        "FilePath": "units/worker.png",
+        "PixelsPerUnit": 64,
+        "Framerate": 1,
+        "Repeats": true
     },
     "Tags": [
         "Unit"

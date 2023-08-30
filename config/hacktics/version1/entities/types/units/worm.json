@@ -3,7 +3,9 @@
     "Description": "Quickly spreads through the network",
     "Sprite": {
         "FilePath": "units/worm.jpeg",
-        "PixelsPerUnit": 512
+        "PixelsPerUnit": 64,
+        "Framerate": 1,
+        "Repeats": true
     },
     "Tags": [
         "Unit"

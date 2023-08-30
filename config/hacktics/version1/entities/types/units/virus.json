@@ -2,8 +2,8 @@
     "Name": "Virus",
     "Description": "Modifies other programs to take them down",
     "Sprite": {
-        "FilePath": "units/virus.jpeg",
-        "PixelsPerUnit": 32,
+        "FilePath": "units/virus.png",
+        "PixelsPerUnit": 64,
         "framerate": 3,
         "Repeats": true
     },
