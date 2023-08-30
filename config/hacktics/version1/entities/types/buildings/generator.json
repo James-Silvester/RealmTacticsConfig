@@ -3,7 +3,7 @@
     "Description": "Generates programs",
     "Sprite": {
         "FilePath": "buildings/generator.png",
-        "PixelsPerUnit": 32,
+        "PixelsPerUnit": 64,
         "Framerate": 3,
         "Repeats": true
     },

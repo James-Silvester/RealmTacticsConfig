@@ -2,8 +2,10 @@
     "Name": "Encryption",
     "Description": "Secures all data",
     "Sprite": {
-        "FilePath": "buildings/encryption.json",
-        "PixelsPerUnit": 512
+        "FilePath": "buildings/encryption.png",
+        "PixelsPerUnit": 64,
+        "Framerate": 3,
+        "Repeats": true
     },
     "Tags": [
         "Building"

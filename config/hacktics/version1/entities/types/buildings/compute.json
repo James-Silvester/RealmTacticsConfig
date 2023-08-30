@@ -3,7 +3,7 @@
     "Description": "High resource availability",
     "Sprite": {
         "FilePath": "buildings/compute.png",
-        "PixelsPerUnit": 512,
+        "PixelsPerUnit": 64,
         "Framerate": 3,
         "Repeats": true
     },
