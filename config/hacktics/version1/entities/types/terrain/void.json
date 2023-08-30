@@ -2,8 +2,10 @@
     "Name": "Void",
     "Description": "Where electronics never go",
     "Sprite": {
-        "FilePath": "terrain/void.jpeg",
-        "PixelsPerUnit": 256
+        "FilePath": "terrain/void.png",
+        "PixelsPerUnit": 64,
+        "Framerate": 1,
+        "Repeats": true
     },
     "Tags": [
         "Terrain"
@@ -22,20 +24,9 @@
             }
         ]
     },
-    "Network": {
-        "CanNetwork": true,
-        "RequireNetwork": true
-    },
     "Movement": {
         "OthersTagCost": {
-            "Unit": 0
+            "Unit": 999
         }
-    },
-    "Money": {
-        "UsesNetwork": true,
-        "Income": [1, 1, 0]
-    },
-    "Capture": {
-        "PointsToCapture": 100
     }
 }
