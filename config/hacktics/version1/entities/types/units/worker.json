@@ -32,7 +32,7 @@
         }
     },
     "Purchase": {
-        "Costs": [10, 10, 0],
+        "Costs": [10],
         "CanBePurchased": true
     }
 }

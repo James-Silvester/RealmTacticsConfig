@@ -1,17 +1,15 @@
 version |   name                |   filename            |   isFile  |   path        |   onUi    |   uiPath          |   uiAction    |   subMeta |   env     |   notes
-2       |   Compute Config      |   compute.json        |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       |   Config for compute building
-2       |   Compute ImageFile   |   compute.png        |   1       |   /buildings  |   0       |   /buildings      |   -           |   0       |   0       |   Image for compute building
+2       |   Compute Config      |   compute.json        |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   0       |   Config for compute terrain
+2       |   Compute ImageFile   |   compute.png        |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   0       |   Image for compute terrain
 
-1       |   Encryption Config       |   encryption.json     |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       |   Config for encryption building
-1       |   Encryption ImageFile    |   encryption.png     |   1       |   /buildings  |   0       |   /buildings      |   -           |   0       |   0       |   Image for encryption building
+1       |   Encryption Config       |   encryption.json     |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   0       |   Config for encryption terrain
+1       |   Encryption ImageFile    |   encryption.png     |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   0       |   Image for encryption terrain
 
-2       |   Generator Config    |   generator.json      |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       |   Config for generator building
-2       |   Generator ImageFile |   generator.png      |   1       |   /buildings  |   0       |   /buildings      |   -           |   0       |   0       |   Image for generator building
+2       |   Generator Config    |   generator.json      |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   0       |   Config for generator terrain
+2       |   Generator ImageFile |   generator.png      |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   0       |   Image for generator terrain
 
-2       |   Origin Config       |   origin.json         |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       |   Config for origin building
-2       |   Origin ImageFile    |   origin.png         |   1       |   /buildings  |   0       |   /buildings      |   -           |   0       |   0       |   Image for origin building
-
-
+2       |   Origin Config       |   origin.json         |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   0       |   Config for origin terrain
+2       |   Origin ImageFile    |   origin.png         |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   0       |   Image for origin terrain
 
 1       |   Ground Config       |   ground.json         |   1       |   /terrain    |   1       |   /terrain        |   -           |   0       |   0       |   Config for ground terrain
 1       |   Ground ImageFile    |   ground.png         |   1       |   /terrain    |   0       |   /terrain        |   -           |   0       |   0       |   Image for ground terrain

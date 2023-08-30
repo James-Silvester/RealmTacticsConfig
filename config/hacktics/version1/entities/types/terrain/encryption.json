@@ -2,13 +2,13 @@
     "Name": "Encryption",
     "Description": "Secures all data",
     "Sprite": {
-        "FilePath": "buildings/encryption.png",
+        "FilePath": "terrain/encryption.png",
         "PixelsPerUnit": 64,
         "Framerate": 3,
         "Repeats": true
     },
     "Tags": [
-        "Building"
+        "Terrain"
     ],
     "EntityAbility": {
         "AbilityPoints": 0

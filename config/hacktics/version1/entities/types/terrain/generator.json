@@ -2,13 +2,13 @@
     "Name": "Generator",
     "Description": "Generates programs",
     "Sprite": {
-        "FilePath": "buildings/generator.png",
+        "FilePath": "terrain/generator.png",
         "PixelsPerUnit": 64,
         "Framerate": 3,
         "Repeats": true
     },
     "Tags": [
-        "Building"
+        "Terrain"
     ],
     "EntityAbility": {
         "AbilityPoints": 1

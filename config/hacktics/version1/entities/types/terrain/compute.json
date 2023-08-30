@@ -2,13 +2,13 @@
     "Name": "Compute",
     "Description": "High resource availability",
     "Sprite": {
-        "FilePath": "buildings/compute.png",
+        "FilePath": "terrain/compute.png",
         "PixelsPerUnit": 64,
         "Framerate": 3,
         "Repeats": true
     },
     "Tags": [
-        "Building"
+        "Terrain"
     ],
     "Network": {
         "CanNetwork": true,

@@ -26,7 +26,7 @@
                 "Name": "Infect",
                 "Detail": {
                     "CanMoveAndAttack": true,
-                    "BasePower": 0.2,
+                    "BasePower": 0.3,
                     "Selector": {
                         "AllowTags": [
                             "Unit"

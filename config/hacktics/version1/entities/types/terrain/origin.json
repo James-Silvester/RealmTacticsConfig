@@ -2,7 +2,7 @@
     "Name": "Origin",
     "Description": "Main Teams Building",
     "Sprite": {
-        "FilePath": "buildings/origin.png",
+        "FilePath": "terrain/origin.png",
         "PixelsPerUnit": 64,
         "Framerate": 1,
         "Repeats": true
