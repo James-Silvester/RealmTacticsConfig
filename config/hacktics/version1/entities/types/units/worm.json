@@ -4,7 +4,7 @@
     "Sprite": {
         "FilePath": "units/worm.png",
         "PixelsPerUnit": 64,
-        "Framerate": 1,
+        "Framerate": 3,
         "Repeats": true
     },
     "Tags": [
