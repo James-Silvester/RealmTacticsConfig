@@ -14,7 +14,7 @@ version |   name                |   filename            |   isFile  |   path    
 
 
 1       |   Ground Config       |   ground.json         |   1       |   /terrain    |   1       |   /terrain        |   -           |   0       |   0       |   Config for ground terrain
-1       |   Ground ImageFile    |   ground.jpeg         |   1       |   /terrain    |   0       |   /terrain        |   -           |   0       |   0       |   Image for ground terrain
+1       |   Ground ImageFile    |   ground.png         |   1       |   /terrain    |   0       |   /terrain        |   -           |   0       |   0       |   Image for ground terrain
 
 1       |   Void Config       |   void.json         |   1       |   /terrain    |   1       |   /terrain        |   -           |   0       |   0       |   Config for void terrain
 1       |   Void ImageFile    |   void.png         |   1       |   /terrain    |   0       |   /terrain        |   -           |   0       |   0       |   Image for void terrain

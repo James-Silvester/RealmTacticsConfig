@@ -4,7 +4,7 @@
     "Sprite": {
         "FilePath": "units/ddos.png",
         "PixelsPerUnit": 64,
-        "framerate": 3,
+        "Framerate": 3,
         "Repeats": true
     },
     "Tags": [

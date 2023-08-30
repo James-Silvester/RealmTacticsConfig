@@ -2,8 +2,10 @@
     "Name": "Ground",
     "Description": "Base network",
     "Sprite": {
-        "FilePath": "terrain/ground.jpeg",
-        "PixelsPerUnit": 256
+        "FilePath": "terrain/ground.png",
+        "PixelsPerUnit": 64,
+        "Framerate": 1,
+        "Repeats": true
     },
     "Tags": [
         "Terrain"
