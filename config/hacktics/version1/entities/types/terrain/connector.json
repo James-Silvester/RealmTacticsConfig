@@ -1,8 +1,8 @@
 {
-    "Name": "Ground",
+    "Name": "Connector",
     "Description": "Base network",
     "Sprite": {
-        "FilePath": "terrain/ground.png",
+        "FilePath": "terrain/connector.png",
         "PixelsPerUnit": 64,
         "Framerate": 1,
         "Repeats": true
@@ -24,9 +24,20 @@
             }
         ]
     },
+    "Network": {
+        "CanNetwork": true,
+        "RequireNetwork": true
+    },
     "Movement": {
         "OthersTagCost": {
             "Unit": 0
         }
+    },
+    "Money": {
+        "UsesNetwork": true,
+        "Income": [1, 1, 0]
+    },
+    "Capture": {
+        "PointsToCapture": 100
     }
 }
