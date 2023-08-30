@@ -7,6 +7,7 @@
         "Framerate": 1,
         "Repeats": true
     },
+    "Selectable": false,
     "Tags": [
         "Terrain"
     ],

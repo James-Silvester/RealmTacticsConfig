@@ -1,6 +1,9 @@
 {
     "Name": "Ground",
     "Description": "Base network",
+    "Layer": 2,
+    "VisualOnly": true,
+    "Selectable": false,
     "Sprite": {
         "FilePath": "terrain/ground.png",
         "PixelsPerUnit": 64,

@@ -3,7 +3,7 @@
     "Description": "Static terrain",
     "Defaults": {
         "Layer": 4,
-        "Selectable": false,
+        "Selectable": true,
         "Movement": {
             "Default": "Static"
         }
