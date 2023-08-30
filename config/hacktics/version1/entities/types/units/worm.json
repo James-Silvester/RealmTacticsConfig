@@ -2,7 +2,7 @@
     "Name": "Worm",
     "Description": "Quickly spreads through the network",
     "Sprite": {
-        "FilePath": "units/worm.jpeg",
+        "FilePath": "units/worm.png",
         "PixelsPerUnit": 64,
         "Framerate": 1,
         "Repeats": true
