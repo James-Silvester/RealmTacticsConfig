@@ -1,6 +1,7 @@
 {
     "Width": 10,
     "Height": 7,
+    "IgnoreMapDefaults": [ ],
     "EntityConfig": [
         {
             "Positions": [
@@ -93,7 +94,7 @@
                     "Y": 1
                 }
             ],
-            "Type": "Ground",
+            "Type": "Connector",
             "TeamId": "TEAM_UNDEFINED"
         }
     ],

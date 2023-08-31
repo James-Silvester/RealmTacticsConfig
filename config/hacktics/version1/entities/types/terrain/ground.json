@@ -12,24 +12,5 @@
     },
     "Tags": [
         "Terrain"
-    ],
-    "Defence": {
-        "DefenceIndicator": "NONE",
-        "SpecificDefence": [
-            {
-                "Selector": {
-                    "AllowTags": [
-                        "Unit"
-                    ]
-                },
-                "Defence": 0.0,
-                "ApplyToEnemies": true
-            }
-        ]
-    },
-    "Movement": {
-        "OthersTagCost": {
-            "Unit": 0
-        }
-    }
+    ]
 }

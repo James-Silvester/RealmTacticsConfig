@@ -31,6 +31,26 @@
             "EndsTurn": false
         }
     },
+    "Attack": {
+        "DirectAttacks": [
+            {
+                "Name": "Disrupt",
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 0.5,
+                    "Selector": {
+                        "AllowType": [
+                            "Worker"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1
+                    }
+                }
+            }
+        ]
+    },
     "Purchase": {
         "Costs": [10],
         "CanBePurchased": true

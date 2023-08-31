@@ -33,14 +33,37 @@
     },
     "Money": {
         "UsesNetwork": true,
-        "Income": [0, 0, 0]
+        "Income": [0]
     },
     "Capture": {
-        "PointsToCapture": 300
+        "PointsToCapture": 50
     },
     "Movement": {
         "OthersTagCost": {
             "Unit": 1
         }
+    },
+    "Attack": {
+        "RangeAttacks": [
+            {
+                "Name": "Scramble",
+                "MinRange": 2,
+                "MaxRange": 6,
+                "Detail": {
+                    "CanMoveAndAttack": false,
+                    "BasePower": 0.5,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "EndsTurn": true
+                    }
+                }
+            }
+        ]
     }
 }

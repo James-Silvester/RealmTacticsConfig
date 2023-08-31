@@ -30,7 +30,7 @@
     },
     "Money": {
         "UsesNetwork": true,
-        "Income": [1, 1, 4]
+        "Income": [5]
     },
     "Capture": {
         "PointsToCapture": 100
