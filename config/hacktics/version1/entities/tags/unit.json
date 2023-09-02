@@ -6,6 +6,18 @@
         "Selectable": true,
         "Attack": {
             "CanBeAttacked": true
+        },
+        "Defence": {
+            "CanUseDefence": true
+        },
+        "EntityAbility": {
+            "AbilityPoints": 2
+        },
+        "Purchase": {
+            "CanBePurchased": true
+        },
+        "Movement": {
+            "BlocksEnemies": true
         }
     }
 }

@@ -18,7 +18,8 @@
         "EntityCost": {},
         "AbilityConfig": {
             "PointCost": 1
-        }
+        },
+        "PassesEnemies": true
     },
     "Attack": {
         "DirectAttacks": [

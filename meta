@@ -1,5 +1,7 @@
 version |   name        |   filename    |   isFile  |   path        |   onUi    |   uiPath  |   uiAction    |   subMeta |   env     |   notes
 2       |   Game Modes  |   config      |   0       |   /           |   1       |   /       |   folder      |   0       |   0       |   Selection of game modes
+1       |   Quit        |   quit        |   0       |   /           |   1       |   /       |   quitApplication | 0     |   0       |   Quit the game
+
 2       |   Load Game   |   saves       |   0       |   /           |   0       |   /       |   folder      |   0       |   0       |   Load a save game
 2       |   Custom Maps |   customMaps  |   0       |   /           |   0       |   /       |   folder      |   0       |   0       |   Load a custom map
 

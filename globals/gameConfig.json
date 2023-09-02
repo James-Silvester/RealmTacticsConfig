@@ -14,7 +14,8 @@
         "MaxHealth": 100,
         "MaxBoostedHealth": 100,
         "MoveSpeed": 15.0,
-        "AttackBaseRandomness": 0.05
+        "AttackBaseRandomness": 0.05,
+        "AttackAbsoluteRandomness": 0.01
     },
     "Highlight": {
         "MovementColor": {
@@ -127,7 +128,8 @@
     },
     "AI": {
         "TrainingMode": false,
-        "WaitTimeBetweenAiMovesSeconds": 0.2
+        "WaitTimeBetweenAiMovesSeconds": 0.2,
+        "NumberEntitiesToEvaluateForBids": 5
     },
     "UndefinedString": "UNDEFINED"
 }
