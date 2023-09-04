@@ -26,7 +26,7 @@
             {
                 "Name": "Modify",
                 "Detail": {
-                    "CanMoveAndAttack": false,
+                    "CanMoveAndAttack": true,
                     "BasePower": 0.5,
                     "Selector": {
                         "AllowTags": [
