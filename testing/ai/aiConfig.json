@@ -10,6 +10,7 @@
                         "AttackPossibleFeature": 0.0,
                         "ValidEndMovementRangeFeature": 0.0,
                         "PositionDefenceFeature": 0.0,
+                        "WouldBlockPurchaseFeature_Relationship:Enemy": 0.0,
                         "RandomFeature": 0.0
                     },
                     "Capture": {

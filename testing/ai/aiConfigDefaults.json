@@ -6,20 +6,21 @@
             "AttackPossibleFeature": 0.0,
             "ValidEndMovementRangeFeature": 0.0,
             "PositionDefenceFeature": 0.0,
-            "RandomFeature": 1.0
+            "WouldBlockPurchaseFeature_Relationship:Enemy": 0.0,
+            "RandomFeature": 0.0
         },
         "Capture": {
             "SimpleClosestProximityFeature_EntityTag:Building_Relationship:Enemy": 0.0,
             "SimpleClosestProximityFeature_EntityTag:Building_Relationship:Neutral": 0.0,
             "SimpleClosestProximityFeature_EntityTag:Terrain_Relationship:Neutral": 0.0,
-            "NextToOwnNetworkFeature": 1.0,
-            "RandomFeature": 0.5,
+            "NextToOwnNetworkFeature": 0.0,
+            "RandomFeature": 0.0,
             "CanUseAbilityFeature_AbilityType:Capture": 0.0
         },
         "Purchase": {
-            "CanPurchaseFeature": 1.0,
+            "CanPurchaseFeature": 0.0,
             "WantToPurchaseFeature": 0.0,
-            "OwnedEntityTypeBalanceFeature": 5.0
+            "OwnedEntityTypeBalanceFeature": 0.0
         }
     }
 }
