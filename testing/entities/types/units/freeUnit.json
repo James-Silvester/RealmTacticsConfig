@@ -1,0 +1,22 @@
+{
+    "Name": "freeUnit",
+    "Description": "Free Unit",
+    "Tags": [
+        "Unit"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 1
+    },
+    "Movement": {
+        "Movement": 5,
+        "EntityCost": {},
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Purchase": {
+        "Costs": [0],
+        "CanBePurchased": true
+    }
+}

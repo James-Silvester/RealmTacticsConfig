@@ -1,0 +1,69 @@
+{
+    "Width": 7,
+    "Height": 7,
+    "EntityConfig": [
+        {
+            "EntityString": "TEAM_1|5Movement|2,2"
+        },
+        {
+            "EntityString": "TEAM_2|PurchaseBuilding|5,3"
+        }
+    ],
+    "Test": {
+        "TestSteps": {
+            "0": {
+                "Description": "WouldBlockPurchaseFeature_Relationship:EnemyFeature test - Set feature weight",
+                "Type": "AI_ADD_WEIGHT",
+                "Config": {
+                    "Feature": "WouldBlockPurchaseFeature_Relationship:Enemy"
+                }
+            },
+            "10": {
+                "Description": "WouldBlockPurchaseFeature_Relationship:EnemyFeature test - Open Menu",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 2,
+                    "DoubleTap": true
+                }
+            },
+            "20": {
+                "Description": "WouldBlockPurchaseFeature_Relationship:EnemyFeature test - Select Turn End",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "40": {
+                "Description": "WouldBlockPurchaseFeature_Relationship:EnemyFeature test - Wait for the AI turn to end and the player turn to start",
+                "Type": "WAIT_FOR_TEAM_TURN",
+                "Config": {
+                    "Team": "TEAM_1"
+                }
+            },
+            "50": {
+                "Description": "WouldBlockPurchaseFeature_Relationship:EnemyFeature test - Check that the entity moved from its original square",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 2,
+                    "Y": 2,
+                    "EntityType": "5Movement",
+                    "Invert": true
+                }
+            },
+            "60": {
+                "Description": "WouldBlockPurchaseFeature_Relationship:EnemyFeature test - And has moved to the best defence terrain",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 5,
+                    "Y": 3,
+                    "EntityType": "5Movement"
+                }
+            },
+            "999": {
+                "Description": "Test Complete",
+                "Type": "TEST_COMPLETE"
+            }
+        }
+    }
+}

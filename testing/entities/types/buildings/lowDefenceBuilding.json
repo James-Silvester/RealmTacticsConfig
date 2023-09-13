@@ -1,10 +1,6 @@
 {
     "Name": "LowDefenceBuilding",
     "Description": "Low defence building",
-    "Sprite": {
-        "FilePath": "buildings/lowDefenceBuilding.jpeg",
-        "PixelsPerUnit": 512
-    },
     "Tags": [
         "Building"
     ],

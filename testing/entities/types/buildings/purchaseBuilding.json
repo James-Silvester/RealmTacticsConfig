@@ -1,0 +1,25 @@
+{
+    "Name": "PurchaseBuilding",
+    "Description": "Purchase Building",
+    "Tags": [
+        "Building"
+    ],
+    "Purchase": {
+        "Selector": {
+            "AllowTags": [
+                "Unit"
+            ],
+            "DisallowTags": [],
+            "AllowEntities": [],
+            "DisallowEntities": []
+        },
+        "AbilityConfig": {
+            "PointCost": 1,
+            "EndsTurn": true
+        },
+        "EntitiesProducedHaveActions": false
+    },
+    "Money": {
+        "Income": [1]
+    }
+}
