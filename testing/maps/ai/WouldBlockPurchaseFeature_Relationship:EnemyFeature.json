@@ -22,8 +22,8 @@
                 "Description": "WouldBlockPurchaseFeature_Relationship:EnemyFeature test - Open Menu",
                 "Type": "SELECT_POSITION",
                 "Config": {
-                    "X": 2,
-                    "Y": 2,
+                    "X": 3,
+                    "Y": 3,
                     "DoubleTap": true
                 }
             },
