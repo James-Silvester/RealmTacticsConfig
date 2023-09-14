@@ -3,10 +3,10 @@
     "Height": 7,
     "EntityConfig": [
         {
-            "EntityString": "TEAM_1|5Movement|2,2"
+            "EntityString": "TEAM_2|5Movement|2,2"
         },
         {
-            "EntityString": "TEAM_2|PurchaseBuilding|5,3"
+            "EntityString": "TEAM_1|PurchaseBuilding|5,3"
         }
     ],
     "Test": {
