@@ -1,0 +1,108 @@
+{
+    "Width": 7,
+    "Height": 7,
+    "EntityConfig": [
+        {
+            "EntityString": "TEAM_2|DirectAttackMove|0,0"
+        },
+        {
+            "EntityString": "TEAM_2|PurchaseBuilding|1,0"
+        },
+        {
+            "EntityString": "TEAM_2|PurchaseBuilding|2,0"
+        },
+        {
+            "EntityString": "TEAM_2|PurchaseBuilding|3,0"
+        },
+        {
+            "EntityString": "TEAM_2|PurchaseBuilding|4,0"
+        },
+        {
+            "EntityString": "TEAM_2|PurchaseBuilding|0,1"
+        },
+        {
+            "EntityString": "TEAM_2|PurchaseBuilding|1,1"
+        },
+        {
+            "EntityString": "TEAM_2|PurchaseBuilding|6,6"
+        },
+        {
+            "EntityString": "TEAM_2|PurchaseBuilding|3,1"
+        },
+        {
+            "EntityString": "TEAM_2|PurchaseBuilding|0,2"
+        },
+        {
+            "EntityString": "TEAM_2|PurchaseBuilding|1,2"
+        },
+        {
+            "EntityString": "TEAM_2|PurchaseBuilding|2,2"
+        },
+        {
+            "EntityString": "TEAM_2|PurchaseBuilding|0,3"
+        },
+        {
+            "EntityString": "TEAM_2|PurchaseBuilding|1,3"
+        },
+        {
+            "EntityString": "TEAM_2|PurchaseBuilding|0,4"
+        }
+    ],
+    "Test": {
+        "TestSteps": {
+            "0": {
+                "Description": "WouldBlockPurchaseFeature_Relationship:Self_InvertValue:trueFeature test - Set feature weight",
+                "Type": "AI_ADD_WEIGHT",
+                "Config": {
+                    "Feature": "WouldBlockPurchaseFeature_Relationship:Self_InvertValue:true"
+                }
+            },
+            "10": {
+                "Description": "WouldBlockPurchaseFeature_Relationship:Self_InvertValue:trueFeature test - Open Menu",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 4,
+                    "Y": 4,
+                    "DoubleTap": true
+                }
+            },
+            "20": {
+                "Description": "WouldBlockPurchaseFeature_Relationship:Self_InvertValue:trueFeature test - Select Turn End",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "40": {
+                "Description": "WouldBlockPurchaseFeature_Relationship:Self_InvertValue:trueFeature test - Wait for the AI turn to end and the player turn to start",
+                "Type": "WAIT_FOR_TEAM_TURN",
+                "Config": {
+                    "Team": "TEAM_1"
+                }
+            },
+            "50": {
+                "Description": "WouldBlockPurchaseFeature_Relationship:Self_InvertValue:trueFeature test - Check that the entity moved from its original square",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 0,
+                    "Y": 0,
+                    "EntityType": "DirectAttackMove",
+                    "Invert": true
+                }
+            },
+            "60": {
+                "Description": "WouldBlockPurchaseFeature_Relationship:Self_InvertValue:trueFeature test - And has moved to block the enemy purchase building",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 2,
+                    "Y": 1,
+                    "EntityType": "DirectAttackMove"
+                }
+            },
+            "999": {
+                "Description": "Test Complete",
+                "Type": "TEST_COMPLETE"
+            }
+        }
+    }
+}

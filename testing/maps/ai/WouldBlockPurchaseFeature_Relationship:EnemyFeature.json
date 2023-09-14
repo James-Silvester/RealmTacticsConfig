@@ -3,7 +3,7 @@
     "Height": 7,
     "EntityConfig": [
         {
-            "EntityString": "TEAM_2|5Movement|2,2"
+            "EntityString": "TEAM_2|DirectAttackMove|2,2"
         },
         {
             "EntityString": "TEAM_1|PurchaseBuilding|5,3"
@@ -47,17 +47,17 @@
                 "Config": {
                     "X": 2,
                     "Y": 2,
-                    "EntityType": "5Movement",
+                    "EntityType": "DirectAttackMove",
                     "Invert": true
                 }
             },
             "60": {
-                "Description": "WouldBlockPurchaseFeature_Relationship:EnemyFeature test - And has moved to the best defence terrain",
+                "Description": "WouldBlockPurchaseFeature_Relationship:EnemyFeature test - And has moved to block the enemy purchase building",
                 "Type": "CHECK_ENTITY",
                 "Config": {
                     "X": 5,
                     "Y": 3,
-                    "EntityType": "5Movement"
+                    "EntityType": "DirectAttackMove"
                 }
             },
             "999": {
