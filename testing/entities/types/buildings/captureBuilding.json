@@ -1,0 +1,13 @@
+{
+    "Name": "CaptureBuilding",
+    "Description": "Capture Building",
+    "Tags": [
+        "Building"
+    ],
+    "Money": {
+        "Income": [1]
+    },
+    "Capture": {
+        "PointsToCapture": 2
+    }
+}

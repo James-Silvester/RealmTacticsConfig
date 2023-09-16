@@ -1,0 +1,97 @@
+{
+    "Width": 7,
+    "Height": 7,
+    "EntityConfig": [
+        {
+            "EntityString": "TEAM_1|5Movement|0,0"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|3,0"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|3,1"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|3,2"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|3,3"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|3,4"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|3,5"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|DirectAttackMove|6,4"
+        }
+    ],
+    "Test": {
+        "TestSteps": {
+            "0": {
+                "Description": "PathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:trueFeature test - Set feature weight",
+                "Type": "AI_ADD_WEIGHT",
+                "Config": {
+                    "Feature": "PathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:true",
+                    "Module": "CAPTURE"
+                }
+            },
+            "5": {
+                "Description": "PathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:trueFeature test - Check that the AI entity is in its starting position",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 0,
+                    "Y": 0,
+                    "EntityType": "DirectAttackMove"
+                }
+            },
+            "10": {
+                "Description": "PathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:trueFeature test - Open Menu",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 2,
+                    "DoubleTap": true
+                }
+            },
+            "20": {
+                "Description": "PathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:trueFeature test - Select Turn End",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "40": {
+                "Description": "PathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:trueFeature test - Wait for the AI turn to end and the player turn to start",
+                "Type": "WAIT_FOR_TEAM_TURN",
+                "Config": {
+                    "Team": "TEAM_1"
+                }
+            },
+            "50": {
+                "Description": "PathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:trueFeature test - Check that the entity moved from its original square",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 6,
+                    "Y": 4,
+                    "EntityType": "DirectAttackMove",
+                    "Invert": true
+                }
+            },
+            "60": {
+                "Description": "PathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:trueFeature test - And has moved next to the enemy",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 1,
+                    "Y": 4,
+                    "EntityType": "DirectAttackMove"
+                }
+            },
+            "999": {
+                "Description": "Test Complete",
+                "Type": "TEST_COMPLETE"
+            }
+        }
+    }
+}

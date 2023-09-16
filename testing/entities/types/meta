@@ -1,5 +1,6 @@
 version |   name                        |   filename                            |   isFile  |   path        |   onUi    |   uiPath          |   uiAction    |   subMeta |   env     |   notes
 
+1       |   CaptureBuilding Config   |   captureBuilding.json             |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       | 
 1       |   LowDefenceBuilding Config   |   lowDefenceBuilding.json             |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       | 
 1       |   PurchaseBuilding Config     |   purchaseBuilding.json               |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       | 
 

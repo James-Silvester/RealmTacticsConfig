@@ -15,6 +15,7 @@
                         "RandomFeature": 0.0
                     },
                     "Capture": {
+                        "PathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:true": 0.0,
                         "SimpleClosestProximityFeature_EntityTag:Building_Relationship:Enemy": 0.0,
                         "SimpleClosestProximityFeature_EntityTag:Building_Relationship:Neutral": 0.0,
                         "SimpleClosestProximityFeature_EntityTag:Terrain_Relationship:Neutral": 0.0,
