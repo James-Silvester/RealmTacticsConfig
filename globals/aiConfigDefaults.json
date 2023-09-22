@@ -23,9 +23,11 @@
         "Defence": {},
         "Purchase": {
             "CanPurchaseFeature": 1.0,
-            "CanGetAttackedEffectivenessFeature": 1,
             "WantToPurchaseFeature": 1.0,
-            "OwnedEntityTypeBalanceFeature": 5.0
+            "WantToPurchaseCaptureEntitiesWhenNearFeature": 1.0,
+            "WantToPurchaseAttackEntitiesWhenNearFeature": 1.0,
+            "OwnedEntityTypeBalanceFeature": 1.0,
+            "WantToPurchaseWhenOutnumberedFeature": 1.0
         }
     }
 }

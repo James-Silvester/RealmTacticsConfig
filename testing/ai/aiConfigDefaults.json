@@ -23,7 +23,10 @@
         "Purchase": {
             "CanPurchaseFeature": 0.0,
             "WantToPurchaseFeature": 0.0,
-            "OwnedEntityTypeBalanceFeature": 0.0
+            "WantToPurchaseCaptureEntitiesWhenNearFeature": 0.0,
+            "WantToPurchaseAttackEntitiesWhenNearFeature": 0.0,
+            "OwnedEntityTypeBalanceFeature": 0.0,
+            "WantToPurchaseWhenOutnumberedFeature": 0.0
         }
     }
 }

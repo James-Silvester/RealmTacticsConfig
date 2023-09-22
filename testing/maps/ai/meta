@@ -6,6 +6,8 @@ version |   name                                |   filename                    
 
 1       |   SimpleClosestProximityFeature       |   SimpleClosestProximityFeature.json  |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   AI SimpleClosestProximityFeature test
 
+1       |   WantToPurchaseCaptureEntitiesWhenNearFeature       |   WantToPurchaseCaptureEntitiesWhenNearFeature.json  |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   AI WantToPurchaseCaptureEntitiesWhenNearFeature test
+
 1       |   PositionDefenceFeature              |   PositionDefenceFeature.json         |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   AI PositionDefenceFeature test
 
 3       |   WouldBlockPurchaseFeature_Relationship:EnemyFeature              |   WouldBlockPurchaseFeature_Relationship:EnemyFeature.json         |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   AI WouldBlockPurchaseFeature_Relationship:EnemyFeature test
