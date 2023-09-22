@@ -24,5 +24,9 @@
             "PointCost": 1,
             "EndsTurn": false
         }
+    },
+    "Purchase": {
+        "Costs": [1],
+        "CanBePurchased": true
     }
 }

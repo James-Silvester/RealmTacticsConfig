@@ -38,5 +38,9 @@
                 }
             }
         ]
+    },
+    "Purchase": {
+        "Costs": [1],
+        "CanBePurchased": true
     }
 }
