@@ -6,21 +6,21 @@
             "EntityString": "TEAM_2|PurchaseBuilding|0,0"
         },
         {
-            "EntityString": "TEAM_UNDEFINED|CaptureBuilding|6,4"
+            "EntityString": "TEAM_1|VeryPowerfulDirectAttackMove|6,4"
         }
     ],
     "Test": {
         "TestSteps": {
             "0": {
-                "Description": "WantToPurchaseCaptureEntitiesWhenNearFeature test - Set feature weight",
+                "Description": "WantToPurchaseAttackEntitiesWhenNearFeature test - Set feature weight",
                 "Type": "AI_ADD_WEIGHT",
                 "Config": {
-                    "Feature": "WantToPurchaseCaptureEntitiesWhenNearFeature",
+                    "Feature": "WantToPurchaseAttackEntitiesWhenNearFeature",
                     "Module": "Purchase"
                 }
             },
             "10": {
-                "Description": "WantToPurchaseCaptureEntitiesWhenNearFeature test - Open Menu",
+                "Description": "WantToPurchaseAttackEntitiesWhenNearFeature test - Open Menu",
                 "Type": "SELECT_POSITION",
                 "Config": {
                     "X": 2,
@@ -29,21 +29,21 @@
                 }
             },
             "11": {
-                "Description": "WantToPurchaseCaptureEntitiesWhenNearFeature test - Select Turn End",
+                "Description": "WantToPurchaseAttackEntitiesWhenNearFeature test - Select Turn End",
                 "Type": "CHECK_ACTIONS",
                 "Config": {
                     "SelectOptionName": "End Turn"
                 }
             },
             "12": {
-                "Description": "WantToPurchaseCaptureEntitiesWhenNearFeature test - Wait for the AI turn to end and the player turn to start",
+                "Description": "WantToPurchaseAttackEntitiesWhenNearFeature test - Wait for the AI turn to end and the player turn to start",
                 "Type": "WAIT_FOR_TEAM_TURN",
                 "Config": {
                     "Team": "TEAM_1"
                 }
             },
             "13": {
-                "Description": "WantToPurchaseCaptureEntitiesWhenNearFeature test - Check that the 5Movement was purchased",
+                "Description": "WantToPurchaseAttackEntitiesWhenNearFeature test - Check that the 5Movement was purchased",
                 "Type": "CHECK_ENTITY",
                 "Config": {
                     "X": 0,
