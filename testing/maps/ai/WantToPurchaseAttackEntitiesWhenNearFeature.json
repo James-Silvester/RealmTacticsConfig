@@ -43,12 +43,12 @@
                 }
             },
             "13": {
-                "Description": "WantToPurchaseAttackEntitiesWhenNearFeature test - Check that the 5Movement was purchased",
+                "Description": "WantToPurchaseAttackEntitiesWhenNearFeature test - Check that the VeryPowerfulDirectAttackMove was purchased",
                 "Type": "CHECK_ENTITY",
                 "Config": {
                     "X": 0,
                     "Y": 0,
-                    "EntityType": "5Movement"
+                    "EntityType": "VeryPowerfulDirectAttackMove"
                 }
             },
 
