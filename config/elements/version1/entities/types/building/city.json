@@ -1,0 +1,25 @@
+{
+    "Name": "City",
+    "Description": "City",
+    "Sprite": {
+        "FilePath": "building/city.png"
+    },
+    "Tags": [
+        "Building"
+    ],
+    "Defence": {
+        "DefenceIndicator": "MEDIUM",
+        "SpecificDefence": [
+            {
+                "Defence": 0.4,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Money": {
+        "Income": [1]
+    },
+    "Capture": {
+        "PointsToCapture": 1
+    }
+}

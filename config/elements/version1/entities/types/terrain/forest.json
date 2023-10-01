@@ -1,0 +1,25 @@
+{
+    "Name": "Forest",
+    "Description": "Forest",
+    "Sprite": {
+        "FilePath": "terrain/forest.png",
+        "PixelsPerUnit": 64
+    },
+    "Tags": [
+        "Terrain"
+    ],
+    "Defence": {
+        "DefenceIndicator": "LOW",
+        "SpecificDefence": [
+            {
+                "Selector": {
+                    "AllowTags": [
+                        "Unit"
+                    ]
+                },
+                "Defence": 0.2,
+                "ApplyToEnemies": true
+            }
+        ]
+    }
+}

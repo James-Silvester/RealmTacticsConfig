@@ -1,0 +1,53 @@
+{
+    "Name": "Grass",
+    "Description": "Close range grass unit",
+    "Sprite": {
+        "FilePath": "units/grass.png",
+        "PixelsPerUnit": 64
+    },
+    "Tags": [
+        "Unit", "Grass"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 1
+    },
+    "Movement": {
+        "Movement": 3,
+        "EntityCost": {},
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Attack": {
+        "DirectAttacks": [
+            {
+                "Name": "Grass Sword",
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 1,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {
+                        "Fire": 0.5,
+                        "Water": 1.5
+                    },
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "EndsTurn": true
+                    }
+                }
+            }
+        ]
+    },
+    "Defence": {
+        "CanUseDefence": true
+    },
+    "Purchase": {
+        "Costs": [5],
+        "CanBePurchased": true
+    }
+}

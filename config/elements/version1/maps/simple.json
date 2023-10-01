@@ -1,0 +1,27 @@
+{
+    "Width": 10,
+    "Height": 7,
+    "IgnoreMapDefaults": [ ],
+    "EntityConfig": [
+        {
+            "Positions": [
+                {
+                    "X": 0,
+                    "Y": 0
+                }
+            ],
+            "Type": "Builder",
+            "TeamId": "TEAM_1"
+        },
+        {
+            "Positions": [
+                {
+                    "X": 9,
+                    "Y": 6
+                }
+            ],
+            "Type": "Builder",
+            "TeamId": "TEAM_2"
+        }
+    ]
+}

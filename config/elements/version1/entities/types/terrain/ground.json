@@ -1,0 +1,25 @@
+{
+    "Name": "Ground",
+    "Description": "Ground",
+    "Sprite": {
+        "FilePath": "terrain/ground.png",
+        "PixelsPerUnit": 64
+    },
+    "Tags": [
+        "Terrain"
+    ],
+    "Defence": {
+        "DefenceIndicator": "NONE",
+        "SpecificDefence": [
+            {
+                "Selector": {
+                    "AllowTags": [
+                        "Unit"
+                    ]
+                },
+                "Defence": 0.0,
+                "ApplyToEnemies": true
+            }
+        ]
+    }
+}

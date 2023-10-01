@@ -1,0 +1,16 @@
+{
+    "Name": "River",
+    "Description": "River",
+    "Sprite": {
+        "FilePath": "terrain/river.png",
+        "PixelsPerUnit": 64
+    },
+    "Tags": [
+        "Terrain"
+    ],
+    "Movement": {
+        "OthersTagCost": {
+            "Unit": 999
+        }
+    }
+}

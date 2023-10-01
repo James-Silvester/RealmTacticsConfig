@@ -1,0 +1,53 @@
+{
+    "Name": "Water",
+    "Description": "Close range water unit",
+    "Sprite": {
+        "FilePath": "units/water.png",
+        "PixelsPerUnit": 64
+    },
+    "Tags": [
+        "Unit", "Water"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 1
+    },
+    "Movement": {
+        "Movement": 3,
+        "EntityCost": {},
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Attack": {
+        "DirectAttacks": [
+            {
+                "Name": "Water Sword",
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 1,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {
+                        "Grass": 0.5,
+                        "Fire": 1.5
+                    },
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "EndsTurn": true
+                    }
+                }
+            }
+        ]
+    },
+    "Defence": {
+        "CanUseDefence": true
+    },
+    "Purchase": {
+        "Costs": [5],
+        "CanBePurchased": true
+    }
+}

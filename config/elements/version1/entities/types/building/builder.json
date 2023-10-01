@@ -1,0 +1,37 @@
+{
+    "Name": "Builder",
+    "Description": "Builder",
+    "Sprite": {
+        "FilePath": "building/builder.png"
+    },
+    "Tags": [
+        "Building"
+    ],
+    "Defence": {
+        "DefenceIndicator": "MEDIUM",
+        "SpecificDefence": [
+            {
+                "Defence": 0.4,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Money": {
+        "Income": [1]
+    },
+    "Capture": {
+        "PointsToCapture": 1
+    },
+    "Purchase": {
+        "Selector": {
+            "AllowTags": [
+                "Unit"
+            ]
+        },
+        "AbilityConfig": {
+            "PointCost": 1,
+            "EndsTurn": true
+        },
+        "EntitiesProducedHaveActions": false
+    }
+}

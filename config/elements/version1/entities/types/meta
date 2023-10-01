@@ -1,0 +1,29 @@
+version |   name               |   filename          |   isFile  |   path      |   onUi    |   uiPath        |   uiAction    |   subMeta |   env     |   notes
+2       |   Forest Config      |   forest.json       |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   0       |   Config for forest terrain
+2       |   Forest ImageFile   |   forest.png        |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   0       |   Image for forest terrain
+
+2       |   Ground Config      |   ground.json       |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   0       |   Config for ground terrain
+2       |   Ground ImageFile   |   ground.png        |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   0       |   Image for ground terrain
+
+2       |   River Config       |   river.json        |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   0       |   Config for river terrain
+2       |   River ImageFile    |   river.png         |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   0       |   Image for river terrain
+
+
+
+1       |   Builder Config      |   builder.json     |   1       |   /building |   1       |   /building     |   -           |   0       |   0       |   Config for builder building
+1       |   Builder ImageFile   |   builder.png      |   1       |   /building |   0       |   /building     |   -           |   0       |   0       |   Image for builder building
+
+1       |   City Config         |   city.json        |   1       |   /building |   1       |   /building     |   -           |   0       |   0       |   Config for city building
+1       |   City ImageFile      |   city.png         |   1       |   /building |   0       |   /building     |   -           |   0       |   0       |   Image for city building
+
+
+
+1       |   Fire Config         |   fire.json           |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for fire unit
+1       |   Fire ImageFile      |   fire.png            |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for fire unit
+
+1       |   Grass Config        |   grass.json          |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for grass unit
+1       |   Grass ImageFile     |   grass.png           |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for grass unit
+
+1       |   Water Config        |   water.json          |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for water unit
+1       |   Water ImageFile     |   water.png           |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for water unit
+
