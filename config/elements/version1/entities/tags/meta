@@ -1,5 +1,5 @@
 version |   name                |   filename            |   isFile  |   path        |   onUi    |   uiPath          |   uiAction    |   subMeta |   env     |   notes
-1       |   Building Config       |   building.json           |   1       |   /  |   1       |   /building      |   -           |   0       |   0       |   Base building class
+2       |   Building Config       |   building.json           |   1       |   /  |   1       |   /building      |   -           |   0       |   0       |   Base building class
 
 1       |   Unit Config         |   unit.json           |   1       |   /  |   1       |   /unit      |   -           |   0       |   0       |   Base unit class
 
@@ -9,3 +9,4 @@ version |   name                |   filename            |   isFile  |   path    
 1       |   Fire Config       |   fire.json        |   1       |   /  |   1       |   /fire      |   -           |   0       |   0       |   Base fire class
 1       |   Grass Config      |   grass.json       |   1       |   /  |   1       |   /grass     |   -           |   0       |   0       |   Base grass class
 1       |   Water Config      |   water.json       |   1       |   /  |   1       |   /terrain   |   -           |   0       |   0       |   Base water class
+ 

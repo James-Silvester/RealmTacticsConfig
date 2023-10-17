@@ -1,6 +1,6 @@
 {
-    "Name": "Terrain",
-    "Description": "Static terrain",
+    "Name": "Building",
+    "Description": "Static building",
     "Defaults": {
         "Layer": 4,
         "Selectable": true,
