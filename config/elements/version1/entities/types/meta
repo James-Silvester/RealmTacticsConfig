@@ -18,12 +18,12 @@ version |   name               |   filename          |   isFile  |   path      |
 
 
 
-1       |   Fire Config         |   fire.json           |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for fire unit
+2       |   Fire Config         |   fire.json           |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for fire unit
 1       |   Fire ImageFile      |   fire.png            |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for fire unit
 
-1       |   Grass Config        |   grass.json          |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for grass unit
+2       |   Grass Config        |   grass.json          |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for grass unit
 1       |   Grass ImageFile     |   grass.png           |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for grass unit
 
-1       |   Water Config        |   water.json          |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for water unit
+2       |   Water Config        |   water.json          |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for water unit
 1       |   Water ImageFile     |   water.png           |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for water unit
 

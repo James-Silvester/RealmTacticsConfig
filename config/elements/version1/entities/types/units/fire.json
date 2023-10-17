@@ -8,9 +8,6 @@
     "Tags": [
         "Unit", "Fire"
     ],
-    "EntityAbility": {
-        "AbilityPoints": 1
-    },
     "Movement": {
         "Movement": 3,
         "EntityCost": {},
