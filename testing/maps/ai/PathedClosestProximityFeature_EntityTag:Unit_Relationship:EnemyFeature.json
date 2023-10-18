@@ -1,0 +1,136 @@
+{
+    "Width": 7,
+    "Height": 7,
+    "EntityConfig": [
+        {
+            "EntityString": "TEAM_2|5Movement|0,0"
+        },
+        {
+            "EntityString": "TEAM_1|5Movement|6,4"
+        }
+    ],
+    "Test": {
+        "TestSteps": {
+            "0": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Set feature weight",
+                "Type": "AI_ADD_WEIGHT",
+                "Config": {
+                    "Feature": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:Enemy",
+                    "Module": "Attack"
+                }
+            },
+            "5": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Check that the AI entity is in its starting position",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 0,
+                    "Y": 0,
+                    "EntityType": "5Movement"
+                }
+            },
+            "10": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Open Menu",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 2,
+                    "DoubleTap": true
+                }
+            },
+            "11": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Select Turn End",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "12": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Wait for the AI turn to end and the player turn to start",
+                "Type": "WAIT_FOR_TEAM_TURN",
+                "Config": {
+                    "Team": "TEAM_1"
+                }
+            },
+            "13": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved closer to the Enemy capture 1",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 2,
+                    "Y": 3,
+                    "EntityType": "5Movement"
+                }
+            },
+
+            "20": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Open Menu",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 2,
+                    "DoubleTap": true
+                }
+            },
+            "21": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Select Turn End",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "22": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Wait for the AI turn to end and the player turn to start",
+                "Type": "WAIT_FOR_TEAM_TURN",
+                "Config": {
+                    "Team": "TEAM_1"
+                }
+            },
+            "23": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved closer to the Enemy capture 2",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 4,
+                    "Y": 6,
+                    "EntityType": "5Movement"
+                }
+            },
+
+            "30": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Open Menu",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 2,
+                    "DoubleTap": true
+                }
+            },
+            "31": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Select Turn End",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "32": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Wait for the AI turn to end and the player turn to start",
+                "Type": "WAIT_FOR_TEAM_TURN",
+                "Config": {
+                    "Team": "TEAM_1"
+                }
+            },
+            "33": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved onto the Enemy capture",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 6,
+                    "Y": 4,
+                    "EntityType": "5Movement"
+                }
+            },
+
+            "999": {
+                "Description": "Test Complete",
+                "Type": "TEST_COMPLETE"
+            }
+        }
+    }
+}
