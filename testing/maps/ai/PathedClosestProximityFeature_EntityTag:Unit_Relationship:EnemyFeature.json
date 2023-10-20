@@ -3,10 +3,49 @@
     "Height": 7,
     "EntityConfig": [
         {
-            "EntityString": "TEAM_2|5Movement|0,0"
+            "EntityString": "TEAM_2|DirectAttackMove|0,0"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|2,0"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|2,1"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|2,2"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|2,3"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|2,4"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|2,5"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|4,6"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|4,5"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|4,4"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|4,3"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|4,2"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|4,1"
         },
         {
             "EntityString": "TEAM_1|5Movement|6,4"
+        },
+        {
+            "EntityString": "TEAM_1|captureBuilding|0,6"
         }
     ],
     "Test": {
@@ -25,7 +64,7 @@
                 "Config": {
                     "X": 0,
                     "Y": 0,
-                    "EntityType": "5Movement"
+                    "EntityType": "DirectAttackMove"
                 }
             },
             "10": {
@@ -52,12 +91,12 @@
                 }
             },
             "13": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved closer to the Enemy capture 1",
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved closer to the Enemy 5Movement (not the building)",
                 "Type": "CHECK_ENTITY",
                 "Config": {
-                    "X": 2,
-                    "Y": 3,
-                    "EntityType": "5Movement"
+                    "X": 1,
+                    "Y": 4,
+                    "EntityType": "DirectAttackMove"
                 }
             },
 
@@ -85,12 +124,12 @@
                 }
             },
             "23": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved closer to the Enemy capture 2",
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved closer to the Enemy 5Movement (not the building) 2",
                 "Type": "CHECK_ENTITY",
                 "Config": {
-                    "X": 4,
+                    "X": 3,
                     "Y": 6,
-                    "EntityType": "5Movement"
+                    "EntityType": "DirectAttackMove"
                 }
             },
 
@@ -118,14 +157,81 @@
                 }
             },
             "33": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved onto the Enemy capture",
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved closer to the Enemy 5Movement (not the building) 3",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 3,
+                    "Y": 3,
+                    "EntityType": "DirectAttackMove"
+                }
+            },
+
+            "40": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Open Menu",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 2,
+                    "DoubleTap": true
+                }
+            },
+            "41": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Select Turn End",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "42": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Wait for the AI turn to end and the player turn to start",
+                "Type": "WAIT_FOR_TEAM_TURN",
+                "Config": {
+                    "Team": "TEAM_1"
+                }
+            },
+            "43": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved closer to the Enemy 5Movement (not the building) 4",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 5,
+                    "Y": 0,
+                    "EntityType": "DirectAttackMove"
+                }
+            },
+
+            "50": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Open Menu",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 2,
+                    "DoubleTap": true
+                }
+            },
+            "51": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Select Turn End",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "52": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Wait for the AI turn to end and the player turn to start",
+                "Type": "WAIT_FOR_TEAM_TURN",
+                "Config": {
+                    "Team": "TEAM_1"
+                }
+            },
+            "53": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved closer to the Enemy 5Movement (not the building) 5",
                 "Type": "CHECK_ENTITY",
                 "Config": {
                     "X": 6,
-                    "Y": 4,
-                    "EntityType": "5Movement"
+                    "Y": 3,
+                    "EntityType": "DirectAttackMove"
                 }
             },
+
 
             "999": {
                 "Description": "Test Complete",

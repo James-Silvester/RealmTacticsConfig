@@ -1,6 +1,7 @@
 {
     "Modules": {
         "Attack": {
+            "PathedClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 0.0,
             "SimpleClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 0.0,
             "AttackEffectivenessFeature": 0.0,
             "AttackPossibleFeature": 0.0,
