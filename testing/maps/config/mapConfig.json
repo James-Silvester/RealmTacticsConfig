@@ -1,0 +1,35 @@
+{
+    "Width": 3,
+    "Height": 3,
+    "EntityConfig": [
+        {
+            "EntityString": "TEAM_1|SplashAttackerTargetEntity|1,1"
+        },
+        {
+            "EntityString": "TEAM_2|DirectAttackMove|1,2"
+        }
+    ],
+    "Test": {
+        "TestSteps": {
+            "0": {
+                "Description": "Splash attack test - Select splash unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 1,
+                    "Y": 1
+                }
+            },
+            "5": {
+                "Description": "Splash attack test - Select attack",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Boop"
+                }
+            },
+            "999": {
+                "Description": "Test Complete",
+                "Type": "TEST_COMPLETE"
+            }
+        }
+    }
+}
