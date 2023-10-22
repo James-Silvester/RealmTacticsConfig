@@ -96,7 +96,7 @@
                 }
             },
             "100": {
-                "Description": "Trigger destrot enemy units - The game should be ended",
+                "Description": "Trigger capture HQ victory - The game should be ended",
                 "Type": "CHECK_TEXT_VISIBLE",
                 "Config": {
                     "Text": "Battle Complete!",

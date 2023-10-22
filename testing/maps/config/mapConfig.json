@@ -9,21 +9,76 @@
             "EntityString": "TEAM_2|DirectAttackMove|1,2"
         }
     ],
+    "Triggers": [
+        {
+            "Conditions": [
+                {
+                    "Type": "TEAM_REMAINING_ENTITIES",
+                    "TeamId": "TEAM_1",
+                    "EntityTagFilter": "Unit"
+                }
+            ],
+            "Actions": [
+                {
+                    "Type": "TEAM_VICTORY",
+                    "TeamId": "TEAM_2"
+                }
+            ]
+        },
+        {
+            "Conditions": [
+                {
+                    "Type": "TEAM_REMAINING_ENTITIES",
+                    "TeamId": "TEAM_2",
+                    "EntityTagFilter": "Unit"
+                }
+            ],
+            "Actions": [
+                {
+                    "Type": "TEAM_VICTORY",
+                    "TeamId": "TEAM_1"
+                }
+            ]
+        }
+    ],
     "Test": {
         "TestSteps": {
             "0": {
-                "Description": "Splash attack test - Select splash unit",
+                "Description": "Map config test - Select splash unit",
                 "Type": "SELECT_POSITION",
                 "Config": {
-                    "X": 1,
-                    "Y": 1
+                    "X": 0,
+                    "Y": 0,
+                    "DoubleTap": true
                 }
             },
             "5": {
-                "Description": "Splash attack test - Select attack",
+                "Description": "Map config test - Select attack",
                 "Type": "CHECK_ACTIONS",
                 "Config": {
-                    "SelectOptionName": "Boop"
+                    "SelectOptionName": "Edit Mode"
+                }
+            },
+            "10": {
+                "Description": "Map config test - Click export button",
+                "Type": "CHECK_BUTTON",
+                "Config": {
+                    "Text": "EXPORT"
+                }
+            },
+            "15": {
+                "Description": "Map config test - Check that the config can be exported",
+                "Type": "CHECK_BUTTON",
+                "Config": {
+                    "Text": "Copy to Clipboard"
+                }
+            },
+            "20": {
+                "Description": "Map config test - Check that the config is correct",
+                "Type": "CHECK_CLIPBOARD_TEXT",
+                "Config": {
+                    "File": "/testing/maps/config/mapConfigSample.json",
+                    "IsJson": true
                 }
             },
             "999": {

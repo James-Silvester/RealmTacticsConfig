@@ -1,0 +1,132 @@
+{
+    "Version": 1,
+    "ImportedDefaults": true,
+    "Width": 3,
+    "Height": 3,
+    "CursorStartingX": 0,
+    "CursorStartingY": 0,
+    "CameraStartingX": 0,
+    "CameraStartingY": 0,
+    "TeamsConfig": {
+        "NumberOfTeams": 2,
+        "StartingTeam": "TEAM_1",
+        "TurnNumber": 1,
+        "ActiveTeams": [
+            "TEAM_1",
+            "TEAM_2"
+        ],
+        "TeamConfig": [
+            {
+                "TeamId": "TEAM_1",
+                "TeamEntity": "PLAYER"
+            },
+            {
+                "TeamId": "TEAM_2",
+                "TeamEntity": "AI_DEFAULT",
+                "AiProfile": "Standard"
+            }
+        ]
+    },
+    "EntityConfig": [
+        {
+            "Id": 10,
+            "Position": {
+                "X": 1,
+                "Y": 1
+            },
+            "Type": "SplashAttackerTargetEntity",
+            "TeamId": "TEAM_1"
+        },
+        {
+            "Id": 11,
+            "Position": {
+                "X": 1,
+                "Y": 2
+            },
+            "Type": "DirectAttackMove",
+            "TeamId": "TEAM_2"
+        }
+    ],
+    "Stats": {
+        "Battle": {
+            "TotalEntitesCreated": 0,
+            "TotalEntitiesDestroyed": 0
+        },
+        "TEAM_1": {
+            "EntitiesPurchased": 0,
+            "EntitiesLost": 0,
+            "TotalDamageDone": 0.0,
+            "TotalDamageTaken": 0.0,
+            "NumberOfCaptures": 0,
+            "IncomePool": []
+        },
+        "TEAM_2": {
+            "EntitiesPurchased": 0,
+            "EntitiesLost": 0,
+            "TotalDamageDone": 0.0,
+            "TotalDamageTaken": 0.0,
+            "NumberOfCaptures": 0,
+            "IncomePool": []
+        },
+        "TEAM_UNDEFINED": {
+            "EntitiesPurchased": 0,
+            "EntitiesLost": 0,
+            "TotalDamageDone": 0.0,
+            "TotalDamageTaken": 0.0,
+            "NumberOfCaptures": 0,
+            "IncomePool": []
+        },
+        "TeamConfig": {}
+    },
+    "Triggers": [
+        {
+            "Enabled": "False",
+            "Conditions": [
+                {
+                    "Type": "TEAM_REMAINING_ENTITIES",
+                    "TeamId": "TEAM_1",
+                    "EntityTagFilter": "Unit",
+                    "GreaterThan": "False",
+                    "IgnoreInitialZero": "True"
+                }
+            ],
+            "Actions": [
+                {
+                    "Type": "TEAM_VICTORY",
+                    "TeamId": "TEAM_2"
+                }
+            ]
+        },
+        {
+            "Enabled": "False",
+            "Conditions": [
+                {
+                    "Type": "TEAM_REMAINING_ENTITIES",
+                    "TeamId": "TEAM_2",
+                    "EntityTagFilter": "Unit",
+                    "GreaterThan": "False",
+                    "IgnoreInitialZero": "True"
+                }
+            ],
+            "Actions": [
+                {
+                    "Type": "TEAM_VICTORY",
+                    "TeamId": "TEAM_1"
+                }
+            ]
+        }
+    ],
+    "Environment": {
+        "MAP_CONFIG_DEFAULTS_FILE": "testing/maps/map_defaults.json",
+        "ENTITY_TYPE_CONFIG_FOLDER": "testing/entities/types",
+        "ENTITY_TAG_CONFIG_FOLDER": "testing/entities/tags",
+        "ENTITY_DEFAULTS_FILE": "testing/entities/entityDefaults.json",
+        "AI_CONFIG_FILE": "testing/ai/aiConfig.json",
+        "AI_CONFIG_DEFAULTS_FILE": "testing/ai/aiConfigDefaults.json",
+        "GAME_CONFIG_FILE": "globals/gameConfig.json",
+        "SAVE_FILE": "",
+        "MAP_SET_KEY": "testing",
+        "SAVES_DIRECTORY": "testing/maps/saves",
+        "CUSTOM_MAPS_DIRECTORY": "testing/maps/custom_maps"
+    }
+}
