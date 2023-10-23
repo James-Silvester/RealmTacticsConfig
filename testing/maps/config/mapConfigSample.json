@@ -102,8 +102,8 @@
             "Type": "TEAM_REMAINING_ENTITIES",
             "TeamId": "TEAM_2",
             "EntityTagFilter": "Unit",
-            "GreaterThan": false,
-            "IgnoreInitialZero": true
+            "GreaterThan": true,
+            "IgnoreInitialZero": false
           }
         ],
         "Actions": [

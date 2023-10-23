@@ -11,11 +11,13 @@
     ],
     "Triggers": [
         {
+            "Enabled": true,
             "Conditions": [
                 {
                     "Type": "TEAM_REMAINING_ENTITIES",
                     "TeamId": "TEAM_1",
-                    "EntityTagFilter": "Unit"
+                    "EntityTagFilter": "Unit",
+                    "EntityCount": 10
                 }
             ],
             "Actions": [
@@ -30,7 +32,9 @@
                 {
                     "Type": "TEAM_REMAINING_ENTITIES",
                     "TeamId": "TEAM_2",
-                    "EntityTagFilter": "Unit"
+                    "EntityTagFilter": "Unit",
+                    "GreaterThan": true,
+                    "IgnoreInitialZero": false
                 }
             ],
             "Actions": [
