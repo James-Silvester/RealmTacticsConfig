@@ -1,6 +1,6 @@
 version |   name            |   filename        |   isFile  |   path        |   onUi    |   uiPath  |   uiAction    |   subMeta |   env     |   notes
 1       |   Maps            |   maps            |   0       |   /           |   1       |   /       |   folder      |   0       |   0       |   Hacktics Style Maps
-1       |   Entities        |   entities        |   0       |   /           |   0       |   /       |   folder      |   0       |   0       |   Hacktics Style Entities
+1       |   Entities        |   entities        |   0       |   /           |   1       |   /       |   folder      |   0       |   0       |   Hacktics Style Entities
 2       |   AI              |   ai              |   0       |   /           |   0       |   /       |   folder      |   0       |   0       |   AI which powers the Hacktics Maps
 
 1       |   meta            |   meta            |   1       |   /maps       |   0       |   /       |   -           |   1       |   0       |   Maps meta file

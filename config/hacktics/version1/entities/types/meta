@@ -1,5 +1,5 @@
 version |   name                |   filename            |   isFile  |   path        |   onUi    |   uiPath          |   uiAction    |   subMeta |   env     |   notes
-2       |   Compute Config      |   compute.json        |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   0       |   Config for compute terrain
+2       |   Compute Config      |   compute.json        |   1       |   /terrain  |   1       |   /terrain      |   entityConfig           |   0       |   0       |   Config for compute terrain
 2       |   Compute ImageFile   |   compute.png        |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   0       |   Image for compute terrain
 
 1       |   Encryption Config       |   encryption.json     |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   0       |   Config for encryption terrain
