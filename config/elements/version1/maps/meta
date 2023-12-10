@@ -1,7 +1,8 @@
 version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   uiAction    |   subMeta     |   env     |   notes
 2       |   Defaults        |   map_defaults.json               |   1       |   /       |   0       |   /           |   -           |   0           |   0       |   Elements Map Defaults
 
-5       |   Simple          |   simple.json                     |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Basic Elements Testing Map
+1       |   Simple          |   simple.json                     |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Basic Elements Testing Map
+1       |   Fire vs Grass   |   fireVsGrass.json                |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Basic Elements Attack Effectiveness Testing Map
 
 1       |   Custom Maps     |   custom_maps                     |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Custom Maps
 

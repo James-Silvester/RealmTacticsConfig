@@ -5,14 +5,12 @@
             "Values": {
                 "Modules": {
                     "Attack": {
-                        "SimpleClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 5.0,
-                        "AttackEffectivenessFeature": 8.0,
-                        "AttackPossibleFeature": 6.5,
-                        "ValidEndMovementRangeFeature": 1.0,
-                        "PositionDefenceFeature": 0.0,
-                        "RandomFeature": 0.5
                     },
-                    "Defence": {}
+                    "Capture": {
+                    },
+                    "Defence": {},
+                    "Purchase": {
+                    }
                 }
             },
             "EntityOverrides": {
@@ -22,17 +20,6 @@
                     }
                 }
             }
-        },
-        "Aggressive": {
-            "Description": "Agressive personality",
-            "Values": {
-                "Modules": {
-                    "Attack": {
-                        "Feature1": 0.3
-                    }
-                }
-            },
-            "EntityOverrides": {}
         }
     }
 }

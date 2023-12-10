@@ -8,7 +8,8 @@
         "TouchFollowSpeed": 2,
         "TouchDeadMovementDistance": 0.1,
         "CursorMoveSkips": 0,
-        "CursorHoldSkips": 4
+        "CursorHoldSkips": 4,
+        "CameraBoundBorderPadding": 0
     },
     "Entity": {
         "MaxHealth": 100,

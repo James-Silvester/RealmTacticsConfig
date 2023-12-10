@@ -3,7 +3,7 @@
         "Attack": {
             "PathedClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 10.0,
             "SimpleClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 0.0,
-            "AttackEffectivenessFeature": 2.0,
+            "AttackEffectivenessFeature": 15.0,
             "CanGetAttackedEffectivenessFeature": 10,
             "AttackPossibleFeature": 6.5,
             "ValidEndMovementRangeFeature": 1.0,
