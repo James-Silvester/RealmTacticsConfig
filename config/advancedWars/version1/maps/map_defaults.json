@@ -1,0 +1,59 @@
+{
+    "CursorStartingX": 5,
+    "CursorStartingY": 5,
+    "CameraStartingX": 5,
+    "CameraStartingY": 5,
+    "TeamsConfig": {
+        "NumberOfTeams": 2,
+        "ActiveTeams": [
+            "TEAM_1",
+            "TEAM_2"
+        ],
+        "StartingTeam": "TEAM_1",
+        "TeamConfig": [
+            {
+                "TeamId": "TEAM_1",
+                "TeamEntity": "Player"
+            },
+            {
+                "TeamId": "TEAM_2",
+                "TeamEntity": "AI_DEFAULT",
+                "AiProfile": "Standard"
+            }
+        ]
+    },
+    "EntityConfig": [
+    ],
+    "Triggers": [
+        {
+            "Conditions": [
+                {
+                    "Type": "TEAM_REMAINING_ENTITIES",
+                    "TeamId": "TEAM_1",
+                    "EntityTagFilter": "Unit"
+                }
+            ],
+            "Actions": [
+                {
+                    "Type": "TEAM_VICTORY",
+                    "TeamId": "TEAM_2"
+                }
+            ]
+        },
+        {
+            "Conditions": [
+                {
+                    "Type": "TEAM_REMAINING_ENTITIES",
+                    "TeamId": "TEAM_2",
+                    "EntityTagFilter": "Unit"
+                }
+            ],
+            "Actions": [
+                {
+                    "Type": "TEAM_VICTORY",
+                    "TeamId": "TEAM_1"
+                }
+            ]
+        }
+    ]
+}

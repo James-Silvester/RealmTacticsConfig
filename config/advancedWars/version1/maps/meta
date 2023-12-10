@@ -1,3 +1,9 @@
 version |   name            |   filename            |   isFile  |   path    |   onUi    |   uiPath  |   uiAction    |   subMeta |   env     |   notes
 4       |   Spann island    |   spann-island.json   |   1       |   /       |   1       |   /       |   loadMap     |   0       |   0       |   Basic Advanced Wars Testing Map
 2       |   Simple          |   simple.json         |   1       |   /       |   1       |   /       |   loadMap     |   0       |   0       |   Basic Advanced Wars Testing Map
+
+2       |   Defaults        |   map_defaults.json               |   1       |   /       |   0       |   /           |   -           |   0           |   0       |   Elements Map Defaults
+
+1       |   Custom Maps     |   custom_maps                     |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Custom Maps
+
+1       |   Saves           |   saves                           |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Saves

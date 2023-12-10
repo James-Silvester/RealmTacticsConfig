@@ -1,7 +1,8 @@
 version |   key             		        |   value
 1       |   ENTITY_TYPE_CONFIG_FOLDER	    |   config/advancedWars/version1/entities/types
 1	    |   ENTITY_TAG_CONFIG_FOLDER	    |   config/advancedWars/version1/entities/tags
-1	    |   ENTITY_DEFAULTS_FILE	        |   config/advancedWars/version1/entities/entityDefaults.json
 1       |   AI_CONFIG_FILE	                |   config/advancedWars/version1/ai/aiConfig.json
-1	    |   AI_CONFIG_DEFAULTS_FILE 	    |   config/advancedWars/version1/ai/aiConfigDefaults.json
 1       |   MAP_SET_KEY                     |   advancedWars/version1
+1       |   MAP_CONFIG_DEFAULTS_FILE        |   config/advancedWars/version1/maps/map_defaults.json
+1       |   SAVES_DIRECTORY                 |   config/advancedWars/version1/maps/saves
+1       |   CUSTOM_MAPS_DIRECTORY           |   config/advancedWars/version1/maps/custom_maps
