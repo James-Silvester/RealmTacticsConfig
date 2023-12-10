@@ -1,0 +1,30 @@
+{
+    "Name": "Mountain",
+    "Description": "Mountain Terrain",
+    "Sprite": {
+        "FilePath": "terrain/mountain.png",
+        "PixelsPerUnit": 88
+    },
+    "Tags": [
+        "Terrain"
+    ],
+    "Defence": {
+        "DefenceIndicator": "HIGH",
+        "SpecificDefence": [
+            {
+                "Selector": {
+                    "AllowTags": [
+                        "Unit"
+                    ]
+                },
+                "Defence": 0.6,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Movement": {
+        "OthersTagCost": {
+            "Unit": 999
+        }
+    }
+}

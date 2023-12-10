@@ -1,0 +1,30 @@
+{
+    "Name": "Road",
+    "Description": "Road Terrain",
+    "Sprite": {
+        "FilePath": "terrain/road.png",
+        "PixelsPerUnit": 79
+    },
+    "Tags": [
+        "Terrain"
+    ],
+    "Defence": {
+        "DefenceIndicator": "NONE",
+        "SpecificDefence": [
+            {
+                "Selector": {
+                    "AllowTags": [
+                        "Unit"
+                    ]
+                },
+                "Defence": 0.0,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Movement": {
+        "OthersTagCost": {
+            "Unit": 0
+        }
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "Movement": {
+        "Name": "Basic Movement",
+        "Movement": 0,
+        "BaseCost": 0,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        },
+        "Subtype": {
+            "Static": {
+                "BaseCost": 999
+            },
+            "King": {
+                "Movement": 1,
+                "BaseCost": 1,
+                "TagCost": {
+                    "Building": 1,
+                    "Thing": 123
+                },
+                "EntityCost": {
+                    "Builder": 0,
+                    "Bob": 1
+                }
+            }
+        }
+    },
+    "Construction": {
+        "Selector": {
+            "AllowTags": []
+        },
+        "AbilityConfig": {
+            "PointCost": 1
+        },
+        "Subtype": {}
+    },
+    "Capture": {
+        "CapturePoints": 0,
+        "AbilityConfig": {
+            "PointCost": 1
+        },
+        "Subtype": {}
+    },
+    "Purchase": {
+        "EntitiesProducedHaveActions": false,
+        "Selector": {
+            "AllowTags": [],
+            "DisallowTags": [],
+            "AllowEntities": [],
+            "DisallowEntities": []
+        },
+        "Subtype": {},
+        "AbilityConfig": {
+            "PointCost": 1
+        }
+    },
+    "Attack": {
+        "AbilityConfig": {
+            "PointCost": 1,
+            "EndsTurn": true
+        },
+        "Subtype": {
+            "OnePunchMan": {
+                "DirectAttacks": [
+                    {
+                        "Name": "OnePunch",
+                        "Detail": {
+                            "BasePower": 99.0,
+                            "AbilityConfig": {
+                                "PointCost": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "Money": {
+        "UsesNetwork": false,
+        "Subtype": {}
+    },
+    "Network": {
+        "CanNetwork": false,
+        "RequireNetwork": false,
+        "Subtype": {}
+    },
+    "Defence": {
+        "Subtype": {}
+    },
+    "EntityAbility": {
+        "AbilityPoints": 2,
+        "Subtype": {}
+    }
+}

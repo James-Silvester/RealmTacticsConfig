@@ -1,0 +1,41 @@
+{
+    "Name": "HQ",
+    "Description": "Main Teams Building",
+    "Sprite": {
+        "FilePath": "buildings/hq.png",
+        "PixelsPerUnit": 150
+    },
+    "Tags": [
+        "Building"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 1
+    },
+    "Network": {
+        "CanNetwork": false,
+        "RequireNetwork": false
+    },
+    "Defence": {
+        "DefenceIndicator": "HIGH",
+        "SpecificDefence": [
+            {
+                "Selector": {
+                    "AllowTags": [
+                        "Unit"
+                    ]
+                },
+                "Defence": 0.7,
+                "ApplyToEnemies": true
+            }
+        ]
+    },
+    "Money": {
+        "UsesNetwork": false,
+        "PrimaryIncome": 1000,
+        "SecondaryIncome": 0,
+        "TertiaryIncome": 0
+    },
+    "Capture": {
+        "PointsToCapture": 100
+    }
+}
