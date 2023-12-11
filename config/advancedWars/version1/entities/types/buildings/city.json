@@ -26,12 +26,6 @@
             }
         ]
     },
-    "Money": {
-        "UsesNetwork": false,
-        "PrimaryIncome": 1000,
-        "SecondaryIncome": 0,
-        "TertiaryIncome": 0
-    },
     "Capture": {
         "PointsToCapture": 100
     }

@@ -3,6 +3,9 @@
     "Description": "A controllable static building",
     "Defaults": {
         "Layer": 4,
-        "Selectable": true
+        "Selectable": true,
+        "Money": {
+            "Income": [1000]
+        }
     }
 }

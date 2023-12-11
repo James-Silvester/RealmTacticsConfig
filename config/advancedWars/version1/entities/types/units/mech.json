@@ -36,9 +36,6 @@
         ]
     },
     "Purchase": {
-        "PrimaryCost": 3000,
-        "SecondaryCost": 0,
-        "TertiaryCost": 0,
-        "CanBePurchased": true
+        "Costs": [3000]
     }
 }

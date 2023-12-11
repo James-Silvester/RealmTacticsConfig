@@ -37,13 +37,7 @@
         ]
     },
     "Purchase": {
-        "PrimaryCost": 1000,
-        "SecondaryCost": 0,
-        "TertiaryCost": 0,
-        "CanBePurchased": true
-    },
-    "Defence": {
-        "CanUseDefence": true
+        "Costs": [1000]
     },
     "Tags": [
         "Unit",

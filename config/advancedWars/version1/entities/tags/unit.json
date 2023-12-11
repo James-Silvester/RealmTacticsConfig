@@ -6,6 +6,15 @@
         "Selectable": true,
         "Attack": {
             "CanBeAttacked": true
+        },
+        "Defence": {
+            "CanUseDefence": true
+        },
+        "Purchase": {
+            "CanBePurchased": true
+        },
+        "Movement": {
+            "BlocksEnemies": true
         }
     }
 }
