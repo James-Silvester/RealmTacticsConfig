@@ -5,7 +5,10 @@
         "Layer": 5,
         "Selectable": true,
         "Attack": {
-            "CanBeAttacked": true
+            "CanBeAttacked": true,
+            "AbilityConfig": {
+                "UsesPerTurn": 1
+            }
         },
         "Defence": {
             "CanUseDefence": true
@@ -14,7 +17,10 @@
             "CanBePurchased": true
         },
         "Movement": {
-            "BlocksEnemies": true
+            "BlocksEnemies": true,
+            "AbilityConfig": {
+                "UsesPerTurn": 1
+            }
         }
     }
 }

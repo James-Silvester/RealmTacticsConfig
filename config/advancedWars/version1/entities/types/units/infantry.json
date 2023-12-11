@@ -15,7 +15,6 @@
     "Capture": {
         "CapturePoints": 50,
         "AbilityConfig": {
-            "PointCost": 1,
             "EndsTurn": true
         }
     },
