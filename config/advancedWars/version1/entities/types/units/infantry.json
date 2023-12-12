@@ -10,7 +10,9 @@
     },
     "Movement": {
         "Movement": 3,
-        "EntityCost": {}
+        "AbilityConfig": {
+            "UsesPerTurn": 1
+        }
     },
     "Capture": {
         "CapturePoints": 50,
@@ -30,7 +32,10 @@
                             "Unit"
                         ]
                     },
-                    "TagPowerModifier": {}
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "EndsTurn": true
+                    }
                 }
             }
         ]

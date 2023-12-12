@@ -9,7 +9,10 @@
         "AbilityPoints": 2
     },
     "Movement": {
-        "Movement": 7
+        "Movement": 7,
+        "AbilityConfig": {
+            "UsesPerTurn": 1
+        }
     },
     "Attack": {
         "DirectAttacks": [
@@ -25,7 +28,7 @@
                     },
                     "TagPowerModifier": {},
                     "AbilityConfig": {
-                        "PointCost": 1
+                        "EndsTurn": true
                     }
                 }
             }

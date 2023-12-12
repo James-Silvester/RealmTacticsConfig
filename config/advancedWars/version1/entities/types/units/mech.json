@@ -13,7 +13,9 @@
     },
     "Movement": {
         "Movement": 2,
-        "EntityCost": {}
+        "AbilityConfig": {
+            "UsesPerTurn": 1
+        }
     },
     "Attack": {
         "DirectAttacks": [
@@ -29,7 +31,7 @@
                     },
                     "TagPowerModifier": {},
                     "AbilityConfig": {
-                        "PointCost": 1
+                        "EndsTurn": true
                     }
                 }
             }
