@@ -122,6 +122,7 @@
       "AI_CONFIG_FILE": "testing/ai/aiConfig.json",
       "AI_CONFIG_DEFAULTS_FILE": "testing/ai/aiConfigDefaults.json",
       "GAME_CONFIG_FILE": "globals/gameConfig.json",
+      "GAME_CONFIG_FILE_OVERRIDE": "globals/gameConfigOverrides.json",
       "SAVE_FILE": "",
       "MAP_SET_KEY": "testing",
       "SAVES_DIRECTORY": "testing/maps/saves",
