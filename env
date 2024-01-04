@@ -1,2 +1,3 @@
 version |   key             		        |   value
 1       |   GAME_CONFIG_FILE	            |   globals/gameConfig.json
+1       |   GAME_CONFIG_OVERRIDES_FILE	    |   globals/gameConfigOverrides.json
