@@ -78,6 +78,7 @@
       },
       "TeamConfig": {}
     },
+    "Triggers": [],
     "Environment": {
       "MAP_CONFIG_DEFAULTS_FILE": "testing/maps/map_defaults.json",
       "ENTITY_TYPE_CONFIG_FOLDER": "testing/entities/types",

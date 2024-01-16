@@ -27,6 +27,7 @@
         }
       ]
     },
+    "EntityConfig": [],
     "Stats": {
       "Battle": {
         "TotalEntitesCreated": 0,
@@ -90,6 +91,40 @@
           {
             "Type": "TEAM_VICTORY",
             "TeamId": "TEAM_1"
+          }
+        ]
+      },
+      {
+        "Conditions": [
+          {
+            "Type": "TURN_NUMBER",
+            "TurnNumber": 1
+          }
+        ],
+        "Actions": [
+          {
+            "Type": "SEND_NOTIFICATION",
+            "Notifications": [
+              {
+                "Text": "This is a test notification with SubmitActionText",
+                "SubmitActionText": "Boom"
+              },
+              {
+                "Text": "This is a test notification with no SubmitActionText shows Next",
+                "SubmitActionText": "UNDEFINED"
+              },
+              {
+                "Text": "This is something!",
+                "Position": {
+                  "X": 2,
+                  "Y": 2
+                }
+              },
+              {
+                "Text": "This is the last test notification with no SubmitActionText shows Continue",
+                "SubmitActionText": "UNDEFINED"
+              }
+            ]
           }
         ]
       }
