@@ -1,2 +1,2 @@
 version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   uiAction    |   subMeta     |   env     |   notes
-1       |   Turn End        |   turn-end.json                   |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Turn End test
+2       |   Turn End        |   turn-end.json                   |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Turn End test

@@ -1,6 +1,30 @@
 {
     "Width": 7,
     "Height": 7,
+    "TeamsConfig": {
+        "NumberOfTeams": 3,
+        "ActiveTeams": [
+            "TEAM_1",
+            "TEAM_2",
+            "TEAM_3"
+        ],
+        "StartingTeam": "TEAM_1",
+        "TeamConfig": [
+            {
+                "TeamId": "TEAM_1",
+                "TeamEntity": "Player"
+            },
+            {
+                "TeamId": "TEAM_2",
+                "TeamEntity": "Player"
+            },
+            {
+                "TeamId": "TEAM_3",
+                "TeamEntity": "AI_DEFAULT",
+                "AiProfile": "Standard"
+            }
+        ]
+    },
     "EntityConfig": [
         {
             "EntityString": "TEAM_1|5Movement|0,0"
@@ -16,6 +40,12 @@
         },
         {
             "EntityString": "TEAM_2|5Movement|5,3"
+        },
+        {
+            "EntityString": "TEAM_3|5Movement|1,4"
+        },
+        {
+            "EntityString": "TEAM_3|5Movement|2,3"
         }
     ],
     "Test": {
@@ -28,7 +58,7 @@
                 }
             },
             "10": {
-                "Description": "Turn end test - Open Menu",
+                "Description": "Turn end test - Open Menu for team 1",
                 "Type": "SELECT_POSITION",
                 "Config": {
                     "X": 2,
@@ -37,38 +67,60 @@
                 }
             },
             "20": {
-                "Description": "Turn end test - Select Turn End",
+                "Description": "Turn end test - Select Turn End for team 1",
                 "Type": "CHECK_ACTIONS",
                 "Config": {
                     "SelectOptionName": "End Turn"
                 }
             },
             "30": {
-                "Description": "Turn end test - Check that state changed",
-                "Type": "CHECK_STATE",
-                "Config": {
-                    "State": "PLAYER_END_TURN_IN_PROGRESS"
-                }
-            },
-            "40": {
-                "Description": "Turn end test - Wait for the AI turn to start",
+                "Description": "Turn end test - Wait for team 2's turn to start",
                 "Type": "WAIT_FOR_TEAM_TURN",
                 "Config": {
                     "Team": "TEAM_2"
                 }
             },
-            "60": {
-                "Description": "Turn end test - Check that state changed",
-                "Type": "CHECK_STATE",
+            "31": {
+                "Description": "Turn end test - Should return to the initial state for the start of team 2",
+                "Type": "WAIT_FOR_STATE",
                 "Config": {
-                    "State": "PLAYER_END_TURN_IN_PROGRESS"
+                    "State": "INITIAL_STATE"
                 }
             },
-            "70": {
-                "Description": "Turn end test - Wait for the AI turn to end and the player turn to start",
+            "35": {
+                "Description": "Turn end test - Check that the turn number is still 1",
+                "Type": "CHECK_TURN_NUMBER",
+                "Config": {
+                    "TurnNumber": 1
+                }
+            },
+            "40": {
+                "Description": "Turn end test - Open Menu for team 2",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 2
+                }
+            },
+            "45": {
+                "Description": "Turn end test - Select Turn End for team 2",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "50": {
+                "Description": "Turn end test - Wait for the AI turn to auto complete and return to team 1",
                 "Type": "WAIT_FOR_TEAM_TURN",
                 "Config": {
                     "Team": "TEAM_1"
+                }
+            },
+            "60": {
+                "Description": "Turn end test - Check that the turn number is 2 after the AI turn",
+                "Type": "CHECK_TURN_NUMBER",
+                "Config": {
+                    "TurnNumber": 2
                 }
             },
             "80": {
