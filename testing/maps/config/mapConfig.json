@@ -9,46 +9,10 @@
             "EntityString": "TEAM_2|DirectAttackMove|1,2"
         }
     ],
-    "Triggers": [
-        {
-            "Enabled": true,
-            "Conditions": [
-                {
-                    "Type": "TEAM_REMAINING_ENTITIES",
-                    "TeamId": "TEAM_1",
-                    "EntityTagFilter": "Unit",
-                    "EntityCount": 10
-                }
-            ],
-            "Actions": [
-                {
-                    "Type": "TEAM_VICTORY",
-                    "TeamId": "TEAM_2"
-                }
-            ]
-        },
-        {
-            "Conditions": [
-                {
-                    "Type": "TEAM_REMAINING_ENTITIES",
-                    "TeamId": "TEAM_2",
-                    "EntityTagFilter": "Unit",
-                    "GreaterThan": true,
-                    "IgnoreInitialZero": false
-                }
-            ],
-            "Actions": [
-                {
-                    "Type": "TEAM_VICTORY",
-                    "TeamId": "TEAM_1"
-                }
-            ]
-        }
-    ],
     "Test": {
         "TestSteps": {
             "0": {
-                "Description": "Map config test - Select splash unit",
+                "Description": "Map config test - Select a position",
                 "Type": "SELECT_POSITION",
                 "Config": {
                     "X": 0,
@@ -57,7 +21,7 @@
                 }
             },
             "5": {
-                "Description": "Map config test - Select attack",
+                "Description": "Map config test - Select edit mode",
                 "Type": "CHECK_ACTIONS",
                 "Config": {
                     "SelectOptionName": "Edit Mode"

@@ -1,0 +1,118 @@
+{
+    "Width": 3,
+    "Height": 3,
+    "Triggers": [
+        {
+            "Enabled": true,
+            "Conditions": [
+                {
+                    "Type": "TEAM_REMAINING_ENTITIES",
+                    "TeamId": "TEAM_1",
+                    "EntityTagFilter": "Unit",
+                    "EntityCount": 10
+                }
+            ],
+            "Actions": [
+                {
+                    "Type": "TEAM_VICTORY",
+                    "TeamId": "TEAM_2"
+                }
+            ]
+        },
+        {
+            "Conditions": [
+                {
+                    "Type": "TEAM_REMAINING_ENTITIES",
+                    "TeamId": "TEAM_2",
+                    "EntityTagFilter": "Unit",
+                    "GreaterThan": true,
+                    "IgnoreInitialZero": false
+                }
+            ],
+            "Actions": [
+                {
+                    "Type": "TEAM_VICTORY",
+                    "TeamId": "TEAM_1"
+                }
+            ]
+        },
+        {
+            "Conditions": [
+                {
+                    "Type": "TURN_NUMBER",
+                    "TurnNumber": 1
+                }
+            ],
+            "Actions": [
+                {
+                    "Type": "SEND_NOTIFICATION",
+                    "Notifications": [
+                        {
+                            "Text": "This is a test notification with SubmitActionText",
+                            "SubmitActionText": "Boom"
+                        },
+                        {
+                            "Text": "This is a test notification with no SubmitActionText shows Next"
+                        },
+                        {
+                            "Position": {
+                                "X": 2,
+                                "Y": 2
+                            },
+                            "Text": "This is something!"
+                        },
+                        {
+                            "Text": "This is the last test notification with no SubmitActionText shows Continue"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Test": {
+        "TestSteps": {
+            "0": {
+                "Description": "Trigger config test - Select a position",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 0,
+                    "Y": 0,
+                    "DoubleTap": true
+                }
+            },
+            "5": {
+                "Description": "Trigger config test - Select edit",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Edit Mode"
+                }
+            },
+            "10": {
+                "Description": "Trigger config test - Click export button",
+                "Type": "CHECK_BUTTON",
+                "Config": {
+                    "Text": "EXPORT"
+                }
+            },
+            "15": {
+                "Description": "Trigger config test - Check that the config can be exported",
+                "Type": "CHECK_BUTTON",
+                "Config": {
+                    "Text": "Copy to Clipboard"
+                }
+            },
+            "20": {
+                "Description": "Trigger config test - Check that the config is correct",
+                "Type": "CHECK_CLIPBOARD_TEXT",
+                "Config": {
+                    "File": "/testing/maps/config/triggerConfigSample.json",
+                    "IsJson": true
+                }
+            },
+            "999": {
+                "Description": "Test Complete",
+                "Type": "TEST_COMPLETE"
+            }
+        }
+    }
+}

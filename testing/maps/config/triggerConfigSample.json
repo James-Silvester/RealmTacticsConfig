@@ -27,26 +27,6 @@
         }
       ]
     },
-    "EntityConfig": [
-      {
-        "Id": 10,
-        "Position": {
-          "X": 1,
-          "Y": 1
-        },
-        "Type": "SplashAttackerTargetEntity",
-        "TeamId": "TEAM_1"
-      },
-      {
-        "Id": 11,
-        "Position": {
-          "X": 1,
-          "Y": 2
-        },
-        "Type": "DirectAttackMove",
-        "TeamId": "TEAM_2"
-      }
-    ],
     "Stats": {
       "Battle": {
         "TotalEntitesCreated": 0,
@@ -78,6 +58,42 @@
       },
       "TeamConfig": {}
     },
+    "Triggers": [
+      {
+        "Enabled": true,
+        "Conditions": [
+          {
+            "Type": "TEAM_REMAINING_ENTITIES",
+            "TeamId": "TEAM_1",
+            "EntityTagFilter": "Unit",
+            "EntityCount": 10
+          }
+        ],
+        "Actions": [
+          {
+            "Type": "TEAM_VICTORY",
+            "TeamId": "TEAM_2"
+          }
+        ]
+      },
+      {
+        "Conditions": [
+          {
+            "Type": "TEAM_REMAINING_ENTITIES",
+            "TeamId": "TEAM_2",
+            "EntityTagFilter": "Unit",
+            "GreaterThan": true,
+            "IgnoreInitialZero": false
+          }
+        ],
+        "Actions": [
+          {
+            "Type": "TEAM_VICTORY",
+            "TeamId": "TEAM_1"
+          }
+        ]
+      }
+    ],
     "Environment": {
       "MAP_CONFIG_DEFAULTS_FILE": "testing/maps/map_defaults.json",
       "ENTITY_TYPE_CONFIG_FOLDER": "testing/entities/types",
