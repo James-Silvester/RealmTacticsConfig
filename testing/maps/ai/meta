@@ -6,7 +6,7 @@ version |   name                                |   filename                    
 
 1       |   PathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:trueFeature       |   PathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:trueFeature.json  |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   AI PathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:trueFeature test
 
-1       |   QuickPathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:trueFeature       |   QuickPathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:trueFeature.json  |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   AI QuickPathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:trueFeature test
+1       |   QuickPathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature       |   QuickPathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature.json  |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   AI QuickPathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeatureFeature test
 
 1       |   SimpleClosestProximityFeature       |   SimpleClosestProximityFeature.json  |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   AI SimpleClosestProximityFeature test
 
