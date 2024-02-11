@@ -1,7 +1,7 @@
 {
     "Modules": {
         "Attack": {
-            "PathedClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 10.0,
+            "QuickPathedClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 10.0,
             "SimpleClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 0.0,
             "AttackEffectivenessFeature": 15.0,
             "CanGetAttackedEffectivenessFeature": 10,
@@ -13,8 +13,8 @@
             "RandomFeature": 5
         },
         "Capture": {
-            "PathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:true": 1.0,
-            "PathedClosestProximityFeature_Relationship:Enemy_CanBeCaptured:true": 10.0,
+            "QuickPathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:true": 1.0,
+            "QuickPathedClosestProximityFeature_Relationship:Enemy_CanBeCaptured:true": 10.0,
             "CanGetAttackedEffectivenessFeature": 11,
             "NextToOwnNetworkFeature": 1.0,
             "RandomFeature": 0.5,
