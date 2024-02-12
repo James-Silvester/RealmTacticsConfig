@@ -1,0 +1,112 @@
+{
+    "Width": 7,
+    "Height": 7,
+    "EntityConfig": [
+        {
+            "EntityString": "TEAM_2|DirectAttackMove|0,3"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|1,3"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|2,2"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|4,3"
+        },
+        {
+            "EntityString": "TEAM_2|captureBuilding|2,3"
+        }
+    ],
+    "Test": {
+        "TestSteps": {
+            "0": {
+                "Description": "QuickPathedClosestProximityAdjacentFeature_Relationship:SelfFeature test - Set feature weight",
+                "Type": "AI_ADD_WEIGHT",
+                "Config": {
+                    "Feature": "QuickPathedClosestProximityAdjacentFeature_Relationship:Self",
+                    "Module": "Attack"
+                }
+            },
+            "5": {
+                "Description": "QuickPathedClosestProximityAdjacentFeature_Relationship:SelfFeature test - Check that the AI entity is in its starting position",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 0,
+                    "Y": 3,
+                    "EntityType": "DirectAttackMove"
+                }
+            },
+            "10": {
+                "Description": "QuickPathedClosestProximityAdjacentFeature_Relationship:SelfFeature test - Open Menu",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 0,
+                    "DoubleTap": true
+                }
+            },
+            "11": {
+                "Description": "QuickPathedClosestProximityAdjacentFeature_Relationship:SelfFeature test - Select Turn End",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "12": {
+                "Description": "QuickPathedClosestProximityAdjacentFeature_Relationship:SelfFeature test - Wait for the AI turn to end and the player turn to start",
+                "Type": "WAIT_FOR_TEAM_TURN",
+                "Config": {
+                    "Team": "TEAM_1"
+                }
+            },
+            "13": {
+                "Description": "QuickPathedClosestProximityAdjacentFeature_Relationship:SelfFeature test - Moved closer to the Ally building and be adjacent",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 2,
+                    "Y": 3,
+                    "EntityType": "DirectAttackMove"
+                }
+            },
+
+            "20": {
+                "Description": "QuickPathedClosestProximityAdjacentFeature_Relationship:SelfFeature test - Open Menu for the second time",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 0,
+                    "DoubleTap": true
+                }
+            },
+            "21": {
+                "Description": "QuickPathedClosestProximityAdjacentFeature_Relationship:SelfFeature test - Select Turn End for the second time",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "22": {
+                "Description": "QuickPathedClosestProximityAdjacentFeature_Relationship:SelfFeature test - Wait for the AI turn to end and the player turn to start for the second time",
+                "Type": "WAIT_FOR_TEAM_TURN",
+                "Config": {
+                    "Team": "TEAM_1"
+                }
+            },
+            "23": {
+                "Description": "QuickPathedClosestProximityAdjacentFeature_Relationship:SelfFeature test - The DirectAttackMove has not moved as its already adjacent",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 2,
+                    "Y": 3,
+                    "EntityType": "DirectAttackMove"
+                }
+            },
+
+            "999": {
+                "Description": "Test Complete",
+                "Type": "TEST_COMPLETE"
+            }
+        }
+    }
+}

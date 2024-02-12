@@ -9,6 +9,7 @@
                         "QuickPathedClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 0.0,
                         "SimpleClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 0.0,
                         "QuickSimpleClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 0.0,
+                        "QuickPathedClosestProximityAdjacentFeature_Relationship:Self": 0.0,
                         "AttackEffectivenessFeature": 0.0,
                         "AttackPossibleFeature": 0.0,
                         "ValidEndMovementRangeFeature": 0.0,
