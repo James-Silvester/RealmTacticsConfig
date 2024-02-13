@@ -45,7 +45,7 @@
             "EntityString": "TEAM_1|5Movement|6,4"
         },
         {
-            "EntityString": "TEAM_1|captureBuilding|0,6"
+            "EntityString": "TEAM_1|CaptureBuilding|0,6"
         }
     ],
     "Test": {

@@ -6,9 +6,9 @@ version |   name                                |   filename                    
 
 1       |   PathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:trueFeature       |   PathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:trueFeature.json  |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   AI PathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:trueFeature test
 
-2       |   QuickPathedClosestProximityAdjacentFeature_Relationship:SelfFeature       |   QuickPathedClosestProximityAdjacentFeature_Relationship:SelfFeature.json  |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   AI QuickPathedClosestProximityAdjacentFeature_Relationship:SelfFeature test
+3       |   QuickPathedClosestProximityAdjacentFeature_Relationship:SelfFeature       |   QuickPathedClosestProximityAdjacentFeature_Relationship:SelfFeature.json  |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   AI QuickPathedClosestProximityAdjacentFeature_Relationship:SelfFeature test
 
-1       |   QuickPathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature       |   QuickPathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature.json  |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   AI QuickPathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeatureFeature test
+2       |   QuickPathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature       |   QuickPathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature.json  |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   AI QuickPathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeatureFeature test
 
 1       |   SimpleClosestProximityFeature       |   SimpleClosestProximityFeature.json  |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   AI SimpleClosestProximityFeature test
 

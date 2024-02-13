@@ -15,7 +15,7 @@
             "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|3,3"
         },
         {
-            "EntityString": "TEAM_2|captureBuilding|2,3"
+            "EntityString": "TEAM_2|CaptureBuilding|2,3"
         }
     ],
     "Test": {
@@ -65,7 +65,7 @@
                 "Type": "CHECK_ENTITY",
                 "Config": {
                     "X": 2,
-                    "Y": 3,
+                    "Y": 4,
                     "EntityType": "DirectAttackMove"
                 }
             },
@@ -98,7 +98,7 @@
                 "Type": "CHECK_ENTITY",
                 "Config": {
                     "X": 2,
-                    "Y": 3,
+                    "Y": 4,
                     "EntityType": "DirectAttackMove"
                 }
             },
