@@ -106,7 +106,7 @@
         "PurchaseMenuFontSize": 32
     },
     "Logging": {
-        "Debug": true,
+        "Debug": false,
         "Performance": false,
         "Config": false,
         "State": false,
@@ -130,6 +130,7 @@
     "AI": {
         "TrainingMode": false,
         "WaitTimeBetweenAiMovesSeconds": 0.2,
+        "BiddingSessionTimeSeconds": 0.05,
         "NumberEntitiesToEvaluateForBids": 5
     },
     "UndefinedString": "UNDEFINED"
