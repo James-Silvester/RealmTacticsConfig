@@ -5,6 +5,7 @@
             "Values": {
                 "Modules": {
                     "Attack": {
+                        "CanProtectAlliesByAttackingAdjacentFeature": 0.0,
                         "PathedClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 0.0,
                         "QuickPathedClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 0.0,
                         "SimpleClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 0.0,

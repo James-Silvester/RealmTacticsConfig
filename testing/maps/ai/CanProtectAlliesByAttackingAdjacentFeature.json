@@ -1,0 +1,215 @@
+{
+    "Width": 7,
+    "Height": 10,
+    "EntityConfig": [
+        {
+            "EntityString": "TEAM_2|DirectAttackMove|0,0"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|3,0"
+        },
+        {
+            "EntityString": "TEAM_2|DirectAttackStationary|4,0"
+        },
+        {
+            "EntityString": "TEAM_2|DirectAttackMove|0,9"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|3,9"
+        },
+        {
+            "EntityString": "TEAM_2|DirectAttackStationary|5,9"
+        }
+    ],
+    "Test": {
+        "TestSteps": {
+            "0": {
+                "Description": "CanProtectAlliesByAttackingAdjacentFeature test - Set feature weight",
+                "Type": "AI_ADD_WEIGHT",
+                "Config": {
+                    "Feature": "CanProtectAlliesByAttackingAdjacentFeature",
+                    "Module": "Attack"
+                }
+            },
+            "5": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Check that the AI entity is in its starting position",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 0,
+                    "Y": 0,
+                    "EntityType": "DirectAttackMove"
+                }
+            },
+            "10": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Open Menu",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 2,
+                    "DoubleTap": true
+                }
+            },
+            "11": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Select Turn End",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "12": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Wait for the AI turn to end and the player turn to start",
+                "Type": "WAIT_FOR_TEAM_TURN",
+                "Config": {
+                    "Team": "TEAM_1"
+                }
+            },
+            "13": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved closer to the Enemy 5Movement (not the building)",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 1,
+                    "Y": 4,
+                    "EntityType": "DirectAttackMove"
+                }
+            },
+
+            "20": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Open Menu",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 2,
+                    "DoubleTap": true
+                }
+            },
+            "21": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Select Turn End",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "22": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Wait for the AI turn to end and the player turn to start",
+                "Type": "WAIT_FOR_TEAM_TURN",
+                "Config": {
+                    "Team": "TEAM_1"
+                }
+            },
+            "23": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved closer to the Enemy 5Movement (not the building) 2",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 3,
+                    "Y": 6,
+                    "EntityType": "DirectAttackMove"
+                }
+            },
+
+            "30": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Open Menu",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 2,
+                    "DoubleTap": true
+                }
+            },
+            "31": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Select Turn End",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "32": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Wait for the AI turn to end and the player turn to start",
+                "Type": "WAIT_FOR_TEAM_TURN",
+                "Config": {
+                    "Team": "TEAM_1"
+                }
+            },
+            "33": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved closer to the Enemy 5Movement (not the building) 3",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 3,
+                    "Y": 3,
+                    "EntityType": "DirectAttackMove"
+                }
+            },
+
+            "40": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Open Menu",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 2,
+                    "DoubleTap": true
+                }
+            },
+            "41": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Select Turn End",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "42": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Wait for the AI turn to end and the player turn to start",
+                "Type": "WAIT_FOR_TEAM_TURN",
+                "Config": {
+                    "Team": "TEAM_1"
+                }
+            },
+            "43": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved closer to the Enemy 5Movement (not the building) 4",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 5,
+                    "Y": 0,
+                    "EntityType": "DirectAttackMove"
+                }
+            },
+
+            "50": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Open Menu",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 2,
+                    "DoubleTap": true
+                }
+            },
+            "51": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Select Turn End",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "52": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Wait for the AI turn to end and the player turn to start",
+                "Type": "WAIT_FOR_TEAM_TURN",
+                "Config": {
+                    "Team": "TEAM_1"
+                }
+            },
+            "53": {
+                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved closer to the Enemy 5Movement (not the building) 5",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 6,
+                    "Y": 3,
+                    "EntityType": "DirectAttackMove"
+                }
+            },
+
+
+            "999": {
+                "Description": "Test Complete",
+                "Type": "TEST_COMPLETE"
+            }
+        }
+    }
+}
