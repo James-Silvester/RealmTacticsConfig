@@ -1,24 +1,39 @@
 {
-    "Width": 7,
-    "Height": 10,
+    "Width": 15,
+    "Height": 15,
     "EntityConfig": [
         {
             "EntityString": "TEAM_2|DirectAttackMove|0,0"
         },
         {
-            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|3,0"
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|3,1"
         },
         {
-            "EntityString": "TEAM_2|DirectAttackStationary|4,0"
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|2,1"
         },
         {
-            "EntityString": "TEAM_2|DirectAttackMove|0,9"
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|3,1"
         },
         {
-            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|3,9"
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|4,1"
         },
         {
-            "EntityString": "TEAM_2|DirectAttackStationary|5,9"
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|5,1"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|6,1"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|7,1"
+        },
+        {
+            "EntityString": "TEAM_2|DirectAttackStationary|7,1"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|8,0"
+        },
+        {
+            "EntityString": "TEAM_2|DirectAttackMove|14,14"
         }
     ],
     "Test": {
@@ -31,17 +46,8 @@
                     "Module": "Attack"
                 }
             },
-            "5": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Check that the AI entity is in its starting position",
-                "Type": "CHECK_ENTITY",
-                "Config": {
-                    "X": 0,
-                    "Y": 0,
-                    "EntityType": "DirectAttackMove"
-                }
-            },
             "10": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Open Menu",
+                "Description": "CanProtectAlliesByAttackingAdjacentFeature test - Open Menu",
                 "Type": "SELECT_POSITION",
                 "Config": {
                     "X": 2,
@@ -50,157 +56,35 @@
                 }
             },
             "11": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Select Turn End",
+                "Description": "CanProtectAlliesByAttackingAdjacentFeature test - Select Turn End",
                 "Type": "CHECK_ACTIONS",
                 "Config": {
                     "SelectOptionName": "End Turn"
                 }
             },
             "12": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Wait for the AI turn to end and the player turn to start",
+                "Description": "CanProtectAlliesByAttackingAdjacentFeature test - Wait for the AI turn to end and the player turn to start",
                 "Type": "WAIT_FOR_TEAM_TURN",
                 "Config": {
                     "Team": "TEAM_1"
                 }
             },
             "13": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved closer to the Enemy 5Movement (not the building)",
-                "Type": "CHECK_ENTITY",
-                "Config": {
-                    "X": 1,
-                    "Y": 4,
-                    "EntityType": "DirectAttackMove"
-                }
-            },
-
-            "20": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Open Menu",
-                "Type": "SELECT_POSITION",
-                "Config": {
-                    "X": 2,
-                    "Y": 2,
-                    "DoubleTap": true
-                }
-            },
-            "21": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Select Turn End",
-                "Type": "CHECK_ACTIONS",
-                "Config": {
-                    "SelectOptionName": "End Turn"
-                }
-            },
-            "22": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Wait for the AI turn to end and the player turn to start",
-                "Type": "WAIT_FOR_TEAM_TURN",
-                "Config": {
-                    "Team": "TEAM_1"
-                }
-            },
-            "23": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved closer to the Enemy 5Movement (not the building) 2",
+                "Description": "CanProtectAlliesByAttackingAdjacentFeature test - Moved above the impassible terrain which defends the most squares",
                 "Type": "CHECK_ENTITY",
                 "Config": {
                     "X": 3,
-                    "Y": 6,
+                    "Y": 2,
                     "EntityType": "DirectAttackMove"
                 }
             },
 
-            "30": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Open Menu",
-                "Type": "SELECT_POSITION",
-                "Config": {
-                    "X": 2,
-                    "Y": 2,
-                    "DoubleTap": true
-                }
-            },
-            "31": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Select Turn End",
-                "Type": "CHECK_ACTIONS",
-                "Config": {
-                    "SelectOptionName": "End Turn"
-                }
-            },
-            "32": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Wait for the AI turn to end and the player turn to start",
-                "Type": "WAIT_FOR_TEAM_TURN",
-                "Config": {
-                    "Team": "TEAM_1"
-                }
-            },
-            "33": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved closer to the Enemy 5Movement (not the building) 3",
+            "14": {
+                "Description": "CanProtectAlliesByAttackingAdjacentFeature test - Doesn't effect the entity which is outside of possible protection range",
                 "Type": "CHECK_ENTITY",
                 "Config": {
-                    "X": 3,
-                    "Y": 3,
-                    "EntityType": "DirectAttackMove"
-                }
-            },
-
-            "40": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Open Menu",
-                "Type": "SELECT_POSITION",
-                "Config": {
-                    "X": 2,
-                    "Y": 2,
-                    "DoubleTap": true
-                }
-            },
-            "41": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Select Turn End",
-                "Type": "CHECK_ACTIONS",
-                "Config": {
-                    "SelectOptionName": "End Turn"
-                }
-            },
-            "42": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Wait for the AI turn to end and the player turn to start",
-                "Type": "WAIT_FOR_TEAM_TURN",
-                "Config": {
-                    "Team": "TEAM_1"
-                }
-            },
-            "43": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved closer to the Enemy 5Movement (not the building) 4",
-                "Type": "CHECK_ENTITY",
-                "Config": {
-                    "X": 5,
-                    "Y": 0,
-                    "EntityType": "DirectAttackMove"
-                }
-            },
-
-            "50": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Open Menu",
-                "Type": "SELECT_POSITION",
-                "Config": {
-                    "X": 2,
-                    "Y": 2,
-                    "DoubleTap": true
-                }
-            },
-            "51": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Select Turn End",
-                "Type": "CHECK_ACTIONS",
-                "Config": {
-                    "SelectOptionName": "End Turn"
-                }
-            },
-            "52": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Wait for the AI turn to end and the player turn to start",
-                "Type": "WAIT_FOR_TEAM_TURN",
-                "Config": {
-                    "Team": "TEAM_1"
-                }
-            },
-            "53": {
-                "Description": "PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature test - Moved closer to the Enemy 5Movement (not the building) 5",
-                "Type": "CHECK_ENTITY",
-                "Config": {
-                    "X": 6,
-                    "Y": 3,
+                    "X": 14,
+                    "Y": 14,
                     "EntityType": "DirectAttackMove"
                 }
             },
