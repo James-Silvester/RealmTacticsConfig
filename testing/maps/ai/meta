@@ -1,5 +1,7 @@
 version |   name                                |   filename                            |   isFile  |   path    |   onUi    |   uiPath      |   uiAction    |   subMeta     |   env     |   notes
 
+1       |   AlliesCanProtectByAttackingAdjacentFeature       |   AlliesCanProtectByAttackingAdjacentFeature.json  |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   AI AlliesCanProtectByAttackingAdjacentFeature test
+
 1       |   CanProtectAlliesByAttackingAdjacentFeature       |   CanProtectAlliesByAttackingAdjacentFeature.json  |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   AI CanProtectAlliesByAttackingAdjacentFeature test
 
 1       |   PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature       |   PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeature.json  |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   AI PathedClosestProximityFeature_EntityTag:Unit_Relationship:EnemyFeatureFeature test

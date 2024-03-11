@@ -1,6 +1,6 @@
 {
-    "Name": "DirectAttackMove",
-    "Description": "Direct Attack Move",
+    "Name": "RangeAttackMove",
+    "Description": "Range Attack Move",
     "Tags": [
         "Unit"
     ],
@@ -19,9 +19,11 @@
         "CanUseDefence": true
     },
     "Attack": {
-        "DirectAttacks": [
+        "RangeAttacks": [
             {
                 "Name": "Attack",
+                "MinRange": 1,
+                "MaxRange": 4,
                 "Detail": {
                     "CanMoveAndAttack": true,
                     "BasePower": 0.2,

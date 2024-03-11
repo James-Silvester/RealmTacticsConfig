@@ -2,6 +2,7 @@
     "Modules": {
         "Attack": {
             "CanProtectAlliesByAttackingAdjacentFeature": 0.0,
+            "AlliesCanProtectByAttackingAdjacentFeature": 0.0,
             "PathedClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 0.0,
             "QuickPathedClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 0.0,
             "SimpleClosestProximityFeature_EntityTag:Unit_Relationship:Enemy": 0.0,
@@ -14,6 +15,8 @@
             "RandomFeature": 0.0
         },
         "Capture": {
+            "CanProtectAlliesByAttackingAdjacentFeature": 0.0,
+            "AlliesCanProtectByAttackingAdjacentFeature": 0.0,
             "PathedClosestProximityFeature_Relationship:Enemy_CanBeCaptured:true": 0.0,
             "PathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:true": 0.0,
             "QuickPathedClosestProximityFeature_Relationship:Enemy_CanBeCaptured:true": 0.0,

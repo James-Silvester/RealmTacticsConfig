@@ -1,0 +1,78 @@
+{
+    "Width": 15,
+    "Height": 15,
+    "EntityConfig": [
+        {
+            "EntityString": "TEAM_2|RangeAttackMove|0,0"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|0,1"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|1,0"
+        },
+        {
+            "EntityString": "TEAM_2|DirectAttackMove|4,4"
+        }
+    ],
+    "Test": {
+        "TestSteps": {
+            "0": {
+                "Description": "AlliesCanProtectByAttackingAdjacentFeature test - Set feature weight",
+                "Type": "AI_ADD_WEIGHT",
+                "Config": {
+                    "Feature": "AlliesCanProtectByAttackingAdjacentFeature",
+                    "Module": "Attack"
+                }
+            },
+            "10": {
+                "Description": "AlliesCanProtectByAttackingAdjacentFeature test - Open Menu",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 2,
+                    "DoubleTap": true
+                }
+            },
+            "11": {
+                "Description": "AlliesCanProtectByAttackingAdjacentFeature test - Select Turn End",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "12": {
+                "Description": "AlliesCanProtectByAttackingAdjacentFeature test - Wait for the AI turn to end and the player turn to start",
+                "Type": "WAIT_FOR_TEAM_TURN",
+                "Config": {
+                    "Team": "TEAM_1"
+                }
+            },
+            "13": {
+                "Description": "AlliesCanProtectByAttackingAdjacentFeature test - Moved above the impassible terrain which defends the most squares",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 3,
+                    "Y": 2,
+                    "EntityType": "DirectAttackMove"
+                }
+            },
+
+            "14": {
+                "Description": "AlliesCanProtectByAttackingAdjacentFeature test - Doesn't effect the entity which is outside of possible protection range",
+                "Type": "CHECK_ENTITY",
+                "Config": {
+                    "X": 14,
+                    "Y": 14,
+                    "EntityType": "DirectAttackMove"
+                }
+            },
+
+
+            "999": {
+                "Description": "Test Complete",
+                "Type": "TEST_COMPLETE"
+            }
+        }
+    }
+}
