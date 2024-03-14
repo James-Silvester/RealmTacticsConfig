@@ -1,0 +1,34 @@
+{
+    "Name": "DirectAttackStationary",
+    "Description": "Direct Attack Stationary",
+    "Tags": [
+        "Unit"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 2
+    },
+    "Defence": {
+        "CanUseDefence": true
+    },
+    "Attack": {
+        "DirectAttacks": [
+            {
+                "Name": "Attack",
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 0.2,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "UsesPerTurn": 1
+                    }
+                }
+            }
+        ]
+    }
+}

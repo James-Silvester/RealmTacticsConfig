@@ -3,16 +3,22 @@
     "Height": 15,
     "EntityConfig": [
         {
-            "EntityString": "TEAM_2|RangeAttackMove|0,0"
+            "EntityString": "TEAM_2|RangeAttackMove|0,4"
         },
         {
-            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|0,1"
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|0,5"
         },
         {
-            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|1,0"
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|0,3"
         },
         {
-            "EntityString": "TEAM_2|DirectAttackMove|4,4"
+            "EntityString": "TEAM_UNDEFINED|ImpassibleTerrain|1,4"
+        },
+        {
+            "EntityString": "TEAM_UNDEFINED|HighDefenceTerrain|0,4"
+        },
+        {
+            "EntityString": "TEAM_2|DirectAttackMove|8,4"
         }
     ],
     "Test": {
@@ -22,6 +28,14 @@
                 "Type": "AI_ADD_WEIGHT",
                 "Config": {
                     "Feature": "AlliesCanProtectByAttackingAdjacentFeature",
+                    "Module": "Attack"
+                }
+            },
+            "1": {
+                "Description": "AlliesCanProtectByAttackingAdjacentFeature test - Set position defence feature weight so that the range unit goes first",
+                "Type": "AI_ADD_WEIGHT",
+                "Config": {
+                    "Feature": "PositionDefenceFeature",
                     "Module": "Attack"
                 }
             },
@@ -49,25 +63,14 @@
                 }
             },
             "13": {
-                "Description": "AlliesCanProtectByAttackingAdjacentFeature test - Moved above the impassible terrain which defends the most squares",
+                "Description": "AlliesCanProtectByAttackingAdjacentFeature test - Moved to being protected from direct attack by ally",
                 "Type": "CHECK_ENTITY",
                 "Config": {
                     "X": 3,
-                    "Y": 2,
+                    "Y": 4,
                     "EntityType": "DirectAttackMove"
                 }
             },
-
-            "14": {
-                "Description": "AlliesCanProtectByAttackingAdjacentFeature test - Doesn't effect the entity which is outside of possible protection range",
-                "Type": "CHECK_ENTITY",
-                "Config": {
-                    "X": 14,
-                    "Y": 14,
-                    "EntityType": "DirectAttackMove"
-                }
-            },
-
 
             "999": {
                 "Description": "Test Complete",
