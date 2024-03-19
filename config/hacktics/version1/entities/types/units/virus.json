@@ -35,7 +35,8 @@
                     },
                     "TagPowerModifier": {},
                     "AbilityConfig": {
-                        "PointCost": 1
+                        "PointCost": 1,
+                        "EndsTurn": true
                     }
                 }
             }

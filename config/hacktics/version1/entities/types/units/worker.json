@@ -25,7 +25,7 @@
         "CanUseDefence": true
     },
     "Capture": {
-        "CapturePoints": 50,
+        "CapturePoints": 100,
         "AbilityConfig": {
             "PointCost": 1,
             "EndsTurn": false
