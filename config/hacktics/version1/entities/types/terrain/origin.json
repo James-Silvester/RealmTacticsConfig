@@ -23,7 +23,7 @@
                         "Unit"
                     ]
                 },
-                "Defence": 0.8,
+                "Defence": 0.5,
                 "ApplyToEnemies": false
             }
         ]
@@ -45,7 +45,7 @@
     },
     "Money": {
         "UsesNetwork": true,
-        "Income": [10]
+        "Income": [3]
     },
     "Capture": {
         "PointsToCapture": 200

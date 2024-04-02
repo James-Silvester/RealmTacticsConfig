@@ -29,7 +29,7 @@
                 "MaxRange": 5,
                 "Detail": {
                     "CanMoveAndAttack": false,
-                    "BasePower": 0.5,
+                    "BasePower": 0.9,
                     "Selector": {
                         "AllowTags": [
                             "Unit"
@@ -48,7 +48,7 @@
         "CanUseDefence": true
     },
     "Purchase": {
-        "Costs": [20],
+        "Costs": [40],
         "CanBePurchased": true
     }
 }

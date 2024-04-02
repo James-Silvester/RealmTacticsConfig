@@ -52,7 +52,7 @@
         ]
     },
     "Purchase": {
-        "Costs": [10],
+        "Costs": [6],
         "CanBePurchased": true
     }
 }

@@ -45,7 +45,7 @@
         "CanUseDefence": true
     },
     "Purchase": {
-        "Costs": [20],
+        "Costs": [15],
         "CanBePurchased": true
     }
 }
