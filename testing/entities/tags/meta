@@ -1,4 +1,4 @@
-version |   name                |   filename            |   isFile  |   path        |   onUi    |   uiPath          |   uiAction    |   subMeta |   env     |   notes
+version |   name                |   filename            |   isFile  |   path        |   onUi    |   uiPath          |   action    |   subMeta |   env     |   notes
 1       |   Unit Config         |   unit.json           |   1       |   /  |   1       |   /unit      |   -           |   0       |   0       |   Testing base unit class
 
 1       |   Building Config           |   building.json           |   1       |   /  |   1       |   /building      |   -           |   0       |   0       |   Testing base building class

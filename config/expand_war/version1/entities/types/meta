@@ -1,4 +1,4 @@
-version |   name                |   filename            |   isFile  |   path          |   onUi    |   uiPath            |   uiAction    |   subMeta |   env     |   notes
+version |   name                |   filename            |   isFile  |   path          |   onUi    |   uiPath            |   action    |   subMeta |   env     |   notes
 2       |   Castle Config       |   castle.json         |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for castle terrain
 2       |   Castle ImageFile    |   castle.png          |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for castle terrain
 

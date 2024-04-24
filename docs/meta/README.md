@@ -4,7 +4,7 @@ The meta files power the entire main menu. It has a "|" seperated structure. Eac
 Example meta file:
 
 ```
-version |   name            |   filename        |   isFile  |   path    |   onUi    |   uiPath  |   uiAction    |   subMeta |   env     |   notes
+version |   name            |   filename        |   isFile  |   path    |   onUi    |   uiPath  |   action    |   subMeta |   env     |   notes
 1       |   Version 1       |   version1        |   0       |   /       |   1       |   /       |   folder      |   0       |   0       |   Original version of Medieval config
 ```
 
@@ -16,12 +16,12 @@ version     -   Defines if the target file has changed. If the versions match th
  - path        -   Allow subfolders to be included in a single meta file. If the file is at the same level as the meta file then the path is simply /. If its in a sub folder called 'units' then path would be '/units'
  - onUI        -   Determines if this option is shown on the UI. 1 is shown, 0 is not shown
  - uiPath      -   (not implemented yet) Determines the UI page structure with nested tabs
- - uiAction    -   Determines what happens when the option is clicked. See below for options
+ - action    -   Determines what happens when the option is clicked. See below for options
  - subMeta     -   The target file is consumed as another meta file. Allows a tree strucutre of meta files
  - env         -   The target file is consumed as environment variables
  - notes       -   Notes about the line. Currently no action in game
 
-uiActions - possible options:
+actions - possible options:
 - folder    - Not related to an action file but changes the current main menu path
 - loadMap   - Loads the given file using in conjunction with the current environment
 - loadSave (virtial) - This should not be given in the meta file as it is only applied to a automatically generated meta when a user saves their game 

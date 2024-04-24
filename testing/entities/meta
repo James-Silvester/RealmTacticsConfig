@@ -1,4 +1,4 @@
-version |   name            |   filename        	|   isFile  |   path    |   onUi    |   uiPath  |   uiAction    |   subMeta |   env     |   notes
+version |   name            |   filename        	|   isFile  |   path    |   onUi    |   uiPath  |   action    |   subMeta |   env     |   notes
 1       |   Tags            |   tags            	|   0       |   /       |   1       |   /       |   folder      |   0       |   0       |   Advanced Wars Entity Tags
 1       |   Types           |   types           	|   0       |   /       |   1       |   /       |   folder      |   0       |   0       |   Advanced Wars Entity Types
 2       |   Defaults        |   entityDefaults.json |   1       |   /       |   0       |   /       |   -		|   0       |   0       |   Advanced Wars Default Entity Config

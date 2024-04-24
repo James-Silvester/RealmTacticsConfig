@@ -1,4 +1,4 @@
-version |   name                |   filename            |   isFile  |   path    |   onUi    |   uiPath              |   uiAction    |   subMeta |   env     |   notes
+version |   name                |   filename            |   isFile  |   path    |   onUi    |   uiPath              |   action    |   subMeta |   env     |   notes
 4       |   Barrier Config      |   barrier.json        |   1       |   /       |   1       |   /building/barrier   |   -           |   0       |   0       |   Barrier class
 3       |   Building Config     |   building.json       |   1       |   /       |   1       |   /building           |   -           |   0       |   0       |   Base Building class
 3       |   Mounted Unit Config |   mounted.json        |   1       |   /       |   1       |   /unit/mounted       |   -           |   0       |   0       |   Mounted unit class

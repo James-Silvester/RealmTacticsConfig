@@ -1,4 +1,4 @@
-version |   name            |   filename        |   isFile  |   path        |   onUi    |   uiPath  |   uiAction    |   subMeta |   env     |   notes
+version |   name            |   filename        |   isFile  |   path        |   onUi    |   uiPath  |   action    |   subMeta |   env     |   notes
 1       |   Maps            |   maps            |   0       |   /           |   1       |   /       |   folder      |   0       |   0       |   Hacktics Style Maps
 1       |   Entities        |   entities        |   0       |   /           |   0       |   /       |   folder      |   0       |   0       |   Hacktics Style Entities
 2       |   AI              |   ai              |   0       |   /           |   0       |   /       |   folder      |   0       |   0       |   AI which powers the Hacktics Maps

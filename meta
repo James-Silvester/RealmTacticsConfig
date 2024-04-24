@@ -1,4 +1,4 @@
-version |   name        |   filename    |   isFile  |   path        |   onUi    |   uiPath  |   uiAction    |   subMeta |   env     |   notes
+version |   name        |   filename    |   isFile  |   path        |   onUi    |   uiPath  |   action    |   subMeta |   env     |   notes
 6       |   Welcome     |   welcome.msg |   1       |   /           |   1       |   /       |   message     |   0       |   0       |   Overall welcome screen for TBS
 
 2       |   Game Modes  |   config      |   0       |   /           |   1       |   /       |   folder      |   0       |   0       |   Selection of game modes

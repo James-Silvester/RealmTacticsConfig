@@ -1,4 +1,4 @@
-version |   name                |   filename            |   isFile  |   path        |   onUi    |   uiPath          |   uiAction    |   subMeta |   env     |   notes
+version |   name                |   filename            |   isFile  |   path        |   onUi    |   uiPath          |   action    |   subMeta |   env     |   notes
 3       |   City Config         |   city.json           |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       |   Config for city
 1       |   City ImageFile      |   city.png            |   1       |   /buildings  |   0       |   /buildings      |   -           |   0       |   0       |   Image for city
 

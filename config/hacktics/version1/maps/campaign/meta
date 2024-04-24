@@ -1,6 +1,8 @@
-version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   uiAction    |   subMeta     |   env     |   notes
+version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   action    |   subMeta     |   env     |   notes
 2       |   0 - Intro       |   level_0.json                    |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Level 0
 1       |   1 - Shell       |   level_1.json                    |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Level 1
+
+1       |   3 - Walkway     |   level_3_walkway.json            |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Level 3
 
 
 1       |   Intro     |   intro.msg |   1       |   /           |   0       |   /       |   message     |   0       |   0       |   Introduction to the Hacktics campaign

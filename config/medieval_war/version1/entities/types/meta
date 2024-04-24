@@ -1,4 +1,4 @@
-version |   name                |   filename            |   isFile  |   path          |   onUi    |   uiPath            |   uiAction    |   subMeta |   env     |   notes
+version |   name                |   filename            |   isFile  |   path          |   onUi    |   uiPath            |   action    |   subMeta |   env     |   notes
 
 1       |   Ground Config       |   ground.json         |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for ground terrain
 1       |   Ground ImageFile    |   ground.png          |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for ground terrain
