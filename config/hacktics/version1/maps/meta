@@ -8,3 +8,5 @@ version |   name            |   filename                        |   isFile  |   
 
 1       |   Custom Maps     |   custom_maps                     |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Custom Maps
 1       |   Saves           |   saves                           |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Saves
+
+1       |   meta            |   meta            	            |   1       |   ../     |   0       |   /           |   -           |   1           |   0       |   Make sure that the version1 is completely loaded
