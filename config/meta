@@ -9,3 +9,5 @@ version |   name            |   filename        |   isFile  |   path    |   onUi
 1       |   Back            |   back            |   0       |   /       |   1       |   /       |   back        |   0       |   0       |   Back to the main menu
 
 1       |   env             |   env             |   1       |   /       |   0       |   /       |   -           |   0       |   1       |   Global Enviroment setup
+
+1       |   Game Modes      |                   |   0       |   /       |   0       |   /       |   header      |   0       |   1       |   

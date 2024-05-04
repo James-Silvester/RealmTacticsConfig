@@ -8,3 +8,5 @@ version |   name            |   filename        |   isFile  |   path        |   
 1       |   Refresh         |   -               |   0       |   /           |   1       |   /       |   refreshAllMeta |   0    |   0       |   Refresh all downloaded files
 
 1       |   Version1Pack    |   version1Pack.zip |  1       |   /           |   0       |   /       |   downloadPack |   0      |   0       |   Download version 1 pack
+
+1       |   Hacktics Main   |                   |   0       |   /       |   0       |   /       |   header      |   0       |   1       |   
