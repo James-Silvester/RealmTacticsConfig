@@ -960,6 +960,10 @@
             {
               "Text": "Good Job! Now capture the encryption so that our team takes ownership. Possible entity actions will appear in the action menu when selected.",
               "SubmitActionText": "Next"
+            },
+            {
+              "Text": "Hint: Tapping on the entity again will select the top item in the action menu.",
+              "SubmitActionText": "Next"
             }
           ]
         }
@@ -1027,6 +1031,7 @@
       ]
     },
     {
+      "Name": "SelfVirusSpawn",
       "Conditions": [
         {
           "Type": "CURRENT_TEAM", "TeamId": "TEAM_1"
@@ -1037,15 +1042,6 @@
         }
       ],
       "Actions": [
-        {
-          "Type": "SEND_NOTIFICATION",
-          "Notifications": [
-            {
-              "Text": "We need to save our worker. Luckily we have some viruses already coded up",
-              "SubmitActionText": "Phew"
-            }
-          ]
-        },
         {
           "Type": "INSERT_ENTITY",
           "EntityType": "Virus",
@@ -1065,6 +1061,45 @@
             "Y": 6
           },
           "TurnEnded": false
+        },
+        {
+          "Type": "MOVE_CURSOR",
+          "Position": {
+            "X": 4,
+            "Y": 5
+          }
+        },
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "We need to save our worker. Luckily we have some viruses already coded up",
+              "SubmitActionText": "Phew"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Conditions": [
+        {
+          "Type": "CURSOR_ENTITY",
+          "EntityType": "Virus"
+        },
+        {
+          "Type": "OTHERS_TRIGGERED",
+          "Name": "SelfVirusSpawn"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Our Virus has actions. It is a direct attack unit so it needs to be next to the enemy Virus to attack. Move our Virus in to deal with the enemy Virus.",
+              "SubmitActionText": "Lets get them!"
+            }
+          ]
         }
       ]
     },
