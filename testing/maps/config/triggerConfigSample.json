@@ -139,7 +139,7 @@
           "Notifications": [
             {
               "Text": "This is some text",
-              "Name": "MyCharacter1Name"
+              "Reference": "MyCharacter1"
             }
           ]
         }

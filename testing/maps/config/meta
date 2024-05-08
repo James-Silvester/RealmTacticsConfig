@@ -4,5 +4,5 @@ version |   name            |   filename                        |   isFile  |   
 4       |   Map Config Sample | mapConfigSample.json            |   1       |   /       |   1       |   /           |               |   0           |   0       |   General config test
 
 3       |   Trigger Config  |   triggerConfig.json              |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Trigger config test
-3       |   Trigger Config Sample | triggerConfigSample.json    |   1       |   /       |   1       |   /           |               |   0           |   0       |   Trigger config test
+4       |   Trigger Config Sample | triggerConfigSample.json    |   1       |   /       |   1       |   /           |               |   0           |   0       |   Trigger config test
 
