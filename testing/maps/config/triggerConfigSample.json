@@ -1,146 +1,214 @@
 {
-    "Version": 1,
-    "ImportedDefaults": true,
-    "Width": 3,
-    "Height": 3,
-    "CursorStartingX": 0,
-    "CursorStartingY": 0,
-    "CameraStartingX": 0,
-    "CameraStartingY": 0,
-    "TeamsConfig": {
-      "NumberOfTeams": 2,
-      "StartingTeam": "TEAM_1",
-      "TurnNumber": 1,
-      "ActiveTeams": [
-        "TEAM_1",
-        "TEAM_2"
-      ],
-      "TeamConfig": [
+  "Version": 1,
+  "ImportedDefaults": true,
+  "References": {
+    "MyCharacter1": {
+        "Name": "MyCharacter1Name"
+    }
+},
+  "Width": 3,
+  "Height": 3,
+  "CursorStartingX": 0,
+  "CursorStartingY": 0,
+  "CameraStartingX": 0,
+  "CameraStartingY": 0,
+  "TeamsConfig": {
+    "NumberOfTeams": 2,
+    "StartingTeam": "TEAM_1",
+    "TurnNumber": 1,
+    "ActiveTeams": [
+      "TEAM_1",
+      "TEAM_2"
+    ],
+    "TeamConfig": [
+      {
+        "TeamId": "TEAM_1",
+        "TeamEntity": "PLAYER"
+      },
+      {
+        "TeamId": "TEAM_2",
+        "TeamEntity": "AI_DEFAULT",
+        "AiProfile": "Standard"
+      }
+    ]
+  },
+  "EntityConfig": [
+    {
+      "Id": 10,
+      "Position": {
+        "X": 1,
+        "Y": 2
+      },
+      "Type": "DirectAttackMove",
+      "TeamId": "TEAM_2"
+    }
+  ],
+  "Stats": {
+    "Battle": {
+      "TotalEntitesCreated": 0,
+      "TotalEntitiesDestroyed": 0
+    },
+    "TEAM_1": {
+      "EntitiesPurchased": 0,
+      "EntitiesLost": 0,
+      "TotalDamageDone": 0.0,
+      "TotalDamageTaken": 0.0,
+      "NumberOfCaptures": 0,
+      "IncomePool": []
+    },
+    "TEAM_2": {
+      "EntitiesPurchased": 0,
+      "EntitiesLost": 0,
+      "TotalDamageDone": 0.0,
+      "TotalDamageTaken": 0.0,
+      "NumberOfCaptures": 0,
+      "IncomePool": []
+    },
+    "TEAM_UNDEFINED": {
+      "EntitiesPurchased": 0,
+      "EntitiesLost": 0,
+      "TotalDamageDone": 0.0,
+      "TotalDamageTaken": 0.0,
+      "NumberOfCaptures": 0,
+      "IncomePool": []
+    },
+    "TeamConfig": {}
+  },
+  "Triggers": [
+    {
+      "Id": 1,
+      "Name": "Condition1",
+      "Enabled": true,
+      "Conditions": [
         {
+          "Type": "TEAM_REMAINING_ENTITIES",
           "TeamId": "TEAM_1",
-          "TeamEntity": "PLAYER"
+          "EntityTagFilter": "Unit",
+          "EntityCount": 10
         },
         {
+          "Type": "ENTITY_POSITION",
+          "EntityType": "DirectAttackMove",
           "TeamId": "TEAM_2",
-          "TeamEntity": "AI_DEFAULT",
-          "AiProfile": "Standard"
+          "Position": {
+            "X": 2,
+            "Y": 2
+          }
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "TEAM_VICTORY",
+          "TeamId": "TEAM_2"
         }
       ]
     },
-    "EntityConfig": [],
-    "Stats": {
-      "Battle": {
-        "TotalEntitesCreated": 0,
-        "TotalEntitiesDestroyed": 0
-      },
-      "TEAM_1": {
-        "EntitiesPurchased": 0,
-        "EntitiesLost": 0,
-        "TotalDamageDone": 0.0,
-        "TotalDamageTaken": 0.0,
-        "NumberOfCaptures": 0,
-        "IncomePool": []
-      },
-      "TEAM_2": {
-        "EntitiesPurchased": 0,
-        "EntitiesLost": 0,
-        "TotalDamageDone": 0.0,
-        "TotalDamageTaken": 0.0,
-        "NumberOfCaptures": 0,
-        "IncomePool": []
-      },
-      "TEAM_UNDEFINED": {
-        "EntitiesPurchased": 0,
-        "EntitiesLost": 0,
-        "TotalDamageDone": 0.0,
-        "TotalDamageTaken": 0.0,
-        "NumberOfCaptures": 0,
-        "IncomePool": []
-      },
-      "TeamConfig": {}
+    {
+      "Id": 0,
+      "Name": "Condition2",
+      "Conditions": [
+        {
+          "Type": "OTHERS_TRIGGERED",
+          "Name": "Condition1"
+        },
+        {
+          "Type": "TEAM_REMAINING_ENTITIES",
+          "TeamId": "TEAM_2",
+          "EntityTagFilter": "Unit",
+          "GreaterThan": true,
+          "IgnoreInitialZero": false
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "TEAM_VICTORY",
+          "TeamId": "TEAM_1"
+        },
+        {
+          "Type": "INSERT_ENTITY",
+          "EntityType": "DirectAttackMove",
+          "Position": {
+            "X": 1,
+            "Y": 1
+          },
+          "TeamId": "TEAM_2",
+          "TurnEnded": true
+        },
+        {
+          "Type": "SEND_NOTIFICATION_CHARACTER",
+          "Notifications": [
+            {
+              "Text": "This is some text",
+              "Name": "MyCharacter1Name"
+            }
+          ]
+        }
+      ]
     },
-    "Triggers": [
-      {
-        "Enabled": true,
-        "Conditions": [
-          {
-            "Type": "TEAM_REMAINING_ENTITIES",
-            "TeamId": "TEAM_1",
-            "EntityTagFilter": "Unit",
-            "EntityCount": 10
+    {
+      "Id": 2,
+      "Conditions": [
+        {
+          "Type": "TURN_NUMBER",
+          "TurnNumber": 1
+        },
+        {
+          "Type": "OTHERS_TRIGGERED",
+          "Name": "Condition2"
+        },
+        {
+          "Type": "CURSOR_ENTITY",
+          "EntityType": "entityType",
+          "TeamId": "TEAM_2"
+        },
+        {
+          "Type": "CURSOR_POSITION",
+          "Position": {
+            "X": 3,
+            "Y": 3
           }
-        ],
-        "Actions": [
-          {
-            "Type": "TEAM_VICTORY",
-            "TeamId": "TEAM_2"
-          }
-        ]
-      },
-      {
-        "Conditions": [
-          {
-            "Type": "TEAM_REMAINING_ENTITIES",
-            "TeamId": "TEAM_2",
-            "EntityTagFilter": "Unit",
-            "GreaterThan": true,
-            "IgnoreInitialZero": false
-          }
-        ],
-        "Actions": [
-          {
-            "Type": "TEAM_VICTORY",
-            "TeamId": "TEAM_1"
-          }
-        ]
-      },
-      {
-        "Conditions": [
-          {
-            "Type": "TURN_NUMBER",
-            "TurnNumber": 1
-          }
-        ],
-        "Actions": [
-          {
-            "Type": "SEND_NOTIFICATION",
-            "Notifications": [
-              {
-                "Text": "This is a test notification with SubmitActionText",
-                "SubmitActionText": "Boom"
-              },
-              {
-                "Text": "This is a test notification with no SubmitActionText shows Next",
-                "SubmitActionText": "UNDEFINED"
-              },
-              {
-                "Text": "This is something!",
-                "Position": {
-                  "X": 2,
-                  "Y": 2
-                }
-              },
-              {
-                "Text": "This is the last test notification with no SubmitActionText shows Continue",
-                "SubmitActionText": "UNDEFINED"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "This is a test notification with SubmitActionText",
+              "SubmitActionText": "Boom"
+            },
+            {
+              "Text": "This is a test notification with no SubmitActionText shows Next",
+              "SubmitActionText": "UNDEFINED"
+            },
+            {
+              "Text": "This is something!",
+              "Position": {
+                "X": 2,
+                "Y": 2
               }
-            ]
-          }
-        ]
-      }
-    ],
-    "Environment": {
-      "MAP_CONFIG_DEFAULTS_FILE": "testing/maps/map_defaults.json",
-      "ENTITY_TYPE_CONFIG_FOLDER": "testing/entities/types",
-      "ENTITY_TAG_CONFIG_FOLDER": "testing/entities/tags",
-      "ENTITY_DEFAULTS_FILE": "testing/entities/entityDefaults.json",
-      "AI_CONFIG_FILE": "testing/ai/aiConfig.json",
-      "AI_CONFIG_DEFAULTS_FILE": "testing/ai/aiConfigDefaults.json",
-      "GAME_CONFIG_FILE": "globals/gameConfig.json",
-      "GAME_CONFIG_FILE_OVERRIDE": "globals/gameConfigOverrides.json",
-      "SAVE_FILE": "",
-      "MAP_SET_KEY": "testing",
-      "SAVES_DIRECTORY": "testing/maps/saves",
-      "CUSTOM_MAPS_DIRECTORY": "testing/maps/custom_maps"
+            },
+            {
+              "Text": "This is the last test notification with no SubmitActionText shows Continue",
+              "SubmitActionText": "UNDEFINED"
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "Environment": {
+    "MAP_CONFIG_DEFAULTS_FILE": "testing/maps/map_defaults.json",
+    "ENTITY_TYPE_CONFIG_FOLDER": "testing/entities/types",
+    "ENTITY_TAG_CONFIG_FOLDER": "testing/entities/tags",
+    "ENTITY_DEFAULTS_FILE": "testing/entities/entityDefaults.json",
+    "AI_CONFIG_FILE": "testing/ai/aiConfig.json",
+    "AI_CONFIG_DEFAULTS_FILE": "testing/ai/aiConfigDefaults.json",
+    "GAME_CONFIG_FILE": "globals/gameConfig.json",
+    "GAME_CONFIG_FILE_OVERRIDE": "globals/gameConfigOverrides.json",
+    "SAVE_FILE": "",
+    "MAP_SET_KEY": "testing",
+    "SAVES_DIRECTORY": "testing/maps/saves",
+    "CUSTOM_MAPS_DIRECTORY": "testing/maps/custom_maps"
   }
+}
