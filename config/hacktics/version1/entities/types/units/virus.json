@@ -4,7 +4,7 @@
     "Sprite": {
         "FilePath": "units/virus.png",
         "PixelsPerUnit": 64,
-        "Framerate": 3,
+        "Framerate": 0,
         "Repeats": true
     },
     "Tags": [

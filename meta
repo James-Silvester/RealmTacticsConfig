@@ -1,11 +1,11 @@
-version |   name        |   filename    |   isFile  |   path        |   onUi    |   uiPath  |   action    |   subMeta |   env     |   notes
+version |   name        |   filename    |   isFile  |   path        |   onUi    |   uiPath  |   action      |   subMeta |   env     |   notes
 6       |   Welcome     |   welcome.msg |   1       |   /           |   1       |   /       |   message     |   0       |   0       |   Overall welcome screen for TBS
 
 2       |   Game Modes  |   config      |   0       |   /           |   1       |   /       |   folder      |   0       |   0       |   Selection of game modes
 
 1       |   Settings    |   settings    |   0       |   /           |   1       |   /       |   mainSettings    | 0     |   0       |   Open the settings menu
 
-1       |   Feedback    |               |   0       |   /           |   1       |   /       |   feedback    |   0       |   0       |
+1       |   Feedback    |               |   0       |   /           |   1       |   /       |   feedback    |   0       |   0       |   Feedback
 
 1       |   Quit        |   quit        |   0       |   /           |   1       |   /       |   quitApplication | 0     |   0       |   Quit the game
 
