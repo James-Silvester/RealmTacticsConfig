@@ -10,3 +10,7 @@ version |   name            |   filename        |   isFile  |   path        |   
 1       |   Version1Pack    |   version1Pack.zip |  1       |   /           |   0       |   /       |   downloadPack |   0      |   0       |   Download version 1 pack
 
 1       |   Hacktics Main   |                   |   0       |   /       |   0       |   /       |   header      |   0       |   1       |   
+
+1       |   meta            |   meta            |   1       |   /maps       |   0       |   /       |   -           |   1       |   0       |   Maps meta file
+1       |   meta            |   meta            |   1       |   /entities   |   0       |   /       |   -           |   1       |   0       |   Entities meta file
+1       |   meta            |   meta            |   1       |   /ai         |   0       |   /       |   -           |   1       |   0       |   AI meta file
