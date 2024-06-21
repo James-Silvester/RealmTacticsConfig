@@ -1,0 +1,88 @@
+Gtk-Message: 13:01:37.717: Failed to load module "canberra-gtk-module"
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001c4) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001c4) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001c4) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001c4) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+[614499:614499:0620/130138:ERROR:sandbox_linux.cc(345)] InitializeSandbox() called with multiple threads in process gpu-process. 
+Gtk-Message: 13:01:47.454: Failed to load module "canberra-gtk-module"
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001c4) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001c4) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001c4) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001c4) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+[614773:614773:0620/130147:ERROR:sandbox_linux.cc(345)] InitializeSandbox() called with multiple threads in process gpu-process. 
+Gtk-Message: 13:02:36.583: Failed to load module "canberra-gtk-module"
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001c4) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001c4) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001c4) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001c4) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+[615715:615715:0620/130236:ERROR:sandbox_linux.cc(345)] InitializeSandbox() called with multiple threads in process gpu-process. 
+Gtk-Message: 13:14:35.613: Failed to load module "canberra-gtk-module"
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001c4) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001c4) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001c4) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001c4) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+WARNING:esys:src/tss2-esys/api/Esys_TestParms.c:269:Esys_TestParms_Finish() Received TPM Error 
+ERROR:esys:src/tss2-esys/api/Esys_TestParms.c:95:Esys_TestParms() Esys Finish ErrorCode (0x000001e6) 
+[633511:633511:0620/131435:ERROR:sandbox_linux.cc(345)] InitializeSandbox() called with multiple threads in process gpu-process. 

@@ -33,11 +33,6 @@
         }
     },
     "Team": {
-        "Money": {
-            "MoneyType_Name_Primary": "Primary",
-            "MoneyType_Name_Secondary": "Secondary",
-            "MoneyType_Name_Tertiary": "Tertiary"
-        },
         "TeamColor1": {
             "r": 1.0,
             "g": 0.4,

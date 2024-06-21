@@ -1,20 +1,17 @@
 {
-    "Name": "DDOS",
-    "Description": "Remote disruption of the network",
+    "Name": "Botnet",
+    "Description": "Strength in numbers",
     "Sprite": {
-        "FilePath": "units/ddos.png",
+        "FilePath": "units/botnet.png",
         "PixelsPerUnit": 64,
-        "Framerate": 3,
+        "Framerate": 0,
         "Repeats": true
     },
     "Tags": [
         "Unit"
     ],
-    "EntityAbility": {
-        "AbilityPoints": 1
-    },
     "Movement": {
-        "Movement": 3
+        "Movement": 4
     },
     "Attack": {
         "RangeAttacks": [
@@ -24,7 +21,7 @@
                 "MaxRange": 5,
                 "Detail": {
                     "CanMoveAndAttack": false,
-                    "BasePower": 0.6,
+                    "BasePower": 0.3,
                     "Selector": {
                         "AllowTags": [
                             "Unit"

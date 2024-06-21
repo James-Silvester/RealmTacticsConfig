@@ -1,0 +1,59 @@
+{
+    "Name": "DirectAttackMove_PowerPatternEntityFactors",
+    "Description": "Direct Attack Move - PowerPatternEntityFactors",
+    "Tags": [
+        "Unit"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 2
+    },
+    "Movement": {
+        "Movement": 5,
+        "EntityCost": {},
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Defence": {
+        "CanUseDefence": true
+    },
+    "Attack": {
+        "DirectAttacks": [
+            {
+                "Name": "Attack",
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 0.2,
+                    "PowerPatternEntityFactors": [
+                        {
+                            "Factor": 1.5,
+                            "PatternEntity": {
+                                "PositionPattern": {
+                                    "PatternType": "Ring",
+                                    "MinRange": 1,
+                                    "MaxRange": 3
+                                },
+                                "Selector": {
+                                    "AllowTypes": [
+                                        "DirectAttackMove_PowerPatternEntityFactors"
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "UsesPerTurn": 1
+                    }
+                }
+            }
+        ]
+    }
+}

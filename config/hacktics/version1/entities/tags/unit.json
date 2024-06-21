@@ -17,7 +17,11 @@
             "CanBePurchased": true
         },
         "Movement": {
-            "BlocksEnemies": true
+            "BlocksEnemies": true,
+            "AbilityConfig": {
+                "PointCost": 1,
+                "UsesPerTurn": 1
+            }
         }
     }
 }

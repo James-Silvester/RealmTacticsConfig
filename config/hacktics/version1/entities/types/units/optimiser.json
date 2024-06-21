@@ -1,10 +1,10 @@
 {
-    "Name": "DDOS",
-    "Description": "Remote disruption of the network",
+    "Name": "Optimiser",
+    "Description": "Repairs friendly entities",
     "Sprite": {
-        "FilePath": "units/ddos.png",
+        "FilePath": "units/optimiser.png",
         "PixelsPerUnit": 64,
-        "Framerate": 3,
+        "Framerate": 0,
         "Repeats": true
     },
     "Tags": [

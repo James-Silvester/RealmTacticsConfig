@@ -1,0 +1,59 @@
+{
+    "Width": 20,
+    "Height": 3,
+    "EntityConfig": [
+        {
+            "EntityString": "TEAM_2|DirectAttackMove|0,2"
+        },
+        {
+            "EntityString": "TEAM_2|DirectAttackMove|5,2"
+        },
+        {
+            "EntityString": "TEAM_2|DirectAttackMove|10,2"
+        },
+        {
+            "EntityString": "TEAM_1|DirectAttackMove_PowerPatternEntityFactors|0,1"
+        },
+        {
+            "EntityString": "TEAM_1|DirectAttackMove_PowerPatternEntityFactors|5,0"
+        },
+        {
+            "EntityString": "TEAM_1|DirectAttackMove_PowerPatternEntityFactors|5,1"
+        },
+        {
+            "EntityString": "TEAM_1|DirectAttackMove_PowerPatternEntityFactors|10,0"
+        },
+        {
+            "EntityString": "TEAM_1|DirectAttackMove_PowerPatternEntityFactors|10,1"
+        },
+        {
+            "EntityString": "TEAM_1|DirectAttackMove_PowerPatternEntityFactors|11,1"
+        }
+    ],
+    "Test": {
+        "TestSteps": {
+            "1": {
+                "Description": "Power Pattern Entity Factor test - Attack with single unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 1,
+                    "Y": 1
+                }
+            },
+            "5": {
+                "Description": "Power Pattern Entity Factor test - target entity gets hit with usual damage",
+                "Type": "ENTITY_HEALTH",
+                "Config": {
+                    "X": 0,
+                    "Y": 2,
+                    "MinHealth": 0.3,
+                    "MaxHealth": 0.7
+                }
+            },
+            "999": {
+                "Description": "Test Complete",
+                "Type": "TEST_COMPLETE"
+            }
+        }
+    }
+}
