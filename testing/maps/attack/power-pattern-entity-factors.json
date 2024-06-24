@@ -36,8 +36,23 @@
                 "Description": "Power Pattern Entity Factor test - Attack with single unit",
                 "Type": "SELECT_POSITION",
                 "Config": {
-                    "X": 1,
+                    "X": 0,
                     "Y": 1
+                }
+            },
+            "2": {
+                "Description": "Power Pattern Entity Factor test - Select attack",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Attack"
+                }
+            },
+            "3": {
+                "Description": "Power Pattern Entity Factor test - Attack the unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 0,
+                    "Y": 2
                 }
             },
             "5": {
@@ -46,8 +61,71 @@
                 "Config": {
                     "X": 0,
                     "Y": 2,
-                    "MinHealth": 0.3,
-                    "MaxHealth": 0.7
+                    "Health": 0.8
+                }
+            },
+            "10": {
+                "Description": "Power Pattern Entity Factor test - (2) Attack with single boosted unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 5,
+                    "Y": 1
+                }
+            },
+            "11": {
+                "Description": "Power Pattern Entity Factor test - (2) Select attack",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Attack"
+                }
+            },
+            "13": {
+                "Description": "Power Pattern Entity Factor test - (2) Attack the unit with single boosted attack",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 5,
+                    "Y": 2
+                }
+            },
+            "15": {
+                "Description": "Power Pattern Entity Factor test - target entity gets hit with single boosted damage",
+                "Type": "ENTITY_HEALTH",
+                "Config": {
+                    "X": 5,
+                    "Y": 2,
+                    "Health": 0.7
+                }
+            },
+            "20": {
+                "Description": "Power Pattern Entity Factor test - (3) Attack with double boosted unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 10,
+                    "Y": 1
+                }
+            },
+            "21": {
+                "Description": "Power Pattern Entity Factor test - (3) Select attack",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Attack"
+                }
+            },
+            "23": {
+                "Description": "Power Pattern Entity Factor test - (3) Attack the unit with double boosted attack",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 10,
+                    "Y": 2
+                }
+            },
+            "25": {
+                "Description": "Power Pattern Entity Factor test - (3) target entity gets hit with double boosted damage",
+                "Type": "ENTITY_HEALTH",
+                "Config": {
+                    "X": 10,
+                    "Y": 2,
+                    "Health": 0.55
                 }
             },
             "999": {

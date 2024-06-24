@@ -30,12 +30,12 @@
                             "Factor": 1.5,
                             "PatternEntity": {
                                 "PositionPattern": {
-                                    "PatternType": "Ring",
+                                    "Type": "Ring",
                                     "MinRange": 1,
                                     "MaxRange": 3
                                 },
                                 "Selector": {
-                                    "AllowTypes": [
+                                    "AllowEntities": [
                                         "DirectAttackMove_PowerPatternEntityFactors"
                                     ]
                                 }
