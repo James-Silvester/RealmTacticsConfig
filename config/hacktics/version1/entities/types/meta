@@ -22,8 +22,14 @@ version |   name                |   filename            |   isFile  |   path    
 
 
 
+1       |   Botnet Config     |   botnet.json       |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for botnet unit
+1       |   Botnet ImageFile  |   botnet.png        |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for botnet unit
+
 1       |   DDOS Config         |   ddos.json           |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for ddos unit
 1       |   ddos ImageFile      |   ddos.png           |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for ddos unit
+
+1       |   Optimiser Config         |   optimiser.json           |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for optimiser unit
+1       |   Optimiser ImageFile      |   optimiser.png           |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for optimiser unit
 
 7       |   Virus Config        |   virus.json          |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for virus unit
 2       |   Virus ImageFile     |   virus.png          |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for virus unit

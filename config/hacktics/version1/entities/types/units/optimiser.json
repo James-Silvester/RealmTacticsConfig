@@ -19,12 +19,19 @@
     "Attack": {
         "RangeAttacks": [
             {
-                "Name": "Flood",
-                "MinRange": 3,
-                "MaxRange": 5,
+                "Name": "Fix",
+                "MinRange": 1,
+                "MaxRange": 4,
                 "Detail": {
                     "CanMoveAndAttack": false,
-                    "BasePower": 0.6,
+                    "AffectsEnemies": false,
+                    "AffectsSelf": true,
+                    "AffectsNeutral": false,
+                    "BasePower": 0.8,
+                    "IsHeal": true,
+                    "ReducedWithDamage": false,
+                    "IgnoreAllDefence": true,
+                    "SlightlyRandom": true,
                     "Selector": {
                         "AllowTags": [
                             "Unit"

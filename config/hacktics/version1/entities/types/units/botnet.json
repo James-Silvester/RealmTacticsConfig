@@ -16,12 +16,29 @@
     "Attack": {
         "RangeAttacks": [
             {
-                "Name": "Flood",
+                "Name": "Ping",
                 "MinRange": 3,
                 "MaxRange": 5,
                 "Detail": {
                     "CanMoveAndAttack": false,
                     "BasePower": 0.3,
+                    "PowerPatternEntityFactors": [
+                        {
+                            "Factor": 1.5,
+                            "PatternEntity": {
+                                "PositionPattern": {
+                                    "Type": "Ring",
+                                    "MinRange": 1,
+                                    "MaxRange": 2
+                                },
+                                "Selector": {
+                                    "AllowEntities": [
+                                        "Botnet"
+                                    ]
+                                }
+                            }
+                        }
+                    ],
                     "Selector": {
                         "AllowTags": [
                             "Unit"
