@@ -1,5 +1,7 @@
 version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   action    |   subMeta     |   env     |   notes
-2       |   Power Pattern Entity Factors  |   power-pattern-entity-factors.json     |   1   |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Checks power pattern entity factor
+2       |   Power Pattern Entity Factors  |   power-pattern-entity-factors.json     |   1   |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Checks power pattern entity factors
+2       |   Range Entity Factor           |   range-entity-factor.json              |   1   |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Checks range entity factor
+
 2       |   Splash Attack Entity Target   |   splash-attack-entity-target.json      |   1   |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Checks splash attacks with target entity
 2       |   Splash Attack Position Target |   splash-attack-position-target.json    |   1   |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Checks splash attacks with target position
 

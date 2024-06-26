@@ -18,7 +18,7 @@
             {
                 "Name": "Ping",
                 "MinRange": 3,
-                "MaxRange": 5,
+                "MaxRange": 3,
                 "Detail": {
                     "CanMoveAndAttack": false,
                     "BasePower": 0.3,

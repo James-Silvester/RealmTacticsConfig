@@ -1,6 +1,6 @@
 {
-    "Width": 20,
-    "Height": 3,
+    "Width": 30,
+    "Height": 8,
     "EntityConfig": [
         {
             "EntityString": "TEAM_2|DirectAttackMove|0,2"
@@ -28,6 +28,33 @@
         },
         {
             "EntityString": "TEAM_1|DirectAttackMove_PowerPatternEntityFactors|11,1"
+        },
+        {
+            "EntityString": "TEAM_2|DirectAttackMove|15,2"
+        },
+        {
+            "EntityString": "TEAM_1|DirectAttackMove_PowerPatternEntityFactors|15,1"
+        },
+        {
+            "EntityString": "TEAM_1|DirectAttackMove_PowerPatternEntityFactors|15,7"
+        },
+        {
+            "EntityString": "TEAM_2|DirectAttackMove|20,2"
+        },
+        {
+            "EntityString": "TEAM_1|DirectAttackMove_PowerPatternEntityFactors|20,1"
+        },
+        {
+            "EntityString": "TEAM_1|DirectAttackMove_PowerPatternEntityFactors|20,3"
+        },
+        {
+            "EntityString": "TEAM_2|DirectAttackMove|25,2"
+        },
+        {
+            "EntityString": "TEAM_1|DirectAttackMove_PowerPatternEntityFactors|25,1"
+        },
+        {
+            "EntityString": "TEAM_1|DirectAttackMove_PowerPatternEntityFactors|25,7"
         }
     ],
     "Test": {
@@ -126,6 +153,185 @@
                     "X": 10,
                     "Y": 2,
                     "Health": 0.55
+                }
+            },
+            "30": {
+                "Description": "Power Pattern Entity Factor test - Attack with ally moving towards unit - Select unit to move",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 15,
+                    "Y": 7
+                }
+            },
+            "31": {
+                "Description": "Power Pattern Entity Factor test - Attack with ally moving towards unit - Move the unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 15,
+                    "Y": 3
+                }
+            },
+            "32": {
+                "Description": "Power Pattern Entity Factor test - Attack with ally moving towards unit - Wait for unit complete",
+                "Type": "WAIT_FOR_STATE",
+                "Config": {
+                    "State": "POST_MOVE_ACTION_MENU_OPEN"
+                }
+            },
+            "33": {
+                "Description": "Power Pattern Entity Factor test - Select attack with ally moving towards unit - Select wait button",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Wait"
+                }
+            },
+            "34": {
+                "Description": "Power Pattern Entity Factor test - Attack the unit with ally moving towards unit - Select attacking unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 15,
+                    "Y": 1
+                }
+            },
+            "35": {
+                "Description": "Power Pattern Entity Factor test - Select attack with ally moving towards unit - Select attack button",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Attack"
+                }
+            },
+            "36": {
+                "Description": "Power Pattern Entity Factor test - Attack the unit with ally moving towards unit - Select target unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 15,
+                    "Y": 2
+                }
+            },
+            "37": {
+                "Description": "Power Pattern Entity Factor test - Attack the unit with ally moving towards unit - target entity gets hit with boosted damage",
+                "Type": "ENTITY_HEALTH",
+                "Config": {
+                    "X": 15,
+                    "Y": 2,
+                    "Health": 0.7
+                }
+            },
+            "40": {
+                "Description": "Power Pattern Entity Factor test - Attack with ally moving away from unit - Select unit to move",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 20,
+                    "Y": 3,
+                    "DoubleClick": true
+                }
+            },
+            "41": {
+                "Description": "Power Pattern Entity Factor test - Attack with ally moving away from unit - Select move button",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Movement"
+                }
+            },
+            "42": {
+                "Description": "Power Pattern Entity Factor test - Attack with ally moving away from unit - Move the unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 20,
+                    "Y": 7
+                }
+            },
+            "43": {
+                "Description": "Power Pattern Entity Factor test - Attack with ally moving away from unit - Wait for unit complete",
+                "Type": "WAIT_FOR_STATE",
+                "Config": {
+                    "State": "POST_MOVE_ACTION_MENU_OPEN"
+                }
+            },
+            "44": {
+                "Description": "Power Pattern Entity Factor test - Attack with ally moving away from unit - Select wait button",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Wait"
+                }
+            },
+            "45": {
+                "Description": "Power Pattern Entity Factor test - Attack the unit with ally moving away from unit - Select attacking unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 20,
+                    "Y": 1
+                }
+            },
+            "46": {
+                "Description": "Power Pattern Entity Factor test - Select attack with ally moving away from unit - Select attack button",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Attack"
+                }
+            },
+            "47": {
+                "Description": "Power Pattern Entity Factor test - Attack the unit with ally moving away from unit - Select target unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 20,
+                    "Y": 2
+                }
+            },
+            "48": {
+                "Description": "Power Pattern Entity Factor test - Attack the unit with ally moving away from unit - target entity gets hit with regular damage",
+                "Type": "ENTITY_HEALTH",
+                "Config": {
+                    "X": 20,
+                    "Y": 2,
+                    "Health": 0.8
+                }
+            },
+            "50": {
+                "Description": "Power Pattern Entity Factor test - Attack with self moving towards unit - Select unit to move",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 25,
+                    "Y": 7
+                }
+            },
+            "51": {
+                "Description": "Power Pattern Entity Factor test - Attack with self moving towards unit - Move the unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 25,
+                    "Y": 3
+                }
+            },
+            "52": {
+                "Description": "Power Pattern Entity Factor test - Attack with self moving towards unit - Wait for unit complete",
+                "Type": "WAIT_FOR_STATE",
+                "Config": {
+                    "State": "POST_MOVE_ACTION_MENU_OPEN"
+                }
+            },
+            "53": {
+                "Description": "Power Pattern Entity Factor test - Select attack with self moving towards unit - Select wait button",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Attack"
+                }
+            },
+            "56": {
+                "Description": "Power Pattern Entity Factor test - Attack the unit with self moving towards unit - Select target unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 15,
+                    "Y": 2
+                }
+            },
+            "57": {
+                "Description": "Power Pattern Entity Factor test - Attack the unit with self moving towards unit - target entity gets hit with boosted damage",
+                "Type": "ENTITY_HEALTH",
+                "Config": {
+                    "X": 15,
+                    "Y": 2,
+                    "Health": 0.7
                 }
             },
             "999": {

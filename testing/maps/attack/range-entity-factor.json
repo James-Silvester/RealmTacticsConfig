@@ -1,0 +1,128 @@
+{
+    "Width": 8,
+    "Height": 8,
+    "EntityConfig": [
+        {
+            "EntityString": "TEAM_2|DirectAttackMove|0,0"
+        },
+        {
+            "EntityString": "TEAM_2|DirectAttackMove|1,0"
+        },
+        {
+            "EntityString": "TEAM_2|DirectAttackMove|2,0"
+        },
+        {
+            "EntityString": "TEAM_1|RangeAttackMove_RangePowerFactor|0,1"
+        },
+        {
+            "EntityString": "TEAM_1|RangeAttackMove_RangePowerFactor|1,2"
+        },
+        {
+            "EntityString": "TEAM_1|RangeAttackMove_RangePowerFactor|2,3"
+        }
+    ],
+    "Test": {
+        "TestSteps": {
+            "1": {
+                "Description": "Range Entity Factor test - Direct Attack (range 1)",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 0,
+                    "Y": 1
+                }
+            },
+            "2": {
+                "Description": "Range Entity Factor test - Select attack",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Attack"
+                }
+            },
+            "3": {
+                "Description": "Range Entity Factor test - Attack the unit",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 0,
+                    "Y": 0
+                }
+            },
+            "5": {
+                "Description": "Range Entity Factor test - target entity gets hit with usual damage",
+                "Type": "ENTITY_HEALTH",
+                "Config": {
+                    "X": 0,
+                    "Y": 0,
+                    "Health": 0.8
+                }
+            },
+            "10": {
+                "Description": "Range Entity Factor test - Range Attack (range 2)",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 1,
+                    "Y": 2
+                }
+            },
+            "11": {
+                "Description": "Range Entity Factor test - Select attack (range 2)",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Attack"
+                }
+            },
+            "12": {
+                "Description": "Range Entity Factor test - Attack the unit (range 2)",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 1,
+                    "Y": 0
+                }
+            },
+            "13": {
+                "Description": "Range Entity Factor test - target entity gets hit with range 2 damage",
+                "Type": "ENTITY_HEALTH",
+                "Config": {
+                    "X": 1,
+                    "Y": 0,
+                    "Health": 0.8
+                }
+            },
+            "20": {
+                "Description": "Range Entity Factor test - Range Attack (range 2)",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 3
+                }
+            },
+            "21": {
+                "Description": "Range Entity Factor test - Select attack (range 2)",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Attack"
+                }
+            },
+            "22": {
+                "Description": "Range Entity Factor test - Attack the unit (range 2)",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 0
+                }
+            },
+            "23": {
+                "Description": "Range Entity Factor test - target entity gets hit with range 2 damage",
+                "Type": "ENTITY_HEALTH",
+                "Config": {
+                    "X": 2,
+                    "Y": 0,
+                    "Health": 0.8
+                }
+            },
+            "999": {
+                "Description": "Test Complete",
+                "Type": "TEST_COMPLETE"
+            }
+        }
+    }
+}

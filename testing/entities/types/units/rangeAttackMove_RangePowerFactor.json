@@ -1,0 +1,45 @@
+{
+    "Name": "RangeAttackMove_RangePowerFactor",
+    "Description": "Range Attack Move - RangePowerFactor",
+    "Tags": [
+        "Unit"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 2
+    },
+    "Movement": {
+        "Movement": 5,
+        "EntityCost": {},
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Defence": {
+        "CanUseDefence": true
+    },
+    "Attack": {
+        "RangeAttacks": [
+            {
+                "Name": "Attack",
+                "MinRange": 1,
+                "MaxRange": 4,
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 0.2,
+                    "RangePowerFactor": 1.5,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "UsesPerTurn": 1
+                    }
+                }
+            }
+        ]
+    }
+}
