@@ -2,6 +2,7 @@ version |   name                        |   filename                            
 
 1       |   CaptureBuilding Config   |   captureBuilding.json             |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       | 
 1       |   LowDefenceBuilding Config   |   lowDefenceBuilding.json             |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       | 
+1       |   NetworkingMoneyBuilding Config   |   networkingMoneyBuilding.json             |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       | 
 1       |   PurchaseBuilding Config     |   purchaseBuilding.json               |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       | 
 
 
@@ -17,6 +18,8 @@ version |   name                        |   filename                            
 1       |   DirectAttackMove Config     |   directAttackMove.json               |   1       |   /units      |   1       |   /units          |   -           |   0       |   0       |
 1       |   DirectAttackStationary Config     |   directAttackStationary.json   |   1       |   /units      |   1       |   /units          |   -           |   0       |   0       |
 1       |   FreeUnit Config    | freeUnit.json                                  |   1   |   /units      |   1       |   /units          |   -           |   0       |   0       |
+1       |   NetworkingMoveNoMoney Config    | networkingMoveNoMoney.json                                  |   1   |   /units      |   1       |   /units          |   -           |   0       |   0       |
+1       |   NetworkingMoveStoresMoney Config    | networkingMoveStoresMoney.json                                  |   1   |   /units      |   1       |   /units          |   -           |   0       |   0       |
 1       |   RangeAttackMove Config     |   rangeAttackMove.json               |   1       |   /units      |   1       |   /units          |   -           |   0       |   0       |
 1       |   RangeAttackMove_RangePowerFactor Config     |   rangeAttackMove_RangePowerFactor.json               |   1       |   /units      |   1       |   /units          |   -           |   0       |   0       |
 1       |   VeryPowerfulDirectAttackMove Config | veryPowerfulDirectAttackMove.json |   1   |   /units      |   1       |   /units          |   -           |   0       |   0       |

@@ -1,0 +1,17 @@
+{
+    "Width": 8,
+    "Height": 8,
+    "EntityConfig": [
+        {
+            "EntityString": "TEAM_2|DirectAttackMove|0,0"
+        }
+    ],
+    "Test": {
+        "TestSteps": {
+            "999": {
+                "Description": "Test Complete",
+                "Type": "TEST_COMPLETE"
+            }
+        }
+    }
+}

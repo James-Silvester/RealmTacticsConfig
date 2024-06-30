@@ -1,0 +1,16 @@
+{
+    "Name": "NetworkingMoneyBuilding",
+    "Description": "Networking Money Building",
+    "Tags": [
+        "Building"
+    ],
+    "Money": {
+        "Income": [1]
+    },
+    "Capture": {
+        "PointsToCapture": 2
+    },
+    "Network": {
+        "CanNetwork": true
+    }
+}

@@ -1,0 +1,3 @@
+version |   name            |   filename                    |   isFile  |   path    |   onUi    |   uiPath      |   action    |   subMeta     |   env     |   notes
+1       |   Network Income  |   network_income.json         |   1       |   /       |   1       |   /           |   loadMap   |   0           |   0       |   Checks network income
+1       |   Network Moving  |   network_movement.json       |   1       |   /       |   1       |   /           |   loadMap   |   0           |   0       |   Checks network movement

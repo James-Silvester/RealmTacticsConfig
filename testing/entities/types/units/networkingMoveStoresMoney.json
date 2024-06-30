@@ -1,0 +1,28 @@
+{
+    "Name": "NetworkingMoveStoresMoney",
+    "Description": "Networking Move Stores Money",
+    "Tags": [
+        "Unit"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 2
+    },
+    "Movement": {
+        "Movement": 5,
+        "EntityCost": {},
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Defence": {
+        "CanUseDefence": true
+    },
+    "Network": {
+        "CanNetwork": true,
+        "StoresMoney": true
+    },
+    "Money": {
+        "Income": [1]
+    }
+}
