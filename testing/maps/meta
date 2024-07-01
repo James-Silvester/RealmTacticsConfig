@@ -6,13 +6,14 @@ version |   name            |   filename                        |   isFile  |   
 1       |   Config          |   config                          |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Config tests
 1       |   Attack tests    |   attack                          |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Attack tests
 1       |   Movement tests  |   movement                        |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Movement tests
+1       |   Network tests   |   network                         |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Movement tests
 1       |   State tests     |   state                           |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   State tests
 1       |   Trigger tests   |   trigger                         |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Trigger tests
 
-1       |   meta            |   meta                            |   1       |   /ai     |   0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
-1       |   meta            |   meta                            |   1       |   /basic  |   0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
-1       |   meta            |   meta                            |   1       |   /config |   0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
-1       |   meta            |   meta                            |   1       |   /attack |   0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
+1       |   meta            |   meta                            |   1       |   /ai       | 0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
+1       |   meta            |   meta                            |   1       |   /basic    | 0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
+1       |   meta            |   meta                            |   1       |   /config   | 0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
+1       |   meta            |   meta                            |   1       |   /attack   | 0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
 1       |   meta            |   meta                            |   1       |   /movement | 0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
 1       |   meta            |   meta                            |   1       |   /network  | 0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
 1       |   meta            |   meta                            |   1       |   /trigger  | 0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
