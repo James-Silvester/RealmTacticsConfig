@@ -3,11 +3,192 @@
     "Height": 8,
     "EntityConfig": [
         {
-            "EntityString": "TEAM_2|DirectAttackMove|0,0"
+            "EntityString": "TEAM_1|NetworkingMoneyBuilding|0,0"
+        },
+        {
+            "EntityString": "TEAM_1|NetworkingMoneyBuilding|1,0"
+        },
+        {
+            "EntityString": "TEAM_1|NetworkingMoneyBuilding|3,0"
+        },
+        {
+            "EntityString": "TEAM_1|NetworkingMoneyBuilding|4,0"
+        },
+        {
+            "EntityString": "TEAM_1|NetworkingMoneyBuilding|4,2"
+        },
+        {
+            "EntityString": "TEAM_1|NetworkingMoneyBuilding|4,3"
+        },
+        {
+            "EntityString": "TEAM_1|NetworkingMoneyBuilding|4,4"
+        },
+        {
+            "EntityString": "TEAM_1|NetworkingMoveNoMoney|2,1"
         }
     ],
     "Test": {
         "TestSteps": {
+            "1": {
+                "Description": "Network Movement test - Check initial network A1",
+                "Type": "CHECK_NETWORK",
+                "Config": {
+                    "X": 1,
+                    "Y": 0,
+                    "Income": [2],
+                    "Statement": [2],
+                    "EntityCount": 2
+                }
+            },
+            "2": {
+                "Description": "Network Movement test - Check initial network A2",
+                "Type": "CHECK_NETWORK",
+                "Config": {
+                    "X": 3,
+                    "Y": 0,
+                    "Income": [2],
+                    "Statement": [2],
+                    "EntityCount": 2
+                }
+            },
+            "3": {
+                "Description": "Network Movement test - Check initial network moving unit",
+                "Type": "CHECK_NETWORK",
+                "Config": {
+                    "X": 2,
+                    "Y": 1,
+                    "Income": [0],
+                    "Statement": [0],
+                    "EntityCount": 1
+                }
+            },
+            "10": {
+                "Description": "Network Movement test - Move the unit - Select unit to move",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 1
+                }
+            },
+            "11": {
+                "Description": "Network Movement test - Move the unit - Select position to move to",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 0
+                }
+            },
+            "12": {
+                "Description": "Network Movement test - Move the unit - Wait for unit complete",
+                "Type": "WAIT_FOR_STATE",
+                "Config": {
+                    "State": "POST_MOVE_ACTION_MENU_OPEN"
+                }
+            },
+            "13": {
+                "Description": "Network Movement test - Move the unit - Select wait button",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Wait"
+                }
+            },
+            "20": {
+                "Description": "Network Movement test - Check combined network",
+                "Type": "CHECK_NETWORK",
+                "Config": {
+                    "X": 1,
+                    "Y": 0,
+                    "Income": [4],
+                    "Statement": [4],
+                    "EntityCount": 5
+                }
+            },
+            "30": {
+                "Description": "Network Movement test - Cycle Turn - Open Menu",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 2,
+                    "DoubleTap": true
+                }
+            },
+            "31": {
+                "Description": "Network Movement test  - Cycle Turn - Select Turn End",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "End Turn"
+                }
+            },
+            "32": {
+                "Description": "Network Movement test  - Cycle Turn - Wait for TEAM 1 team to start",
+                "Type": "WAIT_FOR_TEAM_TURN",
+                "Config": {
+                    "Team": "TEAM_1"
+                }
+            },
+            "40": {
+                "Description": "Network Movement test - Check combined network after turn end",
+                "Type": "CHECK_NETWORK",
+                "Config": {
+                    "X": 1,
+                    "Y": 0,
+                    "Income": [4],
+                    "Statement": [8],
+                    "EntityCount": 5
+                }
+            },
+            "50": {
+                "Description": "Network Movement test - Move the unit again - Select unit to move",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 2,
+                    "Y": 0
+                }
+            },
+            "51": {
+                "Description": "Network Movement test - Move the unit again - Select position to move to",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 4,
+                    "Y": 1
+                }
+            },
+            "52": {
+                "Description": "Network Movement test - Move the unit again - Wait for unit complete",
+                "Type": "WAIT_FOR_STATE",
+                "Config": {
+                    "State": "POST_MOVE_ACTION_MENU_OPEN"
+                }
+            },
+            "53": {
+                "Description": "Network Movement test - Move the unit again - Select wait button",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Wait"
+                }
+            },
+            "60": {
+                "Description": "Network Movement test - Check broken network A",
+                "Type": "CHECK_NETWORK",
+                "Config": {
+                    "X": 1,
+                    "Y": 0,
+                    "Income": [2],
+                    "Statement": [4],
+                    "EntityCount": 2
+                }
+            },
+            "61": {
+                "Description": "Network Movement test - Check broken and reforged network B",
+                "Type": "CHECK_NETWORK",
+                "Config": {
+                    "X": 4,
+                    "Y": 0,
+                    "Income": [5],
+                    "Statement": [10],
+                    "EntityCount": 6
+                }
+            },
             "999": {
                 "Description": "Test Complete",
                 "Type": "TEST_COMPLETE"
