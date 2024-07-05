@@ -25,6 +25,9 @@
         },
         {
             "EntityString": "TEAM_1|NetworkingMoveNoMoney|2,1"
+        },
+        {
+            "EntityString": "TEAM_1|NetworkingMoveNoMoney|4,5"
         }
     ],
     "Test": {
@@ -52,6 +55,17 @@
                 }
             },
             "3": {
+                "Description": "Network Movement test - Check initial network B",
+                "Type": "CHECK_NETWORK",
+                "Config": {
+                    "X": 4,
+                    "Y": 3,
+                    "Income": [3],
+                    "Statement": [3],
+                    "EntityCount": 4
+                }
+            },
+            "4": {
                 "Description": "Network Movement test - Check initial network moving unit",
                 "Type": "CHECK_NETWORK",
                 "Config": {
@@ -63,7 +77,7 @@
                 }
             },
             "10": {
-                "Description": "Network Movement test - Move the unit - Select unit to move",
+                "Description": "Network Movement test - Move the unit - Select unit A to move",
                 "Type": "SELECT_POSITION",
                 "Config": {
                     "X": 2,
@@ -71,7 +85,7 @@
                 }
             },
             "11": {
-                "Description": "Network Movement test - Move the unit - Select position to move to",
+                "Description": "Network Movement test - Move the unit - Select position to move A to",
                 "Type": "SELECT_POSITION",
                 "Config": {
                     "X": 2,
@@ -79,21 +93,52 @@
                 }
             },
             "12": {
-                "Description": "Network Movement test - Move the unit - Wait for unit complete",
+                "Description": "Network Movement test - Move the unit - Wait for unit A complete",
                 "Type": "WAIT_FOR_STATE",
                 "Config": {
                     "State": "POST_MOVE_ACTION_MENU_OPEN"
                 }
             },
             "13": {
-                "Description": "Network Movement test - Move the unit - Select wait button",
+                "Description": "Network Movement test - Move the unit - Select wait button for unit A",
                 "Type": "CHECK_ACTIONS",
                 "Config": {
                     "SelectOptionName": "Wait"
                 }
             },
+            "15": {
+                "Description": "Network Movement test - Move the unit - Select unit B to move",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 4,
+                    "Y": 5
+                }
+            },
+            "16": {
+                "Description": "Network Movement test - Move the unit - Select position to move B to",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 4,
+                    "Y": 6
+                }
+            },
+            "17": {
+                "Description": "Network Movement test - Move the unit - Wait for unit B complete",
+                "Type": "WAIT_FOR_STATE",
+                "Config": {
+                    "State": "POST_MOVE_ACTION_MENU_OPEN"
+                }
+            },
+            "18": {
+                "Description": "Network Movement test - Move the unit - Select wait button for unit B",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "SelectOptionName": "Wait"
+                }
+            },
+
             "20": {
-                "Description": "Network Movement test - Check combined network",
+                "Description": "Network Movement test - Check combined network A",
                 "Type": "CHECK_NETWORK",
                 "Config": {
                     "X": 1,
@@ -103,6 +148,29 @@
                     "EntityCount": 5
                 }
             },
+            "21": {
+                "Description": "Network Movement test - Check left network B",
+                "Type": "CHECK_NETWORK",
+                "Config": {
+                    "X": 4,
+                    "Y": 3,
+                    "Income": [3],
+                    "Statement": [3],
+                    "EntityCount": 3
+                }
+            },
+            "22": {
+                "Description": "Network Movement test - Check entity that left network B",
+                "Type": "CHECK_NETWORK",
+                "Config": {
+                    "X": 4,
+                    "Y": 6,
+                    "Income": [0],
+                    "Statement": [0],
+                    "EntityCount": 1
+                }
+            },
+
             "30": {
                 "Description": "Network Movement test - Cycle Turn - Open Menu",
                 "Type": "SELECT_POSITION",
@@ -127,7 +195,7 @@
                 }
             },
             "40": {
-                "Description": "Network Movement test - Check combined network after turn end",
+                "Description": "Network Movement test - Check combined network A after turn end",
                 "Type": "CHECK_NETWORK",
                 "Config": {
                     "X": 1,
