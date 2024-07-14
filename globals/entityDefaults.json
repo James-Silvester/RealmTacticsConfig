@@ -79,6 +79,9 @@
     "Defence": {
         "Subtype": {}
     },
+    "Transport": {
+        "Subtype": {}
+    },
     "EntityAbility": {
         "AbilityPoints": 2,
         "Subtype": {}

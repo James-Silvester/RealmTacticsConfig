@@ -54,5 +54,8 @@
     "Purchase": {
         "Costs": [6],
         "CanBePurchased": true
+    },
+    "Transport": {
+        "CanBeCarried": false
     }
 }
