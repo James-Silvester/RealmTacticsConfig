@@ -56,6 +56,6 @@
         "CanBePurchased": true
     },
     "Transport": {
-        "CanBeCarried": false
+        "CanBeCarried": true
     }
 }

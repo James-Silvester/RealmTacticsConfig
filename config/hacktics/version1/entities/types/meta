@@ -34,7 +34,7 @@ version |   name                |   filename            |   isFile  |   path    
 7       |   Virus Config        |   virus.json          |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for virus unit
 2       |   Virus ImageFile     |   virus.png          |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for virus unit
 
-2       |   Worker Config       |   worker.json         |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for worker unit
+3       |   Worker Config       |   worker.json         |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for worker unit
 1       |   Worker ImageFile    |   worker.png         |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for worker unit
 
 3       |   Worm Config         |   worm.json           |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for worm unit
