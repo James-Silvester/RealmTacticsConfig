@@ -1,0 +1,76 @@
+{
+    "Width": 7,
+    "Height": 7,
+    "EntityConfig": [
+        {
+            "EntityString": "TEAM_1|NetworkingMoneyBuilding|0,0"
+        },
+        {
+            "EntityString": "TEAM_1|5Movement|2,0"
+        }
+    ],
+    "Test": {
+        "TestSteps": {
+            "0": {
+                "Description": "Action cycle test - Check that we are in the initial state",
+                "Type": "CHECK_STATE",
+                "Config": {
+                    "State": "INITIAL_STATE"
+                }
+            },
+
+            "10": {
+                "Description": "Action cycle test - Open Menu on NetworkMoneyBuilding (no actions)",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 0,
+                    "Y": 0,
+                    "DoubleTap": true
+                }
+            },
+            "11": {
+                "Description": "Action cycle test - Check that the main menu is open with NetworkMoneyBuilding (no actions)",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "OptionTypes": ["END_TURN", "NEW_SAVE"]
+                }
+            },
+            "12": {
+                "Description": "Action cycle test - Check that we are in the open main menu state with NetworkMoneyBuilding (no actions)",
+                "Type": "CHECK_STATE",
+                "Config": {
+                    "State": "INITIAL_STATE"
+                }
+            },
+
+            "20": {
+                "Description": "Action cycle test - Open Menu on empty space",
+                "Type": "SELECT_POSITION",
+                "Config": {
+                    "X": 1,
+                    "Y": 0,
+                    "DoubleTap": true
+                }
+            },
+            "21": {
+                "Description": "Action cycle test - Check that the main menu is open with no entity",
+                "Type": "CHECK_ACTIONS",
+                "Config": {
+                    "OptionTypes": ["END_TURN", "NEW_SAVE"]
+                }
+            },
+            "22": {
+                "Description": "Action cycle test - Check that we are in the open main menu state on no entity",
+                "Type": "CHECK_STATE",
+                "Config": {
+                    "State": "INITIAL_STATE"
+                }
+            },
+
+            "999": {
+                "Description": "Test Complete",
+                "Type": "TEST_COMPLETE"
+            }
+        }
+    }
+}
