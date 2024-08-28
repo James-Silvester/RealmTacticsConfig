@@ -1,76 +1,83 @@
 {
     "Width": 7,
     "Height": 7,
+    "CursorStartingX": 5,
+    "CursorStartingY": 5,
     "EntityConfig": [
         {
             "EntityString": "TEAM_1|NetworkingMoneyBuilding|0,0"
         },
         {
             "EntityString": "TEAM_1|5Movement|2,0"
+        },
+        {
+            "EntityString": "TEAM_2|5Movement|3,0"
+        },
+        {
+            "EntityString": "TEAM_1|PurchaseBuilding|4,0"
         }
     ],
     "Test": {
-        "TestSteps": {
-            "0": {
+        "TestSteps": [
+            {
                 "Description": "Action cycle test - Check that we are in the initial state",
-                "Type": "CHECK_STATE",
-                "Config": {
-                    "State": "INITIAL_STATE"
-                }
+                "Steps": [
+                    { "Type": "CHECK_STATE", "State": "INITIAL_STATE" }
+                ]
             },
-
-            "10": {
+            {
                 "Description": "Action cycle test - Open Menu on NetworkMoneyBuilding (no actions)",
-                "Type": "SELECT_POSITION",
-                "Config": {
-                    "X": 0,
-                    "Y": 0,
-                    "DoubleTap": true
-                }
+                "Steps": [
+                    { "Type": "SELECT_POSITION", "X": 0, "Y": 0, "DoubleTap": true },
+                    { "Type": "CHECK_ACTIONS", "OptionTypes": ["End Turn", "New Save"] },
+                    { "Type": "CHECK_STATE", "State": "ACTION_MENU_MAIN_MENU_OPEN" }
+                ]
             },
-            "11": {
-                "Description": "Action cycle test - Check that the main menu is open with NetworkMoneyBuilding (no actions)",
-                "Type": "CHECK_ACTIONS",
-                "Config": {
-                    "OptionTypes": ["END_TURN", "NEW_SAVE"]
-                }
-            },
-            "12": {
-                "Description": "Action cycle test - Check that we are in the open main menu state with NetworkMoneyBuilding (no actions)",
-                "Type": "CHECK_STATE",
-                "Config": {
-                    "State": "INITIAL_STATE"
-                }
-            },
-
-            "20": {
+            {
                 "Description": "Action cycle test - Open Menu on empty space",
-                "Type": "SELECT_POSITION",
-                "Config": {
-                    "X": 1,
-                    "Y": 0,
-                    "DoubleTap": true
-                }
+                "Steps": [
+                    { "Type": "SELECT_POSITION", "X": 1, "Y": 0, "DoubleTap": true },
+                    { "Type": "CHECK_ACTIONS", "OptionTypes": ["End Turn", "New Save"] },
+                    { "Type": "CHECK_STATE", "State": "ACTION_MENU_MAIN_MENU_OPEN" }
+                ]
             },
-            "21": {
-                "Description": "Action cycle test - Check that the main menu is open with no entity",
-                "Type": "CHECK_ACTIONS",
-                "Config": {
-                    "OptionTypes": ["END_TURN", "NEW_SAVE"]
-                }
+            {
+                "Description": "Action cycle test - Click 5Movement self",
+                "Steps": [
+                    { "Type": "SELECT_POSITION", "X": 2, "Y": 0, "DoubleTap": false },
+                    { "Type": "CHECK_ACTIONS", "IsOpen": false },
+                    { "Type": "CHECK_STATE", "State": "ENTITY_MOVE_PROCESS" },
+                    { "Type": "SELECT_POSITION", "X": 2, "Y": 0, "DoubleTap": false },
+                    { "Type": "CHECK_STATE", "State": "INITIAL_STATE" },
+                    { "Type": "SELECT_POSITION", "X": 2, "Y": 0, "DoubleTap": false },
+                    { "Type": "CHECK_STATE", "State": "ENTITY_MOVE_PROCESS" }
+                ]
             },
-            "22": {
-                "Description": "Action cycle test - Check that we are in the open main menu state on no entity",
-                "Type": "CHECK_STATE",
-                "Config": {
-                    "State": "INITIAL_STATE"
-                }
+            {
+                "Description": "Action cycle test - Click 5Movement enemy",
+                "Steps": [
+                    { "Type": "SELECT_POSITION", "X": 3, "Y": 0, "DoubleTap": false },
+                    { "Type": "CHECK_ACTIONS", "IsOpen": false },
+                    { "Type": "CHECK_STATE", "State": "INITIAL_STATE" },
+                    { "Type": "SELECT_POSITION", "X": 3, "Y": 0, "DoubleTap": false },
+                    { "Type": "CHECK_STATE", "State": "ACTION_MENU_MAIN_MENU_OPEN" }
+                ]
             },
-
-            "999": {
+            {
+                "Description": "Action cycle test - Click PurchaseBuilding self",
+                "Steps": [
+                    { "Type": "SELECT_POSITION", "X": 4, "Y": 0, "DoubleTap": false },
+                    { "Type": "CHECK_ACTIONS", "IsOpen": false },
+                    { "Type": "CHECK_STATE", "State": "PURCHASE_MENU_OPEN" },
+                    { "Type": "CHECK_BUTTON", "Text": "Close Button" }
+                ]
+            },
+            {
                 "Description": "Test Complete",
-                "Type": "TEST_COMPLETE"
+                "Steps": [
+                    { "Type": "TEST_COMPLETE" }
+                ]
             }
-        }
+        ]
     }
 }

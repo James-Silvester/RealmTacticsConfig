@@ -1,0 +1,43 @@
+{
+    "Name": "DirectAttackMoveBuildingLayer",
+    "Description": "Direct Attack Move Building Layer",
+    "Layer": 4,
+    "Tags": [
+        "Unit"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 2
+    },
+    "Movement": {
+        "Movement": 5,
+        "EntityCost": {},
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Defence": {
+        "CanUseDefence": true
+    },
+    "Attack": {
+        "DirectAttacks": [
+            {
+                "Name": "Attack",
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 0.2,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "UsesPerTurn": 1
+                    }
+                }
+            }
+        ]
+    }
+}
