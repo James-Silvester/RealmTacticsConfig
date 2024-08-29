@@ -1,0 +1,40 @@
+{
+    "Name": "5MovementTransporter",
+    "Description": "5 Movement Transporter",
+    "Layer": 4,
+    "Tags": [
+        "Unit"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 1
+    },
+    "Movement": {
+        "Movement": 5,
+        "EntityCost": {},
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
+    },
+    "Defence": {
+        "CanUseDefence": true
+    },
+    "Capture": {
+        "CapturePoints": 1,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "EndsTurn": false
+        }
+    },
+    "Purchase": {
+        "Costs": [1],
+        "CanBePurchased": true
+    },
+    "Transport": {
+        "CarryingAllowedSelector": {
+            "AllowTags": [
+                "Unit"
+            ]
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "Width": 7,
+    "Height": 7,
+    "EntityConfig": [
+        {
+            "EntityString": "TEAM_1|5MovementTransporter|0,0"
+        },
+        {
+            "EntityString": "TEAM_1|5Movement|1,0"
+        },
+        {
+            "EntityString": "TEAM_1|5MovementTransporter|0,3"
+        },
+        {
+            "EntityString": "TEAM_1|5Movement|1,3"
+        },
+        {
+            "EntityString": "TEAM_1|5MovementTransporter|0,6"
+        },
+        {
+            "EntityString": "TEAM_1|5Movement|0,6"
+        }
+    ],
+    "Test": {
+        "TestSteps": [
+            {
+                "Description": "Transport movement test - Pick up and drop off a unit",
+                "Steps": [
+                    { "Type": "SELECT_POSITION", "X": 0, "Y": 0, "DoubleTap": false },
+                    { "Type": "CHECK_STATE", "State": "ENTITY_MOVE_PROCESS" },
+                    { "Type": "SELECT_POSITION", "X": 1, "Y": 0, "DoubleTap": false },
+                    { "Type": "CHECK_STATE", "State": "ENTITY_MOVE_PROCESS" }
+                ]
+            },
+            {
+                "Description": "Test Complete",
+                "Steps": [
+                    { "Type": "TEST_COMPLETE" }
+                ]
+            }
+        ]
+    }
+}

@@ -14,6 +14,7 @@ version |   name                        |   filename                            
 
 
 1       |   5Movement Config            |   5Movement.json                      |   1       |   /units      |   1       |   /units          |   -           |   0       |   0       |
+1       |   5MovementTransporter Config            |   5MovementTransporter.json                      |   1       |   /units      |   1       |   /units          |   -           |   0       |   0       |
 1       |   DirectAttackMove_PowerPatternEntityFactors Config     |   directAttackMove_PowerPatternEntityFactors.json               |   1       |   /units      |   1       |   /units          |   -           |   0       |   0       |
 1       |   DirectAttackMove Config     |   directAttackMove.json               |   1       |   /units      |   1       |   /units          |   -           |   0       |   0       |
 1       |   DirectAttackMoveBuildingLayer Config     |   directAttackMoveBuildingLayer.json               |   1       |   /units      |   1       |   /units          |   -           |   0       |   0       |

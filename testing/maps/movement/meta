@@ -1,2 +1,3 @@
 version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   action    |   subMeta     |   env     |   notes
+1       |   Transport Movement   |   transport-movement.json              |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Transport Movement Test
 1       |   Undo Movement   |   undo-movement.json              |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Undo Movement Test

@@ -15,6 +15,12 @@
         },
         {
             "EntityString": "TEAM_1|PurchaseBuilding|4,0"
+        },
+        {
+            "EntityString": "TEAM_1|DirectAttackMove|5,0"
+        },
+        {
+            "EntityString": "TEAM_1|DirectAttackMoveBuildingLayer|5,0"
         }
     ],
     "Test": {
@@ -69,8 +75,21 @@
                     { "Type": "SELECT_POSITION", "X": 4, "Y": 0, "DoubleTap": false },
                     { "Type": "CHECK_ACTIONS", "IsOpen": false },
                     { "Type": "CHECK_STATE", "State": "PURCHASE_MENU_OPEN" },
-                    { "Type": "CHECK_BUTTON", "Text": "Close Button" }
+                    { "Type": "CHECK_BUTTON", "Text": "Close Button" },
+                    { "Type": "CHECK_STATE", "State": "INITIAL_STATE" }
                 ]
+            },
+            {
+                "Description": "Action cycle test - Click DirectAttackMove and DirectAttackMoveBuildingLayer self",
+                "Steps": [
+                    { "Type": "SELECT_POSITION", "X": 5, "Y": 0, "DoubleTap": false },
+                    { "Type": "CHECK_ACTIONS", "OptionTypes": ["DirectAttackMove", "DirectAttackMoveBuildingLayer"] },
+                    { "Type": "SELECT_POSITION", "X": 5, "Y": 0, "DoubleTap": false },
+                    { "Type": "CHECK_STATE", "State": "ENTITY_MOVE_PROCESS" },
+                    { "Type": "SELECT_POSITION", "X": 5, "Y": 0, "DoubleTap": false },
+                    { "Type": "CHECK_STATE", "State": "INITIAL_STATE" }
+                ]
+
             },
             {
                 "Description": "Test Complete",
