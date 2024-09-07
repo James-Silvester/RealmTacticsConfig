@@ -32,11 +32,10 @@
                 ]
             },
             {
-                "Description": "Action cycle test - Open Menu on NetworkMoneyBuilding (no actions)",
+                "Description": "Action cycle test - Nothing happens on NetworkMoneyBuilding (no actions)",
                 "Steps": [
                     { "Type": "SELECT_POSITION", "X": 0, "Y": 0, "DoubleTap": true },
-                    { "Type": "CHECK_ACTIONS", "OptionTypes": ["End Turn", "New Save"] },
-                    { "Type": "CHECK_STATE", "State": "ACTION_MENU_MAIN_MENU_OPEN" }
+                    { "Type": "CHECK_ACTIONS", "IsOpen": false }
                 ]
             },
             {
