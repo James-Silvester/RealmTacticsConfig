@@ -76,7 +76,7 @@
                 "Description": "Network Income test - (1) Open Menu",
                 "Type": "SELECT_POSITION",
                 "Config": {
-                    "X": 2,
+                    "X": 4,
                     "Y": 2,
                     "DoubleTap": true
                 }
