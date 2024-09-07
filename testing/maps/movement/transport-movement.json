@@ -12,7 +12,13 @@
             "EntityString": "TEAM_1|5MovementTransporter|0,3"
         },
         {
-            "EntityString": "TEAM_1|5Movement|1,3"
+            "EntityString": "TEAM_1|5Movement|2,3"
+        },
+        {
+            "EntityString": "TEAM_1|5MovementTransporter|0,4"
+        },
+        {
+            "EntityString": "TEAM_1|5Movement|2,4"
         },
         {
             "EntityString": "TEAM_1|5MovementTransporter|0,6"
@@ -24,12 +30,52 @@
     "Test": {
         "TestSteps": [
             {
-                "Description": "Transport movement test - Pick up and drop off a unit",
+                "Description": "Transport movement test - Pick up a unit",
                 "Steps": [
                     { "Type": "SELECT_POSITION", "X": 0, "Y": 0, "DoubleTap": false },
-                    { "Type": "CHECK_STATE", "State": "ENTITY_MOVE_PROCESS" },
+                    { "Type": "WAIT_FOR_STATE", "State": "ENTITY_MOVE_PROCESS" },
                     { "Type": "SELECT_POSITION", "X": 1, "Y": 0, "DoubleTap": false },
-                    { "Type": "CHECK_STATE", "State": "ENTITY_MOVE_PROCESS" }
+                    { "Type": "WAIT_FOR_STATE", "State": "POST_MOVE_ACTION_MENU_OPEN" },
+                    { "Type": "CHECK_ACTIONS", "SelectOptionName": "Transport" },
+                    { "Type": "CHECK_ACTIONS", "SelectOptionName": "Pick Up 5Movement" },
+                    { "Type": "WAIT_FOR_STATE", "State": "INITIAL_STATE" }
+                ]
+            },
+            {
+                "Description": "Transport movement test - Get picked up by a unit",
+                "Steps": [
+                    { "Type": "SELECT_POSITION", "X": 0, "Y": 3, "DoubleTap": false },
+                    { "Type": "WAIT_FOR_STATE", "State": "ENTITY_MOVE_PROCESS" },
+                    { "Type": "SELECT_POSITION", "X": 1, "Y": 3, "DoubleTap": false },
+                    { "Type": "WAIT_FOR_STATE", "State": "POST_MOVE_ACTION_MENU_OPEN" },
+                    { "Type": "CHECK_ACTIONS", "SelectOptionName": "Wait" },
+                    { "Type": "SELECT_POSITION", "X": 2, "Y": 3, "DoubleTap": false },
+                    { "Type": "SELECT_POSITION", "X": 1, "Y": 3, "DoubleTap": false },
+                    { "Type": "WAIT_FOR_STATE", "State": "POST_MOVE_ACTION_MENU_OPEN" },
+                    { "Type": "CHECK_ACTIONS", "SelectOptionName": "Transport" },
+                    { "Type": "CHECK_ACTIONS", "SelectOptionName": "Load Into 5MovementTransporter" },
+                    { "Type": "CHECK_STATE", "State": "INITIAL_STATE" }
+                ]
+            },
+            {
+                "Description": "Transport movement test - Pick up and move a unit",
+                "Steps": [
+                    { "Type": "SELECT_POSITION", "X": 0, "Y": 6, "DoubleTap": false },
+                    { "Type": "CHECK_ACTIONS", "OptionNames": ["5Movement", "5MovementTransporter"], "SelectOptionName": "5MovementTransporter" },
+                    { "Type": "CHECK_ACTIONS", "SelectOptionName": "Transport" },
+                    { "Type": "CHECK_ACTIONS", "SelectOptionName": "Pick Up 5Movement" },
+                    { "Type": "CHECK_ENTITY", "X": 0, "Y": 6, "EntityType": "5Movement", "Invert": true, "Description": "The entity is no longer there" },
+                    { "Type": "CHECK_ACTIONS", "SelectOptionName": "Movement" },
+                    { "Type": "SELECT_POSITION", "X": 1, "Y": 6, "DoubleTap": false, "Description": "Move to the next square" },
+                    { "Type": "WAIT_FOR_STATE", "State": "POST_MOVE_ACTION_MENU_OPEN" },
+                    { "Type": "SELECT_POSITION", "X": 1, "Y": 6, "DoubleTap": false, "Description": "End the turn for the transporting unit" },
+                    { "Type": "SELECT_POSITION", "X": 0, "Y": 6, "DoubleTap": true, "Description": "Open the main menu to start a new turn" },
+                    { "Type": "WAIT_FOR_STATE", "State": "ACTION_MENU_MAIN_MENU_OPEN" },
+                    { "Type": "SELECT_POSITION", "X": 0, "Y": 6, "DoubleTap": true, "Description": "Cycle the turn to refresh the actions" },
+                    { "Type": "SELECT_POSITION", "X": 1, "Y": 6, "DoubleTap": false },
+                    { "Type": "CHECK_ACTIONS", "SelectOptionName": "Transport" },
+                    { "Type": "CHECK_ACTIONS", "SelectOptionName": "Drop Off 5Movement" },
+                    { "Type": "CHECK_ENTITY", "X": 1, "Y": 6, "EntityType": "5Movement" }
                 ]
             },
             {

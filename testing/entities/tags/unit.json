@@ -6,6 +6,9 @@
         "Selectable": true,
         "Attack": {
             "CanBeAttacked": true
+        },
+        "Transport": {
+            "CanBeCarried": true
         }
     }
 }
