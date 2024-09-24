@@ -1,0 +1,56 @@
+
+
+{
+    "Seed": 0,
+    "MapLayout": "BottomLeftTopRight",
+    "MapStyle": "Normal",
+    "Generator": [
+        {
+            "Type": "Terrain",
+            "NoiseScale": 0.3,
+            "EntityRatio": {
+                "Grassland": 1.0,
+                "Forest": 0.3,
+                "Mountain": 0.1,
+                "Rocky": 0.1
+            }
+        },
+        {
+            "Type": "Playable",
+            "LowerBound": 0.2,
+            "UpperBound": 0.8,
+            "EntityCounts": {
+                "Barracks": 2,
+                "Farm": 2,
+                "House": 4,
+                "Quarry": 2
+            }
+        },
+        {
+            "Type": "Playable",
+            "LowerBound": 0.0,
+            "UpperBound": 0.2,
+            "TeamId": "Team 1",
+            "EntityCounts": {
+                "Barracks": 1,
+                "Archer": 3,
+                "House": 1,
+                "Knight": 1
+            }
+
+        },
+        {
+            "Type": "Playable",
+            "LowerBound": 0.0,
+            "UpperBound": 0.2,
+            "TeamId": "Team 2",
+            "EntityCounts": {
+                "Barracks": 2,
+                "Archer": 4,
+                "House": 3,
+                "Knight": 2
+            }
+
+        }
+    ]
+}

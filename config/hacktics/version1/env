@@ -6,3 +6,4 @@ version |   key             		        |   value
 1       |   MAP_CONFIG_DEFAULTS_FILE        |   config/hacktics/version1/maps/map_defaults.json
 1       |   SAVES_DIRECTORY                 |   config/hacktics/version1/maps/saves
 1       |   CUSTOM_MAPS_DIRECTORY           |   config/hacktics/version1/maps/custom_maps
+1       |   GENERATE_MAP_CONFIG_FILE        |   config/hacktics/version1/maps/generate_map_config.json

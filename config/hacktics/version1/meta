@@ -3,7 +3,7 @@ version |   name            |   filename        |   isFile  |   path        |   
 1       |   Entities        |   entities        |   0       |   /           |   0       |   /       |   folder      |   0       |   0       |   Hacktics Style Entities
 2       |   AI              |   ai              |   0       |   /           |   0       |   /       |   folder      |   0       |   0       |   AI which powers the Hacktics Maps
 
-3       |   env             |   env             |   1       |   /           |   0       |   /       |   -           |   0       |   1       |   Enviroment setup for this version of Hacktics
+4       |   env             |   env             |   1       |   /           |   0       |   /       |   -           |   0       |   1       |   Enviroment setup for this version of Hacktics
 
 1       |   Refresh         |   -               |   0       |   /           |   1       |   /       |   refreshAllMeta |   0    |   0       |   Refresh all downloaded files
 

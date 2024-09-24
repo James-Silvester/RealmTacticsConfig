@@ -1,5 +1,6 @@
 version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   action    |   subMeta     |   env     |   notes
 3       |   Defaults        |   map_defaults.json               |   1       |   /       |   0       |   /           |   -           |   0           |   0       |   Hacktics Map Defaults
+1       |   GenerateMapConfig | generate_map_config.json        |   1       |   /       |   0       |   /           |   -           |   0           |   0       |   Hacktics Generate Map Config
 
 5       |   Simple          |   simple.json                     |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Basic Hacktics Testing Map
 

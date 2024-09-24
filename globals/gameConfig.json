@@ -120,7 +120,8 @@
         "AIAction": false,
         "Edit": false,
         "Trigger": false,
-        "Save": false
+        "Save": false,
+        "GenerateMap": false
     },
     "AI": {
         "TrainingMode": false,
