@@ -1,2 +1,3 @@
 version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   action    |   subMeta     |   env     |   notes
-1       |   Create New Map  |   createMap                       |   0       |   /       |   1       |   /           |   createMap   |   0           |   0       |   Hacktics Create Map
+1       |   Create New Map  |   createMap                       |   0       |   /       |   1       |   /           |   createMap   |   0           |   0       |   Remote Land Create Map
+1       |   Generate New Map |  generateMap                     |   0       |   /       |   1       |   /           |   generateMapWithMeta | 0     |   0       |   Remote Land Generate Map
