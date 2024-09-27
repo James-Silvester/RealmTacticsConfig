@@ -8,3 +8,4 @@ version |   key             		        |   value
 1       |   MAP_CONFIG_DEFAULTS_FILE        |   testing/maps/map_defaults.json
 1       |   SAVES_DIRECTORY                 |   testing/maps/saves
 1       |   CUSTOM_MAPS_DIRECTORY           |   testing/maps/custom_maps
+1       |   GENERATE_MAP_CONFIG_FILE        |   testing/maps/generate_map_config.json
