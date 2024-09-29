@@ -1,0 +1,15 @@
+{
+    "Name": "Hacktics Campaign",
+    "Description": "Test your strategic hacking skills",
+    "Levels": [
+        {
+            "Name": "Tutorial",
+            "Description": "Learn the basics of hacking",
+            "MapFile": "tutorial.json",
+            "OnCompletionSet" : {
+                "TutorialComplete": true
+            },
+            "UnlockRequirements": {}
+        }
+    ]
+}
