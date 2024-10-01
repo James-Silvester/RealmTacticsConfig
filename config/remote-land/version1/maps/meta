@@ -2,12 +2,13 @@ version |   name            |   filename                        |   isFile  |   
 2       |   Defaults        |   map_defaults.json               |   1       |   /       |   0       |   /           |   -           |   0           |   0       |   Medieval Testing Map Defaults
 
 5       |   Simple          |   simple.json                     |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Basic Medieval Testing Map
-5       |   Generated Map   |   simpleGenerate.json             |   1       |   /       |   1       |   /           |   loadGenerate |  0           |   0       |   Basic RL Testing Map
+
 
 5       |   generate_map_config | generate_map_config.json      |   1       |   /       |   0       |   /           |   -           |  0           |   0       |   generate_map_config
 
 1       |   Campaign        |   campaign                        |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Campaign
-1       |   AI Samples      |   ai_samples                      |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Samples of the AI at work
+1       |   AI Samples      |   ai_samples                      |   0       |   /       |   0       |   /           |   folder      |   0           |   0       |   Samples of the AI at work
+1       |   Generated Samples | generated_samples               |   0       |   /       |   0       |   /           |   folder      |   0           |   0       |   Generated Map Samples
 
 1       |   Custom Maps     |   custom_maps                     |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Custom Maps
 1       |   Saves           |   saves                           |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Saves

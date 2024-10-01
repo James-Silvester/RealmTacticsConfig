@@ -1,0 +1,77 @@
+{
+    "Width": 20,
+    "Height": 7,
+    "Generate": {
+        "Seed": 0,
+        "MapLayout": "LeftRight",
+        "MapStyle": "Normal",
+        "Generator": [
+            {
+                "Type": "PerlinNoise",
+                "NoiseScale": 0.3,
+                "EntityRatio": {
+                    "Grassland": 1.0,
+                    "Forest": 0.1,
+                    "Mountain": 0.1,
+                    "Rocky": 0.1,
+                    "Hill": 0.1,
+                    "Swamp": 0.3
+                }
+            },
+            {
+                "Type": "PerlinNoise",
+                "NoiseScale": 0.5,
+                "LowerBound": 0.3,
+                "UpperBound": 0.7,
+                "EntityRatio": {
+                    "Forest": 0.5
+                }
+            },
+            {
+                "Type": "RandomPlacement",
+                "LowerBound": 0.3,
+                "UpperBound": 0.7,
+                "EntityCounts": {
+                    "Barracks": 2,
+                    "Farm": 2,
+                    "House": 4,
+                    "Quarry": 2
+                }
+            },
+            {
+                "Type": "RandomPlacement",
+                "LowerBound": 0.4,
+                "UpperBound": 0.6,
+                "EntityCounts": {
+                    "Castle": 1,
+                    "Outpost": 2,
+                    "Village": 2
+                }
+            },
+            {
+                "Type": "RandomPlacement",
+                "UpperBound": 0.2,
+                "TeamId": "team 1",
+                "EntityCounts": {
+                    "Barracks": 1,
+                    "Archer": 3,
+                    "House": 1,
+                    "Knight": 1
+                }
+    
+            },
+            {
+                "Type": "RandomPlacement",
+                "LowerBound": 0.8,
+                "TeamId": "team 2",
+                "EntityCounts": {
+                    "Barracks": 2,
+                    "Archer": 4,
+                    "House": 3,
+                    "Knight": 2
+                }
+    
+            }
+        ]
+    }
+}

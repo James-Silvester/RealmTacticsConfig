@@ -1,0 +1,3 @@
+version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   action     |   subMeta    |   env     |   notes
+1       |   Simple Skirmish |   simpleSkirmish.json             |   1       |   /       |   1       |   /           | loadGenerate |  0           |   0       |   Simple Skirmish Map
+1       |   Forest Hunt     |   forestHunt.json                 |   1       |   /       |   1       |   /           | loadGenerate |  0           |   0       |   Forest Hunt Map
