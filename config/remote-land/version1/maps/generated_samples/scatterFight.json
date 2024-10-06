@@ -1,57 +1,38 @@
 {
-    "Width": 25,
-    "Height": 7,
+    "Width": 15,
+    "Height": 15,
     "Generate": {
         "Seed": 0,
-        "MapLayout": "LeftRight",
-        "MapStyle": "Normal",
+        "MapLayout": "Chaotic",
+        "MapStyle": "Mirror",
         "Generator": [
             {
                 "Type": "PerlinNoise",
-                "NoiseScale": 0.3,
+                "NoiseScale": 0.1,
                 "EntityRatio": {
                     "Forest": 0.1,
-                    "Mountain": 0.1,
+                    "Mountain": 0.2,
                     "Rocky": 0.1,
                     "Hill": 0.1,
-                    "Swamp": 0.3
+                    "Swamp": 0.1,
+                    "Ocean": 0.1
                 }
             },
             {
-                "Type": "PerlinNoise",
-                "NoiseScale": 0.5,
+                "Type": "RandomPlacement",
+                "LowerBound": 0.0,
+                "UpperBound": 0.5,
+                "EntityCounts": {
+                    "Barracks": 2,
+                    "Farm": 2,
+                    "House": 4,
+                    "Quarry": 2
+                }
+            },
+            {
+                "Type": "RandomPlacement",
                 "LowerBound": 0.3,
-                "UpperBound": 0.7,
-                "EntityRatio": {
-                    "Forest": 0.5
-                }
-            },
-            {
-                "Type": "RandomPlacement",
-                "LowerBound": 0.2,
-                "UpperBound": 0.6,
-                "EntityCounts": {
-                    "Barracks": 2,
-                    "Farm": 2,
-                    "House": 4,
-                    "Quarry": 2
-                }
-            },
-            {
-                "Type": "RandomPlacement",
-                "LowerBound": 0.6,
-                "UpperBound": 0.9,
-                "EntityCounts": {
-                    "Barracks": 2,
-                    "Farm": 2,
-                    "House": 4,
-                    "Quarry": 2
-                }
-            },
-            {
-                "Type": "RandomPlacement",
-                "LowerBound": 0.4,
-                "UpperBound": 0.6,
+                "UpperBound": 0.5,
                 "EntityCounts": {
                     "Castle": 1,
                     "Outpost": 2,
@@ -60,7 +41,7 @@
             },
             {
                 "Type": "RandomPlacement",
-                "UpperBound": 0.2,
+                "UpperBound": 0.5,
                 "TeamId": "team 1",
                 "EntityCounts": {
                     "Barracks": 1,
@@ -72,13 +53,13 @@
             },
             {
                 "Type": "RandomPlacement",
-                "LowerBound": 0.8,
+                "LowerBound": 0.5,
                 "TeamId": "team 2",
                 "EntityCounts": {
                     "Barracks": 2,
                     "Archer": 4,
                     "House": 3,
-                    "Knight": 2
+                    "Barbarian": 2
                 }
     
             }
