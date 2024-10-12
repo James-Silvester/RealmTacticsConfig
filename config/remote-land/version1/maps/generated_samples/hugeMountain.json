@@ -23,7 +23,7 @@
                 "LowerBound": 0.3,
                 "UpperBound": 0.7,
                 "EntityRatio": {
-                    "Mountain": 0.4
+                    "Mountain": 0.6
                 }
             },
             {
@@ -60,7 +60,7 @@
             },
             {
                 "Type": "RandomPlacement",
-                "UpperBound": 0.2,
+                "UpperBound": 0.4,
                 "TeamId": "team 1",
                 "EntityCounts": {
                     "Barracks": 4,
@@ -72,7 +72,7 @@
             },
             {
                 "Type": "RandomPlacement",
-                "LowerBound": 0.8,
+                "LowerBound": 0.6,
                 "TeamId": "team 2",
                 "EntityCounts": {
                     "Barracks": 4,
