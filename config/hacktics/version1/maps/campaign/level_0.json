@@ -1,18 +1,4150 @@
 {
-    "Width": 8,
-    "Height": 6,
+    "Version": 1,
+    "ImportedDefaults": true,
+    "Width": 25,
+    "Height": 15,
+    "CursorStartingX": 1,
+    "CursorStartingY": 2,
+    "CameraStartingX": 0,
+    "CameraStartingY": 0,
+    "TeamsConfig": {
+      "NumberOfTeams": 2,
+      "StartingTeam": "TEAM_1",
+      "TurnNumber": 1,
+      "ActiveTeams": [
+        "TEAM_1",
+        "TEAM_2"
+      ],
+      "TeamConfig": [
+        {
+          "TeamId": "TEAM_1",
+          "TeamEntity": "PLAYER"
+        },
+        {
+          "TeamId": "TEAM_2",
+          "TeamEntity": "AI_DEFAULT"
+        }
+      ]
+    },
     "EntityConfig": [
-        {   "EntityString": "Palisade|1,2"          },
-        {   "EntityString": "Palisade|1,3"          },
-        {   "EntityString": "Palisade|1,4"          },
-
-        {   "EntityString": "River|4,3"             },
-        {   "EntityString": "River|4,4"             },
-        {   "EntityString": "River|4,5"             },
-
-        {   "EntityString": "Hill|2,4"              },
-
-        {   "EntityString": "TEAM_1|Spearman|1,1"   },
-        {   "EntityString": "TEAM_2|Spearman|6,4"   }
+      {
+        "Id": 1,
+        "Position": {
+          "X": 0,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 2,
+        "Position": {
+          "X": 0,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 3,
+        "Position": {
+          "X": 0,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 4,
+        "Position": {
+          "X": 0,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 5,
+        "Position": {
+          "X": 0,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 6,
+        "Position": {
+          "X": 0,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 7,
+        "Position": {
+          "X": 0,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 8,
+        "Position": {
+          "X": 0,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 9,
+        "Position": {
+          "X": 0,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 10,
+        "Position": {
+          "X": 0,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 11,
+        "Position": {
+          "X": 0,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 12,
+        "Position": {
+          "X": 0,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 13,
+        "Position": {
+          "X": 0,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 14,
+        "Position": {
+          "X": 0,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 15,
+        "Position": {
+          "X": 0,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 16,
+        "Position": {
+          "X": 1,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 17,
+        "Position": {
+          "X": 1,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 18,
+        "Position": {
+          "X": 1,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 19,
+        "Position": {
+          "X": 1,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 20,
+        "Position": {
+          "X": 1,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 21,
+        "Position": {
+          "X": 1,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 22,
+        "Position": {
+          "X": 1,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 23,
+        "Position": {
+          "X": 1,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 24,
+        "Position": {
+          "X": 1,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 25,
+        "Position": {
+          "X": 1,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 26,
+        "Position": {
+          "X": 1,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 27,
+        "Position": {
+          "X": 1,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 28,
+        "Position": {
+          "X": 1,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 29,
+        "Position": {
+          "X": 1,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 30,
+        "Position": {
+          "X": 1,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 31,
+        "Position": {
+          "X": 2,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 32,
+        "Position": {
+          "X": 2,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 33,
+        "Position": {
+          "X": 2,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 34,
+        "Position": {
+          "X": 2,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 35,
+        "Position": {
+          "X": 2,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 36,
+        "Position": {
+          "X": 2,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 37,
+        "Position": {
+          "X": 2,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 38,
+        "Position": {
+          "X": 2,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 39,
+        "Position": {
+          "X": 2,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 40,
+        "Position": {
+          "X": 2,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 41,
+        "Position": {
+          "X": 2,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 42,
+        "Position": {
+          "X": 2,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 43,
+        "Position": {
+          "X": 2,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 44,
+        "Position": {
+          "X": 2,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 45,
+        "Position": {
+          "X": 2,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 46,
+        "Position": {
+          "X": 3,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 47,
+        "Position": {
+          "X": 3,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 48,
+        "Position": {
+          "X": 3,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 49,
+        "Position": {
+          "X": 3,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 50,
+        "Position": {
+          "X": 3,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 51,
+        "Position": {
+          "X": 3,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 52,
+        "Position": {
+          "X": 3,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 53,
+        "Position": {
+          "X": 3,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 54,
+        "Position": {
+          "X": 3,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 55,
+        "Position": {
+          "X": 3,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 56,
+        "Position": {
+          "X": 3,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 57,
+        "Position": {
+          "X": 3,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 58,
+        "Position": {
+          "X": 3,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 59,
+        "Position": {
+          "X": 3,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 60,
+        "Position": {
+          "X": 3,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 61,
+        "Position": {
+          "X": 4,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 62,
+        "Position": {
+          "X": 4,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 63,
+        "Position": {
+          "X": 4,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 64,
+        "Position": {
+          "X": 4,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 65,
+        "Position": {
+          "X": 4,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 66,
+        "Position": {
+          "X": 4,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 67,
+        "Position": {
+          "X": 4,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 68,
+        "Position": {
+          "X": 4,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 69,
+        "Position": {
+          "X": 4,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 70,
+        "Position": {
+          "X": 4,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 71,
+        "Position": {
+          "X": 4,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 72,
+        "Position": {
+          "X": 4,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 73,
+        "Position": {
+          "X": 4,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 74,
+        "Position": {
+          "X": 4,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 75,
+        "Position": {
+          "X": 4,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 76,
+        "Position": {
+          "X": 5,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 77,
+        "Position": {
+          "X": 5,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 78,
+        "Position": {
+          "X": 5,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 79,
+        "Position": {
+          "X": 5,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 80,
+        "Position": {
+          "X": 5,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 81,
+        "Position": {
+          "X": 5,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 82,
+        "Position": {
+          "X": 5,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 83,
+        "Position": {
+          "X": 5,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 84,
+        "Position": {
+          "X": 5,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 85,
+        "Position": {
+          "X": 5,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 86,
+        "Position": {
+          "X": 5,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 87,
+        "Position": {
+          "X": 5,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 88,
+        "Position": {
+          "X": 5,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 89,
+        "Position": {
+          "X": 5,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 90,
+        "Position": {
+          "X": 5,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 91,
+        "Position": {
+          "X": 6,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 92,
+        "Position": {
+          "X": 6,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 93,
+        "Position": {
+          "X": 6,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 94,
+        "Position": {
+          "X": 6,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 95,
+        "Position": {
+          "X": 6,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 96,
+        "Position": {
+          "X": 6,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 97,
+        "Position": {
+          "X": 6,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 98,
+        "Position": {
+          "X": 6,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 99,
+        "Position": {
+          "X": 6,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 100,
+        "Position": {
+          "X": 6,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 101,
+        "Position": {
+          "X": 6,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 102,
+        "Position": {
+          "X": 6,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 103,
+        "Position": {
+          "X": 6,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 104,
+        "Position": {
+          "X": 6,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 105,
+        "Position": {
+          "X": 6,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 106,
+        "Position": {
+          "X": 7,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 107,
+        "Position": {
+          "X": 7,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 108,
+        "Position": {
+          "X": 7,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 109,
+        "Position": {
+          "X": 7,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 110,
+        "Position": {
+          "X": 7,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 111,
+        "Position": {
+          "X": 7,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 112,
+        "Position": {
+          "X": 7,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 113,
+        "Position": {
+          "X": 7,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 114,
+        "Position": {
+          "X": 7,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 115,
+        "Position": {
+          "X": 7,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 116,
+        "Position": {
+          "X": 7,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 117,
+        "Position": {
+          "X": 7,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 118,
+        "Position": {
+          "X": 7,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 119,
+        "Position": {
+          "X": 7,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 120,
+        "Position": {
+          "X": 7,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 121,
+        "Position": {
+          "X": 8,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 122,
+        "Position": {
+          "X": 8,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 123,
+        "Position": {
+          "X": 8,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 124,
+        "Position": {
+          "X": 8,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 125,
+        "Position": {
+          "X": 8,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 126,
+        "Position": {
+          "X": 8,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 127,
+        "Position": {
+          "X": 8,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 128,
+        "Position": {
+          "X": 8,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 129,
+        "Position": {
+          "X": 8,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 130,
+        "Position": {
+          "X": 8,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 131,
+        "Position": {
+          "X": 8,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 132,
+        "Position": {
+          "X": 8,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 133,
+        "Position": {
+          "X": 8,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 134,
+        "Position": {
+          "X": 8,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 135,
+        "Position": {
+          "X": 8,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 136,
+        "Position": {
+          "X": 9,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 137,
+        "Position": {
+          "X": 9,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 138,
+        "Position": {
+          "X": 9,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 139,
+        "Position": {
+          "X": 9,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 140,
+        "Position": {
+          "X": 9,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 141,
+        "Position": {
+          "X": 9,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 142,
+        "Position": {
+          "X": 9,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 143,
+        "Position": {
+          "X": 9,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 144,
+        "Position": {
+          "X": 9,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 145,
+        "Position": {
+          "X": 9,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 146,
+        "Position": {
+          "X": 9,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 147,
+        "Position": {
+          "X": 9,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 148,
+        "Position": {
+          "X": 9,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 149,
+        "Position": {
+          "X": 9,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 150,
+        "Position": {
+          "X": 9,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 151,
+        "Position": {
+          "X": 10,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 152,
+        "Position": {
+          "X": 10,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 153,
+        "Position": {
+          "X": 10,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 154,
+        "Position": {
+          "X": 10,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 155,
+        "Position": {
+          "X": 10,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 156,
+        "Position": {
+          "X": 10,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 157,
+        "Position": {
+          "X": 10,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 158,
+        "Position": {
+          "X": 10,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 159,
+        "Position": {
+          "X": 10,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 160,
+        "Position": {
+          "X": 10,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 161,
+        "Position": {
+          "X": 10,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 162,
+        "Position": {
+          "X": 10,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 163,
+        "Position": {
+          "X": 10,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 164,
+        "Position": {
+          "X": 10,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 165,
+        "Position": {
+          "X": 10,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 166,
+        "Position": {
+          "X": 11,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 167,
+        "Position": {
+          "X": 11,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 168,
+        "Position": {
+          "X": 11,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 169,
+        "Position": {
+          "X": 11,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 170,
+        "Position": {
+          "X": 11,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 171,
+        "Position": {
+          "X": 11,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 172,
+        "Position": {
+          "X": 11,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 173,
+        "Position": {
+          "X": 11,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 174,
+        "Position": {
+          "X": 11,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 175,
+        "Position": {
+          "X": 11,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 176,
+        "Position": {
+          "X": 11,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 177,
+        "Position": {
+          "X": 11,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 178,
+        "Position": {
+          "X": 11,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 179,
+        "Position": {
+          "X": 11,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 180,
+        "Position": {
+          "X": 11,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 181,
+        "Position": {
+          "X": 12,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 182,
+        "Position": {
+          "X": 12,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 183,
+        "Position": {
+          "X": 12,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 184,
+        "Position": {
+          "X": 12,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 185,
+        "Position": {
+          "X": 12,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 186,
+        "Position": {
+          "X": 12,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 187,
+        "Position": {
+          "X": 12,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 188,
+        "Position": {
+          "X": 12,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 189,
+        "Position": {
+          "X": 12,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 190,
+        "Position": {
+          "X": 12,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 191,
+        "Position": {
+          "X": 12,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 192,
+        "Position": {
+          "X": 12,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 193,
+        "Position": {
+          "X": 12,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 194,
+        "Position": {
+          "X": 12,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 195,
+        "Position": {
+          "X": 12,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 196,
+        "Position": {
+          "X": 13,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 197,
+        "Position": {
+          "X": 13,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 198,
+        "Position": {
+          "X": 13,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 199,
+        "Position": {
+          "X": 13,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 200,
+        "Position": {
+          "X": 13,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 201,
+        "Position": {
+          "X": 13,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 202,
+        "Position": {
+          "X": 13,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 203,
+        "Position": {
+          "X": 13,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 204,
+        "Position": {
+          "X": 13,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 205,
+        "Position": {
+          "X": 13,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 206,
+        "Position": {
+          "X": 13,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 207,
+        "Position": {
+          "X": 13,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 208,
+        "Position": {
+          "X": 13,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 209,
+        "Position": {
+          "X": 13,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 210,
+        "Position": {
+          "X": 13,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 211,
+        "Position": {
+          "X": 14,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 212,
+        "Position": {
+          "X": 14,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 213,
+        "Position": {
+          "X": 14,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 214,
+        "Position": {
+          "X": 14,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 215,
+        "Position": {
+          "X": 14,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 216,
+        "Position": {
+          "X": 14,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 217,
+        "Position": {
+          "X": 14,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 218,
+        "Position": {
+          "X": 14,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 219,
+        "Position": {
+          "X": 14,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 220,
+        "Position": {
+          "X": 14,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 221,
+        "Position": {
+          "X": 14,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 222,
+        "Position": {
+          "X": 14,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 223,
+        "Position": {
+          "X": 14,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 224,
+        "Position": {
+          "X": 14,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 225,
+        "Position": {
+          "X": 14,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 226,
+        "Position": {
+          "X": 15,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 227,
+        "Position": {
+          "X": 15,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 228,
+        "Position": {
+          "X": 15,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 229,
+        "Position": {
+          "X": 15,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 230,
+        "Position": {
+          "X": 15,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 231,
+        "Position": {
+          "X": 15,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 232,
+        "Position": {
+          "X": 15,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 233,
+        "Position": {
+          "X": 15,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 234,
+        "Position": {
+          "X": 15,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 235,
+        "Position": {
+          "X": 15,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 236,
+        "Position": {
+          "X": 15,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 237,
+        "Position": {
+          "X": 15,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 238,
+        "Position": {
+          "X": 15,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 239,
+        "Position": {
+          "X": 15,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 240,
+        "Position": {
+          "X": 15,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 241,
+        "Position": {
+          "X": 16,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 242,
+        "Position": {
+          "X": 16,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 243,
+        "Position": {
+          "X": 16,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 244,
+        "Position": {
+          "X": 16,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 245,
+        "Position": {
+          "X": 16,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 246,
+        "Position": {
+          "X": 16,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 247,
+        "Position": {
+          "X": 16,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 248,
+        "Position": {
+          "X": 16,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 249,
+        "Position": {
+          "X": 16,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 250,
+        "Position": {
+          "X": 16,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 251,
+        "Position": {
+          "X": 16,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 252,
+        "Position": {
+          "X": 16,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 253,
+        "Position": {
+          "X": 16,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 254,
+        "Position": {
+          "X": 16,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 255,
+        "Position": {
+          "X": 16,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 256,
+        "Position": {
+          "X": 17,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 257,
+        "Position": {
+          "X": 17,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 258,
+        "Position": {
+          "X": 17,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 259,
+        "Position": {
+          "X": 17,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 260,
+        "Position": {
+          "X": 17,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 261,
+        "Position": {
+          "X": 17,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 262,
+        "Position": {
+          "X": 17,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 263,
+        "Position": {
+          "X": 17,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 264,
+        "Position": {
+          "X": 17,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 265,
+        "Position": {
+          "X": 17,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 266,
+        "Position": {
+          "X": 17,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 267,
+        "Position": {
+          "X": 17,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 268,
+        "Position": {
+          "X": 17,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 269,
+        "Position": {
+          "X": 17,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 270,
+        "Position": {
+          "X": 17,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 271,
+        "Position": {
+          "X": 18,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 272,
+        "Position": {
+          "X": 18,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 273,
+        "Position": {
+          "X": 18,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 274,
+        "Position": {
+          "X": 18,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 275,
+        "Position": {
+          "X": 18,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 276,
+        "Position": {
+          "X": 18,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 277,
+        "Position": {
+          "X": 18,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 278,
+        "Position": {
+          "X": 18,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 279,
+        "Position": {
+          "X": 18,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 280,
+        "Position": {
+          "X": 18,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 281,
+        "Position": {
+          "X": 18,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 282,
+        "Position": {
+          "X": 18,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 283,
+        "Position": {
+          "X": 18,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 284,
+        "Position": {
+          "X": 18,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 285,
+        "Position": {
+          "X": 18,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 286,
+        "Position": {
+          "X": 19,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 287,
+        "Position": {
+          "X": 19,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 288,
+        "Position": {
+          "X": 19,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 289,
+        "Position": {
+          "X": 19,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 290,
+        "Position": {
+          "X": 19,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 291,
+        "Position": {
+          "X": 19,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 292,
+        "Position": {
+          "X": 19,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 293,
+        "Position": {
+          "X": 19,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 294,
+        "Position": {
+          "X": 19,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 295,
+        "Position": {
+          "X": 19,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 296,
+        "Position": {
+          "X": 19,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 297,
+        "Position": {
+          "X": 19,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 298,
+        "Position": {
+          "X": 19,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 299,
+        "Position": {
+          "X": 19,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 300,
+        "Position": {
+          "X": 19,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 301,
+        "Position": {
+          "X": 20,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 302,
+        "Position": {
+          "X": 20,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 303,
+        "Position": {
+          "X": 20,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 304,
+        "Position": {
+          "X": 20,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 305,
+        "Position": {
+          "X": 20,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 306,
+        "Position": {
+          "X": 20,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 307,
+        "Position": {
+          "X": 20,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 308,
+        "Position": {
+          "X": 20,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 309,
+        "Position": {
+          "X": 20,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 310,
+        "Position": {
+          "X": 20,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 311,
+        "Position": {
+          "X": 20,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 312,
+        "Position": {
+          "X": 20,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 313,
+        "Position": {
+          "X": 20,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 314,
+        "Position": {
+          "X": 20,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 315,
+        "Position": {
+          "X": 20,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 316,
+        "Position": {
+          "X": 21,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 317,
+        "Position": {
+          "X": 21,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 318,
+        "Position": {
+          "X": 21,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 319,
+        "Position": {
+          "X": 21,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 320,
+        "Position": {
+          "X": 21,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 321,
+        "Position": {
+          "X": 21,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 322,
+        "Position": {
+          "X": 21,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 323,
+        "Position": {
+          "X": 21,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 324,
+        "Position": {
+          "X": 21,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 325,
+        "Position": {
+          "X": 21,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 326,
+        "Position": {
+          "X": 21,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 327,
+        "Position": {
+          "X": 21,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 328,
+        "Position": {
+          "X": 21,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 329,
+        "Position": {
+          "X": 21,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 330,
+        "Position": {
+          "X": 21,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 331,
+        "Position": {
+          "X": 22,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 332,
+        "Position": {
+          "X": 22,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 333,
+        "Position": {
+          "X": 22,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 334,
+        "Position": {
+          "X": 22,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 335,
+        "Position": {
+          "X": 22,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 336,
+        "Position": {
+          "X": 22,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 337,
+        "Position": {
+          "X": 22,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 338,
+        "Position": {
+          "X": 22,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 339,
+        "Position": {
+          "X": 22,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 340,
+        "Position": {
+          "X": 22,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 341,
+        "Position": {
+          "X": 22,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 342,
+        "Position": {
+          "X": 22,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 343,
+        "Position": {
+          "X": 22,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 344,
+        "Position": {
+          "X": 22,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 345,
+        "Position": {
+          "X": 22,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 346,
+        "Position": {
+          "X": 23,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 347,
+        "Position": {
+          "X": 23,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 348,
+        "Position": {
+          "X": 23,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 349,
+        "Position": {
+          "X": 23,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 350,
+        "Position": {
+          "X": 23,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 351,
+        "Position": {
+          "X": 23,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 352,
+        "Position": {
+          "X": 23,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 353,
+        "Position": {
+          "X": 23,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 354,
+        "Position": {
+          "X": 23,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 355,
+        "Position": {
+          "X": 23,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 356,
+        "Position": {
+          "X": 23,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 357,
+        "Position": {
+          "X": 23,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 358,
+        "Position": {
+          "X": 23,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 359,
+        "Position": {
+          "X": 23,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 360,
+        "Position": {
+          "X": 23,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 361,
+        "Position": {
+          "X": 24,
+          "Y": 0
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 362,
+        "Position": {
+          "X": 24,
+          "Y": 1
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 363,
+        "Position": {
+          "X": 24,
+          "Y": 2
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 364,
+        "Position": {
+          "X": 24,
+          "Y": 3
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 365,
+        "Position": {
+          "X": 24,
+          "Y": 4
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 366,
+        "Position": {
+          "X": 24,
+          "Y": 5
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 367,
+        "Position": {
+          "X": 24,
+          "Y": 6
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 368,
+        "Position": {
+          "X": 24,
+          "Y": 7
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 369,
+        "Position": {
+          "X": 24,
+          "Y": 8
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 370,
+        "Position": {
+          "X": 24,
+          "Y": 9
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 371,
+        "Position": {
+          "X": 24,
+          "Y": 10
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 372,
+        "Position": {
+          "X": 24,
+          "Y": 11
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 373,
+        "Position": {
+          "X": 24,
+          "Y": 12
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 374,
+        "Position": {
+          "X": 24,
+          "Y": 13
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 375,
+        "Position": {
+          "X": 24,
+          "Y": 14
+        },
+        "Type": "Ground"
+      },
+      {
+        "Id": 376,
+        "Position": {
+          "X": 11,
+          "Y": 7
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 377,
+        "Position": {
+          "X": 12,
+          "Y": 7
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 380,
+        "Position": {
+          "X": 13,
+          "Y": 5
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 381,
+        "Position": {
+          "X": 14,
+          "Y": 5
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 382,
+        "Position": {
+          "X": 14,
+          "Y": 4
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 383,
+        "Position": {
+          "X": 15,
+          "Y": 4
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 386,
+        "Position": {
+          "X": 15,
+          "Y": 8
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 387,
+        "Position": {
+          "X": 15,
+          "Y": 9
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 388,
+        "Position": {
+          "X": 5,
+          "Y": 10
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 389,
+        "Position": {
+          "X": 3,
+          "Y": 10
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 390,
+        "Position": {
+          "X": 2,
+          "Y": 10
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 391,
+        "Position": {
+          "X": 2,
+          "Y": 11
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 392,
+        "Position": {
+          "X": 1,
+          "Y": 13
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 393,
+        "Position": {
+          "X": 1,
+          "Y": 12
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 394,
+        "Position": {
+          "X": 6,
+          "Y": 5
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 395,
+        "Position": {
+          "X": 5,
+          "Y": 5
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 396,
+        "Position": {
+          "X": 5,
+          "Y": 6
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 397,
+        "Position": {
+          "X": 19,
+          "Y": 12
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 398,
+        "Position": {
+          "X": 20,
+          "Y": 11
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 399,
+        "Position": {
+          "X": 21,
+          "Y": 10
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 400,
+        "Position": {
+          "X": 18,
+          "Y": 12
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 401,
+        "Position": {
+          "X": 20,
+          "Y": 3
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 402,
+        "Position": {
+          "X": 20,
+          "Y": 4
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 403,
+        "Position": {
+          "X": 21,
+          "Y": 5
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 404,
+        "Position": {
+          "X": 21,
+          "Y": 6
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 405,
+        "Position": {
+          "X": 19,
+          "Y": 2
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 406,
+        "Position": {
+          "X": 9,
+          "Y": 2
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 407,
+        "Position": {
+          "X": 11,
+          "Y": 11
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 408,
+        "Position": {
+          "X": 2,
+          "Y": 6
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 409,
+        "Position": {
+          "X": 5,
+          "Y": 2
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 410,
+        "Position": {
+          "X": 18,
+          "Y": 9
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 411,
+        "Position": {
+          "X": 15,
+          "Y": 13
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 412,
+        "Position": {
+          "X": 8,
+          "Y": 14
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 413,
+        "Position": {
+          "X": 23,
+          "Y": 1
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 414,
+        "Position": {
+          "X": 14,
+          "Y": 0
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 415,
+        "Position": {
+          "X": 8,
+          "Y": 8
+        },
+        "Type": "Compute"
+      },
+      {
+        "Id": 416,
+        "Position": {
+          "X": 16,
+          "Y": 11
+        },
+        "Type": "Compute"
+      },
+      {
+        "Id": 417,
+        "Position": {
+          "X": 18,
+          "Y": 6
+        },
+        "Type": "Compute"
+      },
+      {
+        "Id": 418,
+        "Position": {
+          "X": 13,
+          "Y": 3
+        },
+        "Type": "Compute"
+      },
+      {
+        "Id": 419,
+        "Position": {
+          "X": 4,
+          "Y": 3
+        },
+        "Type": "Compute"
+      },
+      {
+        "Id": 420,
+        "Position": {
+          "X": 6,
+          "Y": 12
+        },
+        "Type": "Compute"
+      },
+      {
+        "Id": 421,
+        "Position": {
+          "X": 7,
+          "Y": 12
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 422,
+        "Position": {
+          "X": 8,
+          "Y": 12
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 423,
+        "Position": {
+          "X": 8,
+          "Y": 11
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 424,
+        "Position": {
+          "X": 8,
+          "Y": 10
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 425,
+        "Position": {
+          "X": 8,
+          "Y": 9
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 426,
+        "Position": {
+          "X": 8,
+          "Y": 7
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 427,
+        "Position": {
+          "X": 8,
+          "Y": 6
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 428,
+        "Position": {
+          "X": 8,
+          "Y": 5
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 429,
+        "Position": {
+          "X": 8,
+          "Y": 4
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 430,
+        "Position": {
+          "X": 8,
+          "Y": 3
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 431,
+        "Position": {
+          "X": 7,
+          "Y": 3
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 432,
+        "Position": {
+          "X": 6,
+          "Y": 3
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 433,
+        "Position": {
+          "X": 5,
+          "Y": 3
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 434,
+        "Position": {
+          "X": 9,
+          "Y": 3
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 435,
+        "Position": {
+          "X": 10,
+          "Y": 3
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 436,
+        "Position": {
+          "X": 11,
+          "Y": 3
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 437,
+        "Position": {
+          "X": 12,
+          "Y": 3
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 438,
+        "Position": {
+          "X": 14,
+          "Y": 3
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 439,
+        "Position": {
+          "X": 15,
+          "Y": 3
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 440,
+        "Position": {
+          "X": 16,
+          "Y": 3
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 441,
+        "Position": {
+          "X": 17,
+          "Y": 3
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 442,
+        "Position": {
+          "X": 18,
+          "Y": 3
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 443,
+        "Position": {
+          "X": 18,
+          "Y": 4
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 444,
+        "Position": {
+          "X": 18,
+          "Y": 5
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 445,
+        "Position": {
+          "X": 15,
+          "Y": 11
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 446,
+        "Position": {
+          "X": 14,
+          "Y": 11
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 447,
+        "Position": {
+          "X": 13,
+          "Y": 11
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 448,
+        "Position": {
+          "X": 12,
+          "Y": 11
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 449,
+        "Position": {
+          "X": 12,
+          "Y": 12
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 450,
+        "Position": {
+          "X": 11,
+          "Y": 12
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 451,
+        "Position": {
+          "X": 10,
+          "Y": 12
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 452,
+        "Position": {
+          "X": 9,
+          "Y": 12
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 453,
+        "Position": {
+          "X": 17,
+          "Y": 11
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 454,
+        "Position": {
+          "X": 18,
+          "Y": 11
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 455,
+        "Position": {
+          "X": 19,
+          "Y": 11
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 456,
+        "Position": {
+          "X": 19,
+          "Y": 10
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 457,
+        "Position": {
+          "X": 19,
+          "Y": 8
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 458,
+        "Position": {
+          "X": 19,
+          "Y": 7
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 459,
+        "Position": {
+          "X": 19,
+          "Y": 9
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 460,
+        "Position": {
+          "X": 19,
+          "Y": 6
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 461,
+        "Position": {
+          "X": 23,
+          "Y": 13
+        },
+        "Type": "Encryption"
+      },
+      {
+        "Id": 462,
+        "Position": {
+          "X": 18,
+          "Y": 10
+        },
+        "Type": "Encryption"
+      },
+      {
+        "Id": 463,
+        "Position": {
+          "X": 7,
+          "Y": 4
+        },
+        "Type": "Encryption"
+      },
+      {
+        "Id": 464,
+        "Position": {
+          "X": 4,
+          "Y": 10
+        },
+        "Type": "Encryption"
+      },
+      {
+        "Id": 465,
+        "Position": {
+          "X": 21,
+          "Y": 7
+        },
+        "Type": "Encryption"
+      },
+      {
+        "Id": 466,
+        "Position": {
+          "X": 10,
+          "Y": 11
+        },
+        "Type": "Encryption"
+      },
+      {
+        "Id": 467,
+        "Position": {
+          "X": 14,
+          "Y": 1
+        },
+        "Type": "Encryption"
+      },
+      {
+        "Id": 468,
+        "Position": {
+          "X": 21,
+          "Y": 2
+        },
+        "Type": "Encryption"
+      },
+      {
+        "Id": 470,
+        "Position": {
+          "X": 1,
+          "Y": 14
+        },
+        "Type": "Encryption"
+      },
+      {
+        "Id": 471,
+        "Position": {
+          "X": 4,
+          "Y": 13
+        },
+        "Type": "Generator"
+      },
+      {
+        "Id": 472,
+        "Position": {
+          "X": 13,
+          "Y": 12
+        },
+        "Type": "Generator"
+      },
+      {
+        "Id": 473,
+        "Position": {
+          "X": 17,
+          "Y": 2
+        },
+        "Type": "Generator"
+      },
+      {
+        "Id": 474,
+        "Position": {
+          "X": 9,
+          "Y": 7
+        },
+        "Type": "Generator"
+      },
+      {
+        "Id": 475,
+        "Position": {
+          "X": 18,
+          "Y": 8
+        },
+        "Type": "Generator"
+      },
+      {
+        "Id": 476,
+        "Position": {
+          "X": 2,
+          "Y": 1
+        },
+        "Type": "Generator"
+      },
+      {
+        "Id": 477,
+        "Position": {
+          "X": 21,
+          "Y": 13
+        },
+        "Type": "Generator"
+      },
+      {
+        "Id": 478,
+        "Position": {
+          "X": 23,
+          "Y": 2
+        },
+        "Type": "Generator"
+      },
+      {
+        "Id": 479,
+        "Position": {
+          "X": 22,
+          "Y": 13
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 480,
+        "Position": {
+          "X": 20,
+          "Y": 13
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 481,
+        "Position": {
+          "X": 19,
+          "Y": 13
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 482,
+        "Position": {
+          "X": 18,
+          "Y": 13
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 483,
+        "Position": {
+          "X": 17,
+          "Y": 13
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 484,
+        "Position": {
+          "X": 17,
+          "Y": 12
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 485,
+        "Position": {
+          "X": 22,
+          "Y": 2
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 486,
+        "Position": {
+          "X": 20,
+          "Y": 2
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 487,
+        "Position": {
+          "X": 20,
+          "Y": 1
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 488,
+        "Position": {
+          "X": 19,
+          "Y": 1
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 489,
+        "Position": {
+          "X": 18,
+          "Y": 1
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 490,
+        "Position": {
+          "X": 18,
+          "Y": 2
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 491,
+        "Position": {
+          "X": 3,
+          "Y": 1
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 492,
+        "Position": {
+          "X": 4,
+          "Y": 1
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 493,
+        "Position": {
+          "X": 5,
+          "Y": 1
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 495,
+        "Position": {
+          "X": 6,
+          "Y": 2
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 496,
+        "Position": {
+          "X": 6,
+          "Y": 1
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 497,
+        "Position": {
+          "X": 4,
+          "Y": 12
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 498,
+        "Position": {
+          "X": 5,
+          "Y": 12
+        },
+        "Type": "Connector"
+      },
+      {
+        "Id": 499,
+        "Position": {
+          "X": 13,
+          "Y": 10
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 500,
+        "Position": {
+          "X": 12,
+          "Y": 10
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 501,
+        "Position": {
+          "X": 9,
+          "Y": 10
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 502,
+        "Position": {
+          "X": 9,
+          "Y": 9
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 503,
+        "Position": {
+          "X": 9,
+          "Y": 8
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 504,
+        "Position": {
+          "X": 9,
+          "Y": 5
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 505,
+        "Position": {
+          "X": 10,
+          "Y": 4
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 506,
+        "Position": {
+          "X": 12,
+          "Y": 4
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 507,
+        "Position": {
+          "X": 13,
+          "Y": 4
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 508,
+        "Position": {
+          "X": 11,
+          "Y": 4
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 509,
+        "Position": {
+          "X": 16,
+          "Y": 5
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 512,
+        "Position": {
+          "X": 14,
+          "Y": 10
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 513,
+        "Position": {
+          "X": 16,
+          "Y": 10
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 514,
+        "Position": {
+          "X": 17,
+          "Y": 10
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 515,
+        "Position": {
+          "X": 4,
+          "Y": 0
+        },
+        "Type": "Void"
+      },
+      {
+        "Id": 516,
+        "Position": {
+          "X": 2,
+          "Y": 2
+        },
+        "Type": "Origin",
+        "TeamId": "TEAM_1"
+      },
+      {
+        "Id": 517,
+        "Position": {
+          "X": 20,
+          "Y": 12
+        },
+        "Type": "Compute",
+        "TeamId": "TEAM_2"
+      },
+      {
+        "Id": 519,
+        "Position": {
+          "X": 19,
+          "Y": 14
+        },
+        "Type": "Worker",
+        "TeamId": "TEAM_2"
+      },
+      {
+        "Id": 520,
+        "Position": {
+          "X": 22,
+          "Y": 10
+        },
+        "Type": "Worker",
+        "TeamId": "TEAM_2"
+      },
+      {
+        "Id": 522,
+        "Position": {
+          "X": 2,
+          "Y": 14
+        },
+        "Type": "Worker",
+        "TeamId": "TEAM_1"
+      },
+      {
+        "Id": 524,
+        "Position": {
+          "X": 22,
+          "Y": 1
+        },
+        "Type": "Worker",
+        "TeamId": "TEAM_2"
+      },
+      {
+        "Id": 525,
+        "Position": {
+          "X": 1,
+          "Y": 2
+        },
+        "Type": "Worker",
+        "TeamId": "TEAM_1"
+      }
     ]
-}
+  }
