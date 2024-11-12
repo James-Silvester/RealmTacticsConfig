@@ -4,6 +4,7 @@ version |   name            |   filename        |   isFile  |   path    |   onUi
 1       |   Medieval        |   medieval        |   0       |   /       |   1       |   /       |   folder      |   0       |   0       |   Simple Medieval Game Mode
 1       |   Medieval War    |   medieval_war    |   0       |   /       |   1       |   /       |   folder      |   0       |   0       |   Simple Medieval Game Mode
 1       |   Remote Land     |   remote-land     |   0       |   /       |   1       |   /       |   folder      |   0       |   0       |   Remote Land Game Mode
+1       |   Shipwrecked     |   shipwrecked     |   0       |   /       |   1       |   /       |   folder      |   0       |   0       |   Shipwrecked Game Mode
 1       |   Advanced Wars   |   advancedWars    |   0       |   /       |   0       |   /       |   folder      |   0       |   0       |   NOT FOR PRODUCTION!
 
 1       |   Back            |   back            |   0       |   /       |   1       |   /       |   back        |   0       |   0       |   Back to the main menu

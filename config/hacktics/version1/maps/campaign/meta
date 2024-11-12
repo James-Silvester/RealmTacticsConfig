@@ -12,3 +12,5 @@ version |   name            |   filename                        |   isFile  |   
 1       |   Intro           |   intro.msg                       |   1       |   /       |   0       |   /           |   message     |   0           |   0       |   Introduction to the Hacktics campaign
 
 1       |   Hacktics Campaign |                                 |   0       |   /       |   0       |   /           |   header      |   0           |   0       |   Test your strategic hacking skills
+
+1       |   Saves           |   saves                           |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Saves
