@@ -6,10 +6,18 @@
             "Name": "Tutorial",
             "Description": "Learn the basics of hacking",
             "MapFile": "tutorial.json",
-            "OnCompletionSet" : {
+            "OnCompletionGlobalSet" : {
                 "TutorialComplete": true
             },
             "UnlockRequirements": {}
+        },
+        {
+            "Name": "Level 0",
+            "Description": "Learn the basics of hacking",
+            "MapFile": "level_0.json",
+            "UnlockRequirements": {
+                "TutorialComplete": true
+            }
         }
     ]
 }
