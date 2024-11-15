@@ -15,4 +15,4 @@ version |   name            |   filename                        |   isFile  |   
 
 1       |   Saves           |   saves                           |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Saves
 
-1       |   Restart Campaign |  restartCampaign                 |   1       |   /       |   1       |   /           |   resetCampaign |  0           |   0       |   Restart the Campaign
+1       |   Restart Campaign |  restartCampaign                 |   0       |   /       |   1       |   /           |   resetCampaign |  0           |   0       |   Restart the Campaign
