@@ -14,3 +14,5 @@ version |   name            |   filename                        |   isFile  |   
 1       |   Hacktics Campaign |                                 |   0       |   /       |   0       |   /           |   header      |   0           |   0       |   Test your strategic hacking skills
 
 1       |   Saves           |   saves                           |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Saves
+
+1       |   Restart Campaign |  restartCampaign                 |   1       |   /       |   0       |   /           |   resetCampaign |  0           |   0       |   Restart the Campaign
