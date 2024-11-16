@@ -20,10 +20,10 @@
             "LowerBound": 0.2,
             "UpperBound": 0.8,
             "EntityCounts": {
-                "Barracks": 2,
-                "Farm": 2,
-                "House": 4,
-                "Quarry": 2
+                "Generator": 2,
+                "Encryption": 2,
+                "Void": 10,
+                "Connector": 10
             }
         },
         {
@@ -32,10 +32,10 @@
             "UpperBound": 0.2,
             "TeamId": "Team 1",
             "EntityCounts": {
-                "Barracks": 1,
-                "Archer": 3,
-                "House": 1,
-                "Knight": 1
+                "Origin": 1,
+                "Worker": 2,
+                "Virus": 2,
+                "DDOS": 1
             }
 
         },
@@ -45,10 +45,10 @@
             "UpperBound": 1.0,
             "TeamId": "Team 2",
             "EntityCounts": {
-                "Barracks": 2,
-                "Archer": 4,
-                "House": 3,
-                "Knight": 2
+                "Origin": 1,
+                "Worker": 4,
+                "Virus": 3,
+                "DDOS": 2
             }
 
         }
