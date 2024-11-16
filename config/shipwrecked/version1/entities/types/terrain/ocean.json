@@ -4,8 +4,8 @@
     "Layer": 1,
     "Sprite": {
         "FilePath": "terrain/ocean.png",
-        "PixelsInBorder": 50,
-        "AddBorderPixels": 5,
+        "PixelsInBorder": 0,
+        "AddBorderPixels": 0,
         "AddBorderColor": "black"
     },
     "Tags": [

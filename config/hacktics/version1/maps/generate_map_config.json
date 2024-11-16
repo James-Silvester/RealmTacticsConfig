@@ -9,10 +9,8 @@
             "Type": "PerlinNoise",
             "NoiseScale": 0.3,
             "EntityRatio": {
-                "Grassland": 1.0,
-                "Forest": 0.3,
-                "Mountain": 0.1,
-                "Rocky": 0.1
+                "Connector": 0.1,
+                "Void": 0.1
             }
         },
         {
@@ -22,8 +20,7 @@
             "EntityCounts": {
                 "Generator": 2,
                 "Encryption": 2,
-                "Void": 10,
-                "Connector": 10
+                "Void": 10
             }
         },
         {
