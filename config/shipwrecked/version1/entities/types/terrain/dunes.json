@@ -1,0 +1,11 @@
+{
+    "Name": "Dunes",
+    "Description": "Dunes",
+    "Sprite": {
+        "FilePath": "terrain/dunes.png"
+    },
+    "Tags": [
+        "Terrain",
+        "Land"
+    ]
+}

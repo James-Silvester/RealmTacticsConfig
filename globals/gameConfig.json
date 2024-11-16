@@ -121,7 +121,8 @@
         "Edit": false,
         "Trigger": false,
         "Save": false,
-        "GenerateMap": false
+        "GenerateMap": false,
+        "CAMPAIGN": false
     },
     "AI": {
         "TrainingMode": false,

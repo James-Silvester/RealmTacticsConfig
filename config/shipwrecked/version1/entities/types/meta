@@ -1,0 +1,24 @@
+version |   name                |   filename            |   isFile  |   path          |   onUi    |   uiPath            |   action    |   subMeta |   env     |   notes
+
+1       |   Dunes Config       |   dunes.json         |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for dunes terrain
+1       |   Dunes ImageFile    |   dunes.png          |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for dunes terrain
+
+1       |   Island Config       |   island.json         |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for island terrain
+1       |   Island ImageFile    |   island.png          |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for island terrain
+
+1       |   Mountain Config    |   mountain.json      |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for mountain terrain
+1       |   Mountain ImageFile |   mountain.png       |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for mountain terrain
+
+1       |   Ocean Config         |   ocean.json           |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for ocean terrain
+1       |   Ocean ImageFile      |   ocean.png            |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for ocean terrain
+
+1       |   Temple Config     |   temple.json       |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for temple terrain
+1       |   Temple ImageFile  |   temple.png        |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for temple terrain
+
+1       |   Whirlpool Config        |   whirlpool.json          |   1       |   /terrain      |   1       |   /terrain          |   -           |   0       |   0       |   Config for whirlpool terrain
+1       |   Whirlpool ImageFile     |   whirlpool.png           |   1       |   /terrain      |   0       |   /terrain          |   -           |   0       |   0       |   Image for whirlpool terrain
+
+
+
+1       |   Ship Config        |   ship.json          |   1       |   /unit         |   1       |   /unit             |   -           |   0       |   0       |   Config for ship unit
+1       |   Ship ImageFile     |   ship.png           |   1       |   /unit         |   0       |   /unit             |   -           |   0       |   0       |   Image for ship unit

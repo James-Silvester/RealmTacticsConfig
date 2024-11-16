@@ -1,0 +1,18 @@
+{
+    "Name": "Temple",
+    "Description": "A holy temple",
+    "Sprite": {
+        "FilePath": "terrain/temple.png"
+    },
+    "Tags": [
+        "Terrain", "TerrainOverlay"
+    ],
+    "Defence": {
+        "DefenceIndicator": "HIGH",
+        "SpecificDefence": [
+            {
+                "Defence": 0.6
+            }
+        ]
+    }
+}

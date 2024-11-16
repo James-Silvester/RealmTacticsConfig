@@ -1,0 +1,11 @@
+{
+    "Name": "TerrainOverlay",
+    "Description": "Additional terrain features",
+    "Defaults": {
+        "Layer": 4,
+        "Selectable": false,
+        "Movement": {
+            "Default": "Static"
+        }
+    }
+}

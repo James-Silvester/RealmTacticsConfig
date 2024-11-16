@@ -1,0 +1,22 @@
+{
+    "Name": "Ocean",
+    "Description": "Ocean",
+    "Layer": 1,
+    "Sprite": {
+        "FilePath": "terrain/ocean.png",
+        "PixelsInBorder": 50,
+        "AddBorderPixels": 5,
+        "AddBorderColor": "black"
+    },
+    "Tags": [
+        "Terrain"
+    ],
+    "Defence": {
+        "DefenceIndicator": "LOW",
+        "SpecificDefence": [
+            {
+                "Defence": 0.1
+            }
+        ]
+    }
+}

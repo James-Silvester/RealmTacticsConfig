@@ -1,0 +1,13 @@
+{
+    "Name": "Land",
+    "Description": "Impassable terrain",
+    "Defaults": {
+        "Layer": 3,
+        "Selectable": false,
+        "Movement": {
+            "OthersTagCost": {
+                "Unit": 999
+            }
+        }
+    }
+}

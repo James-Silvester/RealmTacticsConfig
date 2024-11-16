@@ -1,0 +1,25 @@
+{
+    "Profiles": {
+        "Standard": {
+            "Description": "The standard profile",
+            "Values": {
+                "Modules": {
+                    "Attack": {
+                    },
+                    "Capture": {
+                    },
+                    "Defence": {},
+                    "Purchase": {
+                    }
+                }
+            },
+            "EntityOverrides": {
+                "FunnyEntity": {
+                    "Modules": {
+                        "Attack": {}
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "Name": "Ship",
+    "Description": "Standard ship",
+    "Sprite": {
+        "FilePath": "unit/ship.png"
+    },
+    "Tags": [
+        "Unit"
+    ],
+    "EntityAbility": {
+        "AbilityPoints": 2
+    },
+    "Movement": {
+        "Movement": 5,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 2
+        }
+    },
+    "Defence": {
+        "SelfDefenceIndicator": "LOW",
+        "SelfSpecificDefence": [
+            {
+                "Defence": 0.0
+            }
+        ]
+    },
+    "Attack": {
+        "RangeAttacks": [
+            {
+                "Name": "Main Cannons",
+                "MinRange": 3,
+                "MaxRange": 5,
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 0.4,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "UsesPerTurn": 1,
+                        "EndsTurn": false
+                    }
+                }
+            },
+            {
+                "Name": "Close Quarters",
+                "MinRange": 2,
+                "MaxRange": 2,
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 0.8,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "UsesPerTurn": 1,
+                        "EndsTurn": false
+                    }
+                }
+            }
+        ]
+    }
+}

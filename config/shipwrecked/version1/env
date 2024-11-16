@@ -1,0 +1,9 @@
+version |   key             		        |   value
+1       |   ENTITY_TYPE_CONFIG_FOLDER	    |   config/shipwrecked/version1/entities/types
+1	    |   ENTITY_TAG_CONFIG_FOLDER	    |   config/shipwrecked/version1/entities/tags
+1       |   AI_CONFIG_FILE	                |   config/shipwrecked/version1/ai/aiConfig.json
+1       |   MAP_SET_KEY                     |   shipwrecked/version1
+1       |   MAP_CONFIG_DEFAULTS_FILE        |   config/shipwrecked/version1/maps/map_defaults.json
+1       |   SAVES_DIRECTORY                 |   config/shipwrecked/version1/maps/saves
+1       |   CUSTOM_MAPS_DIRECTORY           |   config/shipwrecked/version1/maps/custom_maps
+1       |   GENERATE_MAP_CONFIG_FILE        |   config/shipwrecked/version1/maps/generate_map_config.json

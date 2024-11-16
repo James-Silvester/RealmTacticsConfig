@@ -1,0 +1,10 @@
+{
+    "Name": "Mountain",
+    "Description": "Base Mountain",
+    "Sprite": {
+        "FilePath": "terrain/mountain.png"
+    },
+    "Tags": [
+        "Terrain", "Land"
+    ]
+}

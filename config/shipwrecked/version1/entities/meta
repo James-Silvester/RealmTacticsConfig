@@ -1,0 +1,5 @@
+version |   name            |   filename        	|   isFile  |   path    |   onUi    |   uiPath  |   action    |   subMeta |   env     |   notes
+1       |   Tags            |   tags            	|   0       |   /       |   1       |   /       |   folder      |   0       |   0       |   Medieval Entity Tags
+1       |   Types           |   types           	|   0       |   /       |   1       |   /       |   folder      |   0       |   0       |   Medieval Entity Types
+1       |   meta            |   meta            	|   1       |   /tags   |   0       |   /       |   -           |   1       |   0       |   Entity tags meta file
+1       |   meta            |   meta            	|   1       |   /types  |   0       |   /       |   -           |   1       |   0       |   Entity types meta file

@@ -1,0 +1,11 @@
+{
+    "Name": "Terrain",
+    "Description": "Static terrain",
+    "Defaults": {
+        "Layer": 3,
+        "Selectable": false,
+        "Movement": {
+            "Default": "Static"
+        }
+    }
+}

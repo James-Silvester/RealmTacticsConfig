@@ -1,0 +1,24 @@
+{
+    "Name": "Island",
+    "Description": "Island",
+    "Layer": 1,
+    "Sprite": {
+        "FilePath": "terrain/island.png"
+    },
+    "Tags": [
+        "Terrain"
+    ],
+    "Defence": {
+        "DefenceIndicator": "HIGH",
+        "SpecificDefence": [
+            {
+                "Defence": 0.5
+            }
+        ]
+    },
+    "Movement": {
+        "OthersTagCost": {
+            "Unit": 1
+        }
+    }
+}

@@ -1,0 +1,3 @@
+version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   action    |   subMeta     |   env     |   notes
+1       |   Create New Map  |   createMap                       |   0       |   /       |   1       |   /           |   createMap   |   0           |   0     |   Shipwrecked Create Map
+1       |   Generate New Map |  generateMap                     |   0       |   /       |   1       |   /           |   generateCreateMap | 0     |   0       |   Shipwrecked Generate Map

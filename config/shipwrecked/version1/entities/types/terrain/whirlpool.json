@@ -1,0 +1,23 @@
+{
+    "Name": "Whirlpool",
+    "Description": "Hazardous Whirlpool",
+    "Sprite": {
+        "FilePath": "terrain/whirlpool.png"
+    },
+    "Tags": [
+        "Terrain", "TerrainOverlay"
+    ],
+    "Defence": {
+        "DefenceIndicator": "NONE",
+        "SpecificDefence": [
+            {
+                "Defence": 0
+            }
+        ]
+    },
+    "Movement": {
+        "OthersTagCost": {
+            "Unit": 3
+        }
+    }
+}
