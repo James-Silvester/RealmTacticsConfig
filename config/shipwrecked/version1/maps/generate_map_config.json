@@ -9,10 +9,8 @@
             "Type": "PerlinNoise",
             "NoiseScale": 0.3,
             "EntityRatio": {
-                "Grassland": 1.0,
-                "Forest": 0.3,
-                "Mountain": 0.1,
-                "Rocky": 0.1
+                "Ocean": 1.0,
+                "Dunes": 0.2
             }
         },
         {
@@ -20,10 +18,7 @@
             "LowerBound": 0.2,
             "UpperBound": 0.8,
             "EntityCounts": {
-                "Barracks": 2,
-                "Farm": 2,
-                "House": 4,
-                "Quarry": 2
+                "Whirlpool": 10
             }
         },
         {
@@ -32,10 +27,8 @@
             "UpperBound": 0.2,
             "TeamId": "Team 1",
             "EntityCounts": {
-                "Barracks": 1,
-                "Archer": 3,
-                "House": 1,
-                "Knight": 1
+                "Ship": 5,
+                "Temple": 1
             }
 
         },
@@ -45,10 +38,8 @@
             "UpperBound": 1.0,
             "TeamId": "Team 2",
             "EntityCounts": {
-                "Barracks": 2,
-                "Archer": 4,
-                "House": 3,
-                "Knight": 2
+                "Ship": 5,
+                "Temple": 1
             }
 
         }
