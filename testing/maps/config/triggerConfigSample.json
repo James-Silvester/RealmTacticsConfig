@@ -144,7 +144,6 @@
       ]
     },
     {
-      "Id": 2,
       "Conditions": [
         {
           "Type": "TURN_NUMBER",
