@@ -41,7 +41,6 @@
         },
         {
             "Name": "Condition2",
-            "Id": 0,
             "Conditions": [
                 {
                     "Type": "OTHERS_TRIGGERED",

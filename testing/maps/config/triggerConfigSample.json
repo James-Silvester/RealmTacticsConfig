@@ -76,7 +76,6 @@
   },
   "Triggers": [
     {
-      "Id": 1,
       "Name": "Condition1",
       "Enabled": true,
       "Conditions": [
