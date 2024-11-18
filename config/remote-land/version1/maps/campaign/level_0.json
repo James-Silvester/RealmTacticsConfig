@@ -1,18 +1,4151 @@
 {
-    "Width": 8,
-    "Height": 6,
+    "Version": 1,
+    "ImportedDefaults": true,
+    "Width": 15,
+    "Height": 15,
+    "CursorStartingX": 1,
+    "CursorStartingY": 1,
+    "CameraStartingX": 0,
+    "CameraStartingY": 0,
+    "TeamsConfig": {
+        "NumberOfTeams": 2,
+        "StartingTeam": "TEAM_1",
+        "TurnNumber": 1,
+        "ActiveTeams": [
+            "TEAM_1",
+            "TEAM_2"
+        ],
+        "TeamConfig": [
+            {
+                "TeamId": "TEAM_1",
+                "TeamEntity": "PLAYER"
+            },
+            {
+                "TeamId": "TEAM_2",
+                "TeamEntity": "AI_DEFAULT"
+            }
+        ]
+    },
     "EntityConfig": [
-        {   "EntityString": "Palisade|1,2"          },
-        {   "EntityString": "Palisade|1,3"          },
-        {   "EntityString": "Palisade|1,4"          },
-
-        {   "EntityString": "River|4,3"             },
-        {   "EntityString": "River|4,4"             },
-        {   "EntityString": "River|4,5"             },
-
-        {   "EntityString": "Hill|2,4"              },
-
-        {   "EntityString": "TEAM_1|Spearman|1,1"   },
-        {   "EntityString": "TEAM_2|Spearman|6,4"   }
+        {
+            "Id": 1,
+            "Position": {
+                "X": 0,
+                "Y": 0
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 2,
+            "Position": {
+                "X": 0,
+                "Y": 1
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 3,
+            "Position": {
+                "X": 0,
+                "Y": 2
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 4,
+            "Position": {
+                "X": 0,
+                "Y": 3
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 5,
+            "Position": {
+                "X": 0,
+                "Y": 4
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 6,
+            "Position": {
+                "X": 0,
+                "Y": 5
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 7,
+            "Position": {
+                "X": 0,
+                "Y": 6
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 8,
+            "Position": {
+                "X": 0,
+                "Y": 7
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 9,
+            "Position": {
+                "X": 0,
+                "Y": 8
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 10,
+            "Position": {
+                "X": 0,
+                "Y": 9
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 11,
+            "Position": {
+                "X": 0,
+                "Y": 10
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 12,
+            "Position": {
+                "X": 0,
+                "Y": 11
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 13,
+            "Position": {
+                "X": 0,
+                "Y": 12
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 14,
+            "Position": {
+                "X": 0,
+                "Y": 13
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 15,
+            "Position": {
+                "X": 0,
+                "Y": 14
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 16,
+            "Position": {
+                "X": 1,
+                "Y": 0
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 17,
+            "Position": {
+                "X": 1,
+                "Y": 1
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 18,
+            "Position": {
+                "X": 1,
+                "Y": 2
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 19,
+            "Position": {
+                "X": 1,
+                "Y": 3
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 20,
+            "Position": {
+                "X": 1,
+                "Y": 4
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 21,
+            "Position": {
+                "X": 1,
+                "Y": 5
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 22,
+            "Position": {
+                "X": 1,
+                "Y": 6
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 23,
+            "Position": {
+                "X": 1,
+                "Y": 7
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 24,
+            "Position": {
+                "X": 1,
+                "Y": 8
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 25,
+            "Position": {
+                "X": 1,
+                "Y": 9
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 26,
+            "Position": {
+                "X": 1,
+                "Y": 10
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 27,
+            "Position": {
+                "X": 1,
+                "Y": 11
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 28,
+            "Position": {
+                "X": 1,
+                "Y": 12
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 29,
+            "Position": {
+                "X": 1,
+                "Y": 13
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 30,
+            "Position": {
+                "X": 1,
+                "Y": 14
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 31,
+            "Position": {
+                "X": 2,
+                "Y": 0
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 32,
+            "Position": {
+                "X": 2,
+                "Y": 1
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 33,
+            "Position": {
+                "X": 2,
+                "Y": 2
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 34,
+            "Position": {
+                "X": 2,
+                "Y": 3
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 35,
+            "Position": {
+                "X": 2,
+                "Y": 4
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 36,
+            "Position": {
+                "X": 2,
+                "Y": 5
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 37,
+            "Position": {
+                "X": 2,
+                "Y": 6
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 38,
+            "Position": {
+                "X": 2,
+                "Y": 7
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 39,
+            "Position": {
+                "X": 2,
+                "Y": 8
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 40,
+            "Position": {
+                "X": 2,
+                "Y": 9
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 41,
+            "Position": {
+                "X": 2,
+                "Y": 10
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 42,
+            "Position": {
+                "X": 2,
+                "Y": 11
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 43,
+            "Position": {
+                "X": 2,
+                "Y": 12
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 44,
+            "Position": {
+                "X": 2,
+                "Y": 13
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 45,
+            "Position": {
+                "X": 2,
+                "Y": 14
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 46,
+            "Position": {
+                "X": 3,
+                "Y": 0
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 47,
+            "Position": {
+                "X": 3,
+                "Y": 1
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 48,
+            "Position": {
+                "X": 3,
+                "Y": 2
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 49,
+            "Position": {
+                "X": 3,
+                "Y": 3
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 50,
+            "Position": {
+                "X": 3,
+                "Y": 4
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 51,
+            "Position": {
+                "X": 3,
+                "Y": 5
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 52,
+            "Position": {
+                "X": 3,
+                "Y": 6
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 53,
+            "Position": {
+                "X": 3,
+                "Y": 7
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 54,
+            "Position": {
+                "X": 3,
+                "Y": 8
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 55,
+            "Position": {
+                "X": 3,
+                "Y": 9
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 56,
+            "Position": {
+                "X": 3,
+                "Y": 10
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 57,
+            "Position": {
+                "X": 3,
+                "Y": 11
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 58,
+            "Position": {
+                "X": 3,
+                "Y": 12
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 59,
+            "Position": {
+                "X": 3,
+                "Y": 13
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 60,
+            "Position": {
+                "X": 3,
+                "Y": 14
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 61,
+            "Position": {
+                "X": 4,
+                "Y": 0
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 62,
+            "Position": {
+                "X": 4,
+                "Y": 1
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 63,
+            "Position": {
+                "X": 4,
+                "Y": 2
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 64,
+            "Position": {
+                "X": 4,
+                "Y": 3
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 65,
+            "Position": {
+                "X": 4,
+                "Y": 4
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 66,
+            "Position": {
+                "X": 4,
+                "Y": 5
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 67,
+            "Position": {
+                "X": 4,
+                "Y": 6
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 68,
+            "Position": {
+                "X": 4,
+                "Y": 7
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 69,
+            "Position": {
+                "X": 4,
+                "Y": 8
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 70,
+            "Position": {
+                "X": 4,
+                "Y": 9
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 71,
+            "Position": {
+                "X": 4,
+                "Y": 10
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 72,
+            "Position": {
+                "X": 4,
+                "Y": 11
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 73,
+            "Position": {
+                "X": 4,
+                "Y": 12
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 74,
+            "Position": {
+                "X": 4,
+                "Y": 13
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 75,
+            "Position": {
+                "X": 4,
+                "Y": 14
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 76,
+            "Position": {
+                "X": 5,
+                "Y": 0
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 77,
+            "Position": {
+                "X": 5,
+                "Y": 1
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 78,
+            "Position": {
+                "X": 5,
+                "Y": 2
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 79,
+            "Position": {
+                "X": 5,
+                "Y": 3
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 80,
+            "Position": {
+                "X": 5,
+                "Y": 4
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 81,
+            "Position": {
+                "X": 5,
+                "Y": 5
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 82,
+            "Position": {
+                "X": 5,
+                "Y": 6
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 83,
+            "Position": {
+                "X": 5,
+                "Y": 7
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 84,
+            "Position": {
+                "X": 5,
+                "Y": 8
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 85,
+            "Position": {
+                "X": 5,
+                "Y": 9
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 86,
+            "Position": {
+                "X": 5,
+                "Y": 10
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 87,
+            "Position": {
+                "X": 5,
+                "Y": 11
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 88,
+            "Position": {
+                "X": 5,
+                "Y": 12
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 89,
+            "Position": {
+                "X": 5,
+                "Y": 13
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 90,
+            "Position": {
+                "X": 5,
+                "Y": 14
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 91,
+            "Position": {
+                "X": 6,
+                "Y": 0
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 92,
+            "Position": {
+                "X": 6,
+                "Y": 1
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 93,
+            "Position": {
+                "X": 6,
+                "Y": 2
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 94,
+            "Position": {
+                "X": 6,
+                "Y": 3
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 95,
+            "Position": {
+                "X": 6,
+                "Y": 4
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 96,
+            "Position": {
+                "X": 6,
+                "Y": 5
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 97,
+            "Position": {
+                "X": 6,
+                "Y": 6
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 98,
+            "Position": {
+                "X": 6,
+                "Y": 7
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 99,
+            "Position": {
+                "X": 6,
+                "Y": 8
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 100,
+            "Position": {
+                "X": 6,
+                "Y": 9
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 101,
+            "Position": {
+                "X": 6,
+                "Y": 10
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 102,
+            "Position": {
+                "X": 6,
+                "Y": 11
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 103,
+            "Position": {
+                "X": 6,
+                "Y": 12
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 104,
+            "Position": {
+                "X": 6,
+                "Y": 13
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 105,
+            "Position": {
+                "X": 6,
+                "Y": 14
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 106,
+            "Position": {
+                "X": 7,
+                "Y": 0
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 107,
+            "Position": {
+                "X": 7,
+                "Y": 1
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 108,
+            "Position": {
+                "X": 7,
+                "Y": 2
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 109,
+            "Position": {
+                "X": 7,
+                "Y": 3
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 110,
+            "Position": {
+                "X": 7,
+                "Y": 4
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 111,
+            "Position": {
+                "X": 7,
+                "Y": 5
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 112,
+            "Position": {
+                "X": 7,
+                "Y": 6
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 113,
+            "Position": {
+                "X": 7,
+                "Y": 7
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 114,
+            "Position": {
+                "X": 7,
+                "Y": 8
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 115,
+            "Position": {
+                "X": 7,
+                "Y": 9
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 116,
+            "Position": {
+                "X": 7,
+                "Y": 10
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 117,
+            "Position": {
+                "X": 7,
+                "Y": 11
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 118,
+            "Position": {
+                "X": 7,
+                "Y": 12
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 119,
+            "Position": {
+                "X": 7,
+                "Y": 13
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 120,
+            "Position": {
+                "X": 7,
+                "Y": 14
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 121,
+            "Position": {
+                "X": 8,
+                "Y": 0
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 122,
+            "Position": {
+                "X": 8,
+                "Y": 1
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 123,
+            "Position": {
+                "X": 8,
+                "Y": 2
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 124,
+            "Position": {
+                "X": 8,
+                "Y": 3
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 125,
+            "Position": {
+                "X": 8,
+                "Y": 4
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 126,
+            "Position": {
+                "X": 8,
+                "Y": 5
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 127,
+            "Position": {
+                "X": 8,
+                "Y": 6
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 128,
+            "Position": {
+                "X": 8,
+                "Y": 7
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 129,
+            "Position": {
+                "X": 8,
+                "Y": 8
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 130,
+            "Position": {
+                "X": 8,
+                "Y": 9
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 131,
+            "Position": {
+                "X": 8,
+                "Y": 10
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 132,
+            "Position": {
+                "X": 8,
+                "Y": 11
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 133,
+            "Position": {
+                "X": 8,
+                "Y": 12
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 134,
+            "Position": {
+                "X": 8,
+                "Y": 13
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 135,
+            "Position": {
+                "X": 8,
+                "Y": 14
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 136,
+            "Position": {
+                "X": 9,
+                "Y": 0
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 137,
+            "Position": {
+                "X": 9,
+                "Y": 1
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 138,
+            "Position": {
+                "X": 9,
+                "Y": 2
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 139,
+            "Position": {
+                "X": 9,
+                "Y": 3
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 140,
+            "Position": {
+                "X": 9,
+                "Y": 4
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 141,
+            "Position": {
+                "X": 9,
+                "Y": 5
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 142,
+            "Position": {
+                "X": 9,
+                "Y": 6
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 143,
+            "Position": {
+                "X": 9,
+                "Y": 7
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 144,
+            "Position": {
+                "X": 9,
+                "Y": 8
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 145,
+            "Position": {
+                "X": 9,
+                "Y": 9
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 146,
+            "Position": {
+                "X": 9,
+                "Y": 10
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 147,
+            "Position": {
+                "X": 9,
+                "Y": 11
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 148,
+            "Position": {
+                "X": 9,
+                "Y": 12
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 149,
+            "Position": {
+                "X": 9,
+                "Y": 13
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 150,
+            "Position": {
+                "X": 9,
+                "Y": 14
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 151,
+            "Position": {
+                "X": 10,
+                "Y": 0
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 152,
+            "Position": {
+                "X": 10,
+                "Y": 1
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 153,
+            "Position": {
+                "X": 10,
+                "Y": 2
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 154,
+            "Position": {
+                "X": 10,
+                "Y": 3
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 155,
+            "Position": {
+                "X": 10,
+                "Y": 4
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 156,
+            "Position": {
+                "X": 10,
+                "Y": 5
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 157,
+            "Position": {
+                "X": 10,
+                "Y": 6
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 158,
+            "Position": {
+                "X": 10,
+                "Y": 7
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 159,
+            "Position": {
+                "X": 10,
+                "Y": 8
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 160,
+            "Position": {
+                "X": 10,
+                "Y": 9
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 161,
+            "Position": {
+                "X": 10,
+                "Y": 10
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 162,
+            "Position": {
+                "X": 10,
+                "Y": 11
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 163,
+            "Position": {
+                "X": 10,
+                "Y": 12
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 164,
+            "Position": {
+                "X": 10,
+                "Y": 13
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 165,
+            "Position": {
+                "X": 10,
+                "Y": 14
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 166,
+            "Position": {
+                "X": 11,
+                "Y": 0
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 167,
+            "Position": {
+                "X": 11,
+                "Y": 1
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 168,
+            "Position": {
+                "X": 11,
+                "Y": 2
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 169,
+            "Position": {
+                "X": 11,
+                "Y": 3
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 170,
+            "Position": {
+                "X": 11,
+                "Y": 4
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 171,
+            "Position": {
+                "X": 11,
+                "Y": 5
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 172,
+            "Position": {
+                "X": 11,
+                "Y": 6
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 173,
+            "Position": {
+                "X": 11,
+                "Y": 7
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 174,
+            "Position": {
+                "X": 11,
+                "Y": 8
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 175,
+            "Position": {
+                "X": 11,
+                "Y": 9
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 176,
+            "Position": {
+                "X": 11,
+                "Y": 10
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 177,
+            "Position": {
+                "X": 11,
+                "Y": 11
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 178,
+            "Position": {
+                "X": 11,
+                "Y": 12
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 179,
+            "Position": {
+                "X": 11,
+                "Y": 13
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 180,
+            "Position": {
+                "X": 11,
+                "Y": 14
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 181,
+            "Position": {
+                "X": 12,
+                "Y": 0
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 182,
+            "Position": {
+                "X": 12,
+                "Y": 1
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 183,
+            "Position": {
+                "X": 12,
+                "Y": 2
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 184,
+            "Position": {
+                "X": 12,
+                "Y": 3
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 185,
+            "Position": {
+                "X": 12,
+                "Y": 4
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 186,
+            "Position": {
+                "X": 12,
+                "Y": 5
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 187,
+            "Position": {
+                "X": 12,
+                "Y": 6
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 188,
+            "Position": {
+                "X": 12,
+                "Y": 7
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 189,
+            "Position": {
+                "X": 12,
+                "Y": 8
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 190,
+            "Position": {
+                "X": 12,
+                "Y": 9
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 191,
+            "Position": {
+                "X": 12,
+                "Y": 10
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 192,
+            "Position": {
+                "X": 12,
+                "Y": 11
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 193,
+            "Position": {
+                "X": 12,
+                "Y": 12
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 194,
+            "Position": {
+                "X": 12,
+                "Y": 13
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 195,
+            "Position": {
+                "X": 12,
+                "Y": 14
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 196,
+            "Position": {
+                "X": 13,
+                "Y": 0
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 197,
+            "Position": {
+                "X": 13,
+                "Y": 1
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 198,
+            "Position": {
+                "X": 13,
+                "Y": 2
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 199,
+            "Position": {
+                "X": 13,
+                "Y": 3
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 200,
+            "Position": {
+                "X": 13,
+                "Y": 4
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 201,
+            "Position": {
+                "X": 13,
+                "Y": 5
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 202,
+            "Position": {
+                "X": 13,
+                "Y": 6
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 203,
+            "Position": {
+                "X": 13,
+                "Y": 7
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 204,
+            "Position": {
+                "X": 13,
+                "Y": 8
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 205,
+            "Position": {
+                "X": 13,
+                "Y": 9
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 206,
+            "Position": {
+                "X": 13,
+                "Y": 10
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 207,
+            "Position": {
+                "X": 13,
+                "Y": 11
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 208,
+            "Position": {
+                "X": 13,
+                "Y": 12
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 209,
+            "Position": {
+                "X": 13,
+                "Y": 13
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 210,
+            "Position": {
+                "X": 13,
+                "Y": 14
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 211,
+            "Position": {
+                "X": 14,
+                "Y": 0
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 212,
+            "Position": {
+                "X": 14,
+                "Y": 1
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 213,
+            "Position": {
+                "X": 14,
+                "Y": 2
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 214,
+            "Position": {
+                "X": 14,
+                "Y": 3
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 215,
+            "Position": {
+                "X": 14,
+                "Y": 4
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 216,
+            "Position": {
+                "X": 14,
+                "Y": 5
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 217,
+            "Position": {
+                "X": 14,
+                "Y": 6
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 218,
+            "Position": {
+                "X": 14,
+                "Y": 7
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 219,
+            "Position": {
+                "X": 14,
+                "Y": 8
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 220,
+            "Position": {
+                "X": 14,
+                "Y": 9
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 221,
+            "Position": {
+                "X": 14,
+                "Y": 10
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 222,
+            "Position": {
+                "X": 14,
+                "Y": 11
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 223,
+            "Position": {
+                "X": 14,
+                "Y": 12
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 224,
+            "Position": {
+                "X": 14,
+                "Y": 13
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 225,
+            "Position": {
+                "X": 14,
+                "Y": 14
+            },
+            "Type": "Grassland",
+            "Destroyed": true
+        },
+        {
+            "Id": 226,
+            "Position": {
+                "X": 0,
+                "Y": 0
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 227,
+            "Position": {
+                "X": 0,
+                "Y": 1
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 228,
+            "Position": {
+                "X": 0,
+                "Y": 2
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 229,
+            "Position": {
+                "X": 0,
+                "Y": 3
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 230,
+            "Position": {
+                "X": 0,
+                "Y": 4
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 231,
+            "Position": {
+                "X": 0,
+                "Y": 4
+            },
+            "Type": "Knight",
+            "TeamId": "TEAM_1"
+        },
+        {
+            "Id": 232,
+            "Position": {
+                "X": 0,
+                "Y": 5
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 233,
+            "Position": {
+                "X": 0,
+                "Y": 5
+            },
+            "Type": "Archer",
+            "TeamId": "TEAM_1"
+        },
+        {
+            "Id": 234,
+            "Position": {
+                "X": 0,
+                "Y": 6
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 235,
+            "Position": {
+                "X": 0,
+                "Y": 7
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 236,
+            "Position": {
+                "X": 0,
+                "Y": 7
+            },
+            "Type": "House"
+        },
+        {
+            "Id": 237,
+            "Position": {
+                "X": 0,
+                "Y": 8
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 238,
+            "Position": {
+                "X": 0,
+                "Y": 9
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 239,
+            "Position": {
+                "X": 0,
+                "Y": 10
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 240,
+            "Position": {
+                "X": 0,
+                "Y": 10
+            },
+            "Type": "House"
+        },
+        {
+            "Id": 241,
+            "Position": {
+                "X": 0,
+                "Y": 11
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 242,
+            "Position": {
+                "X": 0,
+                "Y": 12
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 243,
+            "Position": {
+                "X": 0,
+                "Y": 13
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 244,
+            "Position": {
+                "X": 0,
+                "Y": 14
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 245,
+            "Position": {
+                "X": 1,
+                "Y": 0
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 246,
+            "Position": {
+                "X": 1,
+                "Y": 1
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 247,
+            "Position": {
+                "X": 1,
+                "Y": 2
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 248,
+            "Position": {
+                "X": 1,
+                "Y": 3
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 249,
+            "Position": {
+                "X": 1,
+                "Y": 3
+            },
+            "Type": "Archer",
+            "TeamId": "TEAM_1"
+        },
+        {
+            "Id": 250,
+            "Position": {
+                "X": 1,
+                "Y": 4
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 251,
+            "Position": {
+                "X": 1,
+                "Y": 5
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 252,
+            "Position": {
+                "X": 1,
+                "Y": 6
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 253,
+            "Position": {
+                "X": 1,
+                "Y": 7
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 254,
+            "Position": {
+                "X": 1,
+                "Y": 8
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 255,
+            "Position": {
+                "X": 1,
+                "Y": 9
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 256,
+            "Position": {
+                "X": 1,
+                "Y": 10
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 257,
+            "Position": {
+                "X": 1,
+                "Y": 11
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 258,
+            "Position": {
+                "X": 1,
+                "Y": 11
+            },
+            "Type": "House"
+        },
+        {
+            "Id": 259,
+            "Position": {
+                "X": 1,
+                "Y": 12
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 260,
+            "Position": {
+                "X": 1,
+                "Y": 13
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 261,
+            "Position": {
+                "X": 1,
+                "Y": 14
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 262,
+            "Position": {
+                "X": 2,
+                "Y": 0
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 263,
+            "Position": {
+                "X": 2,
+                "Y": 1
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 264,
+            "Position": {
+                "X": 2,
+                "Y": 2
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 265,
+            "Position": {
+                "X": 2,
+                "Y": 2
+            },
+            "Type": "Barracks",
+            "TeamId": "TEAM_1"
+        },
+        {
+            "Id": 266,
+            "Position": {
+                "X": 2,
+                "Y": 3
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 267,
+            "Position": {
+                "X": 2,
+                "Y": 3
+            },
+            "Type": "Archer",
+            "TeamId": "TEAM_1"
+        },
+        {
+            "Id": 268,
+            "Position": {
+                "X": 2,
+                "Y": 4
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 269,
+            "Position": {
+                "X": 2,
+                "Y": 5
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 270,
+            "Position": {
+                "X": 2,
+                "Y": 6
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 271,
+            "Position": {
+                "X": 2,
+                "Y": 7
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 272,
+            "Position": {
+                "X": 2,
+                "Y": 8
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 273,
+            "Position": {
+                "X": 2,
+                "Y": 9
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 274,
+            "Position": {
+                "X": 2,
+                "Y": 10
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 275,
+            "Position": {
+                "X": 2,
+                "Y": 11
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 276,
+            "Position": {
+                "X": 2,
+                "Y": 12
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 277,
+            "Position": {
+                "X": 2,
+                "Y": 13
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 278,
+            "Position": {
+                "X": 2,
+                "Y": 14
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 279,
+            "Position": {
+                "X": 3,
+                "Y": 0
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 280,
+            "Position": {
+                "X": 3,
+                "Y": 1
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 281,
+            "Position": {
+                "X": 3,
+                "Y": 2
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 282,
+            "Position": {
+                "X": 3,
+                "Y": 2
+            },
+            "Type": "Quarry"
+        },
+        {
+            "Id": 283,
+            "Position": {
+                "X": 3,
+                "Y": 3
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 284,
+            "Position": {
+                "X": 3,
+                "Y": 4
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 285,
+            "Position": {
+                "X": 3,
+                "Y": 5
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 286,
+            "Position": {
+                "X": 3,
+                "Y": 5
+            },
+            "Type": "Barracks"
+        },
+        {
+            "Id": 287,
+            "Position": {
+                "X": 3,
+                "Y": 6
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 288,
+            "Position": {
+                "X": 3,
+                "Y": 7
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 289,
+            "Position": {
+                "X": 3,
+                "Y": 8
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 290,
+            "Position": {
+                "X": 3,
+                "Y": 9
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 291,
+            "Position": {
+                "X": 3,
+                "Y": 10
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 292,
+            "Position": {
+                "X": 3,
+                "Y": 11
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 293,
+            "Position": {
+                "X": 3,
+                "Y": 12
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 294,
+            "Position": {
+                "X": 3,
+                "Y": 13
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 295,
+            "Position": {
+                "X": 3,
+                "Y": 14
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 296,
+            "Position": {
+                "X": 4,
+                "Y": 0
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 297,
+            "Position": {
+                "X": 4,
+                "Y": 1
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 298,
+            "Position": {
+                "X": 4,
+                "Y": 2
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 299,
+            "Position": {
+                "X": 4,
+                "Y": 3
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 300,
+            "Position": {
+                "X": 4,
+                "Y": 4
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 301,
+            "Position": {
+                "X": 4,
+                "Y": 5
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 302,
+            "Position": {
+                "X": 4,
+                "Y": 6
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 303,
+            "Position": {
+                "X": 4,
+                "Y": 7
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 304,
+            "Position": {
+                "X": 4,
+                "Y": 8
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 305,
+            "Position": {
+                "X": 4,
+                "Y": 9
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 306,
+            "Position": {
+                "X": 4,
+                "Y": 10
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 307,
+            "Position": {
+                "X": 4,
+                "Y": 11
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 308,
+            "Position": {
+                "X": 4,
+                "Y": 12
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 309,
+            "Position": {
+                "X": 4,
+                "Y": 13
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 310,
+            "Position": {
+                "X": 4,
+                "Y": 14
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 311,
+            "Position": {
+                "X": 4,
+                "Y": 14
+            },
+            "Type": "Farm"
+        },
+        {
+            "Id": 312,
+            "Position": {
+                "X": 5,
+                "Y": 0
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 313,
+            "Position": {
+                "X": 5,
+                "Y": 0
+            },
+            "Type": "House",
+            "TeamId": "TEAM_1"
+        },
+        {
+            "Id": 314,
+            "Position": {
+                "X": 5,
+                "Y": 1
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 315,
+            "Position": {
+                "X": 5,
+                "Y": 2
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 316,
+            "Position": {
+                "X": 5,
+                "Y": 3
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 317,
+            "Position": {
+                "X": 5,
+                "Y": 4
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 318,
+            "Position": {
+                "X": 5,
+                "Y": 5
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 319,
+            "Position": {
+                "X": 5,
+                "Y": 6
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 320,
+            "Position": {
+                "X": 5,
+                "Y": 7
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 321,
+            "Position": {
+                "X": 5,
+                "Y": 8
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 322,
+            "Position": {
+                "X": 5,
+                "Y": 9
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 323,
+            "Position": {
+                "X": 5,
+                "Y": 10
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 324,
+            "Position": {
+                "X": 5,
+                "Y": 11
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 325,
+            "Position": {
+                "X": 5,
+                "Y": 12
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 326,
+            "Position": {
+                "X": 5,
+                "Y": 13
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 327,
+            "Position": {
+                "X": 5,
+                "Y": 14
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 328,
+            "Position": {
+                "X": 6,
+                "Y": 0
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 329,
+            "Position": {
+                "X": 6,
+                "Y": 1
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 330,
+            "Position": {
+                "X": 6,
+                "Y": 2
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 331,
+            "Position": {
+                "X": 6,
+                "Y": 2
+            },
+            "Type": "Farm"
+        },
+        {
+            "Id": 332,
+            "Position": {
+                "X": 6,
+                "Y": 3
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 333,
+            "Position": {
+                "X": 6,
+                "Y": 4
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 334,
+            "Position": {
+                "X": 6,
+                "Y": 5
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 335,
+            "Position": {
+                "X": 6,
+                "Y": 6
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 336,
+            "Position": {
+                "X": 6,
+                "Y": 7
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 337,
+            "Position": {
+                "X": 6,
+                "Y": 8
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 338,
+            "Position": {
+                "X": 6,
+                "Y": 9
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 339,
+            "Position": {
+                "X": 6,
+                "Y": 10
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 340,
+            "Position": {
+                "X": 6,
+                "Y": 11
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 341,
+            "Position": {
+                "X": 6,
+                "Y": 12
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 342,
+            "Position": {
+                "X": 6,
+                "Y": 13
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 343,
+            "Position": {
+                "X": 6,
+                "Y": 14
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 344,
+            "Position": {
+                "X": 7,
+                "Y": 0
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 345,
+            "Position": {
+                "X": 7,
+                "Y": 1
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 346,
+            "Position": {
+                "X": 7,
+                "Y": 2
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 347,
+            "Position": {
+                "X": 7,
+                "Y": 3
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 348,
+            "Position": {
+                "X": 7,
+                "Y": 4
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 349,
+            "Position": {
+                "X": 7,
+                "Y": 5
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 350,
+            "Position": {
+                "X": 7,
+                "Y": 6
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 351,
+            "Position": {
+                "X": 7,
+                "Y": 7
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 352,
+            "Position": {
+                "X": 7,
+                "Y": 8
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 353,
+            "Position": {
+                "X": 7,
+                "Y": 9
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 354,
+            "Position": {
+                "X": 7,
+                "Y": 10
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 355,
+            "Position": {
+                "X": 7,
+                "Y": 11
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 356,
+            "Position": {
+                "X": 7,
+                "Y": 12
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 357,
+            "Position": {
+                "X": 7,
+                "Y": 13
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 358,
+            "Position": {
+                "X": 7,
+                "Y": 14
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 359,
+            "Position": {
+                "X": 8,
+                "Y": 0
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 360,
+            "Position": {
+                "X": 8,
+                "Y": 1
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 361,
+            "Position": {
+                "X": 8,
+                "Y": 2
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 362,
+            "Position": {
+                "X": 8,
+                "Y": 3
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 363,
+            "Position": {
+                "X": 8,
+                "Y": 4
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 364,
+            "Position": {
+                "X": 8,
+                "Y": 5
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 365,
+            "Position": {
+                "X": 8,
+                "Y": 6
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 366,
+            "Position": {
+                "X": 8,
+                "Y": 7
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 367,
+            "Position": {
+                "X": 8,
+                "Y": 8
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 368,
+            "Position": {
+                "X": 8,
+                "Y": 9
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 369,
+            "Position": {
+                "X": 8,
+                "Y": 10
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 370,
+            "Position": {
+                "X": 8,
+                "Y": 11
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 371,
+            "Position": {
+                "X": 8,
+                "Y": 12
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 372,
+            "Position": {
+                "X": 8,
+                "Y": 13
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 373,
+            "Position": {
+                "X": 8,
+                "Y": 14
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 374,
+            "Position": {
+                "X": 9,
+                "Y": 0
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 375,
+            "Position": {
+                "X": 9,
+                "Y": 1
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 376,
+            "Position": {
+                "X": 9,
+                "Y": 2
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 377,
+            "Position": {
+                "X": 9,
+                "Y": 3
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 378,
+            "Position": {
+                "X": 9,
+                "Y": 4
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 379,
+            "Position": {
+                "X": 9,
+                "Y": 5
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 380,
+            "Position": {
+                "X": 9,
+                "Y": 6
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 381,
+            "Position": {
+                "X": 9,
+                "Y": 7
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 382,
+            "Position": {
+                "X": 9,
+                "Y": 8
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 383,
+            "Position": {
+                "X": 9,
+                "Y": 9
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 384,
+            "Position": {
+                "X": 9,
+                "Y": 9
+            },
+            "Type": "Quarry"
+        },
+        {
+            "Id": 385,
+            "Position": {
+                "X": 9,
+                "Y": 10
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 386,
+            "Position": {
+                "X": 9,
+                "Y": 11
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 387,
+            "Position": {
+                "X": 9,
+                "Y": 12
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 388,
+            "Position": {
+                "X": 9,
+                "Y": 13
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 389,
+            "Position": {
+                "X": 9,
+                "Y": 13
+            },
+            "Type": "House",
+            "TeamId": "TEAM_2"
+        },
+        {
+            "Id": 390,
+            "Position": {
+                "X": 9,
+                "Y": 14
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 391,
+            "Position": {
+                "X": 9,
+                "Y": 14
+            },
+            "Type": "Archer",
+            "TeamId": "TEAM_2"
+        },
+        {
+            "Id": 392,
+            "Position": {
+                "X": 10,
+                "Y": 0
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 393,
+            "Position": {
+                "X": 10,
+                "Y": 1
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 394,
+            "Position": {
+                "X": 10,
+                "Y": 2
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 395,
+            "Position": {
+                "X": 10,
+                "Y": 3
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 396,
+            "Position": {
+                "X": 10,
+                "Y": 3
+            },
+            "Type": "Barracks"
+        },
+        {
+            "Id": 397,
+            "Position": {
+                "X": 10,
+                "Y": 4
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 398,
+            "Position": {
+                "X": 10,
+                "Y": 5
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 399,
+            "Position": {
+                "X": 10,
+                "Y": 6
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 400,
+            "Position": {
+                "X": 10,
+                "Y": 7
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 401,
+            "Position": {
+                "X": 10,
+                "Y": 8
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 402,
+            "Position": {
+                "X": 10,
+                "Y": 9
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 403,
+            "Position": {
+                "X": 10,
+                "Y": 10
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 404,
+            "Position": {
+                "X": 10,
+                "Y": 11
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 405,
+            "Position": {
+                "X": 10,
+                "Y": 12
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 406,
+            "Position": {
+                "X": 10,
+                "Y": 12
+            },
+            "Type": "House",
+            "TeamId": "TEAM_2"
+        },
+        {
+            "Id": 407,
+            "Position": {
+                "X": 10,
+                "Y": 13
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 408,
+            "Position": {
+                "X": 10,
+                "Y": 13
+            },
+            "Type": "House",
+            "TeamId": "TEAM_2"
+        },
+        {
+            "Id": 409,
+            "Position": {
+                "X": 10,
+                "Y": 14
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 410,
+            "Position": {
+                "X": 11,
+                "Y": 0
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 411,
+            "Position": {
+                "X": 11,
+                "Y": 1
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 412,
+            "Position": {
+                "X": 11,
+                "Y": 2
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 413,
+            "Position": {
+                "X": 11,
+                "Y": 3
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 414,
+            "Position": {
+                "X": 11,
+                "Y": 4
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 415,
+            "Position": {
+                "X": 11,
+                "Y": 5
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 416,
+            "Position": {
+                "X": 11,
+                "Y": 6
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 417,
+            "Position": {
+                "X": 11,
+                "Y": 7
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 418,
+            "Position": {
+                "X": 11,
+                "Y": 8
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 419,
+            "Position": {
+                "X": 11,
+                "Y": 9
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 420,
+            "Position": {
+                "X": 11,
+                "Y": 10
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 421,
+            "Position": {
+                "X": 11,
+                "Y": 11
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 422,
+            "Position": {
+                "X": 11,
+                "Y": 12
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 423,
+            "Position": {
+                "X": 11,
+                "Y": 13
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 424,
+            "Position": {
+                "X": 11,
+                "Y": 14
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 425,
+            "Position": {
+                "X": 12,
+                "Y": 0
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 426,
+            "Position": {
+                "X": 12,
+                "Y": 1
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 427,
+            "Position": {
+                "X": 12,
+                "Y": 2
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 428,
+            "Position": {
+                "X": 12,
+                "Y": 3
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 429,
+            "Position": {
+                "X": 12,
+                "Y": 4
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 430,
+            "Position": {
+                "X": 12,
+                "Y": 5
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 431,
+            "Position": {
+                "X": 12,
+                "Y": 6
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 432,
+            "Position": {
+                "X": 12,
+                "Y": 7
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 433,
+            "Position": {
+                "X": 12,
+                "Y": 8
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 434,
+            "Position": {
+                "X": 12,
+                "Y": 9
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 435,
+            "Position": {
+                "X": 12,
+                "Y": 10
+            },
+            "Type": "Rocky"
+        },
+        {
+            "Id": 436,
+            "Position": {
+                "X": 12,
+                "Y": 10
+            },
+            "Type": "House"
+        },
+        {
+            "Id": 437,
+            "Position": {
+                "X": 12,
+                "Y": 11
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 438,
+            "Position": {
+                "X": 12,
+                "Y": 11
+            },
+            "Type": "Knight",
+            "TeamId": "TEAM_2"
+        },
+        {
+            "Id": 439,
+            "Position": {
+                "X": 12,
+                "Y": 12
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 440,
+            "Position": {
+                "X": 12,
+                "Y": 12
+            },
+            "Type": "Knight",
+            "TeamId": "TEAM_2"
+        },
+        {
+            "Id": 441,
+            "Position": {
+                "X": 12,
+                "Y": 13
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 442,
+            "Position": {
+                "X": 12,
+                "Y": 14
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 443,
+            "Position": {
+                "X": 13,
+                "Y": 0
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 444,
+            "Position": {
+                "X": 13,
+                "Y": 1
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 445,
+            "Position": {
+                "X": 13,
+                "Y": 2
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 446,
+            "Position": {
+                "X": 13,
+                "Y": 3
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 447,
+            "Position": {
+                "X": 13,
+                "Y": 4
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 448,
+            "Position": {
+                "X": 13,
+                "Y": 5
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 449,
+            "Position": {
+                "X": 13,
+                "Y": 6
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 450,
+            "Position": {
+                "X": 13,
+                "Y": 7
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 451,
+            "Position": {
+                "X": 13,
+                "Y": 8
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 452,
+            "Position": {
+                "X": 13,
+                "Y": 9
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 453,
+            "Position": {
+                "X": 13,
+                "Y": 10
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 454,
+            "Position": {
+                "X": 13,
+                "Y": 10
+            },
+            "Type": "Barracks",
+            "TeamId": "TEAM_2"
+        },
+        {
+            "Id": 455,
+            "Position": {
+                "X": 13,
+                "Y": 11
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 456,
+            "Position": {
+                "X": 13,
+                "Y": 12
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 457,
+            "Position": {
+                "X": 13,
+                "Y": 13
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 458,
+            "Position": {
+                "X": 13,
+                "Y": 13
+            },
+            "Type": "Archer",
+            "TeamId": "TEAM_2"
+        },
+        {
+            "Id": 459,
+            "Position": {
+                "X": 13,
+                "Y": 14
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 460,
+            "Position": {
+                "X": 14,
+                "Y": 0
+            },
+            "Type": "Mountain"
+        },
+        {
+            "Id": 461,
+            "Position": {
+                "X": 14,
+                "Y": 1
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 462,
+            "Position": {
+                "X": 14,
+                "Y": 2
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 463,
+            "Position": {
+                "X": 14,
+                "Y": 3
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 464,
+            "Position": {
+                "X": 14,
+                "Y": 4
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 465,
+            "Position": {
+                "X": 14,
+                "Y": 5
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 466,
+            "Position": {
+                "X": 14,
+                "Y": 6
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 467,
+            "Position": {
+                "X": 14,
+                "Y": 7
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 468,
+            "Position": {
+                "X": 14,
+                "Y": 8
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 469,
+            "Position": {
+                "X": 14,
+                "Y": 9
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 470,
+            "Position": {
+                "X": 14,
+                "Y": 10
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 471,
+            "Position": {
+                "X": 14,
+                "Y": 10
+            },
+            "Type": "Archer",
+            "TeamId": "TEAM_2"
+        },
+        {
+            "Id": 472,
+            "Position": {
+                "X": 14,
+                "Y": 11
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 473,
+            "Position": {
+                "X": 14,
+                "Y": 12
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 474,
+            "Position": {
+                "X": 14,
+                "Y": 13
+            },
+            "Type": "Forest"
+        },
+        {
+            "Id": 475,
+            "Position": {
+                "X": 14,
+                "Y": 13
+            },
+            "Type": "Barracks",
+            "TeamId": "TEAM_2"
+        },
+        {
+            "Id": 476,
+            "Position": {
+                "X": 14,
+                "Y": 14
+            },
+            "Type": "Grassland"
+        },
+        {
+            "Id": 477,
+            "Position": {
+                "X": 14,
+                "Y": 14
+            },
+            "Type": "Archer",
+            "TeamId": "TEAM_2"
+        }
+    ],
+    "Triggers": [
+        {
+            "Conditions": [
+                {
+                    "Type": "TEAM_REMAINING_ENTITIES",
+                    "TeamId": "TEAM_1",
+                    "EntityTagFilter": "Unit"
+                }
+            ],
+            "Actions": [
+                {
+                    "Type": "TEAM_VICTORY",
+                    "TeamId": "TEAM_2"
+                }
+            ]
+        },
+        {
+            "Conditions": [
+                {
+                    "Type": "TEAM_REMAINING_ENTITIES",
+                    "TeamId": "TEAM_2",
+                    "EntityTagFilter": "Unit"
+                }
+            ],
+            "Actions": [
+                {
+                    "Type": "TEAM_VICTORY",
+                    "TeamId": "TEAM_1"
+                }
+            ]
+        },
+        {
+            "Conditions": [
+                {
+                    "Type": "TEAM_REMAINING_ENTITIES",
+                    "TeamId": "TEAM_1",
+                    "EntityTagFilter": "Unit"
+                }
+            ],
+            "Actions": [
+                {
+                    "Type": "TEAM_VICTORY",
+                    "TeamId": "TEAM_2"
+                }
+            ]
+        },
+        {
+            "Conditions": [
+                {
+                    "Type": "TEAM_REMAINING_ENTITIES",
+                    "TeamId": "TEAM_2",
+                    "EntityTagFilter": "Unit"
+                }
+            ],
+            "Actions": [
+                {
+                    "Type": "TEAM_VICTORY",
+                    "TeamId": "TEAM_1"
+                }
+            ]
+        }
     ]
 }
