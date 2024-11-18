@@ -8,9 +8,11 @@ The game client downloads directly from this repository which powers the menus a
 
 An example of defining an archer in a meta file:
 
+```
 version | name             | filename    | isFile | path  | onUi | uiPath | action | subMeta | env | notes
 1       | Archer Config    | archer.json |   1    | /unit | 1    | /unit  | -      | 0       | 0   | Config for archer unit
 1       | Archer ImageFile | archer.png  |   1    | /unit | 0    | /unit  | -      | 0       | 0   | Image for archer unit
+```
 
 The most important parts are the version and path+filename in terms of the main development and testing.
 
