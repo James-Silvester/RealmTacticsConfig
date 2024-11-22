@@ -3,6 +3,7 @@ version |   name            |   filename        |   isFile  |   path    |   onUi
 1       |   Hacktics        |   hacktics        |   0       |   /version1/maps/ | 1      |   /       |   folder      |   0       |   0       |   Base Hacktics Game Mode
 1       |   Remote Land     |   remote-land     |   0       |   /       |   1       |   /       |   folder      |   0       |   0       |   Remote Land Game Mode
 1       |   Shipwrecked     |   shipwrecked     |   0       |   /       |   1       |   /       |   folder      |   0       |   0       |   Shipwrecked Game Mode
+1       |   AnimationTest   |   medieval_war    |   0       |   /       |   1       |   /       |   folder      |   0       |   0       |   Animation test Game Mode
 
 1       |   Back            |   back            |   0       |   /       |   1       |   /       |   back        |   0       |   0       |   Back to the main menu
 

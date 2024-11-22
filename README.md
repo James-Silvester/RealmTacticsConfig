@@ -26,7 +26,7 @@ For developing and testing purposes, it is possible to test on a branch and conf
 
 To create a new dev branch, follow the standard [github process to make a new branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository)
 
-To use the new branch within the game: Main Menu -> Settings -> Main tab -> Config branch, your development branch can be selected.
+To use the new branch within the game: `Main Menu` -> `Settings` -> `Main tab` -> `Config branch`, your development branch can be selected.
 
 Now, when downloading game files it will download from your branch rather than the main branch.
 
