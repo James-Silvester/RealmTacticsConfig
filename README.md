@@ -2,6 +2,14 @@
 
 Public repository for the Realm Tactics config. Any configuration on the main branch will be downloaded automatically into the game client when a user navigates to the right menu.
 
+# Quick start to changing game files
+- Create a new deveopment branch - ([here is the standard github process to make a new branch for your work](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository)).
+- Change one of the game files such as [here](https://github.com/James-Silvester/RealmTacticsConfig/tree/main/config/hacktics/version1/entities/types/units). Either one of the `.png` files for graphics  or `.json` files for mechanics.
+- Increment the version for the associated line in the meta such as [here](https://github.com/James-Silvester/RealmTacticsConfig/blob/main/config/hacktics/version1/entities/types/meta).
+- Commit and push the changes to a your development remote branch
+- In the game client, use your new branch `Main Menu` -> `Settings` -> `Main tab` -> `Config branch`
+- The new file should be downloaded and can be tested!
+
 # Making changes to files
 
 The game client downloads directly from this repository which powers the menus and each game mode. As a user navigates the menus, meta files are downloaded which defines any other files that also need to be pulled. The meta files define the main menu and what files need downloading and also which files are already the latest version.
