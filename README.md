@@ -16,7 +16,7 @@ version | name             | filename    | isFile | path  | onUi | uiPath | acti
 
 The most important parts are the version and path+filename in terms of the main development and testing.
 
-The version dictates which version is currently downloaded. If you make a change to one of the files i.e `archer.json` or `archer.png`, a users game client wont download the new version unless the version number is also incremented (in this case to 2). This system means that a users game client wont just keep downloading files but it can be easy to miss updating the version when a file is changed!. The filename along with the path dictates where the actual file is in the config directory.
+The version dictates which version is currently downloaded. If you make a change to one of the files i.e `archer.json` or `archer.png`, a users game client wont download the new version unless the version number is also incremented (in this case to 2). This system means that a users game client wont just keep downloading files that have not be changed - but for development it can be easy to miss updating the meta file version when a file is changed which will lead to the altered file not being picked up!. The filename along with the path dictates where the actual file is in the config directory.
 
 Once the changes are pushed to your branch, give it a minute as github takes a little bit to index it, then run the game client and the new files should be downloaded and used in place of the old ones.
 
@@ -24,11 +24,11 @@ Once the changes are pushed to your branch, give it a minute as github takes a l
 
 For developing and testing purposes, it is possible to test on a branch and configure your game client to utilise the dev branch.
 
-To create a new dev branch, follow the standard [github process to make a new branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository)
+To create a new dev branch, follow the standard [github process to make a new branch for your work](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository)
 
 To use the new branch within the game: `Main Menu` -> `Settings` -> `Main tab` -> `Config branch`, your development branch can be selected.
 
-Now, when downloading game files it will download from your branch rather than the main branch.
+Now, when downloading game files it will download from your branch rather than the main branch. Note: You may find that you will need to click fowards and back a little bit for the new branch files to be picked up.
 
 When development and testing is complete please open a PR using the template to merge into main and make the game changes live.
 
