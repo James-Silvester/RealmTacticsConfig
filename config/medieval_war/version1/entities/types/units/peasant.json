@@ -50,8 +50,8 @@
                 "FilePath": "units/peasant.png",
                 "PixelsPerUnitX": 625,
                 "PixelsPerUnitY": 675,
-                "CycleTimeSeconds": 0.25,
-                "NumberOfLoops": 4
+                "CycleTimeSeconds": 2,
+                "NumberOfLoops": 1
             }
         }
     }
