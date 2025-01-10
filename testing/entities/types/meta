@@ -24,6 +24,9 @@ version |   name                        |   filename                            
 1       |   NetworkingMoveStoresMoney Config    | networkingMoveStoresMoney.json                                  |   1   |   /units      |   1       |   /units          |   -           |   0       |   0       |
 1       |   RangeAttackMove Config     |   rangeAttackMove.json               |   1       |   /units      |   1       |   /units          |   -           |   0       |   0       |
 1       |   RangeAttackMove_RangePowerFactor Config     |   rangeAttackMove_RangePowerFactor.json               |   1       |   /units      |   1       |   /units          |   -           |   0       |   0       |
+
+1       |   TeleportMovement Config     |   teleportMovement.json               |   1       |   /units      |   1       |   /units          |   -           |   0       |   0       |
+
 1       |   VeryPowerfulDirectAttackMove Config | veryPowerfulDirectAttackMove.json |   1   |   /units      |   1       |   /units          |   -           |   0       |   0       |
 
 1       |   SplashAttackerTargetEntity Config   |   splashAttackerTargetEntity.json     |   1       |   /units/splashAttack      |   1       |   /units          |   -           |   0       |   0       |

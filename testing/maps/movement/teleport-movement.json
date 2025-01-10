@@ -1,0 +1,39 @@
+{
+    "Width": 8,
+    "Height": 8,
+    "EntityConfig": [
+        {
+            "EntityStrings": [
+                "TEAM_1|TeleportMovement|4,4",
+                "TEAM_UNDEFINED|ImpassibleTerrain|3,0",
+                "TEAM_UNDEFINED|ImpassibleTerrain|3,1",
+                "TEAM_UNDEFINED|ImpassibleTerrain|3,2",
+                "TEAM_UNDEFINED|ImpassibleTerrain|3,3",
+                "TEAM_UNDEFINED|ImpassibleTerrain|3,4",
+                "TEAM_UNDEFINED|ImpassibleTerrain|3,5",
+                "TEAM_UNDEFINED|ImpassibleTerrain|3,6",
+                "TEAM_UNDEFINED|ImpassibleTerrain|3,7"
+            ]
+        }
+    ],
+    "Test": {
+        "TestSteps": [
+            {
+                "Description": "Teleport movement test - Check terrain can be bypassed",
+                "Steps": [
+                    { "Type": "SELECT_POSITION", "X": 4, "Y": 4, "DoubleTap": false },
+                    { "Type": "WAIT_FOR_STATE", "State": "ENTITY_MOVE_PROCESS" },
+                    { "Type": "CHECK_HIGHLIGHT", "X": 3, "Y": 3, "HighlightType": "NONE" },
+                    { "Type": "CHECK_HIGHLIGHT", "X": 5, "Y": 5, "HighlightType": "MOVEMENT" },
+                    { "Type": "CHECK_HIGHLIGHT", "X": 5, "Y": 5, "HighlightType": "MOVEMENT" }
+                ]
+            },
+            {
+                "Description": "Test Complete",
+                "Steps": [
+                    { "Type": "TEST_COMPLETE" }
+                ]
+            }
+        ]
+    }
+}
