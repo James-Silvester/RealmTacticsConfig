@@ -5,6 +5,7 @@
         {
             "EntityStrings": [
                 "TEAM_1|TeleportMovement|4,4",
+                "TEAM_1|5Movement|4,5",
                 "TEAM_UNDEFINED|ImpassibleTerrain|3,0",
                 "TEAM_UNDEFINED|ImpassibleTerrain|3,1",
                 "TEAM_UNDEFINED|ImpassibleTerrain|3,2",
@@ -19,13 +20,23 @@
     "Test": {
         "TestSteps": [
             {
-                "Description": "Teleport movement test - Check terrain can be bypassed",
+                "Description": "Teleport movement test - Check terrain blocks non-teleport entity",
                 "Steps": [
-                    { "Type": "SELECT_POSITION", "X": 4, "Y": 4, "DoubleTap": false },
+                    { "Type": "SELECT_POSITION", "X": 4, "Y": 5, "DoubleTap": false },
                     { "Type": "WAIT_FOR_STATE", "State": "ENTITY_MOVE_PROCESS" },
                     { "Type": "CHECK_HIGHLIGHT", "X": 3, "Y": 3, "HighlightType": "NONE" },
                     { "Type": "CHECK_HIGHLIGHT", "X": 5, "Y": 5, "HighlightType": "MOVEMENT" },
-                    { "Type": "CHECK_HIGHLIGHT", "X": 5, "Y": 5, "HighlightType": "MOVEMENT" }
+                    { "Type": "CHECK_HIGHLIGHT", "X": 2, "Y": 5, "HighlightType": "NONE" }
+                ]
+            },
+            {
+                "Description": "Teleport movement test - Check terrain does not block teleport entity",
+                "Steps": [
+                    { "Type": "SELECT_POSITION", "X": 4, "Y": 4, "DoubleTap": false },
+                    { "Type": "WAIT_FOR_STATE", "State": "ENTITY_MOVE_PROCESS" },
+                    { "Type": "CHECK_HIGHLIGHT", "X": 3, "Y": 3, "HighlightType": "MOVEMENT_SLIGHT" },
+                    { "Type": "CHECK_HIGHLIGHT", "X": 5, "Y": 5, "HighlightType": "MOVEMENT" },
+                    { "Type": "CHECK_HIGHLIGHT", "X": 2, "Y": 5, "HighlightType": "MOVEMENT" }
                 ]
             },
             {
