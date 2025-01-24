@@ -1,0 +1,3 @@
+version |   name        |   filename    |   isFile  |   path        |   onUi    |   uiPath  |   action      |   subMeta |   env     |   notes
+
+1       |   meta        |   meta        |   1       |   /Audio      |   0       |   /       |   -           |   1       |   0       |   Audio config meta file

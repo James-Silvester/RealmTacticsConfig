@@ -1,0 +1,14 @@
+version |   name        |   filename         | isFile |   path        |   onUi    |   uiPath  |   action      |   subMeta |   env     |   notes
+
+1       |   buttonClose  |   buttonClose.mp3 | 1      |   /ui         |   0       |   /       |   loadAsset   |   0       |   0       |   
+
+1       |   buttonSelect |  buttonSelect.mp3 | 1      |   /ui         |   0       |   /       |   loadAsset   |   0       |   0       |   
+
+1       |   buttonHover  |   buttonHover.mp3 | 1      |   /ui         |   0       |   /       |   loadAsset   |   0       |   0       |   
+
+
+1       |   attackBeam   |   attackBeam.mp3  | 1      |   /battle     |   0       |   /       |   loadAsset   |   0       |   0       |   
+1       |   attackShot   |   attackShot.mp3  | 1      |   /battle     |   0       |   /       |   loadAsset   |   0       |   0       |   
+
+1       |   battleTheme1 |   battleTheme1.mp3 | 1     |   /battle     |   0       |   /       |   loadAsset   |   0       |   0       |  
+1       |   victoryTheme1 |  victoryTheme1.mp3 | 1    |   /battle     |   0       |   /       |   loadAsset   |   0       |   0       |  
