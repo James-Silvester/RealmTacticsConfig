@@ -2,100 +2,31 @@
     "Width": 10,
     "Height": 7,
     "IgnoreMapDefaults": [ ],
+    "Audio": {
+        "Type": "BackgroundMusic",
+        "Loop:": true,
+        "AssetKey": "battleTheme1"
+    },
     "EntityConfig": [
         {
             "Positions": [
                 {
-                    "X": 0,
-                    "Y": 0
+                    "X": 3,
+                    "Y": 3
                 }
             ],
-            "Type": "Origin",
+            "Type": "Virus",
             "TeamId": "TEAM_1"
         },
         {
             "Positions": [
                 {
-                    "X": 9,
-                    "Y": 6
+                    "X": 4,
+                    "Y": 4
                 }
             ],
-            "Type": "Origin",
+            "Type": "Virus",
             "TeamId": "TEAM_2"
-        },
-        {
-            "Positions": [
-                {
-                    "X": 6,
-                    "Y": 4
-                },
-                {
-                    "X": 3,
-                    "Y": 2
-                }
-            ],
-            "Type": "Compute",
-            "TeamId": "TEAM_UNDEFINED"
-        },
-        {
-            "Positions": [
-                {
-                    "X": 2,
-                    "Y": 2
-                },
-                {
-                    "X": 7,
-                    "Y": 4
-                }
-            ],
-            "Type": "Origin",
-            "TeamId": "TEAM_UNDEFINED"
-        },
-        {
-            "PositionRanges": [
-                {
-                    "Xmin": 1,
-                    "Xmax": 7,
-                    "Ymin": 0,
-                    "Ymax": 0
-                },
-                {
-                    "Xmin": 2,
-                    "Xmax": 2,
-                    "Ymin": 4,
-                    "Ymax": 5
-                },
-                {
-                    "Xmin": 2,
-                    "Xmax": 8,
-                    "Ymin": 6,
-                    "Ymax": 6
-                },
-                {
-                    "Xmin": 7,
-                    "Xmax": 7,
-                    "Ymin": 1,
-                    "Ymax": 2
-                },
-                {
-                    "Xmin": 2,
-                    "Xmax": 7,
-                    "Ymin": 3,
-                    "Ymax": 3
-                }
-            ],
-            "Positions": [
-                {
-                    "X": 6,
-                    "Y": 5
-                },
-                {
-                    "X": 3,
-                    "Y": 1
-                }
-            ],
-            "Type": "Connector",
-            "TeamId": "TEAM_UNDEFINED"
         }
     ],
     "Triggers": [
@@ -111,6 +42,15 @@
                 {
                     "Type": "TEAM_VICTORY",
                     "TeamId": "TEAM_2"
+                },
+                {
+                    "Type": "START_AUDIO",
+                    "AudioConfig": {
+                        "Type": "BackgroundMusic",
+                        "AssetKey": "victoryTheme1",
+                        "StopOthers": true,
+                        "Loop": true
+                    }
                 }
             ]
         },
@@ -126,6 +66,15 @@
                 {
                     "Type": "TEAM_VICTORY",
                     "TeamId": "TEAM_1"
+                },
+                {
+                    "Type": "START_AUDIO",
+                    "AudioConfig": {
+                        "Type": "BackgroundMusic",
+                        "AssetKey": "victoryTheme1",
+                        "StopOthers": true,
+                        "Loop": true
+                    }
                 }
             ]
         }
