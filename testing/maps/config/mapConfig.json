@@ -1,6 +1,11 @@
 {
     "Width": 3,
     "Height": 3,
+    "Audio": {
+        "Type": "BackgroundMusic",
+        "Loop:": true,
+        "AssetKey": "battleTheme1"
+    },
     "EntityConfig": [
         {
             "EntityString": "TEAM_1|SplashAttackerTargetEntity|1,1"

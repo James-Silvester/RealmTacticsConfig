@@ -3,6 +3,11 @@
     "ImportedDefaults": true,
     "Width": 3,
     "Height": 3,
+    "Audio": {
+      "Type": "BackgroundMusic",
+      "Loop:": true,
+      "AssetKey": "battleTheme1"
+    },
     "CursorStartingX": 0,
     "CursorStartingY": 0,
     "CameraStartingX": 0,
