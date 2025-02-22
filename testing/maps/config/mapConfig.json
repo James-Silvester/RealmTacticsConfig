@@ -4,7 +4,8 @@
     "Audio": {
         "Type": "BackgroundMusic",
         "Loop": true,
-        "AssetKey": "battleTheme1"
+        "AssetKey": "battleTheme1",
+        "StopOthers": true
     },
     "EntityConfig": [
         {

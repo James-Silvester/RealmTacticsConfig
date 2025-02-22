@@ -9,7 +9,9 @@
     "CameraStartingY": 0,
     "Audio": {
       "Type": "BackgroundMusic",
+      "Path": "/assets_store/audio/battle/battleTheme1.mp3",
       "Loop": true,
+      "StopOthers": true,
       "AssetKey": "battleTheme1"
     },
     "TeamsConfig": {
