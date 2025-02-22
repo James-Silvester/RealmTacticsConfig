@@ -3,15 +3,15 @@
     "ImportedDefaults": true,
     "Width": 3,
     "Height": 3,
+    "CursorStartingX": 0,
+    "CursorStartingY": 0,
+    "CameraStartingX": 0,
+    "CameraStartingY": 0,
     "Audio": {
       "Type": "BackgroundMusic",
       "Loop": true,
       "AssetKey": "battleTheme1"
     },
-    "CursorStartingX": 0,
-    "CursorStartingY": 0,
-    "CameraStartingX": 0,
-    "CameraStartingY": 0,
     "TeamsConfig": {
       "NumberOfTeams": 2,
       "StartingTeam": "TEAM_1",
