@@ -3,7 +3,7 @@
     "Height": 3,
     "Audio": {
         "Type": "BackgroundMusic",
-        "Loop:": true,
+        "Loop": true,
         "AssetKey": "battleTheme1"
     },
     "EntityConfig": [

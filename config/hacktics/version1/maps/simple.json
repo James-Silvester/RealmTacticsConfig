@@ -4,7 +4,7 @@
     "IgnoreMapDefaults": [ ],
     "Audio": {
         "Type": "BackgroundMusic",
-        "Loop:": true,
+        "Loop": true,
         "AssetKey": "battleTheme1"
     },
     "EntityConfig": [
