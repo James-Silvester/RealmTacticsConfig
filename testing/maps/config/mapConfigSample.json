@@ -3,6 +3,7 @@
     "ImportedDefaults": true,
     "Width": 3,
     "Height": 3,
+    "IsUnmodifiable": false,
     "CursorStartingX": 0,
     "CursorStartingY": 0,
     "CameraStartingX": 0,

@@ -60,6 +60,10 @@
     "Test": {
         "TestSteps": {
             "1": {
+                "Description": "Power Pattern Entity Factor test - Suppress any attack randomness",
+                "Type": "SUPPRESS_RANDOMNESS"
+            },
+            "2": {
                 "Description": "Power Pattern Entity Factor test - Attack with single unit",
                 "Type": "SELECT_POSITION",
                 "Config": {
@@ -67,14 +71,14 @@
                     "Y": 1
                 }
             },
-            "2": {
+            "3": {
                 "Description": "Power Pattern Entity Factor test - Select attack",
                 "Type": "CHECK_ACTIONS",
                 "Config": {
                     "SelectOptionName": "Attack"
                 }
             },
-            "3": {
+            "4": {
                 "Description": "Power Pattern Entity Factor test - Attack the unit",
                 "Type": "SELECT_POSITION",
                 "Config": {
@@ -332,6 +336,13 @@
                     "X": 15,
                     "Y": 2,
                     "Health": 0.7
+                }
+            },
+            "900": {
+                "Description": "Power Pattern Entity Factor test - Un-suppress any attack randomness",
+                "Type": "SUPPRESS_RANDOMNESS",
+                "Config": {
+                    "Suppress": false
                 }
             },
             "999": {
