@@ -24,6 +24,10 @@
     "Test": {
         "TestSteps": {
             "1": {
+                "Description": "Range Entity Factor test - Suppress any attack randomness",
+                "Type": "SUPPRESS_RANDOMNESS"
+            },
+            "2": {
                 "Description": "Range Entity Factor test - Direct Attack (range 1)",
                 "Type": "SELECT_POSITION",
                 "Config": {
@@ -31,14 +35,14 @@
                     "Y": 1
                 }
             },
-            "2": {
+            "3": {
                 "Description": "Range Entity Factor test - Select attack",
                 "Type": "CHECK_ACTIONS",
                 "Config": {
                     "SelectOptionName": "Attack"
                 }
             },
-            "3": {
+            "4": {
                 "Description": "Range Entity Factor test - Attack the unit",
                 "Type": "SELECT_POSITION",
                 "Config": {
@@ -117,6 +121,13 @@
                     "X": 2,
                     "Y": 0,
                     "Health": 0.55
+                }
+            },
+            "900": {
+                "Description": "Range Entity Factor test - Un-suppress any attack randomness",
+                "Type": "SUPPRESS_RANDOMNESS",
+                "Config": {
+                    "Suppress": false
                 }
             },
             "999": {
