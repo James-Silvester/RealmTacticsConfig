@@ -22,248 +22,73 @@
         }
     ],
     "Test": {
-        "TestSteps": {
-            "0": {
+        "TestSteps": [
+            {
                 "Description": "Splash attack position test - Select splash unit",
-                "Type": "SELECT_POSITION",
-                "Config": {
-                    "X": 1,
-                    "Y": 1
-                }
+                "Steps": [
+                    { "Type": "SELECT_POSITION", "X": 1, "Y": 1 },
+                    { "Type": "CHECK_ACTIONS", "SelectOptionName": "Attack" },
+                    { "Type": "CHECK_STATE", "State": "ENTITY_ATTACK_POSITION_SELECT" }
+                ]
             },
-            "5": {
-                "Description": "Splash attack position - Select attack again",
-                "Type": "CHECK_ACTIONS",
-                "Config": {
-                    "SelectOptionName": "Attack"
-                }
-            },
-            "10": {
-                "Description": "Splash attack position test - Check that state is to target a position",
-                "Type": "CHECK_STATE",
-                "Config": {
-                    "State": "ENTITY_ATTACK_POSITION_SELECT"
-                }
-            },
-            "11": {
+            {
                 "Description": "Splash attack position test - Check position in total range is highlighted a slight red",
-                "Type": "CHECK_HIGHLIGHT",
-                "Config": {
-                    "X": 3,
-                    "Y": 3,
-                    "Type": "ATTACK_SLIGHT"
-                }
+                "Steps": [
+                    { "Type": "CHECK_HIGHLIGHT", "X": 3, "Y": 3, "HighlightType": "ATTACK_SLIGHT" },
+                    { "Type": "CHECK_HIGHLIGHT", "X": 7, "Y": 1, "HighlightType": "ATTACK_SLIGHT" },
+                    { "Type": "CHECK_HIGHLIGHT", "X": 7, "Y": 2, "HighlightType": "NONE" }
+                ]
             },
-            "12": {
-                "Description": "Splash attack position test - Check position in total range is highlighted a slight red - max range",
-                "Type": "CHECK_HIGHLIGHT",
-                "Config": {
-                    "X": 7,
-                    "Y": 1,
-                    "Type": "ATTACK_SLIGHT"
-                }
-            },
-            "13": {
-                "Description": "Splash attack position test - Check position outside total range is not highlighted",
-                "Type": "CHECK_HIGHLIGHT",
-                "Config": {
-                    "X": 7,
-                    "Y": 2,
-                    "Type": "NONE"
-                }
-            },
-            "20": {
+            {
                 "Description": "Splash attack position test - Select a position outside total range",
-                "Type": "SELECT_POSITION",
-                "Config": {
-                    "X": 7,
-                    "Y": 2
-                }
+                "Steps": [
+                    { "Type": "SELECT_POSITION", "X": 7, "Y": 2 },
+                    { "Type": "CHECK_STATE", "State": "INITIAL_STATE" },
+                    { "Type": "CHECK_HIGHLIGHT", "X": 3, "Y": 3, "HighlightType": "NONE" },
+                    { "Type": "SELECT_POSITION", "X": 1, "Y": 1, "Notes": "Reselect the attacking unit and select the attack" },
+                    { "Type": "CHECK_ACTIONS", "SelectOptionName": "Attack" },
+                    { "Type": "CHECK_STATE", "State": "ENTITY_ATTACK_POSITION_SELECT" }
+                ]
             },
-            "21": {
-                "Description": "Splash attack position test - Check that state has been reset",
-                "Type": "CHECK_STATE",
-                "Config": {
-                    "State": "INITIAL_STATE"
-                }
-            },
-            "22": {
-                "Description": "Splash attack position test - Check that the highlights have been reset",
-                "Type": "CHECK_HIGHLIGHT",
-                "Config": {
-                    "X": 3,
-                    "Y": 3,
-                    "Type": "NONE"
-                }
-            },
-            "30": {
-                "Description": "Splash attack position test - Reselect the attacking unit attack",
-                "Type": "SELECT_POSITION",
-                "Config": {
-                    "X": 1,
-                    "Y": 1
-                }
-            },
-            "31": {
-                "Description": "Splash attack position test - Select attack again",
-                "Type": "CHECK_ACTIONS",
-                "Config": {
-                    "SelectOptionName": "Attack"
-                }
-            },
-            "32": {
-                "Description": "Splash attack position test - Check that state is to target an entity again",
-                "Type": "CHECK_STATE",
-                "Config": {
-                    "State": "ENTITY_ATTACK_POSITION_SELECT"
-                }
-            },
-            "40": {
+            {
                 "Description": "Splash attack position test - Check that the splash is represented when selecting a random space - Select random position",
-                "Type": "SELECT_POSITION",
-                "Config": {
-                    "X": 4,
-                    "Y": 4
-                }
+                "Steps": [
+                    { "Type": "SELECT_POSITION", "X": 4, "Y": 4 },
+                    { "Type": "CHECK_HIGHLIGHT", "HighlightType": "ATTACK_EMPHASISE", "Notes": "Target is strong red" },
+                    { "Type": "CHECK_HIGHLIGHT", "X": 4, "Y": 5, "HighlightType": "ATTACK_EMPHASISE", "Notes": "Area in splash is also strong red" },
+                    { "Type": "CHECK_HIGHLIGHT", "X": 3, "Y": 3, "HighlightType": "ATTACK_SLIGHT", "Notes": "Not in splash is usual" }
+                ]
             },
-            "41": {
-                "Description": "Splash attack position test - Check that the splash is represented when selecting a random space - Target position is strong red",
-                "Type": "CHECK_HIGHLIGHT",
-                "Config": {
-                    "Type": "ATTACK_EMPHASISE"
-                }
-            },
-            "42": {
-                "Description": "Splash attack position test - Check that the splash is represented when selecting a random space - Neighboring splash target is strong red",
-                "Type": "CHECK_HIGHLIGHT",
-                "Config": {
-                    "X": 4,
-                    "Y": 5,
-                    "Type": "ATTACK_EMPHASISE"
-                }
-            },
-            "43": {
-                "Description": "Splash attack position test - Check that the splash is represented when selecting a random space - Other spaces are still slight red",
-                "Type": "CHECK_HIGHLIGHT",
-                "Config": {
-                    "X": 3,
-                    "Y": 3,
-                    "Type": "ATTACK_SLIGHT"
-                }
-            },
-            "50": {
+            {
                 "Description": "Splash attack position test - Check that the splash is represented when selecting a unit - Select entity to attack",
-                "Type": "SELECT_POSITION",
-                "Config": {
-                    "X": 5,
-                    "Y": 1
-                }
+                "Steps": [
+                    { "Type": "SELECT_POSITION", "X": 5, "Y": 1 },
+                    { "Type": "CHECK_HIGHLIGHT", "HighlightType": "ATTACK_EMPHASISE" },
+                    { "Type": "CHECK_HIGHLIGHT", "X": 5, "Y": 2, "HighlightType": "ATTACK_EMPHASISE" },
+                    { "Type": "CHECK_HIGHLIGHT", "X": 4, "Y": 0, "HighlightType": "ATTACK_SLIGHT", "Notes": "Other possible entities and positions are just highlighted with slight red" },
+                    { "Type": "SIMULATE_INPUT" , "Direction": "LEFT" },
+                    { "Type": "CHECK_HIGHLIGHT", "HighlightType": "ATTACK_EMPHASISE" },
+                    { "Type": "CHECK_HIGHLIGHT", "X": 3, "Y": 1, "HighlightType": "ATTACK_EMPHASISE", "Notes": "Splash positions also moved" },
+                    { "Type": "CHECK_HIGHLIGHT", "X": 6, "Y": 1, "HighlightType": "ATTACK_SLIGHT", "Notes": "Old splash positions which are no longer in splash are slight red" }
+                ]
             },
-            "51": {
-                "Description": "Splash attack position test - Check that the splash is represented when selecting a unit - Target entity is strong red",
-                "Type": "CHECK_HIGHLIGHT",
-                "Config": {
-                    "Type": "ATTACK_EMPHASISE"
-                }
-            },
-            "52": {
-                "Description": "Splash attack position test - Check that the splash is represented when selecting a unit - Neighboring splash target is strong red",
-                "Type": "CHECK_HIGHLIGHT",
-                "Config": {
-                    "X": 5,
-                    "Y": 2,
-                    "Type": "ATTACK_EMPHASISE"
-                }
-            },
-            "53": {
-                "Description": "Splash attack position test - Check that the splash is represented when selecting a unit - Other possible entities and positions are just highlighted with slight red",
-                "Type": "CHECK_HIGHLIGHT",
-                "Config": {
-                    "X": 4,
-                    "Y": 0,
-                    "Type": "ATTACK_SLIGHT"
-                }
-            },
-            "70": {
-                "Description": "Splash attack position test - Use arrow keys to move the target - Press left",
-                "Type": "SIMULATE_INPUT",
-                "Config": {
-                    "Direction": "LEFT"
-                }
-            },
-            "71": {
-                "Description": "Splash attack position test - Use arrow keys to move the target - New target is marked strong red",
-                "Type": "CHECK_HIGHLIGHT",
-                "Config": {
-                    "Type": "ATTACK_EMPHASISE"
-                }
-            },
-            "72": {
-                "Description": "Splash attack position test - Use arrow keys to move the target - Splash positions also moved",
-                "Type": "CHECK_HIGHLIGHT",
-                "Config": {
-                    "X": 3,
-                    "Y": 1,
-                    "Type": "ATTACK_EMPHASISE"
-                }
-            },
-            "73": {
-                "Description": "Splash attack position test - Use arrow keys to move the target - Old splash positions which are no longer in splash are slight red",
-                "Type": "CHECK_HIGHLIGHT",
-                "Config": {
-                    "X": 6,
-                    "Y": 1,
-                    "Type": "ATTACK_SLIGHT"
-                }
-            },
-            "74": {
-                "Description": "Splash attack position test - Use arrow keys to cycle to next target - And total range is still marked",
-                "Type": "CHECK_HIGHLIGHT",
-                "Config": {
-                    "X": 6,
-                    "Y": 1,
-                    "Type": "ATTACK_SLIGHT"
-                }
-            },
-            "90": {
-                "Description": "Splash attack position test - Perform the attack",
-                "Type": "SELECT_POSITION",
-                "Config": {
-                    "X": 4,
-                    "Y": 1
-                }
-            },
-            "91": {
+            {
                 "Description": "Splash attack position test - Perform the attack - target entity gets hit",
-                "Type": "ENTITY_HEALTH",
-                "Config": {
-                    "MinHealth": 0.3,
-                    "MaxHealth": 0.7
-                }
+                "Steps": [
+                    { "Type": "CHECK_TEXT_VISIBLE", "Text": 50 },
+                    { "Type": "SELECT_POSITION", "X": 4, "Y": 1 },
+                    { "Type": "ENTITY_HEALTH", "MinHealth": 0.3, "MaxHealth": 0.7 },
+                    { "Type": "ENTITY_HEALTH", "X": 4, "Y": 0, "MinHealth": 0.3, "MaxHealth": 0.7 },
+                    { "Type": "ENTITY_HEALTH", "X": 3, "Y": 0, "Health": 1.0 },
+                    { "Type": "CHECK_TEXT_VISIBLE", "Text": 50, "Visible": false }
+                ]
             },
-            "92": {
-                "Description": "Splash attack position test - Perform the attack - Neighboring splash target gets hit",
-                "Type": "ENTITY_HEALTH",
-                "Config": {
-                    "X": 4,
-                    "Y": 0,
-                    "MinHealth": 0.3,
-                    "MaxHealth": 0.7
-                }
-            },
-            "93": {
-                "Description": "Splash attack position test - Perform the attack - Outside splash does not get hit",
-                "Type": "ENTITY_HEALTH",
-                "Config": {
-                    "X": 3,
-                    "Y": 0,
-                    "Health": 1.0
-                }
-            },
-            "999": {
+            {
                 "Description": "Test Complete",
-                "Type": "TEST_COMPLETE"
+                "Steps": [
+                    { "Type": "TEST_COMPLETE" }
+                ]
             }
-        }
+        ]
     }
 }

@@ -85,5 +85,9 @@
     "EntityAbility": {
         "AbilityPoints": 2,
         "Subtype": {}
+    },
+    "Modifications": {
+        "Values": [],
+        "Subtype": {}
     }
 }

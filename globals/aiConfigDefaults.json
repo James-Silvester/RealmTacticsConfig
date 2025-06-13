@@ -45,6 +45,13 @@
             "WantToPurchaseAttackEntitiesWhenNearFeature": 1.0,
             "OwnedEntityTypeBalanceFeature": 1.0,
             "WantToPurchaseWhenOutnumberedFeature": 1.0
+        },
+        "Modification": {
+            "CanUseAbilityFeature_AbilityType:Modifications": 5.0,
+            "ModificationEffectivenessFeature": 5.0,
+            "CanGetAttackedEffectivenessFeature": 0.5,
+            "PositionDefenceFeature": 0.2,
+            "RandomFeature": 0.1
         }
     }
 }
