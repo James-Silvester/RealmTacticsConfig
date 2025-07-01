@@ -29,7 +29,8 @@
                     { "Type": "CHECK_STATE", "State": "INITIAL_STATE" },
                     { "Type": "SELECT_POSITION", "X": 2, "Y": 0 },
                     { "Type": "CHECK_ACTIONS", "SelectOptionName": "Attack" },
-                    { "Type": "SELECT_POSITION", "X": 2, "Y": 0 }
+                    { "Type": "SELECT_POSITION", "X": 2, "Y": 1, "DoubleTap": true },
+                    { "Type": "ENTITY_HEALTH", "X": 2, "Y": 1,  "Health": 0.8 }
                 ]
             },
             {
