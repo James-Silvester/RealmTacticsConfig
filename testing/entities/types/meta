@@ -2,6 +2,12 @@ version |   name                        |   filename                            
 
 1       |   CaptureBuilding Config   |   captureBuilding.json             |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       | 
 1       |   LowDefenceBuilding Config   |   lowDefenceBuilding.json             |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       | 
+
+1       |   ModificationActiveSpeedBoostBuilding Config   |   modificationActiveSpeedBoostBuilding.json             |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       | 
+1       |   ModificationPassiveAttackBoostBuilding Config   |   modificationPassiveAttackBoostBuilding.json             |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       | 
+1       |   ModificationPassiveCrippleBuilding Config   |   modificationPassiveCrippleBuilding.json             |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       | 
+
+
 1       |   NetworkingMoneyBuilding Config   |   networkingMoneyBuilding.json             |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       | 
 1       |   PurchaseBuilding Config     |   purchaseBuilding.json               |   1       |   /buildings  |   1       |   /buildings      |   -           |   0       |   0       | 
 

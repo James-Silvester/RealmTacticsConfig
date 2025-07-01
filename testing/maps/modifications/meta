@@ -1,0 +1,2 @@
+version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   action    |   subMeta     |   env     |   notes
+2       |   Passive         |   passive.json                    |   1       |   /       |   1       |   /           |   loadMap   |   0           |   0       |   Passive test

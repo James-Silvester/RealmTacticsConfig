@@ -19,7 +19,8 @@
             "PositionDefenceFeature": 0.2,
             "WouldBlockPurchaseFeature_Relationship:Enemy": 1.0,
             "WouldBlockPurchaseFeature_Relationship:Self_InvertValue:true": 1.0,
-            "RandomFeature": 1.0
+            "RandomFeature": 1.0,
+            "ModificationEffectivenessFeaturePassive": 1.0
         },
         "Capture": {
             "AlongPathedClosestProximityFeature_Relationship:Neutral_CanBeCaptured:true": 3.0,
@@ -35,7 +36,8 @@
             "CanGetAttackedEffectivenessFeature": 1.0,
             "NextToOwnNetworkFeature": 1.0,
             "RandomFeature": 0.5,
-            "CanUseAbilityFeature_AbilityType:Capture": 5.0
+            "CanUseAbilityFeature_AbilityType:Capture": 5.0,
+            "ModificationEffectivenessFeaturePassive": 1.0
         },
         "Defence": {},
         "Purchase": {
@@ -44,14 +46,16 @@
             "WantToPurchaseCaptureEntitiesWhenNearFeature": 1.0,
             "WantToPurchaseAttackEntitiesWhenNearFeature": 1.0,
             "OwnedEntityTypeBalanceFeature": 1.0,
-            "WantToPurchaseWhenOutnumberedFeature": 1.0
+            "WantToPurchaseWhenOutnumberedFeature": 1.0,
+            "ModificationEffectivenessFeaturePassive": 1.0
         },
         "Modification": {
             "CanUseAbilityFeature_AbilityType:Modifications": 5.0,
             "ModificationEffectivenessFeature": 5.0,
             "CanGetAttackedEffectivenessFeature": 0.5,
             "PositionDefenceFeature": 0.2,
-            "RandomFeature": 0.1
+            "RandomFeature": 0.1,
+            "ModificationEffectivenessFeaturePassive": 1.0
         }
     }
 }

@@ -1,0 +1,42 @@
+{
+    "Name": "ModificationActiveSpeedBoostBuilding",
+    "Description": "Modification Active Speed Boost Building",
+    "Tags": [
+        "Building"
+    ],
+    "Modifications": [
+        {
+            "Type": "ACTIVE",
+            "Pattern": {
+                "PositionPattern": {
+                    "Type": "Ring",
+                    "MinRange": 0,
+                    "MaxRange": 3
+                },
+                "RelationshipType": "Friendly"
+            },
+            "ModificationTime": {
+                "NumberOfTurns": 2,
+                "RatioReducePerTurn": 0.5,
+                "TriggerOnApply": true
+            },
+            "AbilityConfig": {
+                "PointCost": 1,
+                "UsesPerTurn": 1,
+                "Animation": {
+                    "AnimationKey": "BIG_PULSE"
+                }
+            },
+            "TargetsAnimation": {
+                "AnimationKey": "BIG_PULSE"
+            },
+            "CanMoveAndModify":true,
+            "Effects": [ 
+                {
+                    "Type": "CHANGE_SPEED",
+                    "AbsoluteValue": 4
+                }
+            ]
+        }
+    ]
+}

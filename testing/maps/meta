@@ -4,6 +4,7 @@ version |   name            |   filename                        |   isFile  |   
 1       |   AI tests        |   ai                              |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   AI tests
 1       |   Basic           |   basic                           |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Basic tests
 1       |   Config          |   config                          |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Config tests
+1       |   Modifications   |   modifications                   |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Modifications tests
 1       |   Attack tests    |   attack                          |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Attack tests
 1       |   Movement tests  |   movement                        |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Movement tests
 1       |   Network tests   |   network                         |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Movement tests
@@ -13,6 +14,7 @@ version |   name            |   filename                        |   isFile  |   
 1       |   meta            |   meta                            |   1       |   /ai       | 0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
 1       |   meta            |   meta                            |   1       |   /basic    | 0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
 1       |   meta            |   meta                            |   1       |   /config   | 0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
+1       |   meta            |   meta                            |   1       |   /modifications | 0  |   /       |   -           |   1       |   0       |   Testing Maps meta file
 1       |   meta            |   meta                            |   1       |   /attack   | 0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
 1       |   meta            |   meta                            |   1       |   /movement | 0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
 1       |   meta            |   meta                            |   1       |   /network  | 0       |   /       |   -           |   1       |   0       |   Testing Maps meta file
