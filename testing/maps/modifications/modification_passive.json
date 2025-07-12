@@ -85,7 +85,8 @@
                     { "Type": "ENTITY_HEALTH", "X": 19, "Y": 19,  "MinHealth": 0.53, "MaxHealth": 0.59 },
                     { "Type": "SELECT_POSITION", "X": 17, "Y": 14, "DoubleTap": true, "Note": "Cycle turn" },
                     { "Type": "CHECK_ACTIONS", "SelectOptionName": "End Turn" },
-                    { "Type": "WAIT_FOR_TEAM_TURN", "Team": "TEAM_2" }
+                    { "Type": "WAIT_FOR_TEAM_TURN", "Team": "TEAM_2" },
+                    { "Type": "ENTITY_HEALTH", "X": 19, "Y": 19,  "MinHealth": 0.33, "MaxHealth": 0.39 }
                 ]
             },
             {
