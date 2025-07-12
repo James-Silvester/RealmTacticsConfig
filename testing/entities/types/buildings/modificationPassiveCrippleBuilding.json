@@ -26,11 +26,28 @@
                 },
                 {
                     "Type": "CHANGE_DEFENCE",
-                    "RatioValue": 0.75
+                    "RatioValue": 4.0
                 },
                 {
                     "Type": "DAMAGE",
                     "AbsoluteValue": 0.2
+                }
+            ]
+        },
+        {
+            "Type": "PASSIVE",
+            "Pattern": {
+                "PositionPattern": {
+                    "Type": "Ring",
+                    "MinRange": 1,
+                    "MaxRange": 2
+                },
+                "RelationshipType": "Friendly"
+            },
+            "Effects": [ 
+                {
+                    "Type": "Heal",
+                    "AbsoluteValue": 0.3
                 }
             ]
         }

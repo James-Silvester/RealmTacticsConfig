@@ -3,23 +3,36 @@
     "Height": 20,
     "CursorStartingX": 5,
     "CursorStartingY": 5,
+    "TeamsConfig": {
+        "NumberOfTeams": 2,
+        "ActiveTeams": [
+            "TEAM_1",
+            "TEAM_2"
+        ],
+        "StartingTeam": "TEAM_1",
+        "TeamConfig": [
+            {
+                "TeamId": "TEAM_1",
+                "TeamEntity": "Player"
+            },
+            {
+                "TeamId": "TEAM_2",
+                "TeamEntity": "Player"
+            }
+        ]
+    },
     "EntityConfig": [
-        {
-            "EntityString": "TEAM_1|ModificationPassiveAttackBoostBuilding|0,0"
-        },
-        {
-            "EntityString": "TEAM_1|DirectAttackMove|2,0"
-        },
-        {
-            "EntityString": "TEAM_1|DirectAttackMove|3,0",
-            "Note": "Outside the passive attack boost building range"
-        },
-        {
-            "EntityString": "TEAM_2|DirectAttackMove|2,1"
-        },
-        {
-            "EntityString": "TEAM_2|DirectAttackMove|3,1"
-        }
+        { "EntityString": "TEAM_1|ModificationPassiveAttackBoostBuilding|0,0" },
+        { "EntityString": "TEAM_1|DirectAttackMove|2,0" },
+        { "EntityString": "TEAM_1|DirectAttackMove|3,0", "Note": "Outside the passive attack boost building range" },
+        { "EntityString": "TEAM_2|DirectAttackMove|2,1" },
+        { "EntityString": "TEAM_2|DirectAttackMove|3,1" },
+
+        { "EntityString": "TEAM_2|ModificationPassiveCrippleBuilding|18,18" },
+        { "EntityString": "TEAM_2|DirectAttackMove|18,19" },
+        { "EntityString": "TEAM_1|DirectAttackMove|19,19" },
+        { "EntityString": "TEAM_1|LowDefenceBuilding|19,19" }
+
     ],
     "Test": {
         "TestSteps": [
@@ -30,7 +43,49 @@
                     { "Type": "SELECT_POSITION", "X": 2, "Y": 0 },
                     { "Type": "CHECK_ACTIONS", "SelectOptionName": "Attack" },
                     { "Type": "SELECT_POSITION", "X": 2, "Y": 1, "DoubleTap": true },
-                    { "Type": "ENTITY_HEALTH", "X": 2, "Y": 1,  "Health": 0.8 }
+                    { "Type": "ENTITY_HEALTH", "X": 2, "Y": 1,  "MinHealth": 0.65, "MaxHealth": 0.75 },
+                    { "Type": "SELECT_POSITION", "X": 3, "Y": 0 },
+                    { "Type": "CHECK_ACTIONS", "SelectOptionName": "Attack" },
+                    { "Type": "SELECT_POSITION", "X": 3, "Y": 1, "DoubleTap": true },
+                    { "Type": "ENTITY_HEALTH", "X": 3, "Y": 1,  "MinHealth": 0.75, "MaxHealth": 0.85 }
+                ]
+            },
+            {
+                "Description": "Modification passive test - Check that all of the effects get applied successfully - movement",
+                "Steps": [
+                    { "Type": "SELECT_POSITION", "X": 19, "Y": 19 },
+                    { "Type": "CHECK_ACTIONS", "SelectOptionName": "Movement" },
+                    { "Type": "CHECK_HIGHLIGHT", "X": 19, "Y": 15, "HighlightType": "MOVEMENT" },
+                    { "Type": "CHECK_HIGHLIGHT", "X": 19, "Y": 14, "HighlightType": "NONE" },
+                    { "Type": "SELECT_POSITION", "X": 19, "Y": 14 }
+                ]
+            },
+            {
+                "Description": "Modification passive test - Check that all of the effects get applied successfully - attack/defence",
+                "Steps": [
+                    { "Type": "SELECT_POSITION", "X": 19, "Y": 19 },
+                    { "Type": "CHECK_ACTIONS", "SelectOptionName": "Attack" },
+                    { "Type": "SELECT_POSITION", "X": 18, "Y": 19, "DoubleTap": true },
+                    { "Type": "ENTITY_HEALTH", "X": 18, "Y": 19,  "MinHealth": 0.82, "MaxHealth": 0.88 },
+                    { "Type": "ENTITY_HEALTH", "X": 19, "Y": 19,  "MinHealth": 0.93, "MaxHealth": 0.99 },
+                    { "Type": "SELECT_POSITION", "X": 19, "Y": 14 }
+                ]
+            },
+            {
+                "Description": "Modification passive test - Check that all of the effects get applied successfully - damage/heal",
+                "Steps": [
+                    { "Type": "SELECT_POSITION", "X": 19, "Y": 15, "DoubleTap": true, "Note": "Cycle turn" },
+                    { "Type": "CHECK_ACTIONS", "SelectOptionName": "End Turn" },
+                    { "Type": "WAIT_FOR_TEAM_TURN", "Team": "TEAM_2" },
+                    { "Type": "ENTITY_HEALTH", "X": 18, "Y": 19,  "Health": 1.0, "EntityType": "DirectAttackMove" },
+                    { "Type": "ENTITY_HEALTH", "X": 19, "Y": 19,  "MinHealth": 0.73, "MaxHealth": 0.79 },
+                    { "Type": "SELECT_POSITION", "X": 18, "Y": 15, "DoubleTap": true, "Note": "Cycle turn" },
+                    { "Type": "CHECK_ACTIONS", "SelectOptionName": "End Turn" },
+                    { "Type": "WAIT_FOR_TEAM_TURN", "Team": "TEAM_1" },
+                    { "Type": "ENTITY_HEALTH", "X": 19, "Y": 19,  "MinHealth": 0.53, "MaxHealth": 0.59 },
+                    { "Type": "SELECT_POSITION", "X": 17, "Y": 14, "DoubleTap": true, "Note": "Cycle turn" },
+                    { "Type": "CHECK_ACTIONS", "SelectOptionName": "End Turn" },
+                    { "Type": "WAIT_FOR_TEAM_TURN", "Team": "TEAM_2" }
                 ]
             },
             {
