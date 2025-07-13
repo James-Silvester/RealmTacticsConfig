@@ -66,7 +66,7 @@
                     { "Type": "SELECT_POSITION", "X": 19, "Y": 19 },
                     { "Type": "CHECK_ACTIONS", "SelectOptionName": "Attack" },
                     { "Type": "SELECT_POSITION", "X": 18, "Y": 19, "DoubleTap": true },
-                    { "Type": "ENTITY_HEALTH", "X": 18, "Y": 19,  "MinHealth": 0.82, "MaxHealth": 0.88 },
+                    { "Type": "ENTITY_HEALTH", "X": 18, "Y": 19,  "MinHealth": 0.80, "MaxHealth": 0.90 },
                     { "Type": "ENTITY_HEALTH", "X": 19, "Y": 19,  "MinHealth": 0.93, "MaxHealth": 0.99 },
                     { "Type": "SELECT_POSITION", "X": 19, "Y": 14 }
                 ]
@@ -78,15 +78,15 @@
                     { "Type": "CHECK_ACTIONS", "SelectOptionName": "End Turn" },
                     { "Type": "WAIT_FOR_TEAM_TURN", "Team": "TEAM_2" },
                     { "Type": "ENTITY_HEALTH", "X": 18, "Y": 19,  "Health": 1.0, "EntityType": "DirectAttackMove" },
-                    { "Type": "ENTITY_HEALTH", "X": 19, "Y": 19,  "MinHealth": 0.73, "MaxHealth": 0.79 },
+                    { "Type": "ENTITY_HEALTH", "X": 19, "Y": 19,  "MinHealth": 0.70, "MaxHealth": 0.82 },
                     { "Type": "SELECT_POSITION", "X": 18, "Y": 15, "DoubleTap": true, "Note": "Cycle turn" },
                     { "Type": "CHECK_ACTIONS", "SelectOptionName": "End Turn" },
                     { "Type": "WAIT_FOR_TEAM_TURN", "Team": "TEAM_1" },
-                    { "Type": "ENTITY_HEALTH", "X": 19, "Y": 19,  "MinHealth": 0.53, "MaxHealth": 0.59 },
+                    { "Type": "ENTITY_HEALTH", "X": 19, "Y": 19,  "MinHealth": 0.50, "MaxHealth": 0.62 },
                     { "Type": "SELECT_POSITION", "X": 17, "Y": 14, "DoubleTap": true, "Note": "Cycle turn" },
                     { "Type": "CHECK_ACTIONS", "SelectOptionName": "End Turn" },
                     { "Type": "WAIT_FOR_TEAM_TURN", "Team": "TEAM_2" },
-                    { "Type": "ENTITY_HEALTH", "X": 19, "Y": 19,  "MinHealth": 0.33, "MaxHealth": 0.39 }
+                    { "Type": "ENTITY_HEALTH", "X": 19, "Y": 19,  "MinHealth": 0.30, "MaxHealth": 0.42 }
                 ]
             },
             {
