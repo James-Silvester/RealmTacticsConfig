@@ -39,8 +39,8 @@ version |   name                |   filename            |   isFile  |   path    
 1       |   Injector Config     |   injector.json   |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for injector unit
 1       |   Injector ImageFile  |   injector.png    |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for injector unit
 
-1       |   MITM Config         |   MITM.json       |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for MITM unit
-1       |   MITM ImageFile      |   MITM.png        |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for MITM unit
+1       |   MITM Config         |   mitm.json       |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for MITM unit
+1       |   MITM ImageFile      |   mitm.png        |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for MITM unit
 
 1       |   Optimiser Config    |   optimiser.json  |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for optimiser unit
 1       |   Optimiser ImageFile |   optimiser.png   |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for optimiser unit
