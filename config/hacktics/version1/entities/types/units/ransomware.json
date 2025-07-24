@@ -1,0 +1,45 @@
+{
+    "Name": "Ransomware",
+    "Description": "Locks computer systems and files from a user. The unit can reduce enemy units movement",
+    "Sprite": {
+        "FilePath": "units/ransomware.png",
+        "PixelsPerUnit": 64,
+        "Framerate": 0,
+        "Repeats": true
+    },
+    "Tags": [
+        "Unit"
+    ],
+    "Movement": {
+        "Movement": 6
+    },
+    "Defence": {
+        "SelfDefenceIndicator": "LOW",
+        "SelfSpecificDefence": [
+            {
+                "Defence": 0.3
+            }
+        ]
+    },
+    "Purchase": {
+        "Costs": [16]
+    },
+    "Modifications": [
+        {
+            "Type": "PASSIVE",
+            "Pattern": {
+                "PositionPattern": {
+                    "Type": "Orthogonal",
+                    "Range": 10
+                },
+                "RelationshipType": "Hostile"
+            },
+            "Effects": [ 
+                {
+                    "Type": "CHANGE_SPEED",
+                    "AbsoluteValue": -1
+                }
+            ]
+        }
+    ]
+}

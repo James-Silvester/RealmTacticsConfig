@@ -1,0 +1,28 @@
+{
+    "Name": "Firewall",
+    "Description": "Monitors traffic and only lets through allowed traffic. Acts as a wall to enemies",
+    "Sprite": {
+        "FilePath": "units/firewall.png",
+        "PixelsPerUnit": 64,
+        "Framerate": 0,
+        "Repeats": true
+    },
+    "Tags": [
+        "Unit"
+    ],
+    "Movement": {
+        "Movement": 2,
+        "BlocksEnemies": true
+    },
+    "Defence": {
+        "SelfDefenceIndicator": "HIGH",
+        "SelfSpecificDefence": [
+            {
+                "Defence": 0.5
+            }
+        ]
+    },
+    "Purchase": {
+        "Costs": [12]
+    }
+}

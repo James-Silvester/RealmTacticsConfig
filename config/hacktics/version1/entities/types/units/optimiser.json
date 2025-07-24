@@ -1,6 +1,6 @@
 {
     "Name": "Optimiser",
-    "Description": "Repairs friendly entities",
+    "Description": "Improves code quality and effectiveness. Repairs friendly entities",
     "Sprite": {
         "FilePath": "units/optimiser.png",
         "PixelsPerUnit": 64,
@@ -27,7 +27,7 @@
                     "AffectsEnemies": false,
                     "AffectsSelf": true,
                     "AffectsNeutral": false,
-                    "BasePower": 0.8,
+                    "BasePower": 0.5,
                     "IsHeal": true,
                     "ReducedWithDamage": false,
                     "IgnoreAllDefence": true,
@@ -55,6 +55,6 @@
         ]
     },
     "Purchase": {
-        "Costs": [12]
+        "Costs": [15]
     }
 }

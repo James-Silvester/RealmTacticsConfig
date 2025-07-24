@@ -1,6 +1,6 @@
 {
     "Name": "Worker",
-    "Description": "Creates connections",
+    "Description": "Using CPU power to perform work",
     "Sprite": {
         "FilePath": "units/worker.png",
         "PixelsPerUnit": 64,
@@ -22,7 +22,12 @@
         }
     },
     "Defence": {
-        "CanUseDefence": true
+        "CanUseDefence": true,
+        "SelfSpecificDefence": [
+            {
+                "Defence": 0.3
+            }
+        ]
     },
     "Capture": {
         "CapturePoints": 100,
@@ -37,10 +42,13 @@
                 "Name": "Disrupt",
                 "Detail": {
                     "CanMoveAndAttack": true,
-                    "BasePower": 0.5,
+                    "BasePower": 0.1,
+                    "EntityPowerModifier": {
+                        "Worker": 0.8
+                    },
                     "Selector": {
-                        "AllowType": [
-                            "Worker"
+                        "AllowTags": [
+                            "Unit"
                         ]
                     },
                     "TagPowerModifier": {},

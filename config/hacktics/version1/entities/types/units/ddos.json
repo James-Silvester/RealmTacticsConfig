@@ -1,6 +1,6 @@
 {
     "Name": "DDOS",
-    "Description": "Remote disruption of the network",
+    "Description": "Remote disruption of the network from a collection of small attacks. Long range single target attacker",
     "Sprite": {
         "FilePath": "units/ddos.png",
         "PixelsPerUnit": 64,
@@ -14,7 +14,11 @@
         "AbilityPoints": 1
     },
     "Movement": {
-        "Movement": 3
+        "Movement": 3,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
     },
     "Attack": {
         "RangeAttacks": [
@@ -48,6 +52,7 @@
         ]
     },
     "Purchase": {
-        "Costs": [12]
+        "Costs": [12],
+        "CanBePurchased": true
     }
 }

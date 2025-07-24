@@ -1,0 +1,70 @@
+{
+    "Name": "Overclocker",
+    "Description": "Make a processor run at a faster clock speed. Will buff friendly units by increasing movement",
+    "Sprite": {
+        "FilePath": "units/overclocker.png",
+        "PixelsPerUnit": 64,
+        "Framerate": 0,
+        "Repeats": true
+    },
+    "Tags": [
+        "Unit"
+    ],
+    "Movement": {
+        "Movement": 4
+    },
+    "Defence": {
+        "SelfDefenceIndicator": "NONE",
+        "SelfSpecificDefence": [
+            {
+                "Defence": 0.0
+            }
+        ]
+    },
+    "Purchase": {
+        "Costs": [8]
+    },
+    "Modifications": [
+        {
+            "Type": "ACTIVE",
+            "Pattern": {
+                "PositionPattern": {
+                    "Type": "Ring",
+                    "MinRange": 2,
+                    "MaxRange": 5
+                }
+            },
+            "Effects": [ 
+                {
+                    "Type": "CHANGE_SPEED",
+                    "AbsoluteValue": 2
+                }
+            ],
+            "AbilityConfig": {
+                "PointCost": 1,
+                "EndsTurn": true
+            }
+        }
+    ],
+    "Attack": {
+        "DirectAttacks": [
+            {
+                "Name": "Clock",
+                "Detail": {
+                    "CanMoveAndAttack": true,
+                    "BasePower": 0.3,
+                    "Selector": {
+                        "AllowTags": [
+                            "Unit"
+                        ]
+                    },
+                    "TagPowerModifier": {},
+                    "AbilityConfig": {
+                        "PointCost": 1,
+                        "EndsTurn": false
+                    }
+                }
+            }
+        ]
+    }
+}

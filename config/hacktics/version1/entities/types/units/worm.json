@@ -1,6 +1,6 @@
 {
     "Name": "Worm",
-    "Description": "Quickly spreads through the network",
+    "Description": "Can move quickly through a network to infect different servers",
     "Sprite": {
         "FilePath": "units/worm.png",
         "PixelsPerUnit": 64,
@@ -12,13 +12,14 @@
         "Unit"
     ],
     "EntityAbility": {
-        "AbilityPoints": 2
+        "AbilityPoints": 3
     },
     "Movement": {
         "Movement": 5,
         "EntityCost": {},
         "AbilityConfig": {
-            "PointCost": 1
+            "PointCost": 1,
+            "UsesPerTurn": 1
         },
         "PassesEnemies": true
     },
@@ -36,14 +37,20 @@
                     },
                     "TagPowerModifier": {},
                     "AbilityConfig": {
-                        "PointCost": 3
+                        "PointCost": 2,
+                        "UsesPerTurn": 2
                     }
                 }
             }
         ]
     },
     "Defence": {
-        "CanUseDefence": true
+        "CanUseDefence": true,
+        "SelfSpecificDefence": [
+            {
+                "Defence": 0.3
+            }
+        ]
     },
     "Purchase": {
         "Costs": [15],
@@ -52,7 +59,7 @@
     "Transport": {
         "CarryingAllowedSelector": {
             "AllowTags": [
-                "Unit"
+                "DISABLED"
             ]
         }
     }

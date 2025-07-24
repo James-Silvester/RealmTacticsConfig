@@ -21,18 +21,39 @@ version |   name                |   filename            |   isFile  |   path    
 1       |   Void ImageFile    |   void.png         |   1       |   /terrain    |   0       |   /terrain        |   -           |   0       |   0       |   Image for void terrain
 
 
+1       |   Backdoor Config   |   backdoor.json     |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for backdoor unit
+1       |   Backdoor ImageFile |  backdoor.png      |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for backdoor unit
 
 1       |   Botnet Config     |   botnet.json       |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for botnet unit
 1       |   Botnet ImageFile  |   botnet.png        |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for botnet unit
 
-1       |   DDOS Config         |   ddos.json           |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for ddos unit
-1       |   ddos ImageFile      |   ddos.png           |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for ddos unit
+1       |   Brute Config      |   brute.json        |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for brute unit
+1       |   Brute ImageFile   |   brute.png         |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for brute unit
 
-1       |   Optimiser Config         |   optimiser.json           |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for optimiser unit
-1       |   Optimiser ImageFile      |   optimiser.png           |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for optimiser unit
+1       |   DDOS Config         |   ddos.json       |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for ddos unit
+1       |   DDOS ImageFile      |   ddos.png        |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for ddos unit
+
+1       |   Firewall Config     |   firewall.json   |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for firewall unit
+1       |   Firewall ImageFile  |   firewall.png    |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for firewall unit
+
+1       |   Injector Config     |   injector.json   |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for injector unit
+1       |   Injector ImageFile  |   injector.png    |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for injector unit
+
+1       |   MITM Config         |   MITM.json       |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for MITM unit
+1       |   MITM ImageFile      |   MITM.png        |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for MITM unit
+
+1       |   Optimiser Config    |   optimiser.json  |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for optimiser unit
+1       |   Optimiser ImageFile |   optimiser.png   |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for optimiser unit
+
+7       |   Overclocker Config  |   overclocker.json |  1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for overclocker unit
+2       |   Overclocker ImageFile | overclocker.png |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for overclocker unit
+
+7       |   Ransomware Config   |   ransomware.json |   1     |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for ransomware unit
+2       |   Ransomware ImageFile |  ransomware.png  |   1      |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for ransomware unit
 
 7       |   Virus Config        |   virus.json          |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for virus unit
 2       |   Virus ImageFile     |   virus.png          |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for virus unit
+
 
 3       |   Worker Config       |   worker.json         |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for worker unit
 1       |   Worker ImageFile    |   worker.png         |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for worker unit

@@ -1,8 +1,8 @@
 {
-    "Name": "Virus",
-    "Description": "Modifies other programs to take them down. The bread and butter attacking unit. Just Does damage",
+    "Name": "Brute",
+    "Description": "Trying every possible combination until it breaks through. Inefficient but powerful on weak systems",
     "Sprite": {
-        "FilePath": "units/virus.png",
+        "FilePath": "units/brute.png",
         "PixelsPerUnit": 64,
         "Framerate": 0,
         "Repeats": true
@@ -10,24 +10,27 @@
     "Tags": [
         "Unit"
     ],
-    "EntityAbility": {
-        "AbilityPoints": 2
-    },
     "Movement": {
-        "Movement": 3,
-        "EntityCost": {},
-        "AbilityConfig": {
-            "PointCost": 1,
-            "UsesPerTurn": 1
-        }
+        "Movement": 2
+    },
+    "Defence": {
+        "SelfDefenceIndicator": "HIGH",
+        "SelfSpecificDefence": [
+            {
+                "Defence": 0.6
+            }
+        ]
+    },
+    "Purchase": {
+        "Costs": [25]
     },
     "Attack": {
         "DirectAttacks": [
             {
-                "Name": "Modify",
+                "Name": "Force",
                 "Detail": {
                     "CanMoveAndAttack": true,
-                    "BasePower": 0.7,
+                    "BasePower": 1.5,
                     "Selector": {
                         "AllowTags": [
                             "Unit"
@@ -41,17 +44,5 @@
                 }
             }
         ]
-    },
-    "Defence": {
-        "CanUseDefence": true,
-        "SelfSpecificDefence": [
-            {
-                "Defence": 0.3
-            }
-        ]
-    },
-    "Purchase": {
-        "Costs": [6],
-        "CanBePurchased": true
     }
 }

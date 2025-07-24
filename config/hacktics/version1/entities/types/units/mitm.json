@@ -1,8 +1,8 @@
 {
-    "Name": "Botnet",
-    "Description": "A collection of compromised computers that are enslaved for a collective purpose. Stronger with greater numbers",
+    "Name": "Main in the Middle",
+    "Description": "Sits between systems to secretly collect information and then cause mischief. This unit is more powerful when surrounded by enemies",
     "Sprite": {
-        "FilePath": "units/botnet.png",
+        "FilePath": "units/mitm.png",
         "PixelsPerUnit": 64,
         "Framerate": 0,
         "Repeats": true
@@ -11,29 +11,28 @@
         "Unit"
     ],
     "Movement": {
-        "Movement": 4
+        "Movement": 6
     },
     "Attack": {
-        "RangeAttacks": [
+        "DirectAttacks": [
             {
-                "Name": "Ping",
-                "MinRange": 3,
-                "MaxRange": 3,
+                "Name": "Intercept",
                 "Detail": {
                     "CanMoveAndAttack": false,
-                    "BasePower": 0.3,
+                    "BasePower": 0.2,
                     "PowerPatternEntityFactors": [
                         {
-                            "Factor": 1.5,
+                            "Factor": 1.0,
                             "PatternEntity": {
+                                "RelationshipType": "Hostile",
                                 "PositionPattern": {
                                     "Type": "Ring",
                                     "MinRange": 1,
                                     "MaxRange": 2
                                 },
                                 "Selector": {
-                                    "AllowEntities": [
-                                        "Botnet"
+                                    "AllowTags": [
+                                        "Entity"
                                     ]
                                 }
                             }
@@ -62,6 +61,6 @@
         ]
     },
     "Purchase": {
-        "Costs": [12]
+        "Costs": [13]
     }
 }

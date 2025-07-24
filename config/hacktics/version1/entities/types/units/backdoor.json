@@ -1,0 +1,41 @@
+{
+    "Name": "Backdoor",
+    "Description": "An alternative way into a system that has been left open on purpose. Allows users to enter the system in alternative ways",
+    "Sprite": {
+        "FilePath": "units/backdoor.png",
+        "PixelsPerUnit": 64,
+        "Framerate": 0,
+        "Repeats": true
+    },
+    "Layer": 4,
+    "Tags": [
+        "Unit"
+    ],
+    "Movement": {
+        "Movement": 2
+    },
+    "Defence": {
+        "SelfDefenceIndicator": "NONE",
+        "SelfSpecificDefence": [
+            {
+                "Defence": 0.0
+            }
+        ]
+    },
+    "Purchase": {
+        "Costs": [25],
+        "Selector": {
+            "AllowTags": [
+                "Unit"
+            ],
+            "DisallowTags": [],
+            "AllowEntities": [],
+            "DisallowEntities": []
+        },
+        "AbilityConfig": {
+            "PointCost": 1,
+            "EndsTurn": true
+        },
+        "EntitiesProducedHaveActions": false
+    }
+}

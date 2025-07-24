@@ -1,0 +1,46 @@
+{
+    "Name": "Injector",
+    "Description": "Subtle but can be powerful. Injects code to poison enemy infrastructure and cause it to slowly degrade. Very delicate and requires protection",
+    "Sprite": {
+        "FilePath": "units/injector.png",
+        "PixelsPerUnit": 64,
+        "Framerate": 0,
+        "Repeats": true
+    },
+    "Tags": [
+        "Unit"
+    ],
+    "Movement": {
+        "Movement": 4
+    },
+    "Defence": {
+        "SelfDefenceIndicator": "NONE",
+        "SelfSpecificDefence": [
+            {
+                "Defence": 0.0
+            }
+        ]
+    },
+    "Purchase": {
+        "Costs": [20]
+    },
+    "Modifications": [
+        {
+            "Type": "PASSIVE",
+            "Pattern": {
+                "PositionPattern": {
+                    "Type": "Ring",
+                    "MinRange": 2,
+                    "MaxRange": 5
+                },
+                "RelationshipType": "Hostile"
+            },
+            "Effects": [ 
+                {
+                    "Type": "DAMAGE",
+                    "AbsoluteValue": 0.1
+                }
+            ]
+        }
+    ]
+}
