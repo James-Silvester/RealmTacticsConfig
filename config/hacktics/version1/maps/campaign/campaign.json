@@ -1,6 +1,6 @@
 {
-    "Name": "Hacktics Campaign",
-    "Description": "Test your strategic hacking skills",
+    "Name": "Hacktics Campaign!!!",
+    "Description": "Test your strategic hacking skillzz",
     "Levels": [
         {
             "Name": "Tutorial",
@@ -17,7 +17,64 @@
             "MapFile": "level_0.json",
             "UnlockRequirements": {
                 "TutorialComplete": true
+            },
+            "OnCompletionGlobalSet" : {
+                "Level0Complete": true
             }
         }
-    ]
+    ],
+    "Map": {
+        "MapFile": "test-map.jpeg",
+        "ConnectorConfigs": [
+            {
+                "StartPosition": {
+                    "X": 10,
+                    "Y": 90
+                },
+                "EndPosition": {
+                    "X": 30,
+                    "Y": 30
+                },
+                "UnlockRequirements": {
+                    "TutorialComplete": true
+                },
+                "HighlightRequirements": {
+                    "TutorialComplete": true,
+                    "Level0Complete": false
+                }
+            }
+        ],
+        "IconConfigs": [
+            {
+                "Position": {
+                    "X": 10,
+                    "Y": 90
+                },
+                "Title": "Tutorial",
+                "HighlightRequirements": {
+                    "TutorialComplete": false
+                }
+            },
+            {
+                "Position": {
+                    "X": 30,
+                    "Y": 30
+                },
+                "Title": "Level 0",
+                "UnlockRequirements": {
+                    "TutorialComplete": true
+                }
+            },
+            {
+                "Position": {
+                    "X": 50,
+                    "Y": 50
+                },
+                "Title": "Level 1",
+                "UnlockRequirements": {
+                    "Level0Complete": true
+                }
+            }
+        ]
+    }
 }
