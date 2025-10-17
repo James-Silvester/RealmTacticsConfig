@@ -46,6 +46,7 @@
         ],
         "IconConfigs": [
             {
+                "Level": "Tutorial",
                 "Position": {
                     "X": 10,
                     "Y": 90
@@ -56,6 +57,7 @@
                 }
             },
             {
+                "Level": "Level 0",
                 "Position": {
                     "X": 30,
                     "Y": 30
@@ -63,16 +65,6 @@
                 "Title": "Level 0",
                 "UnlockRequirements": {
                     "TutorialComplete": true
-                }
-            },
-            {
-                "Position": {
-                    "X": 50,
-                    "Y": 50
-                },
-                "Title": "Level 1",
-                "UnlockRequirements": {
-                    "Level0Complete": true
                 }
             }
         ]

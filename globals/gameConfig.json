@@ -122,7 +122,7 @@
         "Trigger": false,
         "Save": false,
         "GenerateMap": false,
-        "CAMPAIGN": false
+        "Campaign": false
     },
     "AI": {
         "TrainingMode": false,
