@@ -2,7 +2,7 @@ version |   name            |   filename                        |   isFile  |   
 
 1       |   Campaign        |   campaign.json                   |   1       |   /       |   0       |   /           |   loadCampaign |  0           |   0       |   Tutorial
 
-1       |   Map         |   uimap                               |   0       |   /       |   1       |   /           |   loadCampaignMap |  0           |   0       |   Campaign Map
+1       |   Map         |   test-map.jpeg                       |   1       |   /       |   1       |   /           |   loadCampaignMap |  0           |   0       |   Campaign Map
 
 2       |   Tutorial        |   tutorial.json                   |   1       |   /       |   0       |   /           |   loadMap     |   0           |   0       |   Tutorial
 
