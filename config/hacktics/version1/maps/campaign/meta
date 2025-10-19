@@ -4,7 +4,7 @@ version |   name            |   filename                        |   isFile  |   
 
 1       |   Map         |   uimap                               |   0       |   /       |   1       |   /           |   loadCampaignMap |  0           |   0       |   Campaign Map
 
-2       |   Tutorial        |   tutorial.json                   |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Tutorial
+2       |   Tutorial        |   tutorial.json                   |   1       |   /       |   0       |   /           |   loadMap     |   0           |   0       |   Tutorial
 
 3       |   0 - Intro       |   level_0.json                    |   1       |   /       |   0       |   /           |   loadMap     |   0           |   0       |   Level 0
 1       |   1 - Shell       |   level_1.json                    |   1       |   /       |   0       |   /           |   loadMap     |   0           |   0       |   Level 1
