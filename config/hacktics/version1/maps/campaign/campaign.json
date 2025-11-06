@@ -4,7 +4,10 @@
     "Levels": [
         {
             "Name": "Tutorial",
-            "Description": "Learn the basics of hacking",
+            "Description": "Do the tutorial to learn the basics of hacking",
+            "Summary": "The first real level. I want to have a really long sentance here to test how it looks in the UI. Maybe even a second sentence? Actually this is getting ridiculous. Lets see how it looks. The first real level. I want to have a really long sentance here to test how it looks in the UI.",
+            "DifficultyRating": "2",
+            "MapImageFilePath": "screenshots/tutorial_screenshot.png",
             "MapFile": "tutorial.json",
             "OnCompletionGlobalSet" : {
                 "TutorialComplete": true
@@ -13,7 +16,10 @@
         },
         {
             "Name": "Level 0",
-            "Description": "Learn the basics of hacking",
+            "Description": "An actual level to play",
+            "Summary": "The first real level. I want to have a really long sentance here to test how it looks in the UI. Maybe even a second sentence? Actually this is getting ridiculous. Lets see how it looks.",
+            "DifficultyRating": "6",
+            "MapImageFilePath": "screenshots/map1_screenshot.png",
             "MapFile": "level_0.json",
             "UnlockRequirements": {
                 "TutorialComplete": true
@@ -25,6 +31,9 @@
     ],
     "Map": {
         "MapFile": "test-map.jpeg",
+        "IconHighlightAnimation": {
+            "AnimationKey": "BIG_SLOW_PULSE_REPEAT"
+        },
         "ConnectorConfigs": [
             {
                 "StartPosition": {

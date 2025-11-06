@@ -11,6 +11,10 @@ version |   name            |   filename                        |   isFile  |   
 1       |   3 - Walkway     |   level_3_walkway.json            |   1       |   /       |   0       |   /           |   loadMap     |   0           |   0       |   Level 3
 
 
+1       |   0 - Tutorial Screenshot     |   tutorial_screenshot.png |   1       |   /       |   0       |   /           | |   0           |   0       |   Tutorial Screenshot
+1       |   0 - Map 1 Screenshot     |   map1_screenshot.png |   1       |   /       |   0       |   /           | |   0           |   0       |   Map 1 Screenshot
+
+
 1       |   Intro           |   intro.msg                       |   1       |   /       |   0       |   /           |   message     |   0           |   0       |   Introduction to the Hacktics campaign
 
 1       |   Hacktics Campaign |                                 |   0       |   /       |   0       |   /           |   header      |   0           |   0       |   Test your strategic hacking skills
