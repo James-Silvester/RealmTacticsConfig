@@ -2,7 +2,7 @@
     "Name": "Brute",
     "Description": "Trying every possible combination until it breaks through. Inefficient but powerful on weak systems",
     "Sprite": {
-        "FilePath": "units/brute.png",
+        "FilePath": "units/bruteforcer.png",
         "PixelsPerUnit": 64,
         "Framerate": 0,
         "Repeats": true

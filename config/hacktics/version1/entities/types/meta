@@ -2,8 +2,8 @@ version |   name                |   filename            |   isFile  |   path    
 2       |   Compute Config      |   compute.json        |   1       |   /terrain  |   1       |   /terrain      |   entityConfig           |   0       |   0       |   Config for compute terrain
 2       |   Compute ImageFile   |   compute.png        |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   0       |   Image for compute terrain
 
-2       |   Encryption Config       |   encryption.json     |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   0       |   Config for encryption terrain
-1       |   Encryption ImageFile    |   encryption.png     |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   0       |   Image for encryption terrain
+2       |   Encryption Config       |   encryptor.json     |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   0       |   Config for encryptor terrain
+1       |   Encryptor ImageFile    |   encryptor.png     |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   0       |   Image for encryption terrain
 
 2       |   Generator Config    |   generator.json      |   1       |   /terrain  |   1       |   /terrain      |   -           |   0       |   0       |   Config for generator terrain
 2       |   Generator ImageFile |   generator.png      |   1       |   /terrain  |   0       |   /terrain      |   -           |   0       |   0       |   Image for generator terrain
@@ -27,8 +27,8 @@ version |   name                |   filename            |   isFile  |   path    
 1       |   Botnet Config     |   botnet.json       |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for botnet unit
 1       |   Botnet ImageFile  |   botnet.png        |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for botnet unit
 
-1       |   Brute Config      |   brute.json        |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for brute unit
-1       |   Brute ImageFile   |   brute.png         |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for brute unit
+1       |   Brute Config      |   bruteforcer.json        |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for brute unit
+1       |   Brute ImageFile   |   bruteforcer.png         |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for brute unit
 
 1       |   DDOS Config         |   ddos.json       |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for ddos unit
 1       |   DDOS ImageFile      |   ddos.png        |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for ddos unit
@@ -39,8 +39,8 @@ version |   name                |   filename            |   isFile  |   path    
 1       |   Injector Config     |   injector.json   |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for injector unit
 1       |   Injector ImageFile  |   injector.png    |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for injector unit
 
-1       |   MITM Config         |   mitm.json       |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for MITM unit
-1       |   MITM ImageFile      |   mitm.png        |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for MITM unit
+1       |   MITM Config         |   maninthemiddle.json       |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for MITM unit
+1       |   MITM ImageFile      |   maninthemiddle.png        |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for MITM unit
 
 1       |   Optimiser Config    |   optimiser.json  |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for optimiser unit
 1       |   Optimiser ImageFile |   optimiser.png   |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for optimiser unit

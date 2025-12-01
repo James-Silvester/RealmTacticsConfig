@@ -2,7 +2,7 @@
     "Name": "Main in the Middle",
     "Description": "Sits between systems to secretly collect information and then cause mischief. This unit is more powerful when surrounded by enemies",
     "Sprite": {
-        "FilePath": "units/mitm.png",
+        "FilePath": "units/maninthemiddle.png",
         "PixelsPerUnit": 64,
         "Framerate": 0,
         "Repeats": true

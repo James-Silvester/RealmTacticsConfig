@@ -1,8 +1,8 @@
 {
-    "Name": "Encryption",
+    "Name": "Encryptor",
     "Description": "Secures all data",
     "Sprite": {
-        "FilePath": "terrain/encryption.png",
+        "FilePath": "terrain/encryptor.png",
         "PixelsPerUnit": 64,
         "Framerate": 3,
         "Repeats": true
