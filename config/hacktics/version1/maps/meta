@@ -4,6 +4,8 @@ version |   name            |   filename                        |   isFile  |   
 
 5       |   Simple          |   simple.json                     |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Basic Hacktics Testing Map
 
+5       |   Pallet          |   pallet.json                     |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Basic Hacktics Pallet Map
+
 1       |   Campaign        |   campaign                        |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Campaign
 1       |   AI Samples      |   ai_samples                      |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Samples of the AI at work
 

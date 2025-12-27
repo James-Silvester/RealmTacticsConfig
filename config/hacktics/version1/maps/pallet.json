@@ -1,0 +1,53 @@
+{
+    "Width": 10,
+    "Height": 7,
+    "IgnoreMapDefaults": [ ],
+    "Audio": {
+        "Type": "BackgroundMusic",
+        "Loop": true,
+        "AssetKey": "battleTheme1"
+    },
+    "EntityConfig": [
+        { "EntityString": "TEAM_UNDEFINED|Compute|0,0" },
+        { "EntityString": "TEAM_1|Compute|0,1" },
+        { "EntityString": "TEAM_2|Compute|0,2" },
+        { "EntityString": "TEAM_3|Compute|0,3" },
+        { "EntityString": "TEAM_4|Compute|0,4" },
+
+        { "EntityString": "TEAM_UNDEFINED|Connector|1,0" },
+        { "EntityString": "TEAM_1|Connector|1,1" },
+        { "EntityString": "TEAM_2|Connector|1,2" },
+        { "EntityString": "TEAM_3|Connector|1,3" },
+        { "EntityString": "TEAM_4|Connector|1,4" },
+
+        { "EntityString": "TEAM_UNDEFINED|Encryptor|2,0" },
+        { "EntityString": "TEAM_1|Encryptor|2,1" },
+        { "EntityString": "TEAM_2|Encryptor|2,2" },
+        { "EntityString": "TEAM_3|Encryptor|2,3" },
+        { "EntityString": "TEAM_4|Encryptor|2,4" },
+
+        { "EntityString": "TEAM_UNDEFINED|Generator|3,0" },
+        { "EntityString": "TEAM_1|Generator|3,1" },
+        { "EntityString": "TEAM_2|Generator|3,2" },
+        { "EntityString": "TEAM_3|Generator|3,3" },
+        { "EntityString": "TEAM_4|Generator|3,4" },
+
+        { "EntityString": "TEAM_UNDEFINED|Ground|4,0" },
+        { "EntityString": "TEAM_1|Ground|4,1" },
+        { "EntityString": "TEAM_2|Ground|4,2" },
+        { "EntityString": "TEAM_3|Ground|4,3" },
+        { "EntityString": "TEAM_4|Ground|4,4" },
+
+        { "EntityString": "TEAM_UNDEFINED|Origin|5,0" },
+        { "EntityString": "TEAM_1|Origin|5,1" },
+        { "EntityString": "TEAM_2|Origin|5,2" },
+        { "EntityString": "TEAM_3|Origin|5,3" },
+        { "EntityString": "TEAM_4|Origin|5,4" },
+
+        { "EntityString": "TEAM_UNDEFINED|Void|6,0" },
+        { "EntityString": "TEAM_1|Void|6,1" },
+        { "EntityString": "TEAM_2|Void|6,2" },
+        { "EntityString": "TEAM_3|Void|6,3" },
+        { "EntityString": "TEAM_4|Void|6,4" }
+    ]
+}
