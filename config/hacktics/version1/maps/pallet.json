@@ -7,6 +7,20 @@
         "Loop": true,
         "AssetKey": "battleTheme1"
     },
+    "TeamsConfig": {
+        "NumberOfTeams": 8,
+        "ActiveTeams": [
+            "TEAM_1",
+            "TEAM_2",
+            "TEAM_3",
+            "TEAM_4",
+            "TEAM_5",
+            "TEAM_6",
+            "TEAM_7",
+            "TEAM_8"
+        ],
+        "StartingTeam": "TEAM_1"
+    },
     "EntityConfig": [
         { "EntityString": "TEAM_UNDEFINED|Compute|0,0" },
         { "EntityString": "TEAM_1|Compute|0,1" },
@@ -111,7 +125,7 @@
         { "EntityString": "TEAM_7|Brute|2,17" },
         { "EntityString": "TEAM_8|Brute|2,18" },
 
-        { "EntityString": "TEAM_UNDEFINED|Brute|3,10" },
+        { "EntityString": "TEAM_UNDEFINED|DDOS|3,10" },
         { "EntityString": "TEAM_1|DDOS|3,11" },
         { "EntityString": "TEAM_2|DDOS|3,12" },
         { "EntityString": "TEAM_3|DDOS|3,13" },
