@@ -19,7 +19,48 @@
             "TEAM_7",
             "TEAM_8"
         ],
-        "StartingTeam": "TEAM_1"
+        "StartingTeam": "TEAM_1",
+        "TeamConfig": [
+            {
+                "TeamId": "TEAM_1",
+                "TeamEntity": "Player"
+            },
+            {
+                "TeamId": "TEAM_2",
+                "TeamEntity": "AI_DEFAULT",
+                "AiProfile": "Standard"
+            },
+                        {
+                "TeamId": "TEAM_3",
+                "TeamEntity": "AI_DEFAULT",
+                "AiProfile": "Standard"
+            },
+                        {
+                "TeamId": "TEAM_4",
+                "TeamEntity": "AI_DEFAULT",
+                "AiProfile": "Standard"
+            },
+                        {
+                "TeamId": "TEAM_5",
+                "TeamEntity": "AI_DEFAULT",
+                "AiProfile": "Standard"
+            },
+                        {
+                "TeamId": "TEAM_6",
+                "TeamEntity": "AI_DEFAULT",
+                "AiProfile": "Standard"
+            },
+                        {
+                "TeamId": "TEAM_7",
+                "TeamEntity": "AI_DEFAULT",
+                "AiProfile": "Standard"
+            },
+                        {
+                "TeamId": "TEAM_8",
+                "TeamEntity": "AI_DEFAULT",
+                "AiProfile": "Standard"
+            }
+        ]
     },
     "EntityConfig": [
         { "EntityString": "TEAM_UNDEFINED|Compute|0,0" },
