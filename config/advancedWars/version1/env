@@ -6,3 +6,4 @@ version |   key             		        |   value
 1       |   MAP_CONFIG_DEFAULTS_FILE        |   config/advancedWars/version1/maps/map_defaults.json
 1       |   SAVES_DIRECTORY                 |   config/advancedWars/version1/maps/saves
 1       |   CUSTOM_MAPS_DIRECTORY           |   config/advancedWars/version1/maps/custom_maps
+1       |   USE_BLOCK_TEAM_COLORS           |   true
