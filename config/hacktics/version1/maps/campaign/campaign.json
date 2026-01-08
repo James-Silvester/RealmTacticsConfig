@@ -9,6 +9,7 @@
             "DifficultyRating": "2",
             "MapImageFilePath": "screenshots/tutorial_screenshot.png",
             "MapFile": "tutorial.json",
+            "Terms": "Defeat all enemy viruses.\nCapture the Encryptor defensive terrain.",
             "OnCompletionGlobalSet" : {
                 "TutorialComplete": true
             },

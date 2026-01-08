@@ -1156,16 +1156,6 @@
           "TeamId": "TEAM_1"
         }
       ]
-    },
-    {
-      "TriggersOnce": false,
-      "Actions": [
-        {
-          "EntitySelector": {
-            "AllowEntities": ["Worker"]
-          }
-        }
-      ]
     }
   ]
 }
