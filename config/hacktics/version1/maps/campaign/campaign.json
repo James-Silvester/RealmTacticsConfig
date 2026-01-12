@@ -3,35 +3,35 @@
     "Description": "Test your strategic hacking skillzz",
     "Levels": [
         {
-            "Name": "Tutorial",
+            "Name": "Enter the Nexus",
             "Description": "Do the tutorial to learn the basics of hacking",
-            "Summary": "The first real level. I want to have a really long sentance here to test how it looks in the UI. Maybe even a second sentence? Actually this is getting ridiculous. Lets see how it looks. The first real level. I want to have a really long sentance here to test how it looks in the UI.",
-            "DifficultyRating": "2",
-            "MapImageFilePath": "screenshots/tutorial_screenshot.png",
-            "MapFile": "tutorial.json",
-            "Terms": "Defeat all enemy viruses.\nCapture the Encryptor defensive terrain.",
+            "Summary": "As you sift through the dusty files of an old computer system, a glitch in the code catches your eye. Curiosity piqued, you delve deeper...",
+            "DifficultyRating": "1",
+            "Terms": "Capture the enemy Origin.\nYou lose if your workers are destroyed.",
+            "MapImageFilePath": "screenshots/01-enter-the-nexus_screenshot.png",
+            "MapFile": "01-enter-the-nexus.json",
             "OnCompletionGlobalSet" : {
-                "TutorialComplete": true
+                "EnterTheNexus_Complete": true
             },
             "UnlockRequirements": {}
         },
         {
-            "Name": "Level 0",
+            "Name": "Proving Grounds",
             "Description": "An actual level to play",
             "Summary": "The first real level. I want to have a really long sentance here to test how it looks in the UI. Maybe even a second sentence? Actually this is getting ridiculous. Lets see how it looks.",
-            "DifficultyRating": "6",
-            "MapImageFilePath": "screenshots/map1_screenshot.png",
-            "MapFile": "level_0.json",
+            "DifficultyRating": "2",
+            "MapImageFilePath": "screenshots/02-proving-grounds_screenshot.png",
+            "MapFile": "02-proving-grounds.json",
             "UnlockRequirements": {
-                "TutorialComplete": true
+                "EnterTheNexus_Complete": true
             },
             "OnCompletionGlobalSet" : {
-                "Level0Complete": true
+                "ProvingGrounds_Complete": true
             }
         }
     ],
     "Map": {
-        "MapFile": "test-map.jpeg",
+        "MapFile": "hacktics-map.jpeg",
         "IconHighlightAnimation": {
             "AnimationKey": "BIG_SLOW_PULSE_REPEAT"
         },
@@ -56,25 +56,28 @@
         ],
         "IconConfigs": [
             {
-                "Level": "Tutorial",
+                "Level": "Enter the Nexus",
                 "Position": {
                     "X": 10,
                     "Y": 90
                 },
                 "Title": "Tutorial",
                 "HighlightRequirements": {
-                    "TutorialComplete": false
+                    "EnterTheNexus_Complete": false
                 }
             },
             {
-                "Level": "Level 0",
+                "Level": "Proving Grounds",
                 "Position": {
                     "X": 30,
                     "Y": 30
                 },
-                "Title": "Level 0",
+                "Title": "Proving Grounds",
                 "UnlockRequirements": {
-                    "TutorialComplete": true
+                    "EnterTheNexus_Complete": true
+                },
+                "HighlightRequirements": {
+                    "ProvingGrounds_Complete": false
                 }
             }
         ]

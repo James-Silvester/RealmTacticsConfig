@@ -1,0 +1,1161 @@
+{
+  "Version": 1,
+  "ImportedDefaults": true,
+  "Width": 10,
+  "Height": 8,
+  "CursorStartingX": 4,
+  "CursorStartingY": 5,
+  "CameraStartingX": 0,
+  "CameraStartingY": 0,
+  "TeamsConfig": {
+    "NumberOfTeams": 2,
+    "StartingTeam": "TEAM_1",
+    "TurnNumber": 1,
+    "ActiveTeams": [
+      "TEAM_1",
+      "TEAM_2"
+    ],
+    "TeamConfig": [
+      {
+        "TeamId": "TEAM_1",
+        "TeamEntity": "PLAYER",
+        "AiProfile": "Standard"
+      },
+      {
+        "TeamId": "TEAM_2",
+        "TeamEntity": "AI_DEFAULT",
+        "AiProfile": "Standard"
+      }
+    ]
+  },
+  "EntityConfig": [
+    {
+      "Id": 1,
+      "Position": {
+        "X": 0,
+        "Y": 0
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 2,
+      "Position": {
+        "X": 0,
+        "Y": 1
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 3,
+      "Position": {
+        "X": 0,
+        "Y": 2
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 4,
+      "Position": {
+        "X": 0,
+        "Y": 3
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 5,
+      "Position": {
+        "X": 0,
+        "Y": 4
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 6,
+      "Position": {
+        "X": 0,
+        "Y": 5
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 7,
+      "Position": {
+        "X": 0,
+        "Y": 6
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 8,
+      "Position": {
+        "X": 0,
+        "Y": 7
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 11,
+      "Position": {
+        "X": 1,
+        "Y": 0
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 12,
+      "Position": {
+        "X": 1,
+        "Y": 1
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 13,
+      "Position": {
+        "X": 1,
+        "Y": 2
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 14,
+      "Position": {
+        "X": 1,
+        "Y": 3
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 15,
+      "Position": {
+        "X": 1,
+        "Y": 4
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 16,
+      "Position": {
+        "X": 1,
+        "Y": 5
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 17,
+      "Position": {
+        "X": 1,
+        "Y": 6
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 18,
+      "Position": {
+        "X": 1,
+        "Y": 7
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 21,
+      "Position": {
+        "X": 2,
+        "Y": 0
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 22,
+      "Position": {
+        "X": 2,
+        "Y": 1
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 23,
+      "Position": {
+        "X": 2,
+        "Y": 2
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 24,
+      "Position": {
+        "X": 2,
+        "Y": 3
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 25,
+      "Position": {
+        "X": 2,
+        "Y": 4
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 26,
+      "Position": {
+        "X": 2,
+        "Y": 5
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 27,
+      "Position": {
+        "X": 2,
+        "Y": 6
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 28,
+      "Position": {
+        "X": 2,
+        "Y": 7
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 31,
+      "Position": {
+        "X": 3,
+        "Y": 0
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 32,
+      "Position": {
+        "X": 3,
+        "Y": 1
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 33,
+      "Position": {
+        "X": 3,
+        "Y": 2
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 34,
+      "Position": {
+        "X": 3,
+        "Y": 3
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 35,
+      "Position": {
+        "X": 3,
+        "Y": 4
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 36,
+      "Position": {
+        "X": 3,
+        "Y": 5
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 37,
+      "Position": {
+        "X": 3,
+        "Y": 6
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 38,
+      "Position": {
+        "X": 3,
+        "Y": 7
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 41,
+      "Position": {
+        "X": 4,
+        "Y": 0
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 42,
+      "Position": {
+        "X": 4,
+        "Y": 1
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 43,
+      "Position": {
+        "X": 4,
+        "Y": 2
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 44,
+      "Position": {
+        "X": 4,
+        "Y": 3
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 45,
+      "Position": {
+        "X": 4,
+        "Y": 4
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 46,
+      "Position": {
+        "X": 4,
+        "Y": 5
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 47,
+      "Position": {
+        "X": 4,
+        "Y": 6
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 48,
+      "Position": {
+        "X": 4,
+        "Y": 7
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 51,
+      "Position": {
+        "X": 5,
+        "Y": 0
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 52,
+      "Position": {
+        "X": 5,
+        "Y": 1
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 53,
+      "Position": {
+        "X": 5,
+        "Y": 2
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 54,
+      "Position": {
+        "X": 5,
+        "Y": 3
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 55,
+      "Position": {
+        "X": 5,
+        "Y": 4
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 56,
+      "Position": {
+        "X": 5,
+        "Y": 5
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 57,
+      "Position": {
+        "X": 5,
+        "Y": 6
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 58,
+      "Position": {
+        "X": 5,
+        "Y": 7
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 61,
+      "Position": {
+        "X": 6,
+        "Y": 0
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 62,
+      "Position": {
+        "X": 6,
+        "Y": 1
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 63,
+      "Position": {
+        "X": 6,
+        "Y": 2
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 64,
+      "Position": {
+        "X": 6,
+        "Y": 3
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 65,
+      "Position": {
+        "X": 6,
+        "Y": 4
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 66,
+      "Position": {
+        "X": 6,
+        "Y": 5
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 67,
+      "Position": {
+        "X": 6,
+        "Y": 6
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 68,
+      "Position": {
+        "X": 6,
+        "Y": 7
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 71,
+      "Position": {
+        "X": 7,
+        "Y": 0
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 72,
+      "Position": {
+        "X": 7,
+        "Y": 1
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 73,
+      "Position": {
+        "X": 7,
+        "Y": 2
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 74,
+      "Position": {
+        "X": 7,
+        "Y": 3
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 75,
+      "Position": {
+        "X": 7,
+        "Y": 4
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 76,
+      "Position": {
+        "X": 7,
+        "Y": 5
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 77,
+      "Position": {
+        "X": 7,
+        "Y": 6
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 78,
+      "Position": {
+        "X": 7,
+        "Y": 7
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 81,
+      "Position": {
+        "X": 8,
+        "Y": 0
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 82,
+      "Position": {
+        "X": 8,
+        "Y": 1
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 83,
+      "Position": {
+        "X": 8,
+        "Y": 2
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 84,
+      "Position": {
+        "X": 8,
+        "Y": 3
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 85,
+      "Position": {
+        "X": 8,
+        "Y": 4
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 86,
+      "Position": {
+        "X": 8,
+        "Y": 5
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 87,
+      "Position": {
+        "X": 8,
+        "Y": 6
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 88,
+      "Position": {
+        "X": 8,
+        "Y": 7
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 91,
+      "Position": {
+        "X": 9,
+        "Y": 0
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 92,
+      "Position": {
+        "X": 9,
+        "Y": 1
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 93,
+      "Position": {
+        "X": 9,
+        "Y": 2
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 94,
+      "Position": {
+        "X": 9,
+        "Y": 3
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 95,
+      "Position": {
+        "X": 9,
+        "Y": 4
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 96,
+      "Position": {
+        "X": 9,
+        "Y": 5
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 97,
+      "Position": {
+        "X": 9,
+        "Y": 6
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 98,
+      "Position": {
+        "X": 9,
+        "Y": 7
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 151,
+      "Position": {
+        "X": 1,
+        "Y": 1
+      },
+      "Type": "Origin",
+      "TeamId": "TEAM_1",
+      "Destroyed": true
+    },
+    {
+      "Id": 154,
+      "Position": {
+        "X": 4,
+        "Y": 3
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 155,
+      "Position": {
+        "X": 5,
+        "Y": 2
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 156,
+      "Position": {
+        "X": 5,
+        "Y": 1
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 157,
+      "Position": {
+        "X": 4,
+        "Y": 0
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 161,
+      "Position": {
+        "X": 9,
+        "Y": 7
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 163,
+      "Position": {
+        "X": 5,
+        "Y": 4
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 164,
+      "Position": {
+        "X": 9,
+        "Y": 5
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 165,
+      "Position": {
+        "X": 1,
+        "Y": 2
+      },
+      "Type": "Connector",
+      "Destroyed": true
+    },
+    {
+      "Id": 166,
+      "Position": {
+        "X": 2,
+        "Y": 1
+      },
+      "Type": "Connector",
+      "Destroyed": true
+    },
+    {
+      "Id": 169,
+      "Position": {
+        "X": 5,
+        "Y": 5
+      },
+      "Type": "Connector",
+      "Destroyed": true
+    },
+    {
+      "Id": 170,
+      "Position": {
+        "X": 9,
+        "Y": 4
+      },
+      "Type": "Connector",
+      "Destroyed": true
+    },
+    {
+      "Id": 171,
+      "Position": {
+        "X": 6,
+        "Y": 6
+      },
+      "Type": "Connector",
+      "Destroyed": true
+    },
+    {
+      "Id": 172,
+      "Position": {
+        "X": 8,
+        "Y": 3
+      },
+      "Type": "Connector",
+      "Destroyed": true
+    },
+    {
+      "Id": 174,
+      "Position": {
+        "X": 2,
+        "Y": 0
+      },
+      "Type": "Compute",
+      "Destroyed": true
+    },
+    {
+      "Id": 176,
+      "Position": {
+        "X": 5,
+        "Y": 6
+      },
+      "Type": "Generator",
+      "Destroyed": true
+    },
+    {
+      "Id": 177,
+      "Position": {
+        "X": 9,
+        "Y": 3
+      },
+      "Type": "Generator",
+      "Destroyed": true
+    },
+    {
+      "Id": 180,
+      "Position": {
+        "X": 2,
+        "Y": 4
+      },
+      "Type": "Worker",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 181,
+      "Position": {
+        "X": 4,
+        "Y": 5
+      },
+      "Type": "Void",
+      "Destroyed": true
+    },
+    {
+      "Id": 182,
+      "Position": {
+        "X": 3,
+        "Y": 7
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 183,
+      "Position": {
+        "X": 3,
+        "Y": 6
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 184,
+      "Position": {
+        "X": 4,
+        "Y": 5
+      },
+      "Type": "Encryptor"
+    }
+  ],
+  "Stats": {
+    "Battle": {
+      "TotalEntitesCreated": 1,
+      "TotalEntitiesDestroyed": 0
+    },
+    "TEAM_1": {
+      "EntitiesPurchased": 1,
+      "EntitiesLost": 0,
+      "TotalDamageDone": 0.0,
+      "TotalDamageTaken": 0.0,
+      "NumberOfCaptures": 0,
+      "IncomePool": [
+        3
+      ]
+    },
+    "TEAM_2": {
+      "EntitiesPurchased": 0,
+      "EntitiesLost": 0,
+      "TotalDamageDone": 0.0,
+      "TotalDamageTaken": 0.0,
+      "NumberOfCaptures": 0,
+      "IncomePool": []
+    },
+    "TEAM_UNDEFINED": {
+      "EntitiesPurchased": 0,
+      "EntitiesLost": 0,
+      "TotalDamageDone": 0.0,
+      "TotalDamageTaken": 0.0,
+      "NumberOfCaptures": 0,
+      "IncomePool": []
+    },
+    "TeamConfig": {}
+  },
+  "Triggers": [
+    {
+      "Conditions": [
+        {
+          "Type": "TURN_NUMBER"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Welcome to a basic tutorial. We will be going over the basics of how to move, capture and attack.",
+              "SubmitActionText": "Next"
+            },
+            {
+              "Text": "Firstly, you have been given a worker to start with. Workers are used to capture and build structures but have very limited defensive options. Click on the worker now",
+              "SubmitActionText": "Roger that"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Conditions": [
+        {
+          "Type": "CURSOR_ENTITY",
+          "EntityType": "Worker"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Excellent. As the worker has no other actions at this moment, the movement range should appear. Try clicking on a square to move to. We want to make our way to the middle to capture the Encryptor defensive terrain.",
+              "SubmitActionText": "Next"
+            },
+            {
+              "Text": "Once the Worker has moved, its turn will end as it has no further actions that can be performed. Once all actions that can be done on a turn has been completed, click on any square to open the action menu and press 'End Turn'",
+              "SubmitActionText": "Yep"
+            },
+            {
+              "Text": "Move the worker over multiple turns to get to the Encryptor",
+              "SubmitActionText": "On it"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Conditions": [
+        {
+          "Type": "ENTITY_POSITION",
+          "EntityType": "Worker",
+          "Position": {
+            "X": 4,
+            "Y": 5
+          }
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Good Job! Now capture the Encryptor so that our team takes ownership. Possible entity actions will appear in the action menu when selected.",
+              "SubmitActionText": "Next"
+            },
+            {
+              "Text": "Hint: Tapping on the entity again will select the top item in the action menu.",
+              "SubmitActionText": "Next"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Conditions": [
+        {
+          "Type": "ENTITY",
+          "EntitySelector": {
+            "EntitySelected": 184
+          },
+          "CheckIsCaptured": true,
+          "CapturedByTeamId": "TEAM_1"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "One more digital asset added to our forces!",
+              "SubmitActionText": "Indeed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "VirusAttack",
+      "Conditions": [
+        {
+          "Type": "ENTITY",
+          "EntitySelector": {
+            "EntitySelected": 184
+          },
+          "CheckIsCaptured": true,
+          "CapturedByTeamId": "TEAM_1"
+        },
+        {
+          "Type": "CURRENT_TEAM", "TeamId": "TEAM_2"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Uh oh. It looks like our enemy is retaliating! They are sending a Virus against us! This could infect and destroy our worker!",
+              "SubmitActionText": "Indeed"
+            }
+          ]
+        },
+        {
+          "Type": "INSERT_ENTITY",
+          "EntityType": "Virus",
+          "TeamId":"TEAM_2",
+          "Position": {
+            "X": 6,
+            "Y": 5
+          },
+          "TurnEnded": false
+        }
+
+      ]
+    },
+    {
+      "Name": "SelfVirusSpawn",
+      "Conditions": [
+        {
+          "Type": "CURRENT_TEAM", "TeamId": "TEAM_1"
+        },
+        {
+          "Type": "OTHERS_TRIGGERED",
+          "Name": "VirusAttack"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "INSERT_ENTITY",
+          "EntityType": "Virus",
+          "TeamId":"TEAM_1",
+          "Position": {
+            "X": 6,
+            "Y": 6
+          },
+          "TurnEnded": false
+        },
+        {
+          "Type": "INSERT_ENTITY",
+          "EntityType": "Virus",
+          "TeamId":"TEAM_1",
+          "Position": {
+            "X": 2,
+            "Y": 6
+          },
+          "TurnEnded": false
+        },
+        {
+          "Type": "MOVE_CURSOR",
+          "Position": {
+            "X": 4,
+            "Y": 5
+          }
+        },
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "We need to save our worker. Luckily we have some viruses already coded up",
+              "SubmitActionText": "Phew"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Conditions": [
+        {
+          "Type": "CURSOR_ENTITY",
+          "EntityType": "Virus"
+        },
+        {
+          "Type": "OTHERS_TRIGGERED",
+          "Name": "SelfVirusSpawn"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Our Virus has actions. It is a direct attack unit so it needs to be next to the enemy Virus to attack. Move our Virus in to deal with the enemy Virus.",
+              "SubmitActionText": "Lets get them!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Conditions": [
+        {
+          "Type": "ENTITY_POSITION",
+          "EntityType": "Virus",
+          "TeamId": "TEAM_1",
+          "Position": {
+            "X": 4,
+            "Y": 5
+          }
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Excellent use of the Encryptor module. This will help protect our units from taking as much damage when attacked. Now let's finish off the Virus",
+              "SubmitActionText": "Next"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Conditions": [
+        {
+          "Type": "TEAM_REMAINING_ENTITIES",
+          "TeamId": "TEAM_1",
+          "EntityTagFilter": "Unit"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "TEAM_VICTORY",
+          "TeamId": "TEAM_2"
+        }
+      ]
+    },
+    {
+      "Conditions": [
+        {
+          "Type": "TEAM_REMAINING_ENTITIES",
+          "TeamId": "TEAM_2",
+          "EntityTagFilter": "Unit"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "TEAM_VICTORY",
+          "TeamId": "TEAM_1"
+        }
+      ]
+    }
+  ]
+}

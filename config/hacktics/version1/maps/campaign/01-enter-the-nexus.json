@@ -856,7 +856,7 @@
         "X": 4,
         "Y": 5
       },
-      "Type": "Encryption"
+      "Type": "Encryptor"
     }
   ],
   "Stats": {
@@ -927,7 +927,7 @@
           "Type": "SEND_NOTIFICATION",
           "Notifications": [
             {
-              "Text": "Excellent. As the worker has no other actions at this moment, the movement range should appear. Try clicking on a square to move to. We want to make our way to the middle to capture the Encryption defensive terrain.",
+              "Text": "Excellent. As the worker has no other actions at this moment, the movement range should appear. Try clicking on a square to move to. We want to make our way to the middle to capture the Encryptor defensive terrain.",
               "SubmitActionText": "Next"
             },
             {
@@ -935,7 +935,7 @@
               "SubmitActionText": "Yep"
             },
             {
-              "Text": "Move the worker over multiple turns to get to the Encryption",
+              "Text": "Move the worker over multiple turns to get to the Encryptor",
               "SubmitActionText": "On it"
             }
           ]
@@ -958,7 +958,7 @@
           "Type": "SEND_NOTIFICATION",
           "Notifications": [
             {
-              "Text": "Good Job! Now capture the encryption so that our team takes ownership. Possible entity actions will appear in the action menu when selected.",
+              "Text": "Good Job! Now capture the Encryptor so that our team takes ownership. Possible entity actions will appear in the action menu when selected.",
               "SubmitActionText": "Next"
             },
             {
@@ -1120,7 +1120,7 @@
           "Type": "SEND_NOTIFICATION",
           "Notifications": [
             {
-              "Text": "Excellent use of the Encryption module. This will help protect our units from taking as much damage when attacked. Now let's finish off the Virus",
+              "Text": "Excellent use of the Encryptor module. This will help protect our units from taking as much damage when attacked. Now let's finish off the Virus",
               "SubmitActionText": "Next"
             }
           ]
