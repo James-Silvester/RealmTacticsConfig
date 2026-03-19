@@ -101,6 +101,7 @@
       "SAVES_DIRECTORY": "testing/maps/saves",
       "CUSTOM_MAPS_DIRECTORY": "testing/maps/custom_maps",
       "GENERATE_MAP_CONFIG_FILE": "testing/maps/generate_map_config.json",
-      "CURRENT_CAMPAIGN": ""
+      "CURRENT_CAMPAIGN": "",
+      "USE_BLOCK_TEAM_COLORS": ""
     }
   }
