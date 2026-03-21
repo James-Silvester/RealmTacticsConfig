@@ -30,7 +30,14 @@
                 },
                 {
                     "Type": "DAMAGE",
-                    "AbsoluteValue": 0.2
+                    "AbsoluteValue": 0.2,
+                    "ModificationTime": {
+                        "TriggerOnAllTurns": true
+                    }
+                },
+                                {
+                    "Type": "DAMAGE",
+                    "AbsoluteValue": 0.4
                 }
             ]
         },
