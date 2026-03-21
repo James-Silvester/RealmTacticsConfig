@@ -37,7 +37,7 @@
                 },
                                 {
                     "Type": "DAMAGE",
-                    "AbsoluteValue": 0.4
+                    "AbsoluteValue": 0.1
                 }
             ]
         },

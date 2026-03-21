@@ -82,11 +82,11 @@
                     { "Type": "SELECT_POSITION", "X": 18, "Y": 15, "DoubleTap": true, "Note": "Cycle turn" },
                     { "Type": "CHECK_ACTIONS", "SelectOptionName": "End Turn" },
                     { "Type": "WAIT_FOR_TEAM_TURN", "Team": "TEAM_1" },
-                    { "Type": "ENTITY_HEALTH", "X": 19, "Y": 19,  "MinHealth": 0.50, "MaxHealth": 0.62 },
+                    { "Type": "ENTITY_HEALTH", "X": 19, "Y": 19,  "MinHealth": 0.40, "MaxHealth": 0.52 },
                     { "Type": "SELECT_POSITION", "X": 17, "Y": 14, "DoubleTap": true, "Note": "Cycle turn" },
                     { "Type": "CHECK_ACTIONS", "SelectOptionName": "End Turn" },
                     { "Type": "WAIT_FOR_TEAM_TURN", "Team": "TEAM_2" },
-                    { "Type": "ENTITY_HEALTH", "X": 19, "Y": 19,  "MinHealth": 0.30, "MaxHealth": 0.42 }
+                    { "Type": "ENTITY_HEALTH", "X": 19, "Y": 19,  "MinHealth": 0.20, "MaxHealth": 0.32 }
                 ]
             },
             {
