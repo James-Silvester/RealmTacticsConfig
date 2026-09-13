@@ -2,7 +2,7 @@ version |   name            |   filename                        |   isFile  |   
 
 2       |   Campaign        |   campaign.json                   |   1       |   /       |   0       |   /           |   loadCampaign |  0           |   0       |   Tutorial
 
-1       |   Map         |   campaign_map.jpeg                       |   1       |   /       |   1       |   /           |   loadCampaignMap |  0           |   0       |   Campaign Map
+1       |   Map         |   campaign_map.png                       |   1       |   /       |   1       |   /           |   loadCampaignMap |  0           |   0       |   Campaign Map
 
 2       |   Enter the Nexus        |   01-enter-the-nexus.json                   |   1       |   /       |   0       |   /           |   loadMap     |   0           |   0       |   Enter the Nexus
 
@@ -15,8 +15,8 @@ version |   name            |   filename                        |   isFile  |   
 1       |   3 - Walkway     |   level_3_walkway.json            |   1       |   /       |   0       |   /           |   loadMap     |   0           |   0       |   Level 3
 
 
-1       |   0 - Tutorial Screenshot     |   screenshots/tutorial_screenshot.png |   1       |   /       |   0       |   /           | |   0           |   0       |   Tutorial Screenshot
-1       |   0 - Map 1 Screenshot     |   screenshots/map1_screenshot.png |   1       |   /       |   0       |   /           | |   0           |   0       |   Map 1 Screenshot
+1       |   0 - Tutorial Screenshot     |   screenshots/01-enter-the-nexus_screenshot.png |   1       |   /       |   0       |   /           | |   0           |   0       |   Tutorial Screenshot
+1       |   0 - Map 1 Screenshot     |   screenshots/02-proving-grounds_screenshot.png |   1       |   /       |   0       |   /           | |   0           |   0       |   Map 1 Screenshot
 
 
 1       |   Intro           |   campaignIntro.msg                       |   1       |   /       |   0       |   /           |   message     |   0           |   0       |   Introduction to the Hacktics campaign
