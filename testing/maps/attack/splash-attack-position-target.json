@@ -75,12 +75,12 @@
             {
                 "Description": "Splash attack position test - Perform the attack - target entity gets hit",
                 "Steps": [
-                    { "Type": "CHECK_TEXT_VISIBLE", "Text": 50 },
+                    { "Type": "CHECK_DAMAGE_INDICATOR_VISIBLE", "Value": 50 },
                     { "Type": "SELECT_POSITION", "X": 4, "Y": 1 },
                     { "Type": "ENTITY_HEALTH", "MinHealth": 0.3, "MaxHealth": 0.7 },
                     { "Type": "ENTITY_HEALTH", "X": 4, "Y": 0, "MinHealth": 0.3, "MaxHealth": 0.7 },
                     { "Type": "ENTITY_HEALTH", "X": 3, "Y": 0, "Health": 1.0 },
-                    { "Type": "CHECK_TEXT_VISIBLE", "Text": 50, "Visible": false }
+                    { "Type": "CHECK_DAMAGE_INDICATOR_VISIBLE", "Visible": false }
                 ]
             },
             {
