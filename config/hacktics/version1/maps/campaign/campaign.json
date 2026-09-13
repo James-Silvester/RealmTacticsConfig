@@ -17,9 +17,10 @@
         },
         {
             "Name": "Proving Grounds",
-            "Description": "An actual level to play",
-            "Summary": "The first real level. I want to have a really long sentance here to test how it looks in the UI. Maybe even a second sentence? Actually this is getting ridiculous. Lets see how it looks.",
+            "Description": "Learn about range and different close range units",
+            "Summary": "With your introduction to the Open Front, you are tested to see if you have the skills to join the fight.",
             "DifficultyRating": "2",
+            "Terms": "Capture the enemy Origin.\nYou lose if all your units are destroyed.",
             "MapImageFilePath": "screenshots/02-proving-grounds_screenshot.png",
             "MapFile": "02-proving-grounds.json",
             "UnlockRequirements": {
@@ -27,6 +28,21 @@
             },
             "OnCompletionGlobalSet" : {
                 "ProvingGrounds_Complete": true
+            }
+        },
+        {
+            "Name": "Open Port",
+            "Description": "Learn about more complex units. Multi movement and debuffs. The idea will be to delay the enemy on one side while doing a quick attack to take the enemy base",
+            "Summary": "A poorly secured port gives you an opening—but the enemy won't give it up easily.",
+            "DifficultyRating": "3",
+            "Terms": "Capture the enemy Origin.\nYou lose if all your units are destroyed.",
+            "MapImageFilePath": "screenshots/03-open-port_screenshot.png",
+            "MapFile": "03-open-port.json",
+            "UnlockRequirements": {
+                "ProvingGrounds_Complete": true
+            },
+            "OnCompletionGlobalSet" : {
+                "OpenPort_Complete": true
             }
         }
     ],
@@ -51,6 +67,23 @@
                 "HighlightRequirements": {
                     "TutorialComplete": true,
                     "Level0Complete": false
+                }
+            },
+            {
+                "StartPosition": {
+                    "X": 30,
+                    "Y": 30
+                },
+                "EndPosition": {
+                    "X": 50,
+                    "Y": 20
+                },
+                "UnlockRequirements": {
+                    "ProvingGrounds_Complete": true
+                },
+                "HighlightRequirements": {
+                    "ProvingGrounds_Complete": true,
+                    "OpenPort_Complete": false
                 }
             }
         ],
@@ -78,6 +111,20 @@
                 },
                 "HighlightRequirements": {
                     "ProvingGrounds_Complete": false
+                }
+            },
+            {
+                "Level": "Open Port",
+                "Position": {
+                    "X": 50,
+                    "Y": 20
+                },
+                "Title": "Open Port",
+                "UnlockRequirements": {
+                    "ProvingGrounds_Complete": true
+                },
+                "HighlightRequirements": {
+                    "OpenPort_Complete": false
                 }
             }
         ]

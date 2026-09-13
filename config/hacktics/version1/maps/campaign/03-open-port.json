@@ -1,10 +1,10 @@
 {
   "Version": 1,
   "ImportedDefaults": true,
-  "Width": 10,
-  "Height": 8,
-  "CursorStartingX": 1,
-  "CursorStartingY": 6,
+  "Width": 11,
+  "Height": 9,
+  "CursorStartingX": 0,
+  "CursorStartingY": 4,
   "CameraStartingX": 0,
   "CameraStartingY": 0,
   "TeamsConfig": {
@@ -94,6 +94,14 @@
       "Type": "Ground"
     },
     {
+      "Id": 19,
+      "Position": {
+        "X": 0,
+        "Y": 8
+      },
+      "Type": "Ground"
+    },
+    {
       "Id": 21,
       "Position": {
         "X": 1,
@@ -154,6 +162,14 @@
       "Position": {
         "X": 1,
         "Y": 7
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 29,
+      "Position": {
+        "X": 1,
+        "Y": 8
       },
       "Type": "Ground"
     },
@@ -222,6 +238,14 @@
       "Type": "Ground"
     },
     {
+      "Id": 39,
+      "Position": {
+        "X": 2,
+        "Y": 8
+      },
+      "Type": "Ground"
+    },
+    {
       "Id": 41,
       "Position": {
         "X": 3,
@@ -282,6 +306,14 @@
       "Position": {
         "X": 3,
         "Y": 7
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 49,
+      "Position": {
+        "X": 3,
+        "Y": 8
       },
       "Type": "Ground"
     },
@@ -350,6 +382,14 @@
       "Type": "Ground"
     },
     {
+      "Id": 59,
+      "Position": {
+        "X": 4,
+        "Y": 8
+      },
+      "Type": "Ground"
+    },
+    {
       "Id": 61,
       "Position": {
         "X": 5,
@@ -410,6 +450,14 @@
       "Position": {
         "X": 5,
         "Y": 7
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 69,
+      "Position": {
+        "X": 5,
+        "Y": 8
       },
       "Type": "Ground"
     },
@@ -478,6 +526,14 @@
       "Type": "Ground"
     },
     {
+      "Id": 79,
+      "Position": {
+        "X": 6,
+        "Y": 8
+      },
+      "Type": "Ground"
+    },
+    {
       "Id": 81,
       "Position": {
         "X": 7,
@@ -538,6 +594,14 @@
       "Position": {
         "X": 7,
         "Y": 7
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 89,
+      "Position": {
+        "X": 7,
+        "Y": 8
       },
       "Type": "Ground"
     },
@@ -606,6 +670,14 @@
       "Type": "Ground"
     },
     {
+      "Id": 99,
+      "Position": {
+        "X": 8,
+        "Y": 8
+      },
+      "Type": "Ground"
+    },
+    {
       "Id": 101,
       "Position": {
         "X": 9,
@@ -670,131 +742,396 @@
       "Type": "Ground"
     },
     {
-      "Id": 200,
+      "Id": 109,
       "Position": {
-        "X": 4,
-        "Y": 3
+        "X": 9,
+        "Y": 8
       },
-      "Type": "Void"
+      "Type": "Ground"
     },
     {
-      "Id": 201,
+      "Id": 111,
       "Position": {
-        "X": 5,
-        "Y": 3
+        "X": 10,
+        "Y": 0
       },
-      "Type": "Void"
+      "Type": "Ground"
     },
     {
-      "Id": 202,
+      "Id": 112,
       "Position": {
-        "X": 4,
-        "Y": 4
+        "X": 10,
+        "Y": 1
       },
-      "Type": "Void"
+      "Type": "Ground"
     },
     {
-      "Id": 203,
+      "Id": 113,
       "Position": {
-        "X": 5,
-        "Y": 4
-      },
-      "Type": "Void"
-    },
-    {
-      "Id": 204,
-      "Position": {
-        "X": 3,
+        "X": 10,
         "Y": 2
       },
-      "Type": "Connector"
+      "Type": "Ground"
     },
     {
-      "Id": 205,
+      "Id": 114,
+      "Position": {
+        "X": 10,
+        "Y": 3
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 115,
+      "Position": {
+        "X": 10,
+        "Y": 4
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 116,
+      "Position": {
+        "X": 10,
+        "Y": 5
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 117,
+      "Position": {
+        "X": 10,
+        "Y": 6
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 118,
+      "Position": {
+        "X": 10,
+        "Y": 7
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 119,
+      "Position": {
+        "X": 10,
+        "Y": 8
+      },
+      "Type": "Ground"
+    },
+    {
+      "Id": 300,
+      "Position": {
+        "X": 1,
+        "Y": 3
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 301,
+      "Position": {
+        "X": 1,
+        "Y": 4
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 302,
+      "Position": {
+        "X": 1,
+        "Y": 5
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 303,
+      "Position": {
+        "X": 2,
+        "Y": 3
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 304,
+      "Position": {
+        "X": 2,
+        "Y": 4
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 305,
+      "Position": {
+        "X": 2,
+        "Y": 5
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 306,
+      "Position": {
+        "X": 3,
+        "Y": 3
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 307,
+      "Position": {
+        "X": 3,
+        "Y": 4
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 308,
+      "Position": {
+        "X": 3,
+        "Y": 5
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 309,
+      "Position": {
+        "X": 4,
+        "Y": 3
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 310,
+      "Position": {
+        "X": 4,
+        "Y": 4
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 311,
+      "Position": {
+        "X": 4,
+        "Y": 5
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 312,
+      "Position": {
+        "X": 5,
+        "Y": 3
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 313,
+      "Position": {
+        "X": 5,
+        "Y": 4
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 314,
+      "Position": {
+        "X": 5,
+        "Y": 5
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 315,
+      "Position": {
+        "X": 6,
+        "Y": 3
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 316,
+      "Position": {
+        "X": 6,
+        "Y": 4
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 317,
       "Position": {
         "X": 6,
         "Y": 5
       },
+      "Type": "Void"
+    },
+    {
+      "Id": 318,
+      "Position": {
+        "X": 7,
+        "Y": 3
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 319,
+      "Position": {
+        "X": 7,
+        "Y": 4
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 320,
+      "Position": {
+        "X": 7,
+        "Y": 5
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 321,
+      "Position": {
+        "X": 8,
+        "Y": 3
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 322,
+      "Position": {
+        "X": 8,
+        "Y": 4
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 323,
+      "Position": {
+        "X": 8,
+        "Y": 5
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 324,
+      "Position": {
+        "X": 9,
+        "Y": 3
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 325,
+      "Position": {
+        "X": 9,
+        "Y": 4
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 326,
+      "Position": {
+        "X": 9,
+        "Y": 5
+      },
+      "Type": "Void"
+    },
+    {
+      "Id": 327,
+      "Position": {
+        "X": 0,
+        "Y": 4
+      },
+      "Type": "Origin",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 328,
+      "Position": {
+        "X": 10,
+        "Y": 4
+      },
+      "Type": "Origin",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 329,
+      "Position": {
+        "X": 5,
+        "Y": 1
+      },
       "Type": "Connector"
     },
     {
-      "Id": 206,
+      "Id": 330,
       "Position": {
-        "X": 4,
-        "Y": 6
-      },
-      "Type": "Encryptor"
-    },
-    {
-      "Id": 207,
-      "Position": {
-        "X": 1,
-        "Y": 6
-      },
-      "Type": "Origin",
-      "TeamId": "TEAM_1"
-    },
-    {
-      "Id": 208,
-      "Position": {
-        "X": 8,
-        "Y": 1
-      },
-      "Type": "Origin",
-      "TeamId": "TEAM_2"
-    },
-    {
-      "Id": 209,
-      "Position": {
-        "X": 1,
-        "Y": 5
-      },
-      "Type": "Worker",
-      "TeamId": "TEAM_1"
-    },
-    {
-      "Id": 210,
-      "Position": {
-        "X": 2,
-        "Y": 6
-      },
-      "Type": "DDOS",
-      "TeamId": "TEAM_1"
-    },
-    {
-      "Id": 211,
-      "Position": {
-        "X": 1,
+        "X": 5,
         "Y": 7
       },
-      "Type": "Brute",
+      "Type": "Connector"
+    },
+    {
+      "Id": 331,
+      "Position": {
+        "X": 0,
+        "Y": 4
+      },
+      "Type": "Worker",
       "TeamId": "TEAM_1"
     },
     {
-      "Id": 212,
+      "Id": 332,
       "Position": {
-        "X": 8,
-        "Y": 2
+        "X": 0,
+        "Y": 1
       },
-      "Type": "Worker",
+      "Type": "Ransomware",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 333,
+      "Position": {
+        "X": 0,
+        "Y": 7
+      },
+      "Type": "Worm",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 334,
+      "Position": {
+        "X": 6,
+        "Y": 1
+      },
+      "Type": "Brute",
       "TeamId": "TEAM_2"
     },
     {
-      "Id": 213,
+      "Id": 335,
       "Position": {
-        "X": 7,
+        "X": 8,
         "Y": 1
+      },
+      "Type": "Brute",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 336,
+      "Position": {
+        "X": 8,
+        "Y": 7
       },
       "Type": "DDOS",
       "TeamId": "TEAM_2"
     },
     {
-      "Id": 214,
+      "Id": 337,
       "Position": {
-        "X": 8,
-        "Y": 0
+        "X": 10,
+        "Y": 4
       },
-      "Type": "Brute",
+      "Type": "Worker",
       "TeamId": "TEAM_2"
     }
   ],
@@ -841,64 +1178,16 @@
           "Type": "SEND_NOTIFICATION",
           "Notifications": [
             {
-              "Text": "Echo: We've got trouble. We're receiving reports of a CyberCorp attack on one of our key territories.",
+              "Text": "A poorly secured port gives you an opening into enemy territory - but they won't give up the ground easily.",
               "SubmitActionText": "Next"
             },
             {
-              "Text": "Echo: This is your chance to show what you're capable of. I'll be here to provide guidance, but I've got urgent matters to attend to elsewhere.",
+              "Text": "Your Ransomware can't attack, but its presence alone slows every hostile unit nearby. Post it in a corridor and it becomes a wall.",
               "SubmitActionText": "Next"
             },
             {
-              "Text": "Echo: The defence is in your hands now. We're counting on you to program our network to repel the CyberCorp incursion.",
-              "SubmitActionText": "Next"
-            },
-            {
-              "Text": "Echo: Remember, you've got the skills and determination to make a difference. Trust your instincts, and let's show CyberCorp what the Open Front is made of.",
-              "SubmitActionText": "Let's go"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Name": "TaughtRange",
-      "Conditions": [
-        {
-          "Type": "CURSOR_ENTITY",
-          "EntityType": "DDOS"
-        }
-      ],
-      "Actions": [
-        {
-          "Type": "SEND_NOTIFICATION",
-          "Notifications": [
-            {
-              "Text": "DDOS units strike from range but can't move and attack in the same turn, and they fold fast if anything reaches them. Keep them behind your front line.",
-              "SubmitActionText": "Got it"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Name": "TaughtBrute",
-      "Conditions": [
-        {
-          "Type": "CURSOR_ENTITY",
-          "EntityType": "Brute"
-        },
-        {
-          "Type": "OTHERS_TRIGGERED",
-          "Name": "TaughtRange"
-        }
-      ],
-      "Actions": [
-        {
-          "Type": "SEND_NOTIFICATION",
-          "Notifications": [
-            {
-              "Text": "Brute Forcers hit hard up close and shrug off damage, but they're slow. Push them in first to soak hits while your DDOS pick off targets from behind.",
-              "SubmitActionText": "Understood"
+              "Text": "Your Worm moves fast and can pass straight through occupied squares. Use it to slip past a weaker guard and strike the enemy Origin directly.",
+              "SubmitActionText": "Let's move"
             }
           ]
         }
