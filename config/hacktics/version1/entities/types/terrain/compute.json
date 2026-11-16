@@ -3,8 +3,8 @@
     "Description": "High resource availability",
     "Sprite": {
         "FilePath": "terrain/compute.png",
-        "PixelsPerUnit": 64,
-        "Framerate": 3,
+        "PixelsPerUnit": 32,
+        "Framerate": 8,
         "Repeats": true
     },
     "Tags": [

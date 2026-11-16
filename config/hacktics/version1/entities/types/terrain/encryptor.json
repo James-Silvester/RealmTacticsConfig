@@ -3,8 +3,8 @@
     "Description": "Secures all data",
     "Sprite": {
         "FilePath": "terrain/encryptor.png",
-        "PixelsPerUnit": 64,
-        "Framerate": 3,
+        "PixelsPerUnit": 32,
+        "Framerate": 8,
         "Repeats": true
     },
     "Tags": [

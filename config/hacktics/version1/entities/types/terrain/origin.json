@@ -3,8 +3,8 @@
     "Description": "Main Teams Base",
     "Sprite": {
         "FilePath": "terrain/origin.png",
-        "PixelsPerUnit": 64,
-        "Framerate": 1,
+        "PixelsPerUnit": 32,
+        "Framerate": 8,
         "Repeats": true
     },
     "Tags": [

@@ -3,8 +3,8 @@
     "Description": "Base network",
     "Sprite": {
         "FilePath": "terrain/connector.png",
-        "PixelsPerUnit": 64,
-        "Framerate": 1,
+        "PixelsPerUnit": 32,
+        "Framerate": 8,
         "Repeats": true
     },
     "Selectable": false,
