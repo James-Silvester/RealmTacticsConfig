@@ -3,8 +3,8 @@
     "Description": "Remote disruption of the network from a collection of small attacks. Long range single target attacker",
     "Sprite": {
         "FilePath": "units/ddos.png",
-        "PixelsPerUnit": 64,
-        "Framerate": 3,
+        "PixelsPerUnit": 32,
+        "Framerate": 8,
         "Repeats": true
     },
     "Tags": [

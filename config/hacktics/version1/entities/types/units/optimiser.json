@@ -3,8 +3,8 @@
     "Description": "Improves code quality and effectiveness. Repairs friendly entities",
     "Sprite": {
         "FilePath": "units/optimiser.png",
-        "PixelsPerUnit": 64,
-        "Framerate": 0,
+        "PixelsPerUnit": 32,
+        "Framerate": 8,
         "Repeats": true
     },
     "Tags": [

@@ -3,8 +3,8 @@
     "Description": "Trying every possible combination until it breaks through. Inefficient but powerful on weak systems",
     "Sprite": {
         "FilePath": "units/bruteforcer.png",
-        "PixelsPerUnit": 64,
-        "Framerate": 0,
+        "PixelsPerUnit": 32,
+        "Framerate": 8,
         "Repeats": true
     },
     "Tags": [

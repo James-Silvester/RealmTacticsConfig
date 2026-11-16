@@ -3,8 +3,8 @@
     "Description": "An alternative way into a system that has been left open on purpose. Allows users to enter the system in alternative ways",
     "Sprite": {
         "FilePath": "units/backdoor.png",
-        "PixelsPerUnit": 64,
-        "Framerate": 0,
+        "PixelsPerUnit": 32,
+        "Framerate": 8,
         "Repeats": true
     },
     "Layer": 4,

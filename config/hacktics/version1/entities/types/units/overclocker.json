@@ -3,8 +3,8 @@
     "Description": "Make a processor run at a faster clock speed. Will buff friendly units by increasing movement",
     "Sprite": {
         "FilePath": "units/overclocker.png",
-        "PixelsPerUnit": 64,
-        "Framerate": 0,
+        "PixelsPerUnit": 32,
+        "Framerate": 8,
         "Repeats": true
     },
     "Tags": [

@@ -3,8 +3,8 @@
     "Description": "A collection of compromised computers that are enslaved for a collective purpose. Stronger with greater numbers",
     "Sprite": {
         "FilePath": "units/botnet.png",
-        "PixelsPerUnit": 64,
-        "Framerate": 0,
+        "PixelsPerUnit": 32,
+        "Framerate": 8,
         "Repeats": true
     },
     "Tags": [

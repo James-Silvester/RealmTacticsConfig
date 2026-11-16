@@ -3,8 +3,8 @@
     "Description": "Can move quickly through a network to infect different servers",
     "Sprite": {
         "FilePath": "units/worm.png",
-        "PixelsPerUnit": 64,
-        "Framerate": 3,
+        "PixelsPerUnit": 32,
+        "Framerate": 8,
         "Repeats": true
     },
     "Layer": 4,
