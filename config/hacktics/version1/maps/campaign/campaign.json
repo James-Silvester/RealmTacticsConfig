@@ -1,48 +1,153 @@
 {
-    "Name": "Hacktics Campaign!!!",
-    "Description": "Test your strategic hacking skillzz",
+    "Name": "Hacktics Campaign",
+    "Description": "Fight for the Open Front, from your first capture to the root of the Lattice",
     "Levels": [
         {
             "Name": "Enter the Nexus",
-            "Description": "Do the tutorial to learn the basics of hacking",
+            "Description": "Learn to move, capture and attack",
             "Summary": "As you sift through the dusty files of an old computer system, a glitch in the code catches your eye. Curiosity piqued, you delve deeper...",
             "DifficultyRating": "1",
-            "Terms": "Capture the enemy Origin.\nYou lose if your workers are destroyed.",
+            "Terms": "Capture the Encryptor, then destroy the enemy Virus.\nYou lose if all your units are destroyed.",
             "MapImageFilePath": "screenshots/01-enter-the-nexus_screenshot.png",
             "MapFile": "01-enter-the-nexus.json",
-            "OnCompletionGlobalSet" : {
+            "UnlockRequirements": {},
+            "OnCompletionGlobalSet": {
                 "EnterTheNexus_Complete": true
-            },
-            "UnlockRequirements": {}
+            }
         },
         {
             "Name": "Proving Grounds",
-            "Description": "Learn about range and different close range units",
-            "Summary": "With your introduction to the Open Front, you are tested to see if you have the skills to join the fight.",
+            "Description": "Learn ranged attackers and heavy close-range units",
+            "Summary": "Echo has brought you to the Open Front, a loose band of hackers holding out against CyberCorp. First they want to see what you can do.",
             "DifficultyRating": "2",
-            "Terms": "Capture the enemy Origin.\nYou lose if all your units are destroyed.",
+            "Terms": "Capture the enemy Origin, or destroy every enemy unit.\nYou lose if your Origin is captured or all your units are destroyed.",
             "MapImageFilePath": "screenshots/02-proving-grounds_screenshot.png",
             "MapFile": "02-proving-grounds.json",
             "UnlockRequirements": {
                 "EnterTheNexus_Complete": true
             },
-            "OnCompletionGlobalSet" : {
+            "OnCompletionGlobalSet": {
                 "ProvingGrounds_Complete": true
             }
         },
         {
             "Name": "Open Port",
-            "Description": "Learn about more complex units. Multi movement and debuffs. The idea will be to delay the enemy on one side while doing a quick attack to take the enemy base",
-            "Summary": "A poorly secured port gives you an opening—but the enemy won't give it up easily.",
-            "DifficultyRating": "3",
-            "Terms": "Capture the enemy Origin.\nYou lose if all your units are destroyed.",
+            "Description": "Stall one flank with Ransomware while a Worm slips through the other",
+            "Summary": "A poorly secured port gives you an opening into CyberCorp territory, but they won't give the ground up easily.",
+            "DifficultyRating": "2",
+            "Terms": "Capture the enemy Origin, or destroy every enemy unit.\nYou lose if your Origin is captured or all your units are destroyed.",
             "MapImageFilePath": "screenshots/03-open-port_screenshot.png",
             "MapFile": "03-open-port.json",
             "UnlockRequirements": {
                 "ProvingGrounds_Complete": true
             },
-            "OnCompletionGlobalSet" : {
+            "OnCompletionGlobalSet": {
                 "OpenPort_Complete": true
+            }
+        },
+        {
+            "Name": "Supply Lines",
+            "Description": "Extend your network along the trunk line, earn income and buy units",
+            "Summary": "CyberCorp is starving the Open Front of cycles. Echo wants a supply line of your own before the next push, and theirs cut.",
+            "DifficultyRating": "2",
+            "Terms": "Capture the enemy Origin, or destroy every enemy unit.\nYou lose if your Origin is captured or all your units are destroyed.",
+            "MapImageFilePath": "screenshots/04-supply-lines_screenshot.png",
+            "MapFile": "04-supply-lines.json",
+            "UnlockRequirements": {
+                "OpenPort_Complete": true
+            },
+            "OnCompletionGlobalSet": {
+                "SupplyLines_Complete": true
+            }
+        },
+        {
+            "Name": "Zombie Horde",
+            "Description": "Hold two gaps with Firewalls and massed Botnets, and keep your own line whole",
+            "Summary": "A hijacked swarm of machines is bearing down on an Open Front relay. It only has to stay standing long enough for Echo's trace to finish.",
+            "DifficultyRating": "3",
+            "Terms": "Survive until turn 12, or destroy every enemy unit.\nYou lose if your Origin is captured or all your units are destroyed.",
+            "MapImageFilePath": "screenshots/05-zombie-horde_screenshot.png",
+            "MapFile": "05-zombie-horde.json",
+            "UnlockRequirements": {
+                "SupplyLines_Complete": true
+            },
+            "OnCompletionGlobalSet": {
+                "ZombieHorde_Complete": true
+            }
+        },
+        {
+            "Name": "Patch Cycle",
+            "Description": "Keep a strike team alive long enough to cut the line feeding an enemy Generator",
+            "Summary": "Echo's trace leads to a CyberCorp staging server. No reinforcements this time: a strike team, two Workers, and a supply line that needs cutting.",
+            "DifficultyRating": "3",
+            "Terms": "Capture the enemy Origin, or destroy every enemy unit.\nYou lose if all your units are destroyed. You cannot buy units here.",
+            "MapImageFilePath": "screenshots/06-patch-cycle_screenshot.png",
+            "MapFile": "06-patch-cycle.json",
+            "UnlockRequirements": {
+                "ZombieHorde_Complete": true
+            },
+            "OnCompletionGlobalSet": {
+                "PatchCycle_Complete": true
+            }
+        },
+        {
+            "Name": "Slow Poison",
+            "Description": "Wear down a stronger force with Injectors while two lines are fought over",
+            "Summary": "The staging server gave up a name: the Lattice, CyberCorp's private backbone. Its garrison outguns you. Echo suggests you don't fight fair.",
+            "DifficultyRating": "4",
+            "Terms": "Capture the enemy Origin, or destroy every enemy unit.\nYou lose if your Origin is captured or all your units are destroyed.",
+            "MapImageFilePath": "screenshots/07-slow-poison_screenshot.png",
+            "MapFile": "07-slow-poison.json",
+            "UnlockRequirements": {
+                "PatchCycle_Complete": true
+            },
+            "OnCompletionGlobalSet": {
+                "SlowPoison_Complete": true
+            }
+        },
+        {
+            "Name": "Forward Base",
+            "Description": "A tug of war down one long line, Generator against Generator",
+            "Summary": "The Lattice is long and your Origin is a long way behind you. CyberCorp builds at the front. Time you did the same.",
+            "DifficultyRating": "4",
+            "Terms": "Capture the enemy Origin, or destroy every enemy unit.\nYou lose if your Origin is captured or all your units are destroyed.",
+            "MapImageFilePath": "screenshots/08-forward-base_screenshot.png",
+            "MapFile": "08-forward-base.json",
+            "UnlockRequirements": {
+                "SlowPoison_Complete": true
+            },
+            "OnCompletionGlobalSet": {
+                "ForwardBase_Complete": true
+            }
+        },
+        {
+            "Name": "Zero Day",
+            "Description": "Two enemy Origins feed one Generator. Cut both lines, take both Origins",
+            "Summary": "Two CyberCorp Origins guard the last junction before the core. They cover each other. Echo has found a flaw nobody has patched, and it won't stay secret for long.",
+            "DifficultyRating": "5",
+            "Terms": "Capture both enemy Origins, or destroy every enemy unit.\nYou lose if your Origin is captured or all your units are destroyed.",
+            "MapImageFilePath": "screenshots/09-zero-day_screenshot.png",
+            "MapFile": "09-zero-day.json",
+            "UnlockRequirements": {
+                "ForwardBase_Complete": true
+            },
+            "OnCompletionGlobalSet": {
+                "ZeroDay_Complete": true
+            }
+        },
+        {
+            "Name": "Root Access",
+            "Description": "Starve the walled core by cutting the three lines that feed it, then take it",
+            "Summary": "The core of the Lattice: one Origin behind a wall of dead space. Three lines run out through three gates. Echo says this is what you were chosen for.",
+            "DifficultyRating": "5",
+            "Terms": "Capture the core Origin, or destroy every enemy unit.\nYou lose if your Origin is captured or all your units are destroyed.",
+            "MapImageFilePath": "screenshots/10-root-access_screenshot.png",
+            "MapFile": "10-root-access.json",
+            "UnlockRequirements": {
+                "ZeroDay_Complete": true
+            },
+            "OnCompletionGlobalSet": {
+                "RootAccess_Complete": true
             }
         }
     ],
@@ -54,29 +159,29 @@
         "ConnectorConfigs": [
             {
                 "StartPosition": {
-                    "X": 10,
-                    "Y": 90
+                    "X": 8.2,
+                    "Y": 21.4
                 },
                 "EndPosition": {
-                    "X": 30,
-                    "Y": 30
+                    "X": 20.2,
+                    "Y": 37.5
                 },
                 "UnlockRequirements": {
-                    "TutorialComplete": true
+                    "EnterTheNexus_Complete": true
                 },
                 "HighlightRequirements": {
-                    "TutorialComplete": true,
-                    "Level0Complete": false
+                    "EnterTheNexus_Complete": true,
+                    "ProvingGrounds_Complete": false
                 }
             },
             {
                 "StartPosition": {
-                    "X": 30,
-                    "Y": 30
+                    "X": 20.2,
+                    "Y": 37.5
                 },
                 "EndPosition": {
-                    "X": 50,
-                    "Y": 20
+                    "X": 13.9,
+                    "Y": 62.5
                 },
                 "UnlockRequirements": {
                     "ProvingGrounds_Complete": true
@@ -85,16 +190,135 @@
                     "ProvingGrounds_Complete": true,
                     "OpenPort_Complete": false
                 }
+            },
+            {
+                "StartPosition": {
+                    "X": 13.9,
+                    "Y": 62.5
+                },
+                "EndPosition": {
+                    "X": 30.8,
+                    "Y": 74.1
+                },
+                "UnlockRequirements": {
+                    "OpenPort_Complete": true
+                },
+                "HighlightRequirements": {
+                    "OpenPort_Complete": true,
+                    "SupplyLines_Complete": false
+                }
+            },
+            {
+                "StartPosition": {
+                    "X": 30.8,
+                    "Y": 74.1
+                },
+                "EndPosition": {
+                    "X": 40.4,
+                    "Y": 50.0
+                },
+                "UnlockRequirements": {
+                    "SupplyLines_Complete": true
+                },
+                "HighlightRequirements": {
+                    "SupplyLines_Complete": true,
+                    "ZombieHorde_Complete": false
+                }
+            },
+            {
+                "StartPosition": {
+                    "X": 40.4,
+                    "Y": 50.0
+                },
+                "EndPosition": {
+                    "X": 51.0,
+                    "Y": 28.6
+                },
+                "UnlockRequirements": {
+                    "ZombieHorde_Complete": true
+                },
+                "HighlightRequirements": {
+                    "ZombieHorde_Complete": true,
+                    "PatchCycle_Complete": false
+                }
+            },
+            {
+                "StartPosition": {
+                    "X": 51.0,
+                    "Y": 28.6
+                },
+                "EndPosition": {
+                    "X": 60.6,
+                    "Y": 57.1
+                },
+                "UnlockRequirements": {
+                    "PatchCycle_Complete": true
+                },
+                "HighlightRequirements": {
+                    "PatchCycle_Complete": true,
+                    "SlowPoison_Complete": false
+                }
+            },
+            {
+                "StartPosition": {
+                    "X": 60.6,
+                    "Y": 57.1
+                },
+                "EndPosition": {
+                    "X": 71.2,
+                    "Y": 37.5
+                },
+                "UnlockRequirements": {
+                    "SlowPoison_Complete": true
+                },
+                "HighlightRequirements": {
+                    "SlowPoison_Complete": true,
+                    "ForwardBase_Complete": false
+                }
+            },
+            {
+                "StartPosition": {
+                    "X": 71.2,
+                    "Y": 37.5
+                },
+                "EndPosition": {
+                    "X": 80.8,
+                    "Y": 66.1
+                },
+                "UnlockRequirements": {
+                    "ForwardBase_Complete": true
+                },
+                "HighlightRequirements": {
+                    "ForwardBase_Complete": true,
+                    "ZeroDay_Complete": false
+                }
+            },
+            {
+                "StartPosition": {
+                    "X": 80.8,
+                    "Y": 66.1
+                },
+                "EndPosition": {
+                    "X": 91.8,
+                    "Y": 47.3
+                },
+                "UnlockRequirements": {
+                    "ZeroDay_Complete": true
+                },
+                "HighlightRequirements": {
+                    "ZeroDay_Complete": true,
+                    "RootAccess_Complete": false
+                }
             }
         ],
         "IconConfigs": [
             {
                 "Level": "Enter the Nexus",
                 "Position": {
-                    "X": 10,
-                    "Y": 90
+                    "X": 8.2,
+                    "Y": 21.4
                 },
-                "Title": "Tutorial",
+                "Title": "Enter the Nexus",
                 "HighlightRequirements": {
                     "EnterTheNexus_Complete": false
                 }
@@ -102,29 +326,127 @@
             {
                 "Level": "Proving Grounds",
                 "Position": {
-                    "X": 30,
-                    "Y": 30
+                    "X": 20.2,
+                    "Y": 37.5
                 },
                 "Title": "Proving Grounds",
-                "UnlockRequirements": {
-                    "EnterTheNexus_Complete": true
-                },
                 "HighlightRequirements": {
                     "ProvingGrounds_Complete": false
+                },
+                "UnlockRequirements": {
+                    "EnterTheNexus_Complete": true
                 }
             },
             {
                 "Level": "Open Port",
                 "Position": {
-                    "X": 50,
-                    "Y": 20
+                    "X": 13.9,
+                    "Y": 62.5
                 },
                 "Title": "Open Port",
-                "UnlockRequirements": {
-                    "ProvingGrounds_Complete": true
-                },
                 "HighlightRequirements": {
                     "OpenPort_Complete": false
+                },
+                "UnlockRequirements": {
+                    "ProvingGrounds_Complete": true
+                }
+            },
+            {
+                "Level": "Supply Lines",
+                "Position": {
+                    "X": 30.8,
+                    "Y": 74.1
+                },
+                "Title": "Supply Lines",
+                "HighlightRequirements": {
+                    "SupplyLines_Complete": false
+                },
+                "UnlockRequirements": {
+                    "OpenPort_Complete": true
+                }
+            },
+            {
+                "Level": "Zombie Horde",
+                "Position": {
+                    "X": 40.4,
+                    "Y": 50.0
+                },
+                "Title": "Zombie Horde",
+                "HighlightRequirements": {
+                    "ZombieHorde_Complete": false
+                },
+                "UnlockRequirements": {
+                    "SupplyLines_Complete": true
+                }
+            },
+            {
+                "Level": "Patch Cycle",
+                "Position": {
+                    "X": 51.0,
+                    "Y": 28.6
+                },
+                "Title": "Patch Cycle",
+                "HighlightRequirements": {
+                    "PatchCycle_Complete": false
+                },
+                "UnlockRequirements": {
+                    "ZombieHorde_Complete": true
+                }
+            },
+            {
+                "Level": "Slow Poison",
+                "Position": {
+                    "X": 60.6,
+                    "Y": 57.1
+                },
+                "Title": "Slow Poison",
+                "HighlightRequirements": {
+                    "SlowPoison_Complete": false
+                },
+                "UnlockRequirements": {
+                    "PatchCycle_Complete": true
+                }
+            },
+            {
+                "Level": "Forward Base",
+                "Position": {
+                    "X": 71.2,
+                    "Y": 37.5
+                },
+                "Title": "Forward Base",
+                "HighlightRequirements": {
+                    "ForwardBase_Complete": false
+                },
+                "UnlockRequirements": {
+                    "SlowPoison_Complete": true
+                }
+            },
+            {
+                "Level": "Zero Day",
+                "Position": {
+                    "X": 80.8,
+                    "Y": 66.1
+                },
+                "Title": "Zero Day",
+                "HighlightRequirements": {
+                    "ZeroDay_Complete": false
+                },
+                "UnlockRequirements": {
+                    "ForwardBase_Complete": true
+                }
+            },
+            {
+                "Level": "Root Access",
+                "Position": {
+                    "X": 91.8,
+                    "Y": 47.3
+                },
+                "Title": "Root Access",
+                "HighlightRequirements": {
+                    "RootAccess_Complete": false
+                },
+                "UnlockRequirements": {
+                    "ZeroDay_Complete": true
                 }
             }
         ]

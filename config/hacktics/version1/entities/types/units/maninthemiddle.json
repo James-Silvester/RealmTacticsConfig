@@ -1,5 +1,5 @@
 {
-    "Name": "Main in the Middle",
+    "Name": "Man in the Middle",
     "Description": "Sits between systems to secretly collect information and then cause mischief. This unit is more powerful when surrounded by enemies",
     "Sprite": {
         "FilePath": "units/maninthemiddle.png",

@@ -39,7 +39,7 @@ version |   name                |   filename            |   isFile  |   path    
 2       |   Injector Config     |   injector.json   |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for injector unit
 2       |   Injector ImageFile  |   injector.png    |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for injector unit
 
-2       |   MITM Config         |   maninthemiddle.json       |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for MITM unit
+3       |   MITM Config         |   maninthemiddle.json       |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for MITM unit
 2       |   MITM ImageFile      |   maninthemiddle.png        |   1       |   /units      |   0       |   /units      |   -           |   0       |   0       |   Image for MITM unit
 
 2       |   Optimiser Config    |   optimiser.json  |   1       |   /units      |   1       |   /units      |   -           |   0       |   0       |   Config for optimiser unit

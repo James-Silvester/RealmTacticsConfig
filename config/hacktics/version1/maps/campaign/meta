@@ -1,17 +1,39 @@
 version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   action    |   subMeta     |   env     |   notes
 
-2       |   Campaign        |   campaign.json                   |   1       |   /       |   0       |   /           |   loadCampaign |  0           |   0       |   Tutorial
+3       |   Campaign        |   campaign.json                   |   1       |   /       |   0       |   /           |   loadCampaign |  0           |   0       |   Tutorial
 
-1       |   Map         |   campaign_map.png                       |   1       |   /       |   1       |   /           |   loadCampaignMap |  0           |   0       |   Campaign Map
+2       |   Map         |   campaign_map.png                       |   1       |   /       |   1       |   /           |   loadCampaignMap |  0           |   0       |   Campaign Map
 
 2       |   Enter the Nexus        |   01-enter-the-nexus.json                   |   1       |   /       |   0       |   /           |   loadMap     |   0           |   0       |   Enter the Nexus
 
-4       |   Proving Grounds       |   02-proving-grounds.json                    |   1       |   /       |   0       |   /           |   loadMap     |   0           |   0       |   Proving Grounds
+5       |   Proving Grounds       |   02-proving-grounds.json                    |   1       |   /       |   0       |   /           |   loadMap     |   0           |   0       |   Proving Grounds
 
-1       |   Open Port       |   03-open-port.json                    |   1       |   /       |   0       |   /           |   loadMap     |   0           |   0       |   Open Port
+2       |   Open Port       |   03-open-port.json                    |   1       |   /       |   0       |   /           |   loadMap     |   0           |   0       |   Open Port
 
-1       |   0 - Tutorial Screenshot     |   screenshots/01-enter-the-nexus_screenshot.png |   1       |   /       |   0       |   /           | |   0           |   0       |   Tutorial Screenshot
-1       |   0 - Map 1 Screenshot     |   screenshots/02-proving-grounds_screenshot.png |   1       |   /       |   0       |   /           | |   0           |   0       |   Map 1 Screenshot
+1       |   Supply Lines          |   04-supply-lines.json                     |   1       |   /       |   0       |   /           |   loadMap     |   0           |   0       |   Supply Lines
+
+1       |   Zombie Horde          |   05-zombie-horde.json                     |   1       |   /       |   0       |   /           |   loadMap     |   0           |   0       |   Zombie Horde
+
+1       |   Patch Cycle           |   06-patch-cycle.json                      |   1       |   /       |   0       |   /           |   loadMap     |   0           |   0       |   Patch Cycle
+
+1       |   Slow Poison           |   07-slow-poison.json                      |   1       |   /       |   0       |   /           |   loadMap     |   0           |   0       |   Slow Poison
+
+1       |   Forward Base          |   08-forward-base.json                     |   1       |   /       |   0       |   /           |   loadMap     |   0           |   0       |   Forward Base
+
+1       |   Zero Day              |   09-zero-day.json                         |   1       |   /       |   0       |   /           |   loadMap     |   0           |   0       |   Zero Day
+
+1       |   Root Access           |   10-root-access.json                      |   1       |   /       |   0       |   /           |   loadMap     |   0           |   0       |   Root Access
+
+2       |   0 - Tutorial Screenshot     |   screenshots/01-enter-the-nexus_screenshot.png |   1       |   /       |   0       |   /           | |   0           |   0       |   Tutorial Screenshot
+2       |   0 - Map 1 Screenshot     |   screenshots/02-proving-grounds_screenshot.png |   1       |   /       |   0       |   /           | |   0           |   0       |   Map 1 Screenshot
+1       |   Open Port Preview     |   screenshots/03-open-port_screenshot.png  |   1       |   /       |   0       |   /           |               |   0           |   0       |   Open Port preview
+1       |   Supply Lines Preview  |   screenshots/04-supply-lines_screenshot.png |   1       |   /       |   0       |   /           |               |   0           |   0       |   Supply Lines preview
+1       |   Zombie Horde Preview  |   screenshots/05-zombie-horde_screenshot.png |   1       |   /       |   0       |   /           |               |   0           |   0       |   Zombie Horde preview
+1       |   Patch Cycle Preview   |   screenshots/06-patch-cycle_screenshot.png |   1       |   /       |   0       |   /           |               |   0           |   0       |   Patch Cycle preview
+1       |   Slow Poison Preview   |   screenshots/07-slow-poison_screenshot.png |   1       |   /       |   0       |   /           |               |   0           |   0       |   Slow Poison preview
+1       |   Forward Base Preview  |   screenshots/08-forward-base_screenshot.png |   1       |   /       |   0       |   /           |               |   0           |   0       |   Forward Base preview
+1       |   Zero Day Preview      |   screenshots/09-zero-day_screenshot.png   |   1       |   /       |   0       |   /           |               |   0           |   0       |   Zero Day preview
+1       |   Root Access Preview   |   screenshots/10-root-access_screenshot.png |   1       |   /       |   0       |   /           |               |   0           |   0       |   Root Access preview
 
 
 1       |   Intro           |   campaignIntro.msg                       |   1       |   /       |   0       |   /           |   message     |   0           |   0       |   Introduction to the Hacktics campaign
