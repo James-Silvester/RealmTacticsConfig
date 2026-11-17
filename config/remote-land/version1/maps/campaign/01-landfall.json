@@ -1,0 +1,2133 @@
+{
+  "Version": 1,
+  "ImportedDefaults": true,
+  "Width": 18,
+  "Height": 12,
+  "CursorStartingX": 2,
+  "CursorStartingY": 6,
+  "CameraStartingX": 0,
+  "CameraStartingY": 0,
+  "TeamsConfig": {
+    "NumberOfTeams": 2,
+    "StartingTeam": "TEAM_1",
+    "TurnNumber": 1,
+    "ActiveTeams": [
+      "TEAM_1",
+      "TEAM_2"
+    ],
+    "TeamConfig": [
+      {
+        "TeamId": "TEAM_1",
+        "TeamEntity": "PLAYER",
+        "AiProfile": "Standard"
+      },
+      {
+        "TeamId": "TEAM_2",
+        "TeamEntity": "AI_DEFAULT",
+        "AiProfile": "Standard"
+      }
+    ]
+  },
+  "EntityConfig": [
+    {
+      "Id": 1,
+      "Position": {
+        "X": 0,
+        "Y": 0
+      },
+      "Type": "Ocean"
+    },
+    {
+      "Id": 2,
+      "Position": {
+        "X": 0,
+        "Y": 1
+      },
+      "Type": "Ocean"
+    },
+    {
+      "Id": 3,
+      "Position": {
+        "X": 0,
+        "Y": 2
+      },
+      "Type": "Ocean"
+    },
+    {
+      "Id": 4,
+      "Position": {
+        "X": 0,
+        "Y": 3
+      },
+      "Type": "Ocean"
+    },
+    {
+      "Id": 5,
+      "Position": {
+        "X": 0,
+        "Y": 4
+      },
+      "Type": "Ocean"
+    },
+    {
+      "Id": 6,
+      "Position": {
+        "X": 0,
+        "Y": 5
+      },
+      "Type": "Ocean"
+    },
+    {
+      "Id": 7,
+      "Position": {
+        "X": 0,
+        "Y": 6
+      },
+      "Type": "Ocean"
+    },
+    {
+      "Id": 8,
+      "Position": {
+        "X": 0,
+        "Y": 7
+      },
+      "Type": "Ocean"
+    },
+    {
+      "Id": 9,
+      "Position": {
+        "X": 0,
+        "Y": 8
+      },
+      "Type": "Ocean"
+    },
+    {
+      "Id": 10,
+      "Position": {
+        "X": 0,
+        "Y": 9
+      },
+      "Type": "Ocean"
+    },
+    {
+      "Id": 11,
+      "Position": {
+        "X": 0,
+        "Y": 10
+      },
+      "Type": "Ocean"
+    },
+    {
+      "Id": 12,
+      "Position": {
+        "X": 0,
+        "Y": 11
+      },
+      "Type": "Ocean"
+    },
+    {
+      "Id": 13,
+      "Position": {
+        "X": 1,
+        "Y": 0
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 14,
+      "Position": {
+        "X": 1,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 15,
+      "Position": {
+        "X": 1,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 16,
+      "Position": {
+        "X": 1,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 17,
+      "Position": {
+        "X": 1,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 18,
+      "Position": {
+        "X": 1,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 19,
+      "Position": {
+        "X": 1,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 20,
+      "Position": {
+        "X": 1,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 21,
+      "Position": {
+        "X": 1,
+        "Y": 8
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 22,
+      "Position": {
+        "X": 1,
+        "Y": 9
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 23,
+      "Position": {
+        "X": 1,
+        "Y": 10
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 24,
+      "Position": {
+        "X": 1,
+        "Y": 11
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 25,
+      "Position": {
+        "X": 2,
+        "Y": 0
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 26,
+      "Position": {
+        "X": 2,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 27,
+      "Position": {
+        "X": 2,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 28,
+      "Position": {
+        "X": 2,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 29,
+      "Position": {
+        "X": 2,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 30,
+      "Position": {
+        "X": 2,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 31,
+      "Position": {
+        "X": 2,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 32,
+      "Position": {
+        "X": 2,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 33,
+      "Position": {
+        "X": 2,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 34,
+      "Position": {
+        "X": 2,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 35,
+      "Position": {
+        "X": 2,
+        "Y": 10
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 36,
+      "Position": {
+        "X": 2,
+        "Y": 11
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 37,
+      "Position": {
+        "X": 3,
+        "Y": 0
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 38,
+      "Position": {
+        "X": 3,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 39,
+      "Position": {
+        "X": 3,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 40,
+      "Position": {
+        "X": 3,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 41,
+      "Position": {
+        "X": 3,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 42,
+      "Position": {
+        "X": 3,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 43,
+      "Position": {
+        "X": 3,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 44,
+      "Position": {
+        "X": 3,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 45,
+      "Position": {
+        "X": 3,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 46,
+      "Position": {
+        "X": 3,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 47,
+      "Position": {
+        "X": 3,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 48,
+      "Position": {
+        "X": 3,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 49,
+      "Position": {
+        "X": 4,
+        "Y": 0
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 50,
+      "Position": {
+        "X": 4,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 51,
+      "Position": {
+        "X": 4,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 52,
+      "Position": {
+        "X": 4,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 53,
+      "Position": {
+        "X": 4,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 54,
+      "Position": {
+        "X": 4,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 55,
+      "Position": {
+        "X": 4,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 56,
+      "Position": {
+        "X": 4,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 57,
+      "Position": {
+        "X": 4,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 58,
+      "Position": {
+        "X": 4,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 59,
+      "Position": {
+        "X": 4,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 60,
+      "Position": {
+        "X": 4,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 61,
+      "Position": {
+        "X": 5,
+        "Y": 0
+      },
+      "Type": "Hill"
+    },
+    {
+      "Id": 62,
+      "Position": {
+        "X": 5,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 63,
+      "Position": {
+        "X": 5,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 64,
+      "Position": {
+        "X": 5,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 65,
+      "Position": {
+        "X": 5,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 66,
+      "Position": {
+        "X": 5,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 67,
+      "Position": {
+        "X": 5,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 68,
+      "Position": {
+        "X": 5,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 69,
+      "Position": {
+        "X": 5,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 70,
+      "Position": {
+        "X": 5,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 71,
+      "Position": {
+        "X": 5,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 72,
+      "Position": {
+        "X": 5,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 73,
+      "Position": {
+        "X": 6,
+        "Y": 0
+      },
+      "Type": "Hill"
+    },
+    {
+      "Id": 74,
+      "Position": {
+        "X": 6,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 75,
+      "Position": {
+        "X": 6,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 76,
+      "Position": {
+        "X": 6,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 77,
+      "Position": {
+        "X": 6,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 78,
+      "Position": {
+        "X": 6,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 79,
+      "Position": {
+        "X": 6,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 80,
+      "Position": {
+        "X": 6,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 81,
+      "Position": {
+        "X": 6,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 82,
+      "Position": {
+        "X": 6,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 83,
+      "Position": {
+        "X": 6,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 84,
+      "Position": {
+        "X": 6,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 85,
+      "Position": {
+        "X": 7,
+        "Y": 0
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 86,
+      "Position": {
+        "X": 7,
+        "Y": 1
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 87,
+      "Position": {
+        "X": 7,
+        "Y": 2
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 88,
+      "Position": {
+        "X": 7,
+        "Y": 3
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 89,
+      "Position": {
+        "X": 7,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 90,
+      "Position": {
+        "X": 7,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 91,
+      "Position": {
+        "X": 7,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 92,
+      "Position": {
+        "X": 7,
+        "Y": 7
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 93,
+      "Position": {
+        "X": 7,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 94,
+      "Position": {
+        "X": 7,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 95,
+      "Position": {
+        "X": 7,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 96,
+      "Position": {
+        "X": 7,
+        "Y": 11
+      },
+      "Type": "Hill"
+    },
+    {
+      "Id": 97,
+      "Position": {
+        "X": 8,
+        "Y": 0
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 98,
+      "Position": {
+        "X": 8,
+        "Y": 1
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 99,
+      "Position": {
+        "X": 8,
+        "Y": 2
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 100,
+      "Position": {
+        "X": 8,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 101,
+      "Position": {
+        "X": 8,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 102,
+      "Position": {
+        "X": 8,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 103,
+      "Position": {
+        "X": 8,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 104,
+      "Position": {
+        "X": 8,
+        "Y": 7
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 105,
+      "Position": {
+        "X": 8,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 106,
+      "Position": {
+        "X": 8,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 107,
+      "Position": {
+        "X": 8,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 108,
+      "Position": {
+        "X": 8,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 109,
+      "Position": {
+        "X": 9,
+        "Y": 0
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 110,
+      "Position": {
+        "X": 9,
+        "Y": 1
+      },
+      "Type": "Hill"
+    },
+    {
+      "Id": 111,
+      "Position": {
+        "X": 9,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 112,
+      "Position": {
+        "X": 9,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 113,
+      "Position": {
+        "X": 9,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 114,
+      "Position": {
+        "X": 9,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 115,
+      "Position": {
+        "X": 9,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 116,
+      "Position": {
+        "X": 9,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 117,
+      "Position": {
+        "X": 9,
+        "Y": 8
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 118,
+      "Position": {
+        "X": 9,
+        "Y": 9
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 119,
+      "Position": {
+        "X": 9,
+        "Y": 10
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 120,
+      "Position": {
+        "X": 9,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 121,
+      "Position": {
+        "X": 10,
+        "Y": 0
+      },
+      "Type": "Hill"
+    },
+    {
+      "Id": 122,
+      "Position": {
+        "X": 10,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 123,
+      "Position": {
+        "X": 10,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 124,
+      "Position": {
+        "X": 10,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 125,
+      "Position": {
+        "X": 10,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 126,
+      "Position": {
+        "X": 10,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 127,
+      "Position": {
+        "X": 10,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 128,
+      "Position": {
+        "X": 10,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 129,
+      "Position": {
+        "X": 10,
+        "Y": 8
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 130,
+      "Position": {
+        "X": 10,
+        "Y": 9
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 131,
+      "Position": {
+        "X": 10,
+        "Y": 10
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 132,
+      "Position": {
+        "X": 10,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 133,
+      "Position": {
+        "X": 11,
+        "Y": 0
+      },
+      "Type": "Hill"
+    },
+    {
+      "Id": 134,
+      "Position": {
+        "X": 11,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 135,
+      "Position": {
+        "X": 11,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 136,
+      "Position": {
+        "X": 11,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 137,
+      "Position": {
+        "X": 11,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 138,
+      "Position": {
+        "X": 11,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 139,
+      "Position": {
+        "X": 11,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 140,
+      "Position": {
+        "X": 11,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 141,
+      "Position": {
+        "X": 11,
+        "Y": 8
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 142,
+      "Position": {
+        "X": 11,
+        "Y": 9
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 143,
+      "Position": {
+        "X": 11,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 144,
+      "Position": {
+        "X": 11,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 145,
+      "Position": {
+        "X": 12,
+        "Y": 0
+      },
+      "Type": "Hill"
+    },
+    {
+      "Id": 146,
+      "Position": {
+        "X": 12,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 147,
+      "Position": {
+        "X": 12,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 148,
+      "Position": {
+        "X": 12,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 149,
+      "Position": {
+        "X": 12,
+        "Y": 4
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 150,
+      "Position": {
+        "X": 12,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 151,
+      "Position": {
+        "X": 12,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 152,
+      "Position": {
+        "X": 12,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 153,
+      "Position": {
+        "X": 12,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 154,
+      "Position": {
+        "X": 12,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 155,
+      "Position": {
+        "X": 12,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 156,
+      "Position": {
+        "X": 12,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 157,
+      "Position": {
+        "X": 13,
+        "Y": 0
+      },
+      "Type": "Hill"
+    },
+    {
+      "Id": 158,
+      "Position": {
+        "X": 13,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 159,
+      "Position": {
+        "X": 13,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 160,
+      "Position": {
+        "X": 13,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 161,
+      "Position": {
+        "X": 13,
+        "Y": 4
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 162,
+      "Position": {
+        "X": 13,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 163,
+      "Position": {
+        "X": 13,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 164,
+      "Position": {
+        "X": 13,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 165,
+      "Position": {
+        "X": 13,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 166,
+      "Position": {
+        "X": 13,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 167,
+      "Position": {
+        "X": 13,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 168,
+      "Position": {
+        "X": 13,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 169,
+      "Position": {
+        "X": 14,
+        "Y": 0
+      },
+      "Type": "Hill"
+    },
+    {
+      "Id": 170,
+      "Position": {
+        "X": 14,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 171,
+      "Position": {
+        "X": 14,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 172,
+      "Position": {
+        "X": 14,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 173,
+      "Position": {
+        "X": 14,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 174,
+      "Position": {
+        "X": 14,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 175,
+      "Position": {
+        "X": 14,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 176,
+      "Position": {
+        "X": 14,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 177,
+      "Position": {
+        "X": 14,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 178,
+      "Position": {
+        "X": 14,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 179,
+      "Position": {
+        "X": 14,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 180,
+      "Position": {
+        "X": 14,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 181,
+      "Position": {
+        "X": 15,
+        "Y": 0
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 182,
+      "Position": {
+        "X": 15,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 183,
+      "Position": {
+        "X": 15,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 184,
+      "Position": {
+        "X": 15,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 185,
+      "Position": {
+        "X": 15,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 186,
+      "Position": {
+        "X": 15,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 187,
+      "Position": {
+        "X": 15,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 188,
+      "Position": {
+        "X": 15,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 189,
+      "Position": {
+        "X": 15,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 190,
+      "Position": {
+        "X": 15,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 191,
+      "Position": {
+        "X": 15,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 192,
+      "Position": {
+        "X": 15,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 193,
+      "Position": {
+        "X": 16,
+        "Y": 0
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 194,
+      "Position": {
+        "X": 16,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 195,
+      "Position": {
+        "X": 16,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 196,
+      "Position": {
+        "X": 16,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 197,
+      "Position": {
+        "X": 16,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 198,
+      "Position": {
+        "X": 16,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 199,
+      "Position": {
+        "X": 16,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 200,
+      "Position": {
+        "X": 16,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 201,
+      "Position": {
+        "X": 16,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 202,
+      "Position": {
+        "X": 16,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 203,
+      "Position": {
+        "X": 16,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 204,
+      "Position": {
+        "X": 16,
+        "Y": 11
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 205,
+      "Position": {
+        "X": 17,
+        "Y": 0
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 206,
+      "Position": {
+        "X": 17,
+        "Y": 1
+      },
+      "Type": "Hill"
+    },
+    {
+      "Id": 207,
+      "Position": {
+        "X": 17,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 208,
+      "Position": {
+        "X": 17,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 209,
+      "Position": {
+        "X": 17,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 210,
+      "Position": {
+        "X": 17,
+        "Y": 5
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 211,
+      "Position": {
+        "X": 17,
+        "Y": 6
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 212,
+      "Position": {
+        "X": 17,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 213,
+      "Position": {
+        "X": 17,
+        "Y": 8
+      },
+      "Type": "Hill"
+    },
+    {
+      "Id": 214,
+      "Position": {
+        "X": 17,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 215,
+      "Position": {
+        "X": 17,
+        "Y": 10
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 216,
+      "Position": {
+        "X": 17,
+        "Y": 11
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 217,
+      "Position": {
+        "X": 6,
+        "Y": 6
+      },
+      "Type": "House"
+    },
+    {
+      "Id": 218,
+      "Position": {
+        "X": 10,
+        "Y": 5
+      },
+      "Type": "Camp"
+    },
+    {
+      "Id": 219,
+      "Position": {
+        "X": 8,
+        "Y": 9
+      },
+      "Type": "Farm"
+    },
+    {
+      "Id": 220,
+      "Position": {
+        "X": 15,
+        "Y": 6
+      },
+      "Type": "Camp",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 221,
+      "Position": {
+        "X": 16,
+        "Y": 8
+      },
+      "Type": "House",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 222,
+      "Position": {
+        "X": 2,
+        "Y": 6
+      },
+      "Type": "Warrior",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 223,
+      "Position": {
+        "X": 2,
+        "Y": 5
+      },
+      "Type": "Warrior",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 224,
+      "Position": {
+        "X": 2,
+        "Y": 7
+      },
+      "Type": "Archer",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 225,
+      "Position": {
+        "X": 2,
+        "Y": 4
+      },
+      "Type": "Archer",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 226,
+      "Position": {
+        "X": 14,
+        "Y": 6
+      },
+      "Type": "Barbarian",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 227,
+      "Position": {
+        "X": 15,
+        "Y": 5
+      },
+      "Type": "Barbarian",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 228,
+      "Position": {
+        "X": 16,
+        "Y": 6
+      },
+      "Type": "Archer",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 229,
+      "Position": {
+        "X": 15,
+        "Y": 7
+      },
+      "Type": "Warrior",
+      "TeamId": "TEAM_2"
+    }
+  ],
+  "Triggers": [
+    {
+      "Name": "Intro",
+      "Conditions": [
+        {
+          "Type": "TURN_NUMBER"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Edda: Welcome ashore, Captain. I'm Edda, your quartermaster. I keep the ledgers; you keep us alive.",
+              "SubmitActionText": "Next"
+            },
+            {
+              "Text": "Edda: The Tidewatch landed here before us and they don't mean to share. Their camp is east along the track.",
+              "SubmitActionText": "Next"
+            },
+            {
+              "Text": "Edda: Select a unit to see where it can go. Warriors fight up close. Archers shoot from a distance and are best kept behind them.",
+              "SubmitActionText": "Understood"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "AllowTEAM_1",
+      "Conditions": [
+        {
+          "Type": "TURN_NUMBER"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SUPPRESS_ENTITIES",
+          "TeamId": "TEAM_1",
+          "EntitySelector": {
+            "AllowEntities": [
+              "Archer",
+              "Barbarian",
+              "Warrior"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Name": "AllowTEAM_2",
+      "Conditions": [
+        {
+          "Type": "TURN_NUMBER"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SUPPRESS_ENTITIES",
+          "TeamId": "TEAM_2",
+          "EntitySelector": {
+            "AllowEntities": [
+              "Archer",
+              "Barbarian",
+              "Warrior"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Name": "TaughtWarrior",
+      "Conditions": [
+        {
+          "Type": "CURSOR_ENTITY",
+          "EntityType": "Warrior",
+          "TeamId": "TEAM_1"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Warriors can move and then strike an enemy on the next square in the same turn. They are armoured, so they take the first blows better than most.",
+              "SubmitActionText": "Got it"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "TaughtArcher",
+      "Conditions": [
+        {
+          "Type": "CURSOR_ENTITY",
+          "EntityType": "Archer",
+          "TeamId": "TEAM_1"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Archers hit targets 2 to 4 squares away, but only if they have not moved this turn. Move them one turn, shoot the next, and never leave one next to an enemy.",
+              "SubmitActionText": "Got it"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "TaughtForest",
+      "Conditions": [
+        {
+          "Type": "CURSOR_ENTITY",
+          "EntityType": "Forest",
+          "TeamId": "TEAM_UNDEFINED"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Forest and hills cost ground units extra movement to enter, but anything standing in them is harder to hurt. The open track is quicker and more dangerous.",
+              "SubmitActionText": "Got it"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "TaughtHouse",
+      "Conditions": [
+        {
+          "Type": "CURSOR_ENTITY",
+          "EntityType": "House",
+          "TeamId": "TEAM_UNDEFINED"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Buildings belong to whoever captures them. Stand a unit on this House and choose Capture. Most buildings need capturing twice; a unit that doesn't move can do both in one turn.",
+              "SubmitActionText": "Got it"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "HouseTaken",
+      "Conditions": [
+        {
+          "Type": "ENTITY",
+          "EntitySelector": {
+            "EntitySelected": 217
+          },
+          "CheckIsCaptured": true,
+          "CapturedByTeamId": "TEAM_1"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Edda: That House is ours, and it pays a little gold every turn. Everything we own pays into one purse: food, wood and gold.",
+              "SubmitActionText": "Next"
+            },
+            {
+              "Text": "Edda: There's an empty Camp further along the track. Take that and we can recruit.",
+              "SubmitActionText": "Understood"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "CampTaken",
+      "Conditions": [
+        {
+          "Type": "ENTITY",
+          "EntitySelector": {
+            "EntitySelected": 218
+          },
+          "CheckIsCaptured": true,
+          "CapturedByTeamId": "TEAM_1"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Edda: The Camp is ours. Select it to recruit. A recruit appears on the Camp and can't act until next turn, and each building musters one unit a turn.",
+              "SubmitActionText": "Good"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Won0",
+      "Conditions": [
+        {
+          "Type": "ENTITY",
+          "EntitySelector": {
+            "EntitySelected": 220
+          },
+          "CheckIsCaptured": true,
+          "CapturedByTeamId": "TEAM_1"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "TEAM_VICTORY",
+          "TeamId": "TEAM_1"
+        }
+      ]
+    },
+    {
+      "Name": "TEAM_1WipedOut",
+      "Conditions": [
+        {
+          "Type": "TEAM_REMAINING_ENTITIES",
+          "TeamId": "TEAM_1",
+          "EntityTagFilter": "Unit"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "TEAM_VICTORY",
+          "TeamId": "TEAM_2"
+        }
+      ]
+    },
+    {
+      "Name": "TEAM_2WipedOut",
+      "Conditions": [
+        {
+          "Type": "TEAM_REMAINING_ENTITIES",
+          "TeamId": "TEAM_2",
+          "EntityTagFilter": "Unit"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "TEAM_VICTORY",
+          "TeamId": "TEAM_1"
+        }
+      ]
+    }
+  ]
+}

@@ -5,6 +5,7 @@
         "FilePath": "unit/dragon.png"
     },
     "Tags": [
+        "Unit",
         "Air",
         "Monster"
     ],

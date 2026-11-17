@@ -1,0 +1,408 @@
+{
+    "Name": "The Remote Land",
+    "Description": "Take the islands for Ashmark, from the first beach to the dragon's spire",
+    "Levels": [
+        {
+            "Name": "Landfall",
+            "Description": "Learn to move, fight, capture buildings and recruit",
+            "Summary": "The king's charter gives Ashmark the Remote Land, if Ashmark can hold it. Your boats ground on a quiet beach. It does not stay quiet.",
+            "DifficultyRating": "1",
+            "Terms": "Capture the enemy Camp, or destroy every enemy unit.\nYou lose if all your units are destroyed.",
+            "MapImageFilePath": "screenshots/01-landfall_screenshot.png",
+            "MapFile": "01-landfall.json",
+            "UnlockRequirements": {},
+            "OnCompletionGlobalSet": {
+                "Landfall_Complete": true
+            }
+        },
+        {
+            "Name": "The Granary",
+            "Description": "Fight over farms, quarries and a village to out-grow the enemy",
+            "Summary": "An army marches on food, builds with wood and is paid in gold. The valley inland has all three, and the Tidewatch has seen it too.",
+            "DifficultyRating": "2",
+            "Terms": "Capture the enemy Barracks, or destroy every enemy unit.\nYou lose if your Barracks is captured or all your units are destroyed.",
+            "MapImageFilePath": "screenshots/02-the-granary_screenshot.png",
+            "MapFile": "02-the-granary.json",
+            "UnlockRequirements": {
+                "Landfall_Complete": true
+            },
+            "OnCompletionGlobalSet": {
+                "TheGranary_Complete": true
+            }
+        },
+        {
+            "Name": "Bridgewater",
+            "Description": "Force a river with two bridges, a ford and something in the water",
+            "Summary": "The Bridgewater cuts the island in two. There are two bridges and a ford, and the Tidewatch holds the far bank.",
+            "DifficultyRating": "2",
+            "Terms": "Capture the enemy Barracks, or destroy every enemy unit.\nYou lose if your Barracks is captured or all your units are destroyed.",
+            "MapImageFilePath": "screenshots/03-bridgewater_screenshot.png",
+            "MapFile": "03-bridgewater.json",
+            "UnlockRequirements": {
+                "TheGranary_Complete": true
+            },
+            "OnCompletionGlobalSet": {
+                "Bridgewater_Complete": true
+            }
+        },
+        {
+            "Name": "Sanctuary Road",
+            "Description": "Relieve a besieged Sanctuary and shut the Dungeon the spiders come from",
+            "Summary": "Deep in the forest the brothers of the Sanctuary are holding out against things that were not on any Tidewatch muster roll. They have asked for help once. They will not be able to ask twice.",
+            "DifficultyRating": "3",
+            "Terms": "Capture the Dungeon, or destroy every enemy unit.\nYou lose if the Sanctuary is captured or all your units are destroyed.",
+            "MapImageFilePath": "screenshots/04-sanctuary-road_screenshot.png",
+            "MapFile": "04-sanctuary-road.json",
+            "UnlockRequirements": {
+                "Bridgewater_Complete": true
+            },
+            "OnCompletionGlobalSet": {
+                "SanctuaryRoad_Complete": true
+            }
+        },
+        {
+            "Name": "The Witchwood",
+            "Description": "Hunt down three Witch Huts while their owners fly over your lines",
+            "Summary": "The spiders had a mistress. The brothers call her Mother Sallow, and the marsh she lives in the Witchwood. The Tidewatch pays her in something other than gold.",
+            "DifficultyRating": "3",
+            "Terms": "Capture all three Witch Huts, or destroy every enemy unit.\nYou lose if your Barracks is captured or all your units are destroyed.",
+            "MapImageFilePath": "screenshots/05-the-witchwood_screenshot.png",
+            "MapFile": "05-the-witchwood.json",
+            "UnlockRequirements": {
+                "SanctuaryRoad_Complete": true
+            },
+            "OnCompletionGlobalSet": {
+                "TheWitchwood_Complete": true
+            }
+        },
+        {
+            "Name": "Tidefall",
+            "Description": "Hold a harbour town against what comes up out of the sea",
+            "Summary": "With the Witchwood quiet, Ashmark's settlers have built a town on the eastern shore. The Tidewatch's oldest allies live just off it, and they have noticed.",
+            "DifficultyRating": "4",
+            "Terms": "Hold out until turn 12, capture all three Outposts, or destroy every enemy unit.\nYou lose if your Castle is captured or all your units are destroyed.",
+            "MapImageFilePath": "screenshots/06-tidefall_screenshot.png",
+            "MapFile": "06-tidefall.json",
+            "UnlockRequirements": {
+                "TheWitchwood_Complete": true
+            },
+            "OnCompletionGlobalSet": {
+                "Tidefall_Complete": true
+            }
+        },
+        {
+            "Name": "Giant's Pass",
+            "Description": "Break through a mountain pass held by Cyclopes",
+            "Summary": "The only road to the Tidewatch heartland runs through the mountains, and the mountains have tenants. Steel hardly marks them.",
+            "DifficultyRating": "4",
+            "Terms": "Capture both Dungeons, or destroy every enemy unit.\nYou lose if your Barracks is captured or all your units are destroyed.",
+            "MapImageFilePath": "screenshots/07-giants-pass_screenshot.png",
+            "MapFile": "07-giants-pass.json",
+            "UnlockRequirements": {
+                "Tidefall_Complete": true
+            },
+            "OnCompletionGlobalSet": {
+                "GiantsPass_Complete": true
+            }
+        },
+        {
+            "Name": "Three Castles",
+            "Description": "A full war for the heartland: hold all three Castles",
+            "Summary": "Beyond the pass lies the best land on the island and Lord Corvane's seat. Three Castles stand in a line across it. Ashmark holds one.",
+            "DifficultyRating": "5",
+            "Terms": "Hold all three Castles, or destroy every enemy unit.\nYou lose if your own Castle is captured or all your units are destroyed.",
+            "MapImageFilePath": "screenshots/08-three-castles_screenshot.png",
+            "MapFile": "08-three-castles.json",
+            "UnlockRequirements": {
+                "GiantsPass_Complete": true
+            },
+            "OnCompletionGlobalSet": {
+                "ThreeCastles_Complete": true
+            }
+        },
+        {
+            "Name": "Dragonspire",
+            "Description": "Kill the dragon",
+            "Summary": "Corvane is beaten, and Mother Sallow has one debt left to call in. It sleeps on a spire at the edge of the island. It is awake now.",
+            "DifficultyRating": "5",
+            "Terms": "Kill the Dragon, or destroy every enemy unit.\nYou lose if your Castle is captured or all your units are destroyed.",
+            "MapImageFilePath": "screenshots/09-dragonspire_screenshot.png",
+            "MapFile": "09-dragonspire.json",
+            "UnlockRequirements": {
+                "ThreeCastles_Complete": true
+            },
+            "OnCompletionGlobalSet": {
+                "Dragonspire_Complete": true
+            }
+        }
+    ],
+    "Map": {
+        "MapFile": "campaign_map.png",
+        "IconHighlightAnimation": {
+            "AnimationKey": "BIG_SLOW_PULSE_REPEAT"
+        },
+        "ConnectorConfigs": [
+            {
+                "StartPosition": {
+                    "X": 9.6,
+                    "Y": 23.2
+                },
+                "EndPosition": {
+                    "X": 21.2,
+                    "Y": 42.0
+                },
+                "UnlockRequirements": {
+                    "Landfall_Complete": true
+                },
+                "HighlightRequirements": {
+                    "Landfall_Complete": true,
+                    "TheGranary_Complete": false
+                }
+            },
+            {
+                "StartPosition": {
+                    "X": 21.2,
+                    "Y": 42.0
+                },
+                "EndPosition": {
+                    "X": 34.1,
+                    "Y": 30.4
+                },
+                "UnlockRequirements": {
+                    "TheGranary_Complete": true
+                },
+                "HighlightRequirements": {
+                    "TheGranary_Complete": true,
+                    "Bridgewater_Complete": false
+                }
+            },
+            {
+                "StartPosition": {
+                    "X": 34.1,
+                    "Y": 30.4
+                },
+                "EndPosition": {
+                    "X": 43.3,
+                    "Y": 58.9
+                },
+                "UnlockRequirements": {
+                    "Bridgewater_Complete": true
+                },
+                "HighlightRequirements": {
+                    "Bridgewater_Complete": true,
+                    "SanctuaryRoad_Complete": false
+                }
+            },
+            {
+                "StartPosition": {
+                    "X": 43.3,
+                    "Y": 58.9
+                },
+                "EndPosition": {
+                    "X": 36.1,
+                    "Y": 80.4
+                },
+                "UnlockRequirements": {
+                    "SanctuaryRoad_Complete": true
+                },
+                "HighlightRequirements": {
+                    "SanctuaryRoad_Complete": true,
+                    "TheWitchwood_Complete": false
+                }
+            },
+            {
+                "StartPosition": {
+                    "X": 36.1,
+                    "Y": 80.4
+                },
+                "EndPosition": {
+                    "X": 56.7,
+                    "Y": 23.2
+                },
+                "UnlockRequirements": {
+                    "TheWitchwood_Complete": true
+                },
+                "HighlightRequirements": {
+                    "TheWitchwood_Complete": true,
+                    "Tidefall_Complete": false
+                }
+            },
+            {
+                "StartPosition": {
+                    "X": 56.7,
+                    "Y": 23.2
+                },
+                "EndPosition": {
+                    "X": 66.3,
+                    "Y": 50.0
+                },
+                "UnlockRequirements": {
+                    "Tidefall_Complete": true
+                },
+                "HighlightRequirements": {
+                    "Tidefall_Complete": true,
+                    "GiantsPass_Complete": false
+                }
+            },
+            {
+                "StartPosition": {
+                    "X": 66.3,
+                    "Y": 50.0
+                },
+                "EndPosition": {
+                    "X": 77.4,
+                    "Y": 32.1
+                },
+                "UnlockRequirements": {
+                    "GiantsPass_Complete": true
+                },
+                "HighlightRequirements": {
+                    "GiantsPass_Complete": true,
+                    "ThreeCastles_Complete": false
+                }
+            },
+            {
+                "StartPosition": {
+                    "X": 77.4,
+                    "Y": 32.1
+                },
+                "EndPosition": {
+                    "X": 89.9,
+                    "Y": 70.5
+                },
+                "UnlockRequirements": {
+                    "ThreeCastles_Complete": true
+                },
+                "HighlightRequirements": {
+                    "ThreeCastles_Complete": true,
+                    "Dragonspire_Complete": false
+                }
+            }
+        ],
+        "IconConfigs": [
+            {
+                "Level": "Landfall",
+                "Position": {
+                    "X": 9.6,
+                    "Y": 23.2
+                },
+                "Title": "Landfall",
+                "HighlightRequirements": {
+                    "Landfall_Complete": false
+                }
+            },
+            {
+                "Level": "The Granary",
+                "Position": {
+                    "X": 21.2,
+                    "Y": 42.0
+                },
+                "Title": "The Granary",
+                "HighlightRequirements": {
+                    "TheGranary_Complete": false
+                },
+                "UnlockRequirements": {
+                    "Landfall_Complete": true
+                }
+            },
+            {
+                "Level": "Bridgewater",
+                "Position": {
+                    "X": 34.1,
+                    "Y": 30.4
+                },
+                "Title": "Bridgewater",
+                "HighlightRequirements": {
+                    "Bridgewater_Complete": false
+                },
+                "UnlockRequirements": {
+                    "TheGranary_Complete": true
+                }
+            },
+            {
+                "Level": "Sanctuary Road",
+                "Position": {
+                    "X": 43.3,
+                    "Y": 58.9
+                },
+                "Title": "Sanctuary Road",
+                "HighlightRequirements": {
+                    "SanctuaryRoad_Complete": false
+                },
+                "UnlockRequirements": {
+                    "Bridgewater_Complete": true
+                }
+            },
+            {
+                "Level": "The Witchwood",
+                "Position": {
+                    "X": 36.1,
+                    "Y": 80.4
+                },
+                "Title": "The Witchwood",
+                "HighlightRequirements": {
+                    "TheWitchwood_Complete": false
+                },
+                "UnlockRequirements": {
+                    "SanctuaryRoad_Complete": true
+                }
+            },
+            {
+                "Level": "Tidefall",
+                "Position": {
+                    "X": 56.7,
+                    "Y": 23.2
+                },
+                "Title": "Tidefall",
+                "HighlightRequirements": {
+                    "Tidefall_Complete": false
+                },
+                "UnlockRequirements": {
+                    "TheWitchwood_Complete": true
+                }
+            },
+            {
+                "Level": "Giant's Pass",
+                "Position": {
+                    "X": 66.3,
+                    "Y": 50.0
+                },
+                "Title": "Giant's Pass",
+                "HighlightRequirements": {
+                    "GiantsPass_Complete": false
+                },
+                "UnlockRequirements": {
+                    "Tidefall_Complete": true
+                }
+            },
+            {
+                "Level": "Three Castles",
+                "Position": {
+                    "X": 77.4,
+                    "Y": 32.1
+                },
+                "Title": "Three Castles",
+                "HighlightRequirements": {
+                    "ThreeCastles_Complete": false
+                },
+                "UnlockRequirements": {
+                    "GiantsPass_Complete": true
+                }
+            },
+            {
+                "Level": "Dragonspire",
+                "Position": {
+                    "X": 89.9,
+                    "Y": 70.5
+                },
+                "Title": "Dragonspire",
+                "HighlightRequirements": {
+                    "Dragonspire_Complete": false
+                },
+                "UnlockRequirements": {
+                    "ThreeCastles_Complete": true
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,3946 @@
+{
+  "Version": 1,
+  "ImportedDefaults": true,
+  "Width": 24,
+  "Height": 16,
+  "CursorStartingX": 4,
+  "CursorStartingY": 8,
+  "CameraStartingX": 0,
+  "CameraStartingY": 0,
+  "TeamsConfig": {
+    "NumberOfTeams": 2,
+    "StartingTeam": "TEAM_1",
+    "TurnNumber": 1,
+    "ActiveTeams": [
+      "TEAM_1",
+      "TEAM_2"
+    ],
+    "TeamConfig": [
+      {
+        "TeamId": "TEAM_1",
+        "TeamEntity": "PLAYER",
+        "AiProfile": "Standard"
+      },
+      {
+        "TeamId": "TEAM_2",
+        "TeamEntity": "AI_DEFAULT",
+        "AiProfile": "Standard"
+      }
+    ]
+  },
+  "EntityConfig": [
+    {
+      "Id": 1,
+      "Position": {
+        "X": 0,
+        "Y": 0
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 2,
+      "Position": {
+        "X": 0,
+        "Y": 1
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 3,
+      "Position": {
+        "X": 0,
+        "Y": 2
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 4,
+      "Position": {
+        "X": 0,
+        "Y": 3
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 5,
+      "Position": {
+        "X": 0,
+        "Y": 4
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 6,
+      "Position": {
+        "X": 0,
+        "Y": 5
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 7,
+      "Position": {
+        "X": 0,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 8,
+      "Position": {
+        "X": 0,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 9,
+      "Position": {
+        "X": 0,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 10,
+      "Position": {
+        "X": 0,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 11,
+      "Position": {
+        "X": 0,
+        "Y": 10
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 12,
+      "Position": {
+        "X": 0,
+        "Y": 11
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 13,
+      "Position": {
+        "X": 0,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 14,
+      "Position": {
+        "X": 0,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 15,
+      "Position": {
+        "X": 0,
+        "Y": 14
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 16,
+      "Position": {
+        "X": 0,
+        "Y": 15
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 17,
+      "Position": {
+        "X": 1,
+        "Y": 0
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 18,
+      "Position": {
+        "X": 1,
+        "Y": 1
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 19,
+      "Position": {
+        "X": 1,
+        "Y": 2
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 20,
+      "Position": {
+        "X": 1,
+        "Y": 3
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 21,
+      "Position": {
+        "X": 1,
+        "Y": 4
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 22,
+      "Position": {
+        "X": 1,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 23,
+      "Position": {
+        "X": 1,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 24,
+      "Position": {
+        "X": 1,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 25,
+      "Position": {
+        "X": 1,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 26,
+      "Position": {
+        "X": 1,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 27,
+      "Position": {
+        "X": 1,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 28,
+      "Position": {
+        "X": 1,
+        "Y": 11
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 29,
+      "Position": {
+        "X": 1,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 30,
+      "Position": {
+        "X": 1,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 31,
+      "Position": {
+        "X": 1,
+        "Y": 14
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 32,
+      "Position": {
+        "X": 1,
+        "Y": 15
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 33,
+      "Position": {
+        "X": 2,
+        "Y": 0
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 34,
+      "Position": {
+        "X": 2,
+        "Y": 1
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 35,
+      "Position": {
+        "X": 2,
+        "Y": 2
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 36,
+      "Position": {
+        "X": 2,
+        "Y": 3
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 37,
+      "Position": {
+        "X": 2,
+        "Y": 4
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 38,
+      "Position": {
+        "X": 2,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 39,
+      "Position": {
+        "X": 2,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 40,
+      "Position": {
+        "X": 2,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 41,
+      "Position": {
+        "X": 2,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 42,
+      "Position": {
+        "X": 2,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 43,
+      "Position": {
+        "X": 2,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 44,
+      "Position": {
+        "X": 2,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 45,
+      "Position": {
+        "X": 2,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 46,
+      "Position": {
+        "X": 2,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 47,
+      "Position": {
+        "X": 2,
+        "Y": 14
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 48,
+      "Position": {
+        "X": 2,
+        "Y": 15
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 49,
+      "Position": {
+        "X": 3,
+        "Y": 0
+      },
+      "Type": "Hill"
+    },
+    {
+      "Id": 50,
+      "Position": {
+        "X": 3,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 51,
+      "Position": {
+        "X": 3,
+        "Y": 2
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 52,
+      "Position": {
+        "X": 3,
+        "Y": 3
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 53,
+      "Position": {
+        "X": 3,
+        "Y": 4
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 54,
+      "Position": {
+        "X": 3,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 55,
+      "Position": {
+        "X": 3,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 56,
+      "Position": {
+        "X": 3,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 57,
+      "Position": {
+        "X": 3,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 58,
+      "Position": {
+        "X": 3,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 59,
+      "Position": {
+        "X": 3,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 60,
+      "Position": {
+        "X": 3,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 61,
+      "Position": {
+        "X": 3,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 62,
+      "Position": {
+        "X": 3,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 63,
+      "Position": {
+        "X": 3,
+        "Y": 14
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 64,
+      "Position": {
+        "X": 3,
+        "Y": 15
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 65,
+      "Position": {
+        "X": 4,
+        "Y": 0
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 66,
+      "Position": {
+        "X": 4,
+        "Y": 1
+      },
+      "Type": "Hill"
+    },
+    {
+      "Id": 67,
+      "Position": {
+        "X": 4,
+        "Y": 2
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 68,
+      "Position": {
+        "X": 4,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 69,
+      "Position": {
+        "X": 4,
+        "Y": 4
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 70,
+      "Position": {
+        "X": 4,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 71,
+      "Position": {
+        "X": 4,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 72,
+      "Position": {
+        "X": 4,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 73,
+      "Position": {
+        "X": 4,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 74,
+      "Position": {
+        "X": 4,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 75,
+      "Position": {
+        "X": 4,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 76,
+      "Position": {
+        "X": 4,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 77,
+      "Position": {
+        "X": 4,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 78,
+      "Position": {
+        "X": 4,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 79,
+      "Position": {
+        "X": 4,
+        "Y": 14
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 80,
+      "Position": {
+        "X": 4,
+        "Y": 15
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 81,
+      "Position": {
+        "X": 5,
+        "Y": 0
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 82,
+      "Position": {
+        "X": 5,
+        "Y": 1
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 83,
+      "Position": {
+        "X": 5,
+        "Y": 2
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 84,
+      "Position": {
+        "X": 5,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 85,
+      "Position": {
+        "X": 5,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 86,
+      "Position": {
+        "X": 5,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 87,
+      "Position": {
+        "X": 5,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 88,
+      "Position": {
+        "X": 5,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 89,
+      "Position": {
+        "X": 5,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 90,
+      "Position": {
+        "X": 5,
+        "Y": 9
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 91,
+      "Position": {
+        "X": 5,
+        "Y": 10
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 92,
+      "Position": {
+        "X": 5,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 93,
+      "Position": {
+        "X": 5,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 94,
+      "Position": {
+        "X": 5,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 95,
+      "Position": {
+        "X": 5,
+        "Y": 14
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 96,
+      "Position": {
+        "X": 5,
+        "Y": 15
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 97,
+      "Position": {
+        "X": 6,
+        "Y": 0
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 98,
+      "Position": {
+        "X": 6,
+        "Y": 1
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 99,
+      "Position": {
+        "X": 6,
+        "Y": 2
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 100,
+      "Position": {
+        "X": 6,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 101,
+      "Position": {
+        "X": 6,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 102,
+      "Position": {
+        "X": 6,
+        "Y": 5
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 103,
+      "Position": {
+        "X": 6,
+        "Y": 6
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 104,
+      "Position": {
+        "X": 6,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 105,
+      "Position": {
+        "X": 6,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 106,
+      "Position": {
+        "X": 6,
+        "Y": 9
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 107,
+      "Position": {
+        "X": 6,
+        "Y": 10
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 108,
+      "Position": {
+        "X": 6,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 109,
+      "Position": {
+        "X": 6,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 110,
+      "Position": {
+        "X": 6,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 111,
+      "Position": {
+        "X": 6,
+        "Y": 14
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 112,
+      "Position": {
+        "X": 6,
+        "Y": 15
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 113,
+      "Position": {
+        "X": 7,
+        "Y": 0
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 114,
+      "Position": {
+        "X": 7,
+        "Y": 1
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 115,
+      "Position": {
+        "X": 7,
+        "Y": 2
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 116,
+      "Position": {
+        "X": 7,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 117,
+      "Position": {
+        "X": 7,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 118,
+      "Position": {
+        "X": 7,
+        "Y": 5
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 119,
+      "Position": {
+        "X": 7,
+        "Y": 6
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 120,
+      "Position": {
+        "X": 7,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 121,
+      "Position": {
+        "X": 7,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 122,
+      "Position": {
+        "X": 7,
+        "Y": 9
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 123,
+      "Position": {
+        "X": 7,
+        "Y": 10
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 124,
+      "Position": {
+        "X": 7,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 125,
+      "Position": {
+        "X": 7,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 126,
+      "Position": {
+        "X": 7,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 127,
+      "Position": {
+        "X": 7,
+        "Y": 14
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 128,
+      "Position": {
+        "X": 7,
+        "Y": 15
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 129,
+      "Position": {
+        "X": 8,
+        "Y": 0
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 130,
+      "Position": {
+        "X": 8,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 131,
+      "Position": {
+        "X": 8,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 132,
+      "Position": {
+        "X": 8,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 133,
+      "Position": {
+        "X": 8,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 134,
+      "Position": {
+        "X": 8,
+        "Y": 5
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 135,
+      "Position": {
+        "X": 8,
+        "Y": 6
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 136,
+      "Position": {
+        "X": 8,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 137,
+      "Position": {
+        "X": 8,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 138,
+      "Position": {
+        "X": 8,
+        "Y": 9
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 139,
+      "Position": {
+        "X": 8,
+        "Y": 10
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 140,
+      "Position": {
+        "X": 8,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 141,
+      "Position": {
+        "X": 8,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 142,
+      "Position": {
+        "X": 8,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 143,
+      "Position": {
+        "X": 8,
+        "Y": 14
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 144,
+      "Position": {
+        "X": 8,
+        "Y": 15
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 145,
+      "Position": {
+        "X": 9,
+        "Y": 0
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 146,
+      "Position": {
+        "X": 9,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 147,
+      "Position": {
+        "X": 9,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 148,
+      "Position": {
+        "X": 9,
+        "Y": 3
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 149,
+      "Position": {
+        "X": 9,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 150,
+      "Position": {
+        "X": 9,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 151,
+      "Position": {
+        "X": 9,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 152,
+      "Position": {
+        "X": 9,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 153,
+      "Position": {
+        "X": 9,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 154,
+      "Position": {
+        "X": 9,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 155,
+      "Position": {
+        "X": 9,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 156,
+      "Position": {
+        "X": 9,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 157,
+      "Position": {
+        "X": 9,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 158,
+      "Position": {
+        "X": 9,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 159,
+      "Position": {
+        "X": 9,
+        "Y": 14
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 160,
+      "Position": {
+        "X": 9,
+        "Y": 15
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 161,
+      "Position": {
+        "X": 10,
+        "Y": 0
+      },
+      "Type": "Hill"
+    },
+    {
+      "Id": 162,
+      "Position": {
+        "X": 10,
+        "Y": 1
+      },
+      "Type": "Hill"
+    },
+    {
+      "Id": 163,
+      "Position": {
+        "X": 10,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 164,
+      "Position": {
+        "X": 10,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 165,
+      "Position": {
+        "X": 10,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 166,
+      "Position": {
+        "X": 10,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 167,
+      "Position": {
+        "X": 10,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 168,
+      "Position": {
+        "X": 10,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 169,
+      "Position": {
+        "X": 10,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 170,
+      "Position": {
+        "X": 10,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 171,
+      "Position": {
+        "X": 10,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 172,
+      "Position": {
+        "X": 10,
+        "Y": 11
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 173,
+      "Position": {
+        "X": 10,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 174,
+      "Position": {
+        "X": 10,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 175,
+      "Position": {
+        "X": 10,
+        "Y": 14
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 176,
+      "Position": {
+        "X": 10,
+        "Y": 15
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 177,
+      "Position": {
+        "X": 11,
+        "Y": 0
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 178,
+      "Position": {
+        "X": 11,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 179,
+      "Position": {
+        "X": 11,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 180,
+      "Position": {
+        "X": 11,
+        "Y": 3
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 181,
+      "Position": {
+        "X": 11,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 182,
+      "Position": {
+        "X": 11,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 183,
+      "Position": {
+        "X": 11,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 184,
+      "Position": {
+        "X": 11,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 185,
+      "Position": {
+        "X": 11,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 186,
+      "Position": {
+        "X": 11,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 187,
+      "Position": {
+        "X": 11,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 188,
+      "Position": {
+        "X": 11,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 189,
+      "Position": {
+        "X": 11,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 190,
+      "Position": {
+        "X": 11,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 191,
+      "Position": {
+        "X": 11,
+        "Y": 14
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 192,
+      "Position": {
+        "X": 11,
+        "Y": 15
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 193,
+      "Position": {
+        "X": 12,
+        "Y": 0
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 194,
+      "Position": {
+        "X": 12,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 195,
+      "Position": {
+        "X": 12,
+        "Y": 2
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 196,
+      "Position": {
+        "X": 12,
+        "Y": 3
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 197,
+      "Position": {
+        "X": 12,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 198,
+      "Position": {
+        "X": 12,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 199,
+      "Position": {
+        "X": 12,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 200,
+      "Position": {
+        "X": 12,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 201,
+      "Position": {
+        "X": 12,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 202,
+      "Position": {
+        "X": 12,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 203,
+      "Position": {
+        "X": 12,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 204,
+      "Position": {
+        "X": 12,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 205,
+      "Position": {
+        "X": 12,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 206,
+      "Position": {
+        "X": 12,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 207,
+      "Position": {
+        "X": 12,
+        "Y": 14
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 208,
+      "Position": {
+        "X": 12,
+        "Y": 15
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 209,
+      "Position": {
+        "X": 13,
+        "Y": 0
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 210,
+      "Position": {
+        "X": 13,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 211,
+      "Position": {
+        "X": 13,
+        "Y": 2
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 212,
+      "Position": {
+        "X": 13,
+        "Y": 3
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 213,
+      "Position": {
+        "X": 13,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 214,
+      "Position": {
+        "X": 13,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 215,
+      "Position": {
+        "X": 13,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 216,
+      "Position": {
+        "X": 13,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 217,
+      "Position": {
+        "X": 13,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 218,
+      "Position": {
+        "X": 13,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 219,
+      "Position": {
+        "X": 13,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 220,
+      "Position": {
+        "X": 13,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 221,
+      "Position": {
+        "X": 13,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 222,
+      "Position": {
+        "X": 13,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 223,
+      "Position": {
+        "X": 13,
+        "Y": 14
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 224,
+      "Position": {
+        "X": 13,
+        "Y": 15
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 225,
+      "Position": {
+        "X": 14,
+        "Y": 0
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 226,
+      "Position": {
+        "X": 14,
+        "Y": 1
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 227,
+      "Position": {
+        "X": 14,
+        "Y": 2
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 228,
+      "Position": {
+        "X": 14,
+        "Y": 3
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 229,
+      "Position": {
+        "X": 14,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 230,
+      "Position": {
+        "X": 14,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 231,
+      "Position": {
+        "X": 14,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 232,
+      "Position": {
+        "X": 14,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 233,
+      "Position": {
+        "X": 14,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 234,
+      "Position": {
+        "X": 14,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 235,
+      "Position": {
+        "X": 14,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 236,
+      "Position": {
+        "X": 14,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 237,
+      "Position": {
+        "X": 14,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 238,
+      "Position": {
+        "X": 14,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 239,
+      "Position": {
+        "X": 14,
+        "Y": 14
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 240,
+      "Position": {
+        "X": 14,
+        "Y": 15
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 241,
+      "Position": {
+        "X": 15,
+        "Y": 0
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 242,
+      "Position": {
+        "X": 15,
+        "Y": 1
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 243,
+      "Position": {
+        "X": 15,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 244,
+      "Position": {
+        "X": 15,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 245,
+      "Position": {
+        "X": 15,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 246,
+      "Position": {
+        "X": 15,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 247,
+      "Position": {
+        "X": 15,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 248,
+      "Position": {
+        "X": 15,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 249,
+      "Position": {
+        "X": 15,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 250,
+      "Position": {
+        "X": 15,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 251,
+      "Position": {
+        "X": 15,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 252,
+      "Position": {
+        "X": 15,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 253,
+      "Position": {
+        "X": 15,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 254,
+      "Position": {
+        "X": 15,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 255,
+      "Position": {
+        "X": 15,
+        "Y": 14
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 256,
+      "Position": {
+        "X": 15,
+        "Y": 15
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 257,
+      "Position": {
+        "X": 16,
+        "Y": 0
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 258,
+      "Position": {
+        "X": 16,
+        "Y": 1
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 259,
+      "Position": {
+        "X": 16,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 260,
+      "Position": {
+        "X": 16,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 261,
+      "Position": {
+        "X": 16,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 262,
+      "Position": {
+        "X": 16,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 263,
+      "Position": {
+        "X": 16,
+        "Y": 6
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 264,
+      "Position": {
+        "X": 16,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 265,
+      "Position": {
+        "X": 16,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 266,
+      "Position": {
+        "X": 16,
+        "Y": 9
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 267,
+      "Position": {
+        "X": 16,
+        "Y": 10
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 268,
+      "Position": {
+        "X": 16,
+        "Y": 11
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 269,
+      "Position": {
+        "X": 16,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 270,
+      "Position": {
+        "X": 16,
+        "Y": 13
+      },
+      "Type": "Hill"
+    },
+    {
+      "Id": 271,
+      "Position": {
+        "X": 16,
+        "Y": 14
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 272,
+      "Position": {
+        "X": 16,
+        "Y": 15
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 273,
+      "Position": {
+        "X": 17,
+        "Y": 0
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 274,
+      "Position": {
+        "X": 17,
+        "Y": 1
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 275,
+      "Position": {
+        "X": 17,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 276,
+      "Position": {
+        "X": 17,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 277,
+      "Position": {
+        "X": 17,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 278,
+      "Position": {
+        "X": 17,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 279,
+      "Position": {
+        "X": 17,
+        "Y": 6
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 280,
+      "Position": {
+        "X": 17,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 281,
+      "Position": {
+        "X": 17,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 282,
+      "Position": {
+        "X": 17,
+        "Y": 9
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 283,
+      "Position": {
+        "X": 17,
+        "Y": 10
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 284,
+      "Position": {
+        "X": 17,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 285,
+      "Position": {
+        "X": 17,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 286,
+      "Position": {
+        "X": 17,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 287,
+      "Position": {
+        "X": 17,
+        "Y": 14
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 288,
+      "Position": {
+        "X": 17,
+        "Y": 15
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 289,
+      "Position": {
+        "X": 18,
+        "Y": 0
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 290,
+      "Position": {
+        "X": 18,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 291,
+      "Position": {
+        "X": 18,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 292,
+      "Position": {
+        "X": 18,
+        "Y": 3
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 293,
+      "Position": {
+        "X": 18,
+        "Y": 4
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 294,
+      "Position": {
+        "X": 18,
+        "Y": 5
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 295,
+      "Position": {
+        "X": 18,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 296,
+      "Position": {
+        "X": 18,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 297,
+      "Position": {
+        "X": 18,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 298,
+      "Position": {
+        "X": 18,
+        "Y": 9
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 299,
+      "Position": {
+        "X": 18,
+        "Y": 10
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 300,
+      "Position": {
+        "X": 18,
+        "Y": 11
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 301,
+      "Position": {
+        "X": 18,
+        "Y": 12
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 302,
+      "Position": {
+        "X": 18,
+        "Y": 13
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 303,
+      "Position": {
+        "X": 18,
+        "Y": 14
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 304,
+      "Position": {
+        "X": 18,
+        "Y": 15
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 305,
+      "Position": {
+        "X": 19,
+        "Y": 0
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 306,
+      "Position": {
+        "X": 19,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 307,
+      "Position": {
+        "X": 19,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 308,
+      "Position": {
+        "X": 19,
+        "Y": 3
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 309,
+      "Position": {
+        "X": 19,
+        "Y": 4
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 310,
+      "Position": {
+        "X": 19,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 311,
+      "Position": {
+        "X": 19,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 312,
+      "Position": {
+        "X": 19,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 313,
+      "Position": {
+        "X": 19,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 314,
+      "Position": {
+        "X": 19,
+        "Y": 9
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 315,
+      "Position": {
+        "X": 19,
+        "Y": 10
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 316,
+      "Position": {
+        "X": 19,
+        "Y": 11
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 317,
+      "Position": {
+        "X": 19,
+        "Y": 12
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 318,
+      "Position": {
+        "X": 19,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 319,
+      "Position": {
+        "X": 19,
+        "Y": 14
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 320,
+      "Position": {
+        "X": 19,
+        "Y": 15
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 321,
+      "Position": {
+        "X": 20,
+        "Y": 0
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 322,
+      "Position": {
+        "X": 20,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 323,
+      "Position": {
+        "X": 20,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 324,
+      "Position": {
+        "X": 20,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 325,
+      "Position": {
+        "X": 20,
+        "Y": 4
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 326,
+      "Position": {
+        "X": 20,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 327,
+      "Position": {
+        "X": 20,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 328,
+      "Position": {
+        "X": 20,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 329,
+      "Position": {
+        "X": 20,
+        "Y": 8
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 330,
+      "Position": {
+        "X": 20,
+        "Y": 9
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 331,
+      "Position": {
+        "X": 20,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 332,
+      "Position": {
+        "X": 20,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 333,
+      "Position": {
+        "X": 20,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 334,
+      "Position": {
+        "X": 20,
+        "Y": 13
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 335,
+      "Position": {
+        "X": 20,
+        "Y": 14
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 336,
+      "Position": {
+        "X": 20,
+        "Y": 15
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 337,
+      "Position": {
+        "X": 21,
+        "Y": 0
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 338,
+      "Position": {
+        "X": 21,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 339,
+      "Position": {
+        "X": 21,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 340,
+      "Position": {
+        "X": 21,
+        "Y": 3
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 341,
+      "Position": {
+        "X": 21,
+        "Y": 4
+      },
+      "Type": "Forest"
+    },
+    {
+      "Id": 342,
+      "Position": {
+        "X": 21,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 343,
+      "Position": {
+        "X": 21,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 344,
+      "Position": {
+        "X": 21,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 345,
+      "Position": {
+        "X": 21,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 346,
+      "Position": {
+        "X": 21,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 347,
+      "Position": {
+        "X": 21,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 348,
+      "Position": {
+        "X": 21,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 349,
+      "Position": {
+        "X": 21,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 350,
+      "Position": {
+        "X": 21,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 351,
+      "Position": {
+        "X": 21,
+        "Y": 14
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 352,
+      "Position": {
+        "X": 21,
+        "Y": 15
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 353,
+      "Position": {
+        "X": 22,
+        "Y": 0
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 354,
+      "Position": {
+        "X": 22,
+        "Y": 1
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 355,
+      "Position": {
+        "X": 22,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 356,
+      "Position": {
+        "X": 22,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 357,
+      "Position": {
+        "X": 22,
+        "Y": 4
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 358,
+      "Position": {
+        "X": 22,
+        "Y": 5
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 359,
+      "Position": {
+        "X": 22,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 360,
+      "Position": {
+        "X": 22,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 361,
+      "Position": {
+        "X": 22,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 362,
+      "Position": {
+        "X": 22,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 363,
+      "Position": {
+        "X": 22,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 364,
+      "Position": {
+        "X": 22,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 365,
+      "Position": {
+        "X": 22,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 366,
+      "Position": {
+        "X": 22,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 367,
+      "Position": {
+        "X": 22,
+        "Y": 14
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 368,
+      "Position": {
+        "X": 22,
+        "Y": 15
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 369,
+      "Position": {
+        "X": 23,
+        "Y": 0
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 370,
+      "Position": {
+        "X": 23,
+        "Y": 1
+      },
+      "Type": "Hill"
+    },
+    {
+      "Id": 371,
+      "Position": {
+        "X": 23,
+        "Y": 2
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 372,
+      "Position": {
+        "X": 23,
+        "Y": 3
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 373,
+      "Position": {
+        "X": 23,
+        "Y": 4
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 374,
+      "Position": {
+        "X": 23,
+        "Y": 5
+      },
+      "Type": "Swamp"
+    },
+    {
+      "Id": 375,
+      "Position": {
+        "X": 23,
+        "Y": 6
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 376,
+      "Position": {
+        "X": 23,
+        "Y": 7
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 377,
+      "Position": {
+        "X": 23,
+        "Y": 8
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 378,
+      "Position": {
+        "X": 23,
+        "Y": 9
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 379,
+      "Position": {
+        "X": 23,
+        "Y": 10
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 380,
+      "Position": {
+        "X": 23,
+        "Y": 11
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 381,
+      "Position": {
+        "X": 23,
+        "Y": 12
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 382,
+      "Position": {
+        "X": 23,
+        "Y": 13
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 383,
+      "Position": {
+        "X": 23,
+        "Y": 14
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 384,
+      "Position": {
+        "X": 23,
+        "Y": 15
+      },
+      "Type": "Grassland"
+    },
+    {
+      "Id": 385,
+      "Position": {
+        "X": 2,
+        "Y": 8
+      },
+      "Type": "Barracks",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 386,
+      "Position": {
+        "X": 3,
+        "Y": 10
+      },
+      "Type": "Sanctuary",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 387,
+      "Position": {
+        "X": 3,
+        "Y": 5
+      },
+      "Type": "Village",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 388,
+      "Position": {
+        "X": 2,
+        "Y": 12
+      },
+      "Type": "Farm",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 389,
+      "Position": {
+        "X": 4,
+        "Y": 3
+      },
+      "Type": "Quarry",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 390,
+      "Position": {
+        "X": 8,
+        "Y": 12
+      },
+      "Type": "House"
+    },
+    {
+      "Id": 391,
+      "Position": {
+        "X": 9,
+        "Y": 4
+      },
+      "Type": "House"
+    },
+    {
+      "Id": 392,
+      "Position": {
+        "X": 10,
+        "Y": 9
+      },
+      "Type": "Farm"
+    },
+    {
+      "Id": 393,
+      "Position": {
+        "X": 12,
+        "Y": 6
+      },
+      "Type": "Quarry"
+    },
+    {
+      "Id": 394,
+      "Position": {
+        "X": 13,
+        "Y": 11
+      },
+      "Type": "Watchtower"
+    },
+    {
+      "Id": 395,
+      "Position": {
+        "X": 13,
+        "Y": 4
+      },
+      "Type": "Watchtower"
+    },
+    {
+      "Id": 396,
+      "Position": {
+        "X": 14,
+        "Y": 8
+      },
+      "Type": "Village"
+    },
+    {
+      "Id": 397,
+      "Position": {
+        "X": 19,
+        "Y": 13
+      },
+      "Type": "WitchHut",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 398,
+      "Position": {
+        "X": 21,
+        "Y": 8
+      },
+      "Type": "WitchHut",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 399,
+      "Position": {
+        "X": 18,
+        "Y": 2
+      },
+      "Type": "WitchHut",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 400,
+      "Position": {
+        "X": 21,
+        "Y": 11
+      },
+      "Type": "Camp",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 401,
+      "Position": {
+        "X": 4,
+        "Y": 8
+      },
+      "Type": "Warrior",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 402,
+      "Position": {
+        "X": 4,
+        "Y": 7
+      },
+      "Type": "Warrior",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 403,
+      "Position": {
+        "X": 5,
+        "Y": 8
+      },
+      "Type": "Knight",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 404,
+      "Position": {
+        "X": 3,
+        "Y": 9
+      },
+      "Type": "Archer",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 405,
+      "Position": {
+        "X": 3,
+        "Y": 7
+      },
+      "Type": "Archer",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 406,
+      "Position": {
+        "X": 4,
+        "Y": 9
+      },
+      "Type": "Archer",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 407,
+      "Position": {
+        "X": 3,
+        "Y": 8
+      },
+      "Type": "Mage",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 408,
+      "Position": {
+        "X": 2,
+        "Y": 9
+      },
+      "Type": "Healer",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 409,
+      "Position": {
+        "X": 5,
+        "Y": 7
+      },
+      "Type": "Paladin",
+      "TeamId": "TEAM_1"
+    },
+    {
+      "Id": 410,
+      "Position": {
+        "X": 18,
+        "Y": 12
+      },
+      "Type": "Witch",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 411,
+      "Position": {
+        "X": 20,
+        "Y": 9
+      },
+      "Type": "Witch",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 412,
+      "Position": {
+        "X": 18,
+        "Y": 3
+      },
+      "Type": "Witch",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 413,
+      "Position": {
+        "X": 16,
+        "Y": 8
+      },
+      "Type": "Spider",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 414,
+      "Position": {
+        "X": 17,
+        "Y": 11
+      },
+      "Type": "Spider",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 415,
+      "Position": {
+        "X": 17,
+        "Y": 5
+      },
+      "Type": "Barbarian",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 416,
+      "Position": {
+        "X": 19,
+        "Y": 6
+      },
+      "Type": "Barbarian",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 417,
+      "Position": {
+        "X": 20,
+        "Y": 12
+      },
+      "Type": "Archer",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 418,
+      "Position": {
+        "X": 20,
+        "Y": 3
+      },
+      "Type": "Archer",
+      "TeamId": "TEAM_2"
+    },
+    {
+      "Id": 419,
+      "Position": {
+        "X": 21,
+        "Y": 9
+      },
+      "Type": "Warrior",
+      "TeamId": "TEAM_2"
+    }
+  ],
+  "Triggers": [
+    {
+      "Name": "Intro",
+      "Conditions": [
+        {
+          "Type": "TURN_NUMBER"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Edda: Mother Sallow's sisters ride the air, Captain. Ten squares a turn, over forest and marsh as if it were a parade ground.",
+              "SubmitActionText": "Next"
+            },
+            {
+              "Text": "Edda: A sword can't reach something that flies. Only Archers, Mages and Paladins can touch them. Everyone else is a target.",
+              "SubmitActionText": "Next"
+            },
+            {
+              "Text": "Edda: They roost in three huts in the marsh. Every hut still standing sends another witch. Burn out all three.",
+              "SubmitActionText": "Into the marsh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "AllowTEAM_1",
+      "Conditions": [
+        {
+          "Type": "TURN_NUMBER"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SUPPRESS_ENTITIES",
+          "TeamId": "TEAM_1",
+          "EntitySelector": {
+            "AllowEntities": [
+              "Archer",
+              "Barbarian",
+              "Warrior",
+              "Knight",
+              "Mage",
+              "Healer",
+              "Paladin",
+              "Witch"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Name": "AllowTEAM_2",
+      "Conditions": [
+        {
+          "Type": "TURN_NUMBER"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SUPPRESS_ENTITIES",
+          "TeamId": "TEAM_2",
+          "EntitySelector": {
+            "AllowEntities": [
+              "Archer",
+              "Barbarian",
+              "Warrior",
+              "Spider",
+              "Witch"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Name": "TaughtWitch",
+      "Conditions": [
+        {
+          "Type": "CURSOR_ENTITY",
+          "EntityType": "Witch",
+          "TeamId": "TEAM_2"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Witches fly, so terrain means nothing to them and most blades cannot reach them. They are frail: one good volley from Archers or a Mage's blast brings one down.",
+              "SubmitActionText": "Got it"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "TaughtWitchHut",
+      "Conditions": [
+        {
+          "Type": "CURSOR_ENTITY",
+          "EntityType": "WitchHut",
+          "TeamId": "TEAM_2"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Each Witch Hut the enemy owns keeps sending witches. Capture it and that stops, and you can muster witches of your own from it.",
+              "SubmitActionText": "Got it"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "NorthHut1",
+      "Conditions": [
+        {
+          "Type": "TURN_NUMBER",
+          "TurnNumber": 3
+        },
+        {
+          "Type": "CURRENT_TEAM",
+          "TeamId": "TEAM_2"
+        },
+        {
+          "Type": "ENTITY",
+          "EntitySelector": {
+            "EntitySelected": 397
+          },
+          "CheckIsCaptured": true,
+          "CapturedByTeamId": "TEAM_2"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Edda: A witch up from the northern hut.",
+              "SubmitActionText": "To arms"
+            }
+          ]
+        },
+        {
+          "Type": "INSERT_ENTITY",
+          "EntityType": "Witch",
+          "TeamId": "TEAM_2",
+          "Position": {
+            "X": 20,
+            "Y": 14
+          },
+          "TurnEnded": false
+        }
+      ]
+    },
+    {
+      "Name": "EastHut1",
+      "Conditions": [
+        {
+          "Type": "TURN_NUMBER",
+          "TurnNumber": 4
+        },
+        {
+          "Type": "CURRENT_TEAM",
+          "TeamId": "TEAM_2"
+        },
+        {
+          "Type": "ENTITY",
+          "EntitySelector": {
+            "EntitySelected": 398
+          },
+          "CheckIsCaptured": true,
+          "CapturedByTeamId": "TEAM_2"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Edda: Another, from the hut in the east.",
+              "SubmitActionText": "To arms"
+            }
+          ]
+        },
+        {
+          "Type": "INSERT_ENTITY",
+          "EntityType": "Witch",
+          "TeamId": "TEAM_2",
+          "Position": {
+            "X": 22,
+            "Y": 8
+          },
+          "TurnEnded": false
+        }
+      ]
+    },
+    {
+      "Name": "SouthHut1",
+      "Conditions": [
+        {
+          "Type": "TURN_NUMBER",
+          "TurnNumber": 5
+        },
+        {
+          "Type": "CURRENT_TEAM",
+          "TeamId": "TEAM_2"
+        },
+        {
+          "Type": "ENTITY",
+          "EntitySelector": {
+            "EntitySelected": 399
+          },
+          "CheckIsCaptured": true,
+          "CapturedByTeamId": "TEAM_2"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Edda: And the southern one. They take it in turns.",
+              "SubmitActionText": "To arms"
+            }
+          ]
+        },
+        {
+          "Type": "INSERT_ENTITY",
+          "EntityType": "Witch",
+          "TeamId": "TEAM_2",
+          "Position": {
+            "X": 19,
+            "Y": 1
+          },
+          "TurnEnded": false
+        }
+      ]
+    },
+    {
+      "Name": "NorthHut2",
+      "Conditions": [
+        {
+          "Type": "TURN_NUMBER",
+          "TurnNumber": 8
+        },
+        {
+          "Type": "CURRENT_TEAM",
+          "TeamId": "TEAM_2"
+        },
+        {
+          "Type": "ENTITY",
+          "EntitySelector": {
+            "EntitySelected": 397
+          },
+          "CheckIsCaptured": true,
+          "CapturedByTeamId": "TEAM_2"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "INSERT_ENTITY",
+          "EntityType": "Witch",
+          "TeamId": "TEAM_2",
+          "Position": {
+            "X": 20,
+            "Y": 14
+          },
+          "TurnEnded": false
+        },
+        {
+          "Type": "INSERT_ENTITY",
+          "EntityType": "Spider",
+          "TeamId": "TEAM_2",
+          "Position": {
+            "X": 20,
+            "Y": 13
+          },
+          "TurnEnded": false
+        }
+      ]
+    },
+    {
+      "Name": "EastHut2",
+      "Conditions": [
+        {
+          "Type": "TURN_NUMBER",
+          "TurnNumber": 9
+        },
+        {
+          "Type": "CURRENT_TEAM",
+          "TeamId": "TEAM_2"
+        },
+        {
+          "Type": "ENTITY",
+          "EntitySelector": {
+            "EntitySelected": 398
+          },
+          "CheckIsCaptured": true,
+          "CapturedByTeamId": "TEAM_2"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "INSERT_ENTITY",
+          "EntityType": "Witch",
+          "TeamId": "TEAM_2",
+          "Position": {
+            "X": 22,
+            "Y": 8
+          },
+          "TurnEnded": false
+        },
+        {
+          "Type": "INSERT_ENTITY",
+          "EntityType": "Spider",
+          "TeamId": "TEAM_2",
+          "Position": {
+            "X": 22,
+            "Y": 9
+          },
+          "TurnEnded": false
+        }
+      ]
+    },
+    {
+      "Name": "SouthHut2",
+      "Conditions": [
+        {
+          "Type": "TURN_NUMBER",
+          "TurnNumber": 10
+        },
+        {
+          "Type": "CURRENT_TEAM",
+          "TeamId": "TEAM_2"
+        },
+        {
+          "Type": "ENTITY",
+          "EntitySelector": {
+            "EntitySelected": 399
+          },
+          "CheckIsCaptured": true,
+          "CapturedByTeamId": "TEAM_2"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "INSERT_ENTITY",
+          "EntityType": "Witch",
+          "TeamId": "TEAM_2",
+          "Position": {
+            "X": 19,
+            "Y": 1
+          },
+          "TurnEnded": false
+        },
+        {
+          "Type": "INSERT_ENTITY",
+          "EntityType": "Spider",
+          "TeamId": "TEAM_2",
+          "Position": {
+            "X": 19,
+            "Y": 2
+          },
+          "TurnEnded": false
+        }
+      ]
+    },
+    {
+      "Name": "NorthHutTaken",
+      "Conditions": [
+        {
+          "Type": "ENTITY",
+          "EntitySelector": {
+            "EntitySelected": 397
+          },
+          "CheckIsCaptured": true,
+          "CapturedByTeamId": "TEAM_1"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Edda: The northern hut is ours. One less roost.",
+              "SubmitActionText": "Understood"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EastHutTaken",
+      "Conditions": [
+        {
+          "Type": "ENTITY",
+          "EntitySelector": {
+            "EntitySelected": 398
+          },
+          "CheckIsCaptured": true,
+          "CapturedByTeamId": "TEAM_1"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Edda: The eastern hut is ours.",
+              "SubmitActionText": "Understood"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "SouthHutTaken",
+      "Conditions": [
+        {
+          "Type": "ENTITY",
+          "EntitySelector": {
+            "EntitySelected": 399
+          },
+          "CheckIsCaptured": true,
+          "CapturedByTeamId": "TEAM_1"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "SEND_NOTIFICATION",
+          "Notifications": [
+            {
+              "Text": "Edda: The southern hut is ours.",
+              "SubmitActionText": "Understood"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Won0",
+      "Conditions": [
+        {
+          "Type": "ENTITY",
+          "EntitySelector": {
+            "EntitySelected": 397
+          },
+          "CheckIsCaptured": true,
+          "CapturedByTeamId": "TEAM_1"
+        },
+        {
+          "Type": "ENTITY",
+          "EntitySelector": {
+            "EntitySelected": 398
+          },
+          "CheckIsCaptured": true,
+          "CapturedByTeamId": "TEAM_1"
+        },
+        {
+          "Type": "ENTITY",
+          "EntitySelector": {
+            "EntitySelected": 399
+          },
+          "CheckIsCaptured": true,
+          "CapturedByTeamId": "TEAM_1"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "TEAM_VICTORY",
+          "TeamId": "TEAM_1"
+        }
+      ]
+    },
+    {
+      "Name": "StrongholdLost",
+      "Conditions": [
+        {
+          "Type": "ENTITY",
+          "EntitySelector": {
+            "EntitySelected": 385
+          },
+          "CheckIsCaptured": true,
+          "CapturedByTeamId": "TEAM_2"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "TEAM_VICTORY",
+          "TeamId": "TEAM_2"
+        }
+      ]
+    },
+    {
+      "Name": "TEAM_1WipedOut",
+      "Conditions": [
+        {
+          "Type": "TEAM_REMAINING_ENTITIES",
+          "TeamId": "TEAM_1",
+          "EntityTagFilter": "Unit"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "TEAM_VICTORY",
+          "TeamId": "TEAM_2"
+        }
+      ]
+    },
+    {
+      "Name": "TEAM_2WipedOut",
+      "Conditions": [
+        {
+          "Type": "TEAM_REMAINING_ENTITIES",
+          "TeamId": "TEAM_2",
+          "EntityTagFilter": "Unit"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "TEAM_VICTORY",
+          "TeamId": "TEAM_1"
+        }
+      ]
+    }
+  ]
+}

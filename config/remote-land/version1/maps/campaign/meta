@@ -1,3 +1,33 @@
-version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   action    |   subMeta     |   env     |   notes
-3       |   0 - Intro       |   level_0.json                    |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Level 0
-2       |   1 - Shell       |   level_1.json                    |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Level 1
+version |   name                     |   filename                                     |   isFile  |   path    |   onUi    |   uiPath      |   action          |   subMeta     |   env     |   notes
+
+1       |   Campaign                 |   campaign.json                                |   1       |   /       |   0       |   /           |   loadCampaign    |   0           |   0       |   The Remote Land campaign
+
+1       |   Map                      |   campaign_map.png                             |   1       |   /       |   1       |   /           |   loadCampaignMap |   0           |   0       |   Campaign map
+
+1       |   Landfall                 |   01-landfall.json                             |   1       |   /       |   0       |   /           |   loadMap         |   0           |   0       |   Landfall
+1       |   The Granary              |   02-the-granary.json                          |   1       |   /       |   0       |   /           |   loadMap         |   0           |   0       |   The Granary
+1       |   Bridgewater              |   03-bridgewater.json                          |   1       |   /       |   0       |   /           |   loadMap         |   0           |   0       |   Bridgewater
+1       |   Sanctuary Road           |   04-sanctuary-road.json                       |   1       |   /       |   0       |   /           |   loadMap         |   0           |   0       |   Sanctuary Road
+1       |   The Witchwood            |   05-the-witchwood.json                        |   1       |   /       |   0       |   /           |   loadMap         |   0           |   0       |   The Witchwood
+1       |   Tidefall                 |   06-tidefall.json                             |   1       |   /       |   0       |   /           |   loadMap         |   0           |   0       |   Tidefall
+1       |   Giant's Pass             |   07-giants-pass.json                          |   1       |   /       |   0       |   /           |   loadMap         |   0           |   0       |   Giant's Pass
+1       |   Three Castles            |   08-three-castles.json                        |   1       |   /       |   0       |   /           |   loadMap         |   0           |   0       |   Three Castles
+1       |   Dragonspire              |   09-dragonspire.json                          |   1       |   /       |   0       |   /           |   loadMap         |   0           |   0       |   Dragonspire
+
+1       |   Landfall Preview         |   screenshots/01-landfall_screenshot.png       |   1       |   /       |   0       |   /           |                   |   0           |   0       |   Landfall preview
+1       |   The Granary Preview      |   screenshots/02-the-granary_screenshot.png    |   1       |   /       |   0       |   /           |                   |   0           |   0       |   The Granary preview
+1       |   Bridgewater Preview      |   screenshots/03-bridgewater_screenshot.png    |   1       |   /       |   0       |   /           |                   |   0           |   0       |   Bridgewater preview
+1       |   Sanctuary Road Preview   |   screenshots/04-sanctuary-road_screenshot.png |   1       |   /       |   0       |   /           |                   |   0           |   0       |   Sanctuary Road preview
+1       |   The Witchwood Preview    |   screenshots/05-the-witchwood_screenshot.png  |   1       |   /       |   0       |   /           |                   |   0           |   0       |   The Witchwood preview
+1       |   Tidefall Preview         |   screenshots/06-tidefall_screenshot.png       |   1       |   /       |   0       |   /           |                   |   0           |   0       |   Tidefall preview
+1       |   Giant's Pass Preview     |   screenshots/07-giants-pass_screenshot.png    |   1       |   /       |   0       |   /           |                   |   0           |   0       |   Giant's Pass preview
+1       |   Three Castles Preview    |   screenshots/08-three-castles_screenshot.png  |   1       |   /       |   0       |   /           |                   |   0           |   0       |   Three Castles preview
+1       |   Dragonspire Preview      |   screenshots/09-dragonspire_screenshot.png    |   1       |   /       |   0       |   /           |                   |   0           |   0       |   Dragonspire preview
+
+1       |   Intro                    |   campaignIntro.msg                            |   1       |   /       |   0       |   /           |   message         |   0           |   0       |   Introduction to the Remote Land campaign
+
+1       |   The Remote Land          |                                                |   0       |   /       |   0       |   /           |   header          |   0           |   0       |   Take the islands for Ashmark
+
+1       |   Saves                    |   saves                                        |   0       |   /       |   1       |   /           |   folder          |   0           |   0       |   Saves
+
+1       |   Restart Campaign         |   restartCampaign                              |   0       |   /       |   1       |   /           |   resetCampaign   |   0           |   0       |   Restart the Campaign
