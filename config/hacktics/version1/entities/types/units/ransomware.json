@@ -10,8 +10,15 @@
     "Tags": [
         "Unit"
     ],
+    "EntityAbility": {
+        "AbilityPoints": 1
+    },
     "Movement": {
-        "Movement": 6
+        "Movement": 6,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
     },
     "Defence": {
         "SelfDefenceIndicator": "LOW",

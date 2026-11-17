@@ -10,8 +10,15 @@
     "Tags": [
         "Unit"
     ],
+    "EntityAbility": {
+        "AbilityPoints": 1
+    },
     "Movement": {
-        "Movement": 4
+        "Movement": 4,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
     },
     "Attack": {
         "RangeAttacks": [

@@ -10,9 +10,16 @@
     "Tags": [
         "Unit"
     ],
+    "EntityAbility": {
+        "AbilityPoints": 1
+    },
     "Movement": {
         "Movement": 2,
-        "BlocksEnemies": true
+        "BlocksEnemies": true,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
     },
     "Defence": {
         "SelfDefenceIndicator": "HIGH",

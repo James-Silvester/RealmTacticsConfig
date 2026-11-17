@@ -14,7 +14,11 @@
         "AbilityPoints": 1
     },
     "Movement": {
-        "Movement": 3
+        "Movement": 3,
+        "AbilityConfig": {
+            "PointCost": 1,
+            "UsesPerTurn": 1
+        }
     },
     "Attack": {
         "RangeAttacks": [
