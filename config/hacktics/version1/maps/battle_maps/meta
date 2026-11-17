@@ -1,0 +1,6 @@
+version |   name            |   filename                        |   isFile  |   path    |   onUi    |   uiPath      |   action    |   subMeta     |   env     |   notes
+1       |   1v1 - Crossfire              |   1v1-crossfire.json           |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   1v1 - Crossfire battle map
+1       |   1v2 - Pincer                 |   1v2-pincer.json              |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   1v2 - Pincer battle map
+1       |   1v3 - Last Stand             |   1v3-last-stand.json          |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   1v3 - Last Stand battle map
+1       |   2v2 - Twin Fronts            |   2v2-twin-fronts.json         |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   2v2 - Twin Fronts battle map
+1       |   Free for all - Four Corners  |   ffa-four-corners.json        |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Free for all - Four Corners battle map

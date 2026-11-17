@@ -2,11 +2,8 @@ version |   name            |   filename                        |   isFile  |   
 3       |   Defaults        |   map_defaults.json               |   1       |   /       |   0       |   /           |   -           |   0           |   0       |   Hacktics Map Defaults
 2       |   GenerateMapConfig | generate_map_config.json        |   1       |   /       |   0       |   /           |   -           |   0           |   0       |   Hacktics Generate Map Config
 
-5       |   Simple          |   simple.json                     |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Basic Hacktics Testing Map
-
-9       |   Pallet          |   pallet.json                     |   1       |   /       |   1       |   /           |   loadMap     |   0           |   0       |   Basic Hacktics Pallet Map
-
 1       |   Campaign        |   campaign                        |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Campaign
+1       |   Battle Maps     |   battle_maps                     |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   One-off battles against the AI
 1       |   AI Samples      |   ai_samples                      |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Samples of the AI at work
 
 1       |   Custom Maps     |   custom_maps                     |   0       |   /       |   1       |   /           |   folder      |   0           |   0       |   Custom Maps

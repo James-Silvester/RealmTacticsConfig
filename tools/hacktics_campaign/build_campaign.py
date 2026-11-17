@@ -44,7 +44,7 @@ TERRAIN = {"#": "Void", "+": "Connector", "C": "Compute", "E": "Encryptor", "G":
 UNITS = {"w": "Worker", "v": "Virus", "m": "Worm", "f": "Firewall", "b": "Brute", "d": "DDOS", "n": "Botnet",
          "i": "Injector", "t": "Man in the Middle", "o": "Optimiser", "k": "Overclocker", "r": "Ransomware"}
 NETWORKED = {"Connector", "Compute", "Encryptor", "Generator", "Origin"}
-OWNERS = {"1": "TEAM_1", "2": "TEAM_2", ".": None}
+OWNERS = {"1": "TEAM_1", "2": "TEAM_2", "3": "TEAM_3", "4": "TEAM_4", ".": None}
 P1, P2, NEUTRAL = "TEAM_1", "TEAM_2", "TEAM_UNDEFINED"
 EVERYTHING = ["Worker", "Virus", "Worm", "Firewall", "Brute", "DDOS", "Botnet", "Injector", "Man in the Middle",
               "Optimiser", "Overclocker", "Ransomware"]
@@ -724,8 +724,8 @@ def check_map(name, data, types):
     if mine:
         walkable = spread(mine[:1], lambda p: p not in void)
         for pos, e in origins.items():
-            if e.get("TeamId") == P2 and pos not in walkable:
-                problems.append(f"enemy Origin at {pos} cannot be walked to")
+            if e.get("TeamId") not in (None, P1) and pos not in walkable:
+                problems.append(f"{e.get('TeamId')} Origin at {pos} cannot be walked to")
         for pos in mine:
             if pos not in walkable:
                 problems.append(f"player unit at {pos} is walled off from the rest")
@@ -737,7 +737,7 @@ def check_map(name, data, types):
     for pos, e in terrain.items():
         if e["Type"] in ("Compute", "Generator") and origins and pos not in wired:
             problems.append(f"{e['Type']} at {pos} can never be wired to an Origin")
-    for team in (P1, P2):
+    for team in sorted({e.get("TeamId") for e in terrain.values()} - {None}):
         home = [pos for pos, e in origins.items() if e.get("TeamId") == team]
         joined = spread(home, lambda p: networked(p) and terrain[p].get("TeamId") == team)
         for pos, e in terrain.items():
@@ -826,11 +826,12 @@ def load_art():
     return unit_art, tiles, sprites
 
 
-def render_map(data, art, scale=2):
-    """Draws a map from its json the way it looks at the start of the battle."""
+def render_map(data, art, scale=2, palettes=None, face_centre=False):
+    """Draws a map from its json the way it looks at the start of the battle. By default enemy
+    units face left; with face_centre every unit in the right half of the map does instead."""
     from PIL import Image
     unit_art, tiles, sprites = art
-    teams = {P1: unit_art.TEAM_PREVIEW["Team 1"], P2: unit_art.TEAM_PREVIEW["Team 2"]}
+    teams = palettes or {P1: unit_art.TEAM_PREVIEW["Team 1"], P2: unit_art.TEAM_PREVIEW["Team 2"]}
     w, h = data["Width"], data["Height"]
     im = Image.new("RGBA", (w * 32, h * 32))
     live = [e for e in data["EntityConfig"] if not e.get("Destroyed")]
@@ -842,7 +843,8 @@ def render_map(data, art, scale=2):
         team = e.get("TeamId")
         if team in teams:
             sprite = unit_art.recolour(sprite, teams[team])
-            if team == P2 and e["Type"] in sprites:
+            faces_left = e["Position"]["X"] * 2 >= w if face_centre else team == P2
+            if faces_left and e["Type"] in sprites:
                 sprite = sprite.transpose(Image.FLIP_LEFT_RIGHT)
         im.alpha_composite(sprite, (e["Position"]["X"] * 32, (h - 1 - e["Position"]["Y"]) * 32))
     return im.resize((im.width * scale, im.height * scale), Image.NEAREST)
